@@ -1,0 +1,66 @@
+﻿product_name,category,price_type,points_checked,reported,not_reported_gaps,before_series_start,gap_rate_pct,first_reported_date
+Broken Rice,Cereals & Flours,retail,6,3,0,3,0.0,2026-08-30
+Garlic,Vegetables,retail,6,4,0,2,0.0,2026-03-30
+Ginger,Vegetables,retail,6,4,0,2,0.0,2026-03-30
+Atta (Wheat),Cereals & Flours,retail,6,6,0,0,0.0,2024-09-30
+Atta (Wheat),Cereals & Flours,wholesale,1,1,0,0,0.0,2026-09-30
+Bajra,Cereals & Flours,retail,6,6,0,0,0.0,2024-09-30
+Banana,Fruits,retail,6,6,0,0,0.0,2024-09-30
+Besan,Pulses,retail,6,6,0,0,0.0,2024-09-30
+Black Pepper,"Tea, Salt & Spices",retail,6,6,0,0,0.0,2024-09-30
+Brinjal,Vegetables,retail,6,6,0,0,0.0,2024-09-30
+Broken Rice,Cereals & Flours,wholesale,1,1,0,0,0.0,2026-09-30
+Butter (Pasteurised),"Milk, Dairy & Eggs",retail,6,6,0,0,0.0,2024-09-30
+Coriander (Whole),"Tea, Salt & Spices",retail,6,6,0,0,0.0,2024-09-30
+Cumin Seed,"Tea, Salt & Spices",retail,6,6,0,0,0.0,2024-09-30
+Desi Ghee,Edible Oils & Ghee,retail,6,6,0,0,0.0,2024-09-30
+Eggs,"Milk, Dairy & Eggs",retail,6,6,0,0,0.0,2024-09-30
+Gram Dal,Pulses,retail,6,6,0,0,0.0,2024-09-30
+Gram Dal,Pulses,wholesale,1,1,0,0,0.0,2026-09-30
+Gram Dal (Bharat Dal adjusted),Pulses,retail,6,6,0,0,0.0,2024-09-30
+Groundnut Oil (Packed),Edible Oils & Ghee,retail,6,6,0,0,0.0,2024-09-30
+Groundnut Oil (Packed),Edible Oils & Ghee,wholesale,1,1,0,0,0.0,2026-09-30
+Gur,Sugar & Gur,retail,6,6,0,0,0.0,2024-09-30
+Gur,Sugar & Gur,wholesale,1,1,0,0,0.0,2026-09-30
+Jowar,Cereals & Flours,retail,6,6,0,0,0.0,2024-09-30
+Maida (Wheat),Cereals & Flours,retail,6,6,0,0,0.0,2024-09-30
+Masoor Dal,Pulses,retail,6,6,0,0,0.0,2024-09-30
+Masoor Dal,Pulses,wholesale,1,1,0,0,0.0,2026-09-30
+Milk,"Milk, Dairy & Eggs",retail,6,6,0,0,0.0,2024-09-30
+Milk,"Milk, Dairy & Eggs",wholesale,1,1,0,0,0.0,2026-09-30
+Moong Dal,Pulses,retail,6,6,0,0,0.0,2024-09-30
+Moong Dal,Pulses,wholesale,1,1,0,0,0.0,2026-09-30
+Mustard Oil (Packed),Edible Oils & Ghee,retail,6,6,0,0,0.0,2024-09-30
+Mustard Oil (Packed),Edible Oils & Ghee,wholesale,1,1,0,0,0.0,2026-09-30
+Onion,Vegetables,retail,6,6,0,0,0.0,2024-09-30
+Onion,Vegetables,wholesale,1,1,0,0,0.0,2026-09-30
+Palm Oil (Packed),Edible Oils & Ghee,retail,6,6,0,0,0.0,2024-09-30
+Palm Oil (Packed),Edible Oils & Ghee,wholesale,1,1,0,0,0.0,2026-09-30
+Potato,Vegetables,retail,6,6,0,0,0.0,2024-09-30
+Potato,Vegetables,wholesale,1,1,0,0,0.0,2026-09-30
+Ragi,Cereals & Flours,retail,6,6,0,0,0.0,2024-09-30
+Red Chillies (Whole),"Tea, Salt & Spices",retail,6,6,0,0,0.0,2024-09-30
+Rice,Cereals & Flours,retail,6,6,0,0,0.0,2024-09-30
+Rice,Cereals & Flours,wholesale,1,1,0,0,0.0,2026-09-30
+"Salt (Iodised, Packed)","Tea, Salt & Spices",retail,6,6,0,0,0.0,2024-09-30
+"Salt (Iodised, Packed)","Tea, Salt & Spices",wholesale,1,1,0,0,0.0,2026-09-30
+Soya Oil (Packed),Edible Oils & Ghee,retail,6,6,0,0,0.0,2024-09-30
+Soya Oil (Packed),Edible Oils & Ghee,wholesale,1,1,0,0,0.0,2026-09-30
+Sugar,Sugar & Gur,retail,6,6,0,0,0.0,2024-09-30
+Sugar,Sugar & Gur,wholesale,1,1,0,0,0.0,2026-09-30
+Suji,Cereals & Flours,retail,6,6,0,0,0.0,2024-09-30
+Sunflower Oil (Packed),Edible Oils & Ghee,retail,6,6,0,0,0.0,2024-09-30
+Sunflower Oil (Packed),Edible Oils & Ghee,wholesale,1,1,0,0,0.0,2026-09-30
+Tea (Loose),"Tea, Salt & Spices",retail,6,6,0,0,0.0,2024-09-30
+Tea (Loose),"Tea, Salt & Spices",wholesale,1,1,0,0,0.0,2026-09-30
+Tomato,Vegetables,retail,6,6,0,0,0.0,2024-09-30
+Tomato,Vegetables,wholesale,1,1,0,0,0.0,2026-09-30
+Tur/Arhar Dal,Pulses,retail,6,6,0,0,0.0,2024-09-30
+Tur/Arhar Dal,Pulses,wholesale,1,1,0,0,0.0,2026-09-30
+Turmeric (Powder),"Tea, Salt & Spices",retail,6,6,0,0,0.0,2024-09-30
+Urad Dal,Pulses,retail,6,6,0,0,0.0,2024-09-30
+Urad Dal,Pulses,wholesale,1,1,0,0,0.0,2026-09-30
+Vanaspati (Packed),Edible Oils & Ghee,retail,6,6,0,0,0.0,2024-09-30
+Vanaspati (Packed),Edible Oils & Ghee,wholesale,1,1,0,0,0.0,2026-09-30
+Wheat,Cereals & Flours,retail,6,6,0,0,0.0,2024-09-30
+Wheat,Cereals & Flours,wholesale,1,1,0,0,0.0,2026-09-30

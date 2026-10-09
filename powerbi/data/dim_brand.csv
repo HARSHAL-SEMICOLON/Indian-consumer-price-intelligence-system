@@ -1,0 +1,235 @@
+﻿brand_key,brand_name,is_branded
+1,Unbranded (commodity average),0
+2,Unknown brand,0
+3,Nestlé (Maggi),1
+4,Karachi Bakery,1
+5,Country Delight,1
+6,Lahori Zeera,1
+7,Epigamia,1
+8,Natureland,1
+9,Wholy,1
+10,Chings Secret,1
+11,Sunfest,1
+12,PepsiCo,1
+13,Catch,1
+14,Britannia,1
+15,Priyagold,1
+16,Yoga Bar,1
+17,Threptin,1
+18,Cadbury,1
+19,Kellogg's,1
+20,Bambino,1
+21,Haldiram's,1
+22,Nestlé,1
+23,Paper Boat,1
+24,Mother Dairy,1
+25,Mayora,1
+26,Mars,1
+27,Knorr,1
+28,Parle,1
+29,Nivea,1
+30,Unilever,1
+31,Radhe Prem ni Mithaas,1
+32,Heritage,1
+33,Three Mango,1
+34,Modern,1
+35,Wonderland,1
+36,Bikaji,1
+37,Good Life,1
+38,Act II,1
+39,Parth,1
+40,Veeba,1
+41,Reliance,1
+42,The Health Factory,1
+43,The Baker’s Dozen,1
+44,Aashirvaad,1
+45,Nourish Organics,1
+46,The Whole Truth,1
+47,Hindustan Unilever,1
+48,Quaker,1
+49,Chupa Chups,1
+50,Balaji Wafers,1
+51,Date Crown,1
+52,Thums up,1
+53,BakesFresh,1
+54,DMart (private label),1
+55,Nandini,1
+56,Tata Soulfull,1
+57,Patanjali,1
+58,Hellmann's,1
+59,Happy,1
+60,Healthy Life,1
+61,Pepsico,1
+62,Cetaphil,1
+63,Aarambh,1
+64,MTR,1
+65,Nucgnex,1
+66,Portronics,1
+67,Kissan,1
+68,Dabur,1
+69,Karnataka Soaps & Detergents Ltd.,1
+70,Hindustan,1
+71,Hindustan Unilever Ltd.,1
+72,Himalaya,1
+73,Sunraja Oil Industries Private Limited,1
+74,Insight Food Private Limited,1
+75,Coca-Cola,1
+76,ITC,1
+77,Baggry’s,1
+78,Boost energy,1
+79,Surf Excel,1
+80,Colgate,1
+81,BG Naidu,1
+82,Vicco Laboratories Pvt. Ltd,1
+83,Naga,1
+84,Bigen is sold by Hoyu,1
+85,Ching's Secret,1
+86,Disano,1
+87,Mtr Foods Pvt. Ltd.,1
+88,Bikano,1
+89,Gd Nuts,1
+90,Katraj,1
+91,Vasaya Foods,1
+92,Gopal,1
+93,Aman,1
+94,Loyka,1
+95,Dairy Milk,1
+96,Del Monte,1
+97,Slow Churn,1
+98,Ocean,1
+99,Campa,1
+100,Maganlal's chikki,1
+101,ITC (Bingo),1
+102,Listerine,1
+103,Brooke Bond,1
+104,Kakada,1
+105,Bratania,1
+106,Saffola,1
+107,Lamsa,1
+108,Harpic,1
+109,Dove,1
+110,Hindustan Unilever Limited (HUL),1
+111,Pepsodent,1
+112,Hamam,1
+113,Nutraj,1
+114,Pond's,1
+115,Amul,1
+116,365 Whole Foods Market,1
+117,Sting,1
+118,Kinley,1
+119,Dr. Oetker,1
+120,Nature's Pride,1
+121,Sensodyne,1
+122,Samsung,1
+123,Mrs. Bector's Cremica,1
+124,Arata,1
+125,Well,1
+126,Gopal Wafers,1
+127,Punjabi jeera,1
+128,PR Golden Tea,1
+129,Glow & Lovely,1
+130,Vijaya,1
+131,Harvest Gold,1
+132,Spot On,1
+133,Henkel,1
+134,Brooke Bond is sold by Hindustan Unilever Ltd. (HUL),1
+135,Reckitt,1
+136,KitKat,1
+137,Gowardhan,1
+138,Real,1
+139,Pintola,1
+140,Jayanti,1
+141,Heinz,1
+142,Boost,1
+143,To Be Honest Crunchies,1
+144,Dairy Day,1
+145,Dmart Swaad,1
+146,Procter & Gamble,1
+147,Milky Mist,1
+148,Eat Easy,1
+149,Maharana,1
+150,Rango,1
+151,Idhayam,1
+152,True Elements,1
+153,Kwality Walls,1
+154,Gnc,1
+155,Ultrajaya,1
+156,Mobil bekas,1
+157,Js,1
+158,Kwality Wall's,1
+159,Pepsi,1
+160,Petroyale,1
+161,Eveready,1
+162,Brityana,1
+163,Protein Chef,1
+164,Fassi,1
+165,Hocco,1
+166,Farmley,1
+167,Golden bite,1
+168,Classmate,1
+169,Dodla,1
+170,Pampers,1
+171,Sundrop,1
+172,Nutralite,1
+173,Ferrero,1
+174,Wrigleys,1
+175,Hatsun,1
+176,Dukes,1
+177,Sprite,1
+178,Dlecta,1
+179,Cornitos,1
+180,Philips,1
+181,Rapunzel,1
+182,Glucovita,1
+183,Nature's Choice,1
+184,Dark Fantasy,1
+185,Ratnadeep,1
+186,Parle Agro,1
+187,Tops,1
+188,Monster Energy,1
+189,Too Yumm,1
+190,Pramod Multifold pvt ltd,1
+191,Mapro,1
+192,Go,1
+193,Winn,1
+194,Unibic,1
+195,Oral-B,1
+196,Surf Excel is sold by Hindustan Unilever Limited (HUL),1
+197,Bat,1
+198,Verka,1
+199,Bru,1
+200,Malkist,1
+201,Aparshree,1
+202,Sai Sri Agencies,1
+203,Asus,1
+204,Arun Ice Cream,1
+205,Sps,1
+206,Milma,1
+207,Galaxy,1
+208,Srs,1
+209,Camlin,1
+210,Tiggle,1
+211,Gopal Namkeen,1
+212,Lotte,1
+213,Karia’s,1
+214,Nescafe,1
+215,Eat better co,1
+216,Kurkure (PepsiCo),1
+217,ITC (Sunfeast),1
+218,Let's Try,1
+219,Gramarajya,1
+220,Ching's,1
+221,Wicked Gud,1
+222,Americano,1
+223,Brown Bear,1
+224,Maggie,1
+225,Gem's Gold,1
+226,Kwality Noodles,1
+227,Lay's (PepsiCo),1
+228,Chheda's,1
+229,Bombay Bunta,1
+230,Drools,1
+231,Hygen packs pvt ltd,1
+232,Vita,1
+233,Curryit,1
+234,Snappin,1

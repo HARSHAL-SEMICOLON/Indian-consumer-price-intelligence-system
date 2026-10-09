@@ -1,0 +1,604 @@
+﻿issue_id,run_id,source_code,record_key,price_id,check_name,severity,field,observed_value,action_taken,capture_file,logged_at_utc
+1,1,DOCA_PMD,home_page_retail_header,,inconsistent_unit_label,low,unit,"Home page labels all retail prices '₹/Kg' but dashboard units include 100 gm, 250 gm, 50 gm, 1 Dozen, 1 Ltr",dashboard per-commodity unit used for normalisation,doca_dashboard_raw_2026-10-01.jsonl,2026-10-02T05:39:42Z
+2,1,DOCA_PMD,DOCA-MILK|2026-09-30|wholesale,,ambiguous_wholesale_unit,low,unit,Milk wholesale quoted per quintal,treated as 100 litres; flagged,doca_dashboard_raw_2026-10-01.jsonl,2026-10-02T05:39:42Z
+3,1,MOSPI_CPI,Berries|2024|December|,,non_numeric_index,low,index,,index stored as NULL (not published for this month),mospi_cpi_raw_2026-10-01.jsonl,2026-10-02T05:39:42Z
+4,1,MOSPI_CPI,Camera & Photographic Equipment|2024|December|,,non_numeric_index,low,index,,index stored as NULL (not published for this month),mospi_cpi_raw_2026-10-01.jsonl,2026-10-02T05:39:42Z
+5,1,MOSPI_CPI,Horse Cart Fare|2024|December|,,non_numeric_index,low,index,,index stored as NULL (not published for this month),mospi_cpi_raw_2026-10-01.jsonl,2026-10-02T05:39:42Z
+6,1,MOSPI_CPI,Jackfruit|2024|December|,,non_numeric_index,low,index,,index stored as NULL (not published for this month),mospi_cpi_raw_2026-10-01.jsonl,2026-10-02T05:39:42Z
+7,1,MOSPI_CPI,Kharbooza|2024|December|,,non_numeric_index,low,index,,index stored as NULL (not published for this month),mospi_cpi_raw_2026-10-01.jsonl,2026-10-02T05:39:42Z
+8,1,MOSPI_CPI,Leechi|2024|December|,,non_numeric_index,low,index,,index stored as NULL (not published for this month),mospi_cpi_raw_2026-10-01.jsonl,2026-10-02T05:39:42Z
+9,1,MOSPI_CPI,Library Charges|2024|December|,,non_numeric_index,low,index,,index stored as NULL (not published for this month),mospi_cpi_raw_2026-10-01.jsonl,2026-10-02T05:39:42Z
+10,1,MOSPI_CPI,Mango|2024|December|,,non_numeric_index,low,index,,index stored as NULL (not published for this month),mospi_cpi_raw_2026-10-01.jsonl,2026-10-02T05:39:42Z
+11,1,MOSPI_CPI,Pears/nashpati|2024|December|,,non_numeric_index,low,index,,index stored as NULL (not published for this month),mospi_cpi_raw_2026-10-01.jsonl,2026-10-02T05:39:42Z
+12,1,MOSPI_CPI,VCD/ DVD Hire (incl. Instrument)|2024|December|,,non_numeric_index,low,index,,index stored as NULL (not published for this month),mospi_cpi_raw_2026-10-01.jsonl,2026-10-02T05:39:42Z
+13,1,MOSPI_CPI,VCR/VCD/DVD Player|2024|December|,,non_numeric_index,low,index,,index stored as NULL (not published for this month),mospi_cpi_raw_2026-10-01.jsonl,2026-10-02T05:39:42Z
+14,1,MOSPI_CPI,Berries|2024|November|,,non_numeric_index,low,index,,index stored as NULL (not published for this month),mospi_cpi_raw_2026-10-01.jsonl,2026-10-02T05:39:42Z
+15,1,MOSPI_CPI,Camera & Photographic Equipment|2024|November|,,non_numeric_index,low,index,,index stored as NULL (not published for this month),mospi_cpi_raw_2026-10-01.jsonl,2026-10-02T05:39:42Z
+16,1,MOSPI_CPI,Horse Cart Fare|2024|November|,,non_numeric_index,low,index,,index stored as NULL (not published for this month),mospi_cpi_raw_2026-10-01.jsonl,2026-10-02T05:39:42Z
+17,1,MOSPI_CPI,Jackfruit|2024|November|,,non_numeric_index,low,index,,index stored as NULL (not published for this month),mospi_cpi_raw_2026-10-01.jsonl,2026-10-02T05:39:42Z
+18,1,MOSPI_CPI,Kharbooza|2024|November|,,non_numeric_index,low,index,,index stored as NULL (not published for this month),mospi_cpi_raw_2026-10-01.jsonl,2026-10-02T05:39:42Z
+19,1,MOSPI_CPI,Leechi|2024|November|,,non_numeric_index,low,index,,index stored as NULL (not published for this month),mospi_cpi_raw_2026-10-01.jsonl,2026-10-02T05:39:42Z
+20,1,MOSPI_CPI,Library Charges|2024|November|,,non_numeric_index,low,index,,index stored as NULL (not published for this month),mospi_cpi_raw_2026-10-01.jsonl,2026-10-02T05:39:42Z
+21,1,MOSPI_CPI,Mango|2024|November|,,non_numeric_index,low,index,,index stored as NULL (not published for this month),mospi_cpi_raw_2026-10-01.jsonl,2026-10-02T05:39:42Z
+22,1,MOSPI_CPI,Pears/nashpati|2024|November|,,non_numeric_index,low,index,,index stored as NULL (not published for this month),mospi_cpi_raw_2026-10-01.jsonl,2026-10-02T05:39:42Z
+23,1,MOSPI_CPI,VCD/ DVD Hire (incl. Instrument)|2024|November|,,non_numeric_index,low,index,,index stored as NULL (not published for this month),mospi_cpi_raw_2026-10-01.jsonl,2026-10-02T05:39:42Z
+24,1,MOSPI_CPI,VCR/VCD/DVD Player|2024|November|,,non_numeric_index,low,index,,index stored as NULL (not published for this month),mospi_cpi_raw_2026-10-01.jsonl,2026-10-02T05:39:42Z
+25,1,MOSPI_CPI,Berries|2024|October|,,non_numeric_index,low,index,,index stored as NULL (not published for this month),mospi_cpi_raw_2026-10-01.jsonl,2026-10-02T05:39:42Z
+26,1,MOSPI_CPI,Camera & Photographic Equipment|2024|October|,,non_numeric_index,low,index,,index stored as NULL (not published for this month),mospi_cpi_raw_2026-10-01.jsonl,2026-10-02T05:39:42Z
+27,1,MOSPI_CPI,Horse Cart Fare|2024|October|,,non_numeric_index,low,index,,index stored as NULL (not published for this month),mospi_cpi_raw_2026-10-01.jsonl,2026-10-02T05:39:42Z
+28,1,MOSPI_CPI,Jackfruit|2024|October|,,non_numeric_index,low,index,,index stored as NULL (not published for this month),mospi_cpi_raw_2026-10-01.jsonl,2026-10-02T05:39:42Z
+29,1,MOSPI_CPI,Kharbooza|2024|October|,,non_numeric_index,low,index,,index stored as NULL (not published for this month),mospi_cpi_raw_2026-10-01.jsonl,2026-10-02T05:39:42Z
+30,1,MOSPI_CPI,Leechi|2024|October|,,non_numeric_index,low,index,,index stored as NULL (not published for this month),mospi_cpi_raw_2026-10-01.jsonl,2026-10-02T05:39:42Z
+31,1,MOSPI_CPI,Library Charges|2024|October|,,non_numeric_index,low,index,,index stored as NULL (not published for this month),mospi_cpi_raw_2026-10-01.jsonl,2026-10-02T05:39:42Z
+32,1,MOSPI_CPI,Mango|2024|October|,,non_numeric_index,low,index,,index stored as NULL (not published for this month),mospi_cpi_raw_2026-10-01.jsonl,2026-10-02T05:39:42Z
+33,1,MOSPI_CPI,VCD/ DVD Hire (incl. Instrument)|2024|October|,,non_numeric_index,low,index,,index stored as NULL (not published for this month),mospi_cpi_raw_2026-10-01.jsonl,2026-10-02T05:39:42Z
+34,1,MOSPI_CPI,Berries|2024|September|,,non_numeric_index,low,index,,index stored as NULL (not published for this month),mospi_cpi_raw_2026-10-01.jsonl,2026-10-02T05:39:42Z
+35,1,MOSPI_CPI,Camera & Photographic Equipment|2024|September|,,non_numeric_index,low,index,,index stored as NULL (not published for this month),mospi_cpi_raw_2026-10-01.jsonl,2026-10-02T05:39:42Z
+36,1,MOSPI_CPI,Kharbooza|2024|September|,,non_numeric_index,low,index,,index stored as NULL (not published for this month),mospi_cpi_raw_2026-10-01.jsonl,2026-10-02T05:39:42Z
+37,1,MOSPI_CPI,Leechi|2024|September|,,non_numeric_index,low,index,,index stored as NULL (not published for this month),mospi_cpi_raw_2026-10-01.jsonl,2026-10-02T05:39:42Z
+38,1,MOSPI_CPI,Library Charges|2024|September|,,non_numeric_index,low,index,,index stored as NULL (not published for this month),mospi_cpi_raw_2026-10-01.jsonl,2026-10-02T05:39:42Z
+39,1,MOSPI_CPI,Mango|2024|September|,,non_numeric_index,low,index,,index stored as NULL (not published for this month),mospi_cpi_raw_2026-10-01.jsonl,2026-10-02T05:39:42Z
+40,1,MOSPI_CPI,Singara|2024|September|,,non_numeric_index,low,index,,index stored as NULL (not published for this month),mospi_cpi_raw_2026-10-01.jsonl,2026-10-02T05:39:42Z
+41,1,MOSPI_CPI,VCD/ DVD Hire (incl. Instrument)|2024|September|,,non_numeric_index,low,index,,index stored as NULL (not published for this month),mospi_cpi_raw_2026-10-01.jsonl,2026-10-02T05:39:42Z
+42,1,MOSPI_CPI,Berries|2024|August|,,non_numeric_index,low,index,,index stored as NULL (not published for this month),mospi_cpi_raw_2026-10-01.jsonl,2026-10-02T05:39:42Z
+43,1,MOSPI_CPI,Camera & Photographic Equipment|2024|August|,,non_numeric_index,low,index,,index stored as NULL (not published for this month),mospi_cpi_raw_2026-10-01.jsonl,2026-10-02T05:39:42Z
+44,1,MOSPI_CPI,Kharbooza|2024|August|,,non_numeric_index,low,index,,index stored as NULL (not published for this month),mospi_cpi_raw_2026-10-01.jsonl,2026-10-02T05:39:42Z
+45,1,MOSPI_CPI,Leechi|2024|August|,,non_numeric_index,low,index,,index stored as NULL (not published for this month),mospi_cpi_raw_2026-10-01.jsonl,2026-10-02T05:39:42Z
+46,1,MOSPI_CPI,Library Charges|2024|August|,,non_numeric_index,low,index,,index stored as NULL (not published for this month),mospi_cpi_raw_2026-10-01.jsonl,2026-10-02T05:39:42Z
+47,1,MOSPI_CPI,Singara|2024|August|,,non_numeric_index,low,index,,index stored as NULL (not published for this month),mospi_cpi_raw_2026-10-01.jsonl,2026-10-02T05:39:42Z
+48,1,MOSPI_CPI,VCD/ DVD Hire (incl. Instrument)|2024|August|,,non_numeric_index,low,index,,index stored as NULL (not published for this month),mospi_cpi_raw_2026-10-01.jsonl,2026-10-02T05:39:42Z
+49,1,MOSPI_CPI,Berries|2024|July|,,non_numeric_index,low,index,,index stored as NULL (not published for this month),mospi_cpi_raw_2026-10-01.jsonl,2026-10-02T05:39:42Z
+50,1,MOSPI_CPI,Camera & Photographic Equipment|2024|July|,,non_numeric_index,low,index,,index stored as NULL (not published for this month),mospi_cpi_raw_2026-10-01.jsonl,2026-10-02T05:39:42Z
+51,1,MOSPI_CPI,Library Charges|2024|July|,,non_numeric_index,low,index,,index stored as NULL (not published for this month),mospi_cpi_raw_2026-10-01.jsonl,2026-10-02T05:39:42Z
+52,1,MOSPI_CPI,Singara|2024|July|,,non_numeric_index,low,index,,index stored as NULL (not published for this month),mospi_cpi_raw_2026-10-01.jsonl,2026-10-02T05:39:42Z
+53,1,MOSPI_CPI,VCD/ DVD Hire (incl. Instrument)|2024|July|,,non_numeric_index,low,index,,index stored as NULL (not published for this month),mospi_cpi_raw_2026-10-01.jsonl,2026-10-02T05:39:42Z
+54,1,MOSPI_CPI,Berries|2024|June|,,non_numeric_index,low,index,,index stored as NULL (not published for this month),mospi_cpi_raw_2026-10-01.jsonl,2026-10-02T05:39:42Z
+55,1,MOSPI_CPI,Camera & Photographic Equipment|2024|June|,,non_numeric_index,low,index,,index stored as NULL (not published for this month),mospi_cpi_raw_2026-10-01.jsonl,2026-10-02T05:39:42Z
+56,1,MOSPI_CPI,Library Charges|2024|June|,,non_numeric_index,low,index,,index stored as NULL (not published for this month),mospi_cpi_raw_2026-10-01.jsonl,2026-10-02T05:39:42Z
+57,1,MOSPI_CPI,Pears/nashpati|2024|June|,,non_numeric_index,low,index,,index stored as NULL (not published for this month),mospi_cpi_raw_2026-10-01.jsonl,2026-10-02T05:39:42Z
+58,1,MOSPI_CPI,Singara|2024|June|,,non_numeric_index,low,index,,index stored as NULL (not published for this month),mospi_cpi_raw_2026-10-01.jsonl,2026-10-02T05:39:42Z
+59,1,MOSPI_CPI,VCD/ DVD Hire (incl. Instrument)|2024|June|,,non_numeric_index,low,index,,index stored as NULL (not published for this month),mospi_cpi_raw_2026-10-01.jsonl,2026-10-02T05:39:42Z
+60,1,MOSPI_CPI,Berries|2024|May|,,non_numeric_index,low,index,,index stored as NULL (not published for this month),mospi_cpi_raw_2026-10-01.jsonl,2026-10-02T05:39:42Z
+61,1,MOSPI_CPI,Jackfruit|2024|May|,,non_numeric_index,low,index,,index stored as NULL (not published for this month),mospi_cpi_raw_2026-10-01.jsonl,2026-10-02T05:39:42Z
+62,1,MOSPI_CPI,Library Charges|2024|May|,,non_numeric_index,low,index,,index stored as NULL (not published for this month),mospi_cpi_raw_2026-10-01.jsonl,2026-10-02T05:39:42Z
+63,1,MOSPI_CPI,Pears/nashpati|2024|May|,,non_numeric_index,low,index,,index stored as NULL (not published for this month),mospi_cpi_raw_2026-10-01.jsonl,2026-10-02T05:39:42Z
+64,1,MOSPI_CPI,Singara|2024|May|,,non_numeric_index,low,index,,index stored as NULL (not published for this month),mospi_cpi_raw_2026-10-01.jsonl,2026-10-02T05:39:42Z
+65,1,MOSPI_CPI,VCD/ DVD Hire (incl. Instrument)|2024|May|,,non_numeric_index,low,index,,index stored as NULL (not published for this month),mospi_cpi_raw_2026-10-01.jsonl,2026-10-02T05:39:42Z
+66,1,MOSPI_CPI,Berries|2024|April|,,non_numeric_index,low,index,,index stored as NULL (not published for this month),mospi_cpi_raw_2026-10-01.jsonl,2026-10-02T05:39:42Z
+67,1,MOSPI_CPI,Jackfruit|2024|April|,,non_numeric_index,low,index,,index stored as NULL (not published for this month),mospi_cpi_raw_2026-10-01.jsonl,2026-10-02T05:39:42Z
+68,1,MOSPI_CPI,Leechi|2024|April|,,non_numeric_index,low,index,,index stored as NULL (not published for this month),mospi_cpi_raw_2026-10-01.jsonl,2026-10-02T05:39:42Z
+69,1,MOSPI_CPI,Library Charges|2024|April|,,non_numeric_index,low,index,,index stored as NULL (not published for this month),mospi_cpi_raw_2026-10-01.jsonl,2026-10-02T05:39:42Z
+70,1,MOSPI_CPI,Pears/nashpati|2024|April|,,non_numeric_index,low,index,,index stored as NULL (not published for this month),mospi_cpi_raw_2026-10-01.jsonl,2026-10-02T05:39:42Z
+71,1,MOSPI_CPI,Singara|2024|April|,,non_numeric_index,low,index,,index stored as NULL (not published for this month),mospi_cpi_raw_2026-10-01.jsonl,2026-10-02T05:39:42Z
+72,1,MOSPI_CPI,VCD/ DVD Hire (incl. Instrument)|2024|April|,,non_numeric_index,low,index,,index stored as NULL (not published for this month),mospi_cpi_raw_2026-10-01.jsonl,2026-10-02T05:39:42Z
+73,1,MOSPI_CPI,Berries|2024|March|,,non_numeric_index,low,index,,index stored as NULL (not published for this month),mospi_cpi_raw_2026-10-01.jsonl,2026-10-02T05:39:42Z
+74,1,MOSPI_CPI,Jackfruit|2024|March|,,non_numeric_index,low,index,,index stored as NULL (not published for this month),mospi_cpi_raw_2026-10-01.jsonl,2026-10-02T05:39:42Z
+75,1,MOSPI_CPI,Leechi|2024|March|,,non_numeric_index,low,index,,index stored as NULL (not published for this month),mospi_cpi_raw_2026-10-01.jsonl,2026-10-02T05:39:42Z
+76,1,MOSPI_CPI,Library Charges|2024|March|,,non_numeric_index,low,index,,index stored as NULL (not published for this month),mospi_cpi_raw_2026-10-01.jsonl,2026-10-02T05:39:42Z
+77,1,MOSPI_CPI,Mango|2024|March|,,non_numeric_index,low,index,,index stored as NULL (not published for this month),mospi_cpi_raw_2026-10-01.jsonl,2026-10-02T05:39:42Z
+78,1,MOSPI_CPI,Pears/nashpati|2024|March|,,non_numeric_index,low,index,,index stored as NULL (not published for this month),mospi_cpi_raw_2026-10-01.jsonl,2026-10-02T05:39:42Z
+79,1,MOSPI_CPI,Singara|2024|March|,,non_numeric_index,low,index,,index stored as NULL (not published for this month),mospi_cpi_raw_2026-10-01.jsonl,2026-10-02T05:39:42Z
+80,1,MOSPI_CPI,VCD/ DVD Hire (incl. Instrument)|2024|March|,,non_numeric_index,low,index,,index stored as NULL (not published for this month),mospi_cpi_raw_2026-10-01.jsonl,2026-10-02T05:39:42Z
+81,1,MOSPI_CPI,Jackfruit|2024|February|,,non_numeric_index,low,index,,index stored as NULL (not published for this month),mospi_cpi_raw_2026-10-01.jsonl,2026-10-02T05:39:42Z
+82,1,MOSPI_CPI,Kharbooza|2024|February|,,non_numeric_index,low,index,,index stored as NULL (not published for this month),mospi_cpi_raw_2026-10-01.jsonl,2026-10-02T05:39:42Z
+83,1,MOSPI_CPI,Leechi|2024|February|,,non_numeric_index,low,index,,index stored as NULL (not published for this month),mospi_cpi_raw_2026-10-01.jsonl,2026-10-02T05:39:42Z
+84,1,MOSPI_CPI,Library Charges|2024|February|,,non_numeric_index,low,index,,index stored as NULL (not published for this month),mospi_cpi_raw_2026-10-01.jsonl,2026-10-02T05:39:42Z
+85,1,MOSPI_CPI,Mango|2024|February|,,non_numeric_index,low,index,,index stored as NULL (not published for this month),mospi_cpi_raw_2026-10-01.jsonl,2026-10-02T05:39:42Z
+86,1,MOSPI_CPI,Pears/nashpati|2024|February|,,non_numeric_index,low,index,,index stored as NULL (not published for this month),mospi_cpi_raw_2026-10-01.jsonl,2026-10-02T05:39:42Z
+87,1,MOSPI_CPI,Singara|2024|February|,,non_numeric_index,low,index,,index stored as NULL (not published for this month),mospi_cpi_raw_2026-10-01.jsonl,2026-10-02T05:39:42Z
+88,1,MOSPI_CPI,VCD/ DVD Hire (incl. Instrument)|2024|February|,,non_numeric_index,low,index,,index stored as NULL (not published for this month),mospi_cpi_raw_2026-10-01.jsonl,2026-10-02T05:39:42Z
+89,1,MOSPI_CPI,Jackfruit|2024|January|,,non_numeric_index,low,index,,index stored as NULL (not published for this month),mospi_cpi_raw_2026-10-01.jsonl,2026-10-02T05:39:42Z
+90,1,MOSPI_CPI,Kharbooza|2024|January|,,non_numeric_index,low,index,,index stored as NULL (not published for this month),mospi_cpi_raw_2026-10-01.jsonl,2026-10-02T05:39:42Z
+91,1,MOSPI_CPI,Leechi|2024|January|,,non_numeric_index,low,index,,index stored as NULL (not published for this month),mospi_cpi_raw_2026-10-01.jsonl,2026-10-02T05:39:42Z
+92,1,MOSPI_CPI,Library Charges|2024|January|,,non_numeric_index,low,index,,index stored as NULL (not published for this month),mospi_cpi_raw_2026-10-01.jsonl,2026-10-02T05:39:42Z
+93,1,MOSPI_CPI,Mango|2024|January|,,non_numeric_index,low,index,,index stored as NULL (not published for this month),mospi_cpi_raw_2026-10-01.jsonl,2026-10-02T05:39:42Z
+94,1,MOSPI_CPI,Pears/nashpati|2024|January|,,non_numeric_index,low,index,,index stored as NULL (not published for this month),mospi_cpi_raw_2026-10-01.jsonl,2026-10-02T05:39:42Z
+95,1,MOSPI_CPI,VCD/ DVD Hire (incl. Instrument)|2024|January|,,non_numeric_index,low,index,,index stored as NULL (not published for this month),mospi_cpi_raw_2026-10-01.jsonl,2026-10-02T05:39:42Z
+96,1,MOSPI_CPI,Housing-Overall|2024|December|Rural,,non_numeric_index,low,index,,index stored as NULL (not published for this month),mospi_cpi_raw_2026-10-01.jsonl,2026-10-02T05:39:42Z
+97,1,MOSPI_CPI,group_allindia|Food and Beverages|Oils and Fats|Rural|2024|December,,api_pagination_duplicate,low,row,,duplicate row from unstable API paging ignored (first copy kept),mospi_cpi_raw_2026-10-01.jsonl,2026-10-02T05:39:42Z
+98,1,MOSPI_CPI,group_allindia|Food and Beverages|Egg|Rural|2024|December,,api_pagination_duplicate,low,row,,duplicate row from unstable API paging ignored (first copy kept),mospi_cpi_raw_2026-10-01.jsonl,2026-10-02T05:39:42Z
+99,1,MOSPI_CPI,group_allindia|Clothing and Footwear|Clothing and Footwear-Overall|Urban|2024|December,,api_pagination_duplicate,low,row,,duplicate row from unstable API paging ignored (first copy kept),mospi_cpi_raw_2026-10-01.jsonl,2026-10-02T05:39:42Z
+100,1,MOSPI_CPI,group_allindia|Miscellaneous|Household Goods and Services|Rural|2024|November,,api_pagination_duplicate,low,row,,duplicate row from unstable API paging ignored (first copy kept),mospi_cpi_raw_2026-10-01.jsonl,2026-10-02T05:39:42Z
+101,1,MOSPI_CPI,group_allindia|Miscellaneous|Transport and Communication|Rural|2024|November,,api_pagination_duplicate,low,row,,duplicate row from unstable API paging ignored (first copy kept),mospi_cpi_raw_2026-10-01.jsonl,2026-10-02T05:39:42Z
+102,1,MOSPI_CPI,Housing-Overall|2024|November|Rural,,non_numeric_index,low,index,,index stored as NULL (not published for this month),mospi_cpi_raw_2026-10-01.jsonl,2026-10-02T05:39:42Z
+103,1,MOSPI_CPI,group_allindia|Food and Beverages|Food and Beverages-Overall|Rural|2024|November,,api_pagination_duplicate,low,row,,duplicate row from unstable API paging ignored (first copy kept),mospi_cpi_raw_2026-10-01.jsonl,2026-10-02T05:39:42Z
+104,1,MOSPI_CPI,group_allindia|Miscellaneous|Miscellaneous-Overall|Rural|2024|October,,api_pagination_duplicate,low,row,,duplicate row from unstable API paging ignored (first copy kept),mospi_cpi_raw_2026-10-01.jsonl,2026-10-02T05:39:42Z
+105,1,MOSPI_CPI,Housing-Overall|2024|October|Rural,,non_numeric_index,low,index,,index stored as NULL (not published for this month),mospi_cpi_raw_2026-10-01.jsonl,2026-10-02T05:39:42Z
+106,1,MOSPI_CPI,group_allindia|Clothing and Footwear|Clothing and Footwear-Overall|Rural|2024|October,,api_pagination_duplicate,low,row,,duplicate row from unstable API paging ignored (first copy kept),mospi_cpi_raw_2026-10-01.jsonl,2026-10-02T05:39:42Z
+107,1,MOSPI_CPI,group_allindia|Food and Beverages|Oils and Fats|Rural|2024|October,,api_pagination_duplicate,low,row,,duplicate row from unstable API paging ignored (first copy kept),mospi_cpi_raw_2026-10-01.jsonl,2026-10-02T05:39:42Z
+108,1,MOSPI_CPI,group_allindia|Miscellaneous|Household Goods and Services|Urban|2024|October,,api_pagination_duplicate,low,row,,duplicate row from unstable API paging ignored (first copy kept),mospi_cpi_raw_2026-10-01.jsonl,2026-10-02T05:39:42Z
+109,1,MOSPI_CPI,group_allindia|Miscellaneous|Health|Urban|2024|October,,api_pagination_duplicate,low,row,,duplicate row from unstable API paging ignored (first copy kept),mospi_cpi_raw_2026-10-01.jsonl,2026-10-02T05:39:42Z
+110,1,MOSPI_CPI,Housing-Overall|2024|September|Rural,,non_numeric_index,low,index,,index stored as NULL (not published for this month),mospi_cpi_raw_2026-10-01.jsonl,2026-10-02T05:39:42Z
+111,1,MOSPI_CPI,group_allindia|Food and Beverages|Spices|Rural|2024|September,,api_pagination_duplicate,low,row,,duplicate row from unstable API paging ignored (first copy kept),mospi_cpi_raw_2026-10-01.jsonl,2026-10-02T05:39:42Z
+112,1,MOSPI_CPI,group_allindia|Clothing and Footwear|Clothing and Footwear-Overall|Combined|2024|September,,api_pagination_duplicate,low,row,,duplicate row from unstable API paging ignored (first copy kept),mospi_cpi_raw_2026-10-01.jsonl,2026-10-02T05:39:42Z
+113,1,MOSPI_CPI,group_allindia|Food and Beverages|Egg|Combined|2024|September,,api_pagination_duplicate,low,row,,duplicate row from unstable API paging ignored (first copy kept),mospi_cpi_raw_2026-10-01.jsonl,2026-10-02T05:39:42Z
+114,1,MOSPI_CPI,group_allindia|Food and Beverages|Milk and Products|Combined|2024|September,,api_pagination_duplicate,low,row,,duplicate row from unstable API paging ignored (first copy kept),mospi_cpi_raw_2026-10-01.jsonl,2026-10-02T05:39:42Z
+115,1,MOSPI_CPI,group_allindia|Food and Beverages|Meat and Fish|Combined|2024|September,,api_pagination_duplicate,low,row,,duplicate row from unstable API paging ignored (first copy kept),mospi_cpi_raw_2026-10-01.jsonl,2026-10-02T05:39:42Z
+116,1,MOSPI_CPI,group_allindia|Food and Beverages|Oils and Fats|Combined|2024|September,,api_pagination_duplicate,low,row,,duplicate row from unstable API paging ignored (first copy kept),mospi_cpi_raw_2026-10-01.jsonl,2026-10-02T05:39:42Z
+117,1,MOSPI_CPI,group_allindia|Miscellaneous|Recreation and Amusement|Rural|2024|August,,api_pagination_duplicate,low,row,,duplicate row from unstable API paging ignored (first copy kept),mospi_cpi_raw_2026-10-01.jsonl,2026-10-02T05:39:42Z
+118,1,MOSPI_CPI,group_allindia|Miscellaneous|Transport and Communication|Rural|2024|August,,api_pagination_duplicate,low,row,,duplicate row from unstable API paging ignored (first copy kept),mospi_cpi_raw_2026-10-01.jsonl,2026-10-02T05:39:42Z
+119,1,MOSPI_CPI,Housing-Overall|2024|August|Rural,,non_numeric_index,low,index,,index stored as NULL (not published for this month),mospi_cpi_raw_2026-10-01.jsonl,2026-10-02T05:39:42Z
+120,1,MOSPI_CPI,group_allindia|Food and Beverages|Oils and Fats|Rural|2024|August,,api_pagination_duplicate,low,row,,duplicate row from unstable API paging ignored (first copy kept),mospi_cpi_raw_2026-10-01.jsonl,2026-10-02T05:39:42Z
+121,1,MOSPI_CPI,group_allindia|Food and Beverages|Spices|Rural|2024|August,,api_pagination_duplicate,low,row,,duplicate row from unstable API paging ignored (first copy kept),mospi_cpi_raw_2026-10-01.jsonl,2026-10-02T05:39:42Z
+122,1,MOSPI_CPI,group_allindia|Food and Beverages|Non-alcoholic Beverages|Rural|2024|August,,api_pagination_duplicate,low,row,,duplicate row from unstable API paging ignored (first copy kept),mospi_cpi_raw_2026-10-01.jsonl,2026-10-02T05:39:42Z
+123,1,MOSPI_CPI,group_allindia|Miscellaneous|Education|Urban|2024|August,,api_pagination_duplicate,low,row,,duplicate row from unstable API paging ignored (first copy kept),mospi_cpi_raw_2026-10-01.jsonl,2026-10-02T05:39:42Z
+124,1,MOSPI_CPI,group_allindia|Food and Beverages|Food and Beverages-Overall|Urban|2024|August,,api_pagination_duplicate,low,row,,duplicate row from unstable API paging ignored (first copy kept),mospi_cpi_raw_2026-10-01.jsonl,2026-10-02T05:39:42Z
+125,1,MOSPI_CPI,group_allindia|Food and Beverages|Food and Beverages-Overall|Urban|2024|August,,api_pagination_duplicate,low,row,,duplicate row from unstable API paging ignored (first copy kept),mospi_cpi_raw_2026-10-01.jsonl,2026-10-02T05:39:42Z
+126,1,MOSPI_CPI,group_allindia|Food and Beverages|Pulses and Products|Combined|2024|August,,api_pagination_duplicate,low,row,,duplicate row from unstable API paging ignored (first copy kept),mospi_cpi_raw_2026-10-01.jsonl,2026-10-02T05:39:42Z
+127,1,MOSPI_CPI,group_allindia|Food and Beverages|Fruits|Combined|2024|August,,api_pagination_duplicate,low,row,,duplicate row from unstable API paging ignored (first copy kept),mospi_cpi_raw_2026-10-01.jsonl,2026-10-02T05:39:42Z
+128,1,MOSPI_CPI,group_allindia|Food and Beverages|Vegetables|Combined|2024|August,,api_pagination_duplicate,low,row,,duplicate row from unstable API paging ignored (first copy kept),mospi_cpi_raw_2026-10-01.jsonl,2026-10-02T05:39:42Z
+129,1,MOSPI_CPI,Housing-Overall|2024|July|Rural,,non_numeric_index,low,index,,index stored as NULL (not published for this month),mospi_cpi_raw_2026-10-01.jsonl,2026-10-02T05:39:42Z
+130,1,MOSPI_CPI,group_allindia|Food and Beverages|Egg|Rural|2024|July,,api_pagination_duplicate,low,row,,duplicate row from unstable API paging ignored (first copy kept),mospi_cpi_raw_2026-10-01.jsonl,2026-10-02T05:39:42Z
+131,1,MOSPI_CPI,group_allindia|Food and Beverages|Cereals and Products|Rural|2024|July,,api_pagination_duplicate,low,row,,duplicate row from unstable API paging ignored (first copy kept),mospi_cpi_raw_2026-10-01.jsonl,2026-10-02T05:39:42Z
+132,1,MOSPI_CPI,group_allindia|Food and Beverages|Fruits|Rural|2024|July,,api_pagination_duplicate,low,row,,duplicate row from unstable API paging ignored (first copy kept),mospi_cpi_raw_2026-10-01.jsonl,2026-10-02T05:39:42Z
+133,1,MOSPI_CPI,group_allindia|Food and Beverages|Meat and Fish|Rural|2024|July,,api_pagination_duplicate,low,row,,duplicate row from unstable API paging ignored (first copy kept),mospi_cpi_raw_2026-10-01.jsonl,2026-10-02T05:39:42Z
+134,1,MOSPI_CPI,group_allindia|Miscellaneous|Miscellaneous-Overall|Urban|2024|July,,api_pagination_duplicate,low,row,,duplicate row from unstable API paging ignored (first copy kept),mospi_cpi_raw_2026-10-01.jsonl,2026-10-02T05:39:42Z
+135,1,MOSPI_CPI,group_allindia|Food and Beverages|Oils and Fats|Urban|2024|July,,api_pagination_duplicate,low,row,,duplicate row from unstable API paging ignored (first copy kept),mospi_cpi_raw_2026-10-01.jsonl,2026-10-02T05:39:42Z
+136,1,MOSPI_CPI,group_allindia|Food and Beverages|Egg|Urban|2024|July,,api_pagination_duplicate,low,row,,duplicate row from unstable API paging ignored (first copy kept),mospi_cpi_raw_2026-10-01.jsonl,2026-10-02T05:39:42Z
+137,1,MOSPI_CPI,group_allindia|Food and Beverages|Pulses and Products|Urban|2024|July,,api_pagination_duplicate,low,row,,duplicate row from unstable API paging ignored (first copy kept),mospi_cpi_raw_2026-10-01.jsonl,2026-10-02T05:39:42Z
+138,1,MOSPI_CPI,group_allindia|Food and Beverages|Milk and Products|Urban|2024|July,,api_pagination_duplicate,low,row,,duplicate row from unstable API paging ignored (first copy kept),mospi_cpi_raw_2026-10-01.jsonl,2026-10-02T05:39:42Z
+139,1,MOSPI_CPI,group_allindia|Food and Beverages|Meat and Fish|Urban|2024|July,,api_pagination_duplicate,low,row,,duplicate row from unstable API paging ignored (first copy kept),mospi_cpi_raw_2026-10-01.jsonl,2026-10-02T05:39:42Z
+140,1,MOSPI_CPI,group_allindia|Food and Beverages|Milk and Products|Combined|2024|July,,api_pagination_duplicate,low,row,,duplicate row from unstable API paging ignored (first copy kept),mospi_cpi_raw_2026-10-01.jsonl,2026-10-02T05:39:42Z
+141,1,MOSPI_CPI,group_allindia|Food and Beverages|Egg|Combined|2024|July,,api_pagination_duplicate,low,row,,duplicate row from unstable API paging ignored (first copy kept),mospi_cpi_raw_2026-10-01.jsonl,2026-10-02T05:39:42Z
+142,1,MOSPI_CPI,group_allindia|Food and Beverages|Meat and Fish|Combined|2024|July,,api_pagination_duplicate,low,row,,duplicate row from unstable API paging ignored (first copy kept),mospi_cpi_raw_2026-10-01.jsonl,2026-10-02T05:39:42Z
+143,1,MOSPI_CPI,Housing-Overall|2024|June|Rural,,non_numeric_index,low,index,,index stored as NULL (not published for this month),mospi_cpi_raw_2026-10-01.jsonl,2026-10-02T05:39:42Z
+144,1,MOSPI_CPI,Housing-Overall|2024|May|Rural,,non_numeric_index,low,index,,index stored as NULL (not published for this month),mospi_cpi_raw_2026-10-01.jsonl,2026-10-02T05:39:42Z
+145,1,MOSPI_CPI,Housing-Overall|2024|April|Rural,,non_numeric_index,low,index,,index stored as NULL (not published for this month),mospi_cpi_raw_2026-10-01.jsonl,2026-10-02T05:39:42Z
+146,1,MOSPI_CPI,Housing-Overall|2024|March|Rural,,non_numeric_index,low,index,,index stored as NULL (not published for this month),mospi_cpi_raw_2026-10-01.jsonl,2026-10-02T05:39:42Z
+147,1,MOSPI_CPI,Housing-Overall|2024|February|Rural,,non_numeric_index,low,index,,index stored as NULL (not published for this month),mospi_cpi_raw_2026-10-01.jsonl,2026-10-02T05:39:42Z
+148,1,MOSPI_CPI,Housing-Overall|2024|January|Rural,,non_numeric_index,low,index,,index stored as NULL (not published for this month),mospi_cpi_raw_2026-10-01.jsonl,2026-10-02T05:39:42Z
+149,1,MOSPI_CPI,Berries|2025|December|,,non_numeric_index,low,index,,index stored as NULL (not published for this month),mospi_cpi_raw_2026-10-01.jsonl,2026-10-02T05:39:42Z
+150,1,MOSPI_CPI,Camera & Photographic Equipment|2025|December|,,non_numeric_index,low,index,,index stored as NULL (not published for this month),mospi_cpi_raw_2026-10-01.jsonl,2026-10-02T05:39:42Z
+151,1,MOSPI_CPI,Horse Cart Fare|2025|December|,,non_numeric_index,low,index,,index stored as NULL (not published for this month),mospi_cpi_raw_2026-10-01.jsonl,2026-10-02T05:39:42Z
+152,1,MOSPI_CPI,Jackfruit|2025|December|,,non_numeric_index,low,index,,index stored as NULL (not published for this month),mospi_cpi_raw_2026-10-01.jsonl,2026-10-02T05:39:42Z
+153,1,MOSPI_CPI,Kharbooza|2025|December|,,non_numeric_index,low,index,,index stored as NULL (not published for this month),mospi_cpi_raw_2026-10-01.jsonl,2026-10-02T05:39:42Z
+154,1,MOSPI_CPI,Leechi|2025|December|,,non_numeric_index,low,index,,index stored as NULL (not published for this month),mospi_cpi_raw_2026-10-01.jsonl,2026-10-02T05:39:42Z
+155,1,MOSPI_CPI,Library Charges|2025|December|,,non_numeric_index,low,index,,index stored as NULL (not published for this month),mospi_cpi_raw_2026-10-01.jsonl,2026-10-02T05:39:42Z
+156,1,MOSPI_CPI,Mango|2025|December|,,non_numeric_index,low,index,,index stored as NULL (not published for this month),mospi_cpi_raw_2026-10-01.jsonl,2026-10-02T05:39:42Z
+157,1,MOSPI_CPI,Pears/nashpati|2025|December|,,non_numeric_index,low,index,,index stored as NULL (not published for this month),mospi_cpi_raw_2026-10-01.jsonl,2026-10-02T05:39:42Z
+158,1,MOSPI_CPI,VCD/ DVD Hire (incl. Instrument)|2025|December|,,non_numeric_index,low,index,,index stored as NULL (not published for this month),mospi_cpi_raw_2026-10-01.jsonl,2026-10-02T05:39:42Z
+159,1,MOSPI_CPI,VCR/VCD/DVD Player|2025|December|,,non_numeric_index,low,index,,index stored as NULL (not published for this month),mospi_cpi_raw_2026-10-01.jsonl,2026-10-02T05:39:42Z
+160,1,MOSPI_CPI,Berries|2025|November|,,non_numeric_index,low,index,,index stored as NULL (not published for this month),mospi_cpi_raw_2026-10-01.jsonl,2026-10-02T05:39:42Z
+161,1,MOSPI_CPI,Camera & Photographic Equipment|2025|November|,,non_numeric_index,low,index,,index stored as NULL (not published for this month),mospi_cpi_raw_2026-10-01.jsonl,2026-10-02T05:39:42Z
+162,1,MOSPI_CPI,Horse Cart Fare|2025|November|,,non_numeric_index,low,index,,index stored as NULL (not published for this month),mospi_cpi_raw_2026-10-01.jsonl,2026-10-02T05:39:42Z
+163,1,MOSPI_CPI,Jackfruit|2025|November|,,non_numeric_index,low,index,,index stored as NULL (not published for this month),mospi_cpi_raw_2026-10-01.jsonl,2026-10-02T05:39:42Z
+164,1,MOSPI_CPI,Kharbooza|2025|November|,,non_numeric_index,low,index,,index stored as NULL (not published for this month),mospi_cpi_raw_2026-10-01.jsonl,2026-10-02T05:39:42Z
+165,1,MOSPI_CPI,Leechi|2025|November|,,non_numeric_index,low,index,,index stored as NULL (not published for this month),mospi_cpi_raw_2026-10-01.jsonl,2026-10-02T05:39:42Z
+166,1,MOSPI_CPI,Library Charges|2025|November|,,non_numeric_index,low,index,,index stored as NULL (not published for this month),mospi_cpi_raw_2026-10-01.jsonl,2026-10-02T05:39:42Z
+167,1,MOSPI_CPI,Mango|2025|November|,,non_numeric_index,low,index,,index stored as NULL (not published for this month),mospi_cpi_raw_2026-10-01.jsonl,2026-10-02T05:39:42Z
+168,1,MOSPI_CPI,Pears/nashpati|2025|November|,,non_numeric_index,low,index,,index stored as NULL (not published for this month),mospi_cpi_raw_2026-10-01.jsonl,2026-10-02T05:39:42Z
+169,1,MOSPI_CPI,VCD/ DVD Hire (incl. Instrument)|2025|November|,,non_numeric_index,low,index,,index stored as NULL (not published for this month),mospi_cpi_raw_2026-10-01.jsonl,2026-10-02T05:39:42Z
+170,1,MOSPI_CPI,VCR/VCD/DVD Player|2025|November|,,non_numeric_index,low,index,,index stored as NULL (not published for this month),mospi_cpi_raw_2026-10-01.jsonl,2026-10-02T05:39:42Z
+171,1,MOSPI_CPI,Berries|2025|October|,,non_numeric_index,low,index,,index stored as NULL (not published for this month),mospi_cpi_raw_2026-10-01.jsonl,2026-10-02T05:39:42Z
+172,1,MOSPI_CPI,Camera & Photographic Equipment|2025|October|,,non_numeric_index,low,index,,index stored as NULL (not published for this month),mospi_cpi_raw_2026-10-01.jsonl,2026-10-02T05:39:42Z
+173,1,MOSPI_CPI,Horse Cart Fare|2025|October|,,non_numeric_index,low,index,,index stored as NULL (not published for this month),mospi_cpi_raw_2026-10-01.jsonl,2026-10-02T05:39:42Z
+174,1,MOSPI_CPI,Jackfruit|2025|October|,,non_numeric_index,low,index,,index stored as NULL (not published for this month),mospi_cpi_raw_2026-10-01.jsonl,2026-10-02T05:39:42Z
+175,1,MOSPI_CPI,Kharbooza|2025|October|,,non_numeric_index,low,index,,index stored as NULL (not published for this month),mospi_cpi_raw_2026-10-01.jsonl,2026-10-02T05:39:42Z
+176,1,MOSPI_CPI,Leechi|2025|October|,,non_numeric_index,low,index,,index stored as NULL (not published for this month),mospi_cpi_raw_2026-10-01.jsonl,2026-10-02T05:39:42Z
+177,1,MOSPI_CPI,Library Charges|2025|October|,,non_numeric_index,low,index,,index stored as NULL (not published for this month),mospi_cpi_raw_2026-10-01.jsonl,2026-10-02T05:39:42Z
+178,1,MOSPI_CPI,Mango|2025|October|,,non_numeric_index,low,index,,index stored as NULL (not published for this month),mospi_cpi_raw_2026-10-01.jsonl,2026-10-02T05:39:42Z
+179,1,MOSPI_CPI,VCD/ DVD Hire (incl. Instrument)|2025|October|,,non_numeric_index,low,index,,index stored as NULL (not published for this month),mospi_cpi_raw_2026-10-01.jsonl,2026-10-02T05:39:42Z
+180,1,MOSPI_CPI,VCR/VCD/DVD Player|2025|October|,,non_numeric_index,low,index,,index stored as NULL (not published for this month),mospi_cpi_raw_2026-10-01.jsonl,2026-10-02T05:39:42Z
+181,1,MOSPI_CPI,Berries|2025|September|,,non_numeric_index,low,index,,index stored as NULL (not published for this month),mospi_cpi_raw_2026-10-01.jsonl,2026-10-02T05:39:42Z
+182,1,MOSPI_CPI,Camera & Photographic Equipment|2025|September|,,non_numeric_index,low,index,,index stored as NULL (not published for this month),mospi_cpi_raw_2026-10-01.jsonl,2026-10-02T05:39:42Z
+183,1,MOSPI_CPI,Horse Cart Fare|2025|September|,,non_numeric_index,low,index,,index stored as NULL (not published for this month),mospi_cpi_raw_2026-10-01.jsonl,2026-10-02T05:39:42Z
+184,1,MOSPI_CPI,Jackfruit|2025|September|,,non_numeric_index,low,index,,index stored as NULL (not published for this month),mospi_cpi_raw_2026-10-01.jsonl,2026-10-02T05:39:42Z
+185,1,MOSPI_CPI,Kharbooza|2025|September|,,non_numeric_index,low,index,,index stored as NULL (not published for this month),mospi_cpi_raw_2026-10-01.jsonl,2026-10-02T05:39:42Z
+186,1,MOSPI_CPI,Leechi|2025|September|,,non_numeric_index,low,index,,index stored as NULL (not published for this month),mospi_cpi_raw_2026-10-01.jsonl,2026-10-02T05:39:42Z
+187,1,MOSPI_CPI,Library Charges|2025|September|,,non_numeric_index,low,index,,index stored as NULL (not published for this month),mospi_cpi_raw_2026-10-01.jsonl,2026-10-02T05:39:42Z
+188,1,MOSPI_CPI,Mango|2025|September|,,non_numeric_index,low,index,,index stored as NULL (not published for this month),mospi_cpi_raw_2026-10-01.jsonl,2026-10-02T05:39:42Z
+189,1,MOSPI_CPI,Singara|2025|September|,,non_numeric_index,low,index,,index stored as NULL (not published for this month),mospi_cpi_raw_2026-10-01.jsonl,2026-10-02T05:39:42Z
+190,1,MOSPI_CPI,VCD/ DVD Hire (incl. Instrument)|2025|September|,,non_numeric_index,low,index,,index stored as NULL (not published for this month),mospi_cpi_raw_2026-10-01.jsonl,2026-10-02T05:39:42Z
+191,1,MOSPI_CPI,VCR/VCD/DVD Player|2025|September|,,non_numeric_index,low,index,,index stored as NULL (not published for this month),mospi_cpi_raw_2026-10-01.jsonl,2026-10-02T05:39:42Z
+192,1,MOSPI_CPI,Berries|2025|August|,,non_numeric_index,low,index,,index stored as NULL (not published for this month),mospi_cpi_raw_2026-10-01.jsonl,2026-10-02T05:39:42Z
+193,1,MOSPI_CPI,Camera & Photographic Equipment|2025|August|,,non_numeric_index,low,index,,index stored as NULL (not published for this month),mospi_cpi_raw_2026-10-01.jsonl,2026-10-02T05:39:42Z
+194,1,MOSPI_CPI,Horse Cart Fare|2025|August|,,non_numeric_index,low,index,,index stored as NULL (not published for this month),mospi_cpi_raw_2026-10-01.jsonl,2026-10-02T05:39:42Z
+195,1,MOSPI_CPI,Kharbooza|2025|August|,,non_numeric_index,low,index,,index stored as NULL (not published for this month),mospi_cpi_raw_2026-10-01.jsonl,2026-10-02T05:39:42Z
+196,1,MOSPI_CPI,Leechi|2025|August|,,non_numeric_index,low,index,,index stored as NULL (not published for this month),mospi_cpi_raw_2026-10-01.jsonl,2026-10-02T05:39:42Z
+197,1,MOSPI_CPI,Library Charges|2025|August|,,non_numeric_index,low,index,,index stored as NULL (not published for this month),mospi_cpi_raw_2026-10-01.jsonl,2026-10-02T05:39:42Z
+198,1,MOSPI_CPI,Singara|2025|August|,,non_numeric_index,low,index,,index stored as NULL (not published for this month),mospi_cpi_raw_2026-10-01.jsonl,2026-10-02T05:39:42Z
+199,1,MOSPI_CPI,VCD/ DVD Hire (incl. Instrument)|2025|August|,,non_numeric_index,low,index,,index stored as NULL (not published for this month),mospi_cpi_raw_2026-10-01.jsonl,2026-10-02T05:39:42Z
+200,1,MOSPI_CPI,VCR/VCD/DVD Player|2025|August|,,non_numeric_index,low,index,,index stored as NULL (not published for this month),mospi_cpi_raw_2026-10-01.jsonl,2026-10-02T05:39:42Z
+201,1,MOSPI_CPI,Berries|2025|July|,,non_numeric_index,low,index,,index stored as NULL (not published for this month),mospi_cpi_raw_2026-10-01.jsonl,2026-10-02T05:39:42Z
+202,1,MOSPI_CPI,Camera & Photographic Equipment|2025|July|,,non_numeric_index,low,index,,index stored as NULL (not published for this month),mospi_cpi_raw_2026-10-01.jsonl,2026-10-02T05:39:42Z
+203,1,MOSPI_CPI,Horse Cart Fare|2025|July|,,non_numeric_index,low,index,,index stored as NULL (not published for this month),mospi_cpi_raw_2026-10-01.jsonl,2026-10-02T05:39:42Z
+204,1,MOSPI_CPI,Leechi|2025|July|,,non_numeric_index,low,index,,index stored as NULL (not published for this month),mospi_cpi_raw_2026-10-01.jsonl,2026-10-02T05:39:42Z
+205,1,MOSPI_CPI,Library Charges|2025|July|,,non_numeric_index,low,index,,index stored as NULL (not published for this month),mospi_cpi_raw_2026-10-01.jsonl,2026-10-02T05:39:42Z
+206,1,MOSPI_CPI,Singara|2025|July|,,non_numeric_index,low,index,,index stored as NULL (not published for this month),mospi_cpi_raw_2026-10-01.jsonl,2026-10-02T05:39:42Z
+207,1,MOSPI_CPI,VCD/ DVD Hire (incl. Instrument)|2025|July|,,non_numeric_index,low,index,,index stored as NULL (not published for this month),mospi_cpi_raw_2026-10-01.jsonl,2026-10-02T05:39:42Z
+208,1,MOSPI_CPI,VCR/VCD/DVD Player|2025|July|,,non_numeric_index,low,index,,index stored as NULL (not published for this month),mospi_cpi_raw_2026-10-01.jsonl,2026-10-02T05:39:42Z
+209,1,MOSPI_CPI,Berries|2025|June|,,non_numeric_index,low,index,,index stored as NULL (not published for this month),mospi_cpi_raw_2026-10-01.jsonl,2026-10-02T05:39:42Z
+210,1,MOSPI_CPI,Camera & Photographic Equipment|2025|June|,,non_numeric_index,low,index,,index stored as NULL (not published for this month),mospi_cpi_raw_2026-10-01.jsonl,2026-10-02T05:39:42Z
+211,1,MOSPI_CPI,Horse Cart Fare|2025|June|,,non_numeric_index,low,index,,index stored as NULL (not published for this month),mospi_cpi_raw_2026-10-01.jsonl,2026-10-02T05:39:42Z
+212,1,MOSPI_CPI,Library Charges|2025|June|,,non_numeric_index,low,index,,index stored as NULL (not published for this month),mospi_cpi_raw_2026-10-01.jsonl,2026-10-02T05:39:42Z
+213,1,MOSPI_CPI,Pears/nashpati|2025|June|,,non_numeric_index,low,index,,index stored as NULL (not published for this month),mospi_cpi_raw_2026-10-01.jsonl,2026-10-02T05:39:42Z
+214,1,MOSPI_CPI,Singara|2025|June|,,non_numeric_index,low,index,,index stored as NULL (not published for this month),mospi_cpi_raw_2026-10-01.jsonl,2026-10-02T05:39:42Z
+215,1,MOSPI_CPI,VCD/ DVD Hire (incl. Instrument)|2025|June|,,non_numeric_index,low,index,,index stored as NULL (not published for this month),mospi_cpi_raw_2026-10-01.jsonl,2026-10-02T05:39:42Z
+216,1,MOSPI_CPI,VCR/VCD/DVD Player|2025|June|,,non_numeric_index,low,index,,index stored as NULL (not published for this month),mospi_cpi_raw_2026-10-01.jsonl,2026-10-02T05:39:42Z
+217,1,MOSPI_CPI,Berries|2025|May|,,non_numeric_index,low,index,,index stored as NULL (not published for this month),mospi_cpi_raw_2026-10-01.jsonl,2026-10-02T05:39:42Z
+218,1,MOSPI_CPI,Camera & Photographic Equipment|2025|May|,,non_numeric_index,low,index,,index stored as NULL (not published for this month),mospi_cpi_raw_2026-10-01.jsonl,2026-10-02T05:39:42Z
+219,1,MOSPI_CPI,Horse Cart Fare|2025|May|,,non_numeric_index,low,index,,index stored as NULL (not published for this month),mospi_cpi_raw_2026-10-01.jsonl,2026-10-02T05:39:42Z
+220,1,MOSPI_CPI,Jackfruit|2025|May|,,non_numeric_index,low,index,,index stored as NULL (not published for this month),mospi_cpi_raw_2026-10-01.jsonl,2026-10-02T05:39:42Z
+221,1,MOSPI_CPI,Library Charges|2025|May|,,non_numeric_index,low,index,,index stored as NULL (not published for this month),mospi_cpi_raw_2026-10-01.jsonl,2026-10-02T05:39:42Z
+222,1,MOSPI_CPI,Pears/nashpati|2025|May|,,non_numeric_index,low,index,,index stored as NULL (not published for this month),mospi_cpi_raw_2026-10-01.jsonl,2026-10-02T05:39:42Z
+223,1,MOSPI_CPI,Singara|2025|May|,,non_numeric_index,low,index,,index stored as NULL (not published for this month),mospi_cpi_raw_2026-10-01.jsonl,2026-10-02T05:39:42Z
+224,1,MOSPI_CPI,VCD/ DVD Hire (incl. Instrument)|2025|May|,,non_numeric_index,low,index,,index stored as NULL (not published for this month),mospi_cpi_raw_2026-10-01.jsonl,2026-10-02T05:39:42Z
+225,1,MOSPI_CPI,VCR/VCD/DVD Player|2025|May|,,non_numeric_index,low,index,,index stored as NULL (not published for this month),mospi_cpi_raw_2026-10-01.jsonl,2026-10-02T05:39:42Z
+226,1,MOSPI_CPI,Berries|2025|April|,,non_numeric_index,low,index,,index stored as NULL (not published for this month),mospi_cpi_raw_2026-10-01.jsonl,2026-10-02T05:39:42Z
+227,1,MOSPI_CPI,Camera & Photographic Equipment|2025|April|,,non_numeric_index,low,index,,index stored as NULL (not published for this month),mospi_cpi_raw_2026-10-01.jsonl,2026-10-02T05:39:42Z
+228,1,MOSPI_CPI,Horse Cart Fare|2025|April|,,non_numeric_index,low,index,,index stored as NULL (not published for this month),mospi_cpi_raw_2026-10-01.jsonl,2026-10-02T05:39:42Z
+229,1,MOSPI_CPI,Jackfruit|2025|April|,,non_numeric_index,low,index,,index stored as NULL (not published for this month),mospi_cpi_raw_2026-10-01.jsonl,2026-10-02T05:39:42Z
+230,1,MOSPI_CPI,Leechi|2025|April|,,non_numeric_index,low,index,,index stored as NULL (not published for this month),mospi_cpi_raw_2026-10-01.jsonl,2026-10-02T05:39:42Z
+231,1,MOSPI_CPI,Library Charges|2025|April|,,non_numeric_index,low,index,,index stored as NULL (not published for this month),mospi_cpi_raw_2026-10-01.jsonl,2026-10-02T05:39:42Z
+232,1,MOSPI_CPI,Pears/nashpati|2025|April|,,non_numeric_index,low,index,,index stored as NULL (not published for this month),mospi_cpi_raw_2026-10-01.jsonl,2026-10-02T05:39:42Z
+233,1,MOSPI_CPI,Singara|2025|April|,,non_numeric_index,low,index,,index stored as NULL (not published for this month),mospi_cpi_raw_2026-10-01.jsonl,2026-10-02T05:39:42Z
+234,1,MOSPI_CPI,VCD/ DVD Hire (incl. Instrument)|2025|April|,,non_numeric_index,low,index,,index stored as NULL (not published for this month),mospi_cpi_raw_2026-10-01.jsonl,2026-10-02T05:39:42Z
+235,1,MOSPI_CPI,VCR/VCD/DVD Player|2025|April|,,non_numeric_index,low,index,,index stored as NULL (not published for this month),mospi_cpi_raw_2026-10-01.jsonl,2026-10-02T05:39:42Z
+236,1,MOSPI_CPI,Camera & Photographic Equipment|2025|March|,,non_numeric_index,low,index,,index stored as NULL (not published for this month),mospi_cpi_raw_2026-10-01.jsonl,2026-10-02T05:39:42Z
+237,1,MOSPI_CPI,Horse Cart Fare|2025|March|,,non_numeric_index,low,index,,index stored as NULL (not published for this month),mospi_cpi_raw_2026-10-01.jsonl,2026-10-02T05:39:42Z
+238,1,MOSPI_CPI,Jackfruit|2025|March|,,non_numeric_index,low,index,,index stored as NULL (not published for this month),mospi_cpi_raw_2026-10-01.jsonl,2026-10-02T05:39:42Z
+239,1,MOSPI_CPI,Leechi|2025|March|,,non_numeric_index,low,index,,index stored as NULL (not published for this month),mospi_cpi_raw_2026-10-01.jsonl,2026-10-02T05:39:42Z
+240,1,MOSPI_CPI,Library Charges|2025|March|,,non_numeric_index,low,index,,index stored as NULL (not published for this month),mospi_cpi_raw_2026-10-01.jsonl,2026-10-02T05:39:42Z
+241,1,MOSPI_CPI,Mango|2025|March|,,non_numeric_index,low,index,,index stored as NULL (not published for this month),mospi_cpi_raw_2026-10-01.jsonl,2026-10-02T05:39:42Z
+242,1,MOSPI_CPI,Pears/nashpati|2025|March|,,non_numeric_index,low,index,,index stored as NULL (not published for this month),mospi_cpi_raw_2026-10-01.jsonl,2026-10-02T05:39:42Z
+243,1,MOSPI_CPI,Singara|2025|March|,,non_numeric_index,low,index,,index stored as NULL (not published for this month),mospi_cpi_raw_2026-10-01.jsonl,2026-10-02T05:39:42Z
+244,1,MOSPI_CPI,VCD/ DVD Hire (incl. Instrument)|2025|March|,,non_numeric_index,low,index,,index stored as NULL (not published for this month),mospi_cpi_raw_2026-10-01.jsonl,2026-10-02T05:39:42Z
+245,1,MOSPI_CPI,VCR/VCD/DVD Player|2025|March|,,non_numeric_index,low,index,,index stored as NULL (not published for this month),mospi_cpi_raw_2026-10-01.jsonl,2026-10-02T05:39:42Z
+246,1,MOSPI_CPI,Camera & Photographic Equipment|2025|February|,,non_numeric_index,low,index,,index stored as NULL (not published for this month),mospi_cpi_raw_2026-10-01.jsonl,2026-10-02T05:39:42Z
+247,1,MOSPI_CPI,Horse Cart Fare|2025|February|,,non_numeric_index,low,index,,index stored as NULL (not published for this month),mospi_cpi_raw_2026-10-01.jsonl,2026-10-02T05:39:42Z
+248,1,MOSPI_CPI,Jackfruit|2025|February|,,non_numeric_index,low,index,,index stored as NULL (not published for this month),mospi_cpi_raw_2026-10-01.jsonl,2026-10-02T05:39:42Z
+249,1,MOSPI_CPI,Kharbooza|2025|February|,,non_numeric_index,low,index,,index stored as NULL (not published for this month),mospi_cpi_raw_2026-10-01.jsonl,2026-10-02T05:39:42Z
+250,1,MOSPI_CPI,Leechi|2025|February|,,non_numeric_index,low,index,,index stored as NULL (not published for this month),mospi_cpi_raw_2026-10-01.jsonl,2026-10-02T05:39:42Z
+251,1,MOSPI_CPI,Library Charges|2025|February|,,non_numeric_index,low,index,,index stored as NULL (not published for this month),mospi_cpi_raw_2026-10-01.jsonl,2026-10-02T05:39:42Z
+252,1,MOSPI_CPI,Mango|2025|February|,,non_numeric_index,low,index,,index stored as NULL (not published for this month),mospi_cpi_raw_2026-10-01.jsonl,2026-10-02T05:39:42Z
+253,1,MOSPI_CPI,Pears/nashpati|2025|February|,,non_numeric_index,low,index,,index stored as NULL (not published for this month),mospi_cpi_raw_2026-10-01.jsonl,2026-10-02T05:39:42Z
+254,1,MOSPI_CPI,Singara|2025|February|,,non_numeric_index,low,index,,index stored as NULL (not published for this month),mospi_cpi_raw_2026-10-01.jsonl,2026-10-02T05:39:42Z
+255,1,MOSPI_CPI,VCD/ DVD Hire (incl. Instrument)|2025|February|,,non_numeric_index,low,index,,index stored as NULL (not published for this month),mospi_cpi_raw_2026-10-01.jsonl,2026-10-02T05:39:42Z
+256,1,MOSPI_CPI,VCR/VCD/DVD Player|2025|February|,,non_numeric_index,low,index,,index stored as NULL (not published for this month),mospi_cpi_raw_2026-10-01.jsonl,2026-10-02T05:39:42Z
+257,1,MOSPI_CPI,Berries|2025|January|,,non_numeric_index,low,index,,index stored as NULL (not published for this month),mospi_cpi_raw_2026-10-01.jsonl,2026-10-02T05:39:42Z
+258,1,MOSPI_CPI,Camera & Photographic Equipment|2025|January|,,non_numeric_index,low,index,,index stored as NULL (not published for this month),mospi_cpi_raw_2026-10-01.jsonl,2026-10-02T05:39:42Z
+259,1,MOSPI_CPI,Horse Cart Fare|2025|January|,,non_numeric_index,low,index,,index stored as NULL (not published for this month),mospi_cpi_raw_2026-10-01.jsonl,2026-10-02T05:39:42Z
+260,1,MOSPI_CPI,Jackfruit|2025|January|,,non_numeric_index,low,index,,index stored as NULL (not published for this month),mospi_cpi_raw_2026-10-01.jsonl,2026-10-02T05:39:42Z
+261,1,MOSPI_CPI,Kharbooza|2025|January|,,non_numeric_index,low,index,,index stored as NULL (not published for this month),mospi_cpi_raw_2026-10-01.jsonl,2026-10-02T05:39:42Z
+262,1,MOSPI_CPI,Leechi|2025|January|,,non_numeric_index,low,index,,index stored as NULL (not published for this month),mospi_cpi_raw_2026-10-01.jsonl,2026-10-02T05:39:42Z
+263,1,MOSPI_CPI,Library Charges|2025|January|,,non_numeric_index,low,index,,index stored as NULL (not published for this month),mospi_cpi_raw_2026-10-01.jsonl,2026-10-02T05:39:42Z
+264,1,MOSPI_CPI,Mango|2025|January|,,non_numeric_index,low,index,,index stored as NULL (not published for this month),mospi_cpi_raw_2026-10-01.jsonl,2026-10-02T05:39:42Z
+265,1,MOSPI_CPI,Pears/nashpati|2025|January|,,non_numeric_index,low,index,,index stored as NULL (not published for this month),mospi_cpi_raw_2026-10-01.jsonl,2026-10-02T05:39:42Z
+266,1,MOSPI_CPI,VCD/ DVD Hire (incl. Instrument)|2025|January|,,non_numeric_index,low,index,,index stored as NULL (not published for this month),mospi_cpi_raw_2026-10-01.jsonl,2026-10-02T05:39:42Z
+267,1,MOSPI_CPI,VCR/VCD/DVD Player|2025|January|,,non_numeric_index,low,index,,index stored as NULL (not published for this month),mospi_cpi_raw_2026-10-01.jsonl,2026-10-02T05:39:42Z
+268,1,MOSPI_CPI,Housing-Overall|2025|December|Rural,,non_numeric_index,low,index,,index stored as NULL (not published for this month),mospi_cpi_raw_2026-10-01.jsonl,2026-10-02T05:39:42Z
+269,1,MOSPI_CPI,group_allindia|Food and Beverages|Oils and Fats|Rural|2025|December,,api_pagination_duplicate,low,row,,duplicate row from unstable API paging ignored (first copy kept),mospi_cpi_raw_2026-10-01.jsonl,2026-10-02T05:39:42Z
+270,1,MOSPI_CPI,group_allindia|Food and Beverages|Egg|Rural|2025|December,,api_pagination_duplicate,low,row,,duplicate row from unstable API paging ignored (first copy kept),mospi_cpi_raw_2026-10-01.jsonl,2026-10-02T05:39:42Z
+271,1,MOSPI_CPI,group_allindia|Miscellaneous|Education|Urban|2025|December,,api_pagination_duplicate,low,row,,duplicate row from unstable API paging ignored (first copy kept),mospi_cpi_raw_2026-10-01.jsonl,2026-10-02T05:39:42Z
+272,1,MOSPI_CPI,group_allindia|Clothing and Footwear|Clothing and Footwear-Overall|Urban|2025|December,,api_pagination_duplicate,low,row,,duplicate row from unstable API paging ignored (first copy kept),mospi_cpi_raw_2026-10-01.jsonl,2026-10-02T05:39:42Z
+273,1,MOSPI_CPI,group_allindia|Miscellaneous|Health|Rural|2025|November,,api_pagination_duplicate,low,row,,duplicate row from unstable API paging ignored (first copy kept),mospi_cpi_raw_2026-10-01.jsonl,2026-10-02T05:39:42Z
+274,1,MOSPI_CPI,group_allindia|Miscellaneous|Recreation and Amusement|Rural|2025|November,,api_pagination_duplicate,low,row,,duplicate row from unstable API paging ignored (first copy kept),mospi_cpi_raw_2026-10-01.jsonl,2026-10-02T05:39:42Z
+275,1,MOSPI_CPI,Housing-Overall|2025|November|Rural,,non_numeric_index,low,index,,index stored as NULL (not published for this month),mospi_cpi_raw_2026-10-01.jsonl,2026-10-02T05:39:42Z
+276,1,MOSPI_CPI,group_allindia|Food and Beverages|Meat and Fish|Rural|2025|November,,api_pagination_duplicate,low,row,,duplicate row from unstable API paging ignored (first copy kept),mospi_cpi_raw_2026-10-01.jsonl,2026-10-02T05:39:42Z
+277,1,MOSPI_CPI,group_allindia|Food and Beverages|Cereals and Products|Rural|2025|November,,api_pagination_duplicate,low,row,,duplicate row from unstable API paging ignored (first copy kept),mospi_cpi_raw_2026-10-01.jsonl,2026-10-02T05:39:42Z
+278,1,MOSPI_CPI,group_allindia|Miscellaneous|Miscellaneous-Overall|Rural|2025|October,,api_pagination_duplicate,low,row,,duplicate row from unstable API paging ignored (first copy kept),mospi_cpi_raw_2026-10-01.jsonl,2026-10-02T05:39:42Z
+279,1,MOSPI_CPI,Housing-Overall|2025|October|Rural,,non_numeric_index,low,index,,index stored as NULL (not published for this month),mospi_cpi_raw_2026-10-01.jsonl,2026-10-02T05:39:42Z
+280,1,MOSPI_CPI,group_allindia|Clothing and Footwear|Clothing and Footwear-Overall|Rural|2025|October,,api_pagination_duplicate,low,row,,duplicate row from unstable API paging ignored (first copy kept),mospi_cpi_raw_2026-10-01.jsonl,2026-10-02T05:39:42Z
+281,1,MOSPI_CPI,group_allindia|Food and Beverages|Vegetables|Rural|2025|October,,api_pagination_duplicate,low,row,,duplicate row from unstable API paging ignored (first copy kept),mospi_cpi_raw_2026-10-01.jsonl,2026-10-02T05:39:42Z
+282,1,MOSPI_CPI,group_allindia|Miscellaneous|Household Goods and Services|Urban|2025|October,,api_pagination_duplicate,low,row,,duplicate row from unstable API paging ignored (first copy kept),mospi_cpi_raw_2026-10-01.jsonl,2026-10-02T05:39:42Z
+283,1,MOSPI_CPI,group_allindia|Miscellaneous|Health|Urban|2025|October,,api_pagination_duplicate,low,row,,duplicate row from unstable API paging ignored (first copy kept),mospi_cpi_raw_2026-10-01.jsonl,2026-10-02T05:39:42Z
+284,1,MOSPI_CPI,Housing-Overall|2025|September|Rural,,non_numeric_index,low,index,,index stored as NULL (not published for this month),mospi_cpi_raw_2026-10-01.jsonl,2026-10-02T05:39:42Z
+285,1,MOSPI_CPI,group_allindia|Food and Beverages|Non-alcoholic Beverages|Rural|2025|September,,api_pagination_duplicate,low,row,,duplicate row from unstable API paging ignored (first copy kept),mospi_cpi_raw_2026-10-01.jsonl,2026-10-02T05:39:42Z
+286,1,MOSPI_CPI,group_allindia|Clothing and Footwear|Clothing and Footwear-Overall|Combined|2025|September,,api_pagination_duplicate,low,row,,duplicate row from unstable API paging ignored (first copy kept),mospi_cpi_raw_2026-10-01.jsonl,2026-10-02T05:39:42Z
+287,1,MOSPI_CPI,group_allindia|Food and Beverages|Oils and Fats|Combined|2025|September,,api_pagination_duplicate,low,row,,duplicate row from unstable API paging ignored (first copy kept),mospi_cpi_raw_2026-10-01.jsonl,2026-10-02T05:39:42Z
+288,1,MOSPI_CPI,group_allindia|Food and Beverages|Fruits|Combined|2025|September,,api_pagination_duplicate,low,row,,duplicate row from unstable API paging ignored (first copy kept),mospi_cpi_raw_2026-10-01.jsonl,2026-10-02T05:39:42Z
+289,1,MOSPI_CPI,group_allindia|Food and Beverages|Vegetables|Combined|2025|September,,api_pagination_duplicate,low,row,,duplicate row from unstable API paging ignored (first copy kept),mospi_cpi_raw_2026-10-01.jsonl,2026-10-02T05:39:42Z
+290,1,MOSPI_CPI,group_allindia|Food and Beverages|Milk and Products|Combined|2025|September,,api_pagination_duplicate,low,row,,duplicate row from unstable API paging ignored (first copy kept),mospi_cpi_raw_2026-10-01.jsonl,2026-10-02T05:39:42Z
+291,1,MOSPI_CPI,group_allindia|Food and Beverages|Pulses and Products|Combined|2025|September,,api_pagination_duplicate,low,row,,duplicate row from unstable API paging ignored (first copy kept),mospi_cpi_raw_2026-10-01.jsonl,2026-10-02T05:39:42Z
+292,1,MOSPI_CPI,group_allindia|Miscellaneous|Transport and Communication|Rural|2025|August,,api_pagination_duplicate,low,row,,duplicate row from unstable API paging ignored (first copy kept),mospi_cpi_raw_2026-10-01.jsonl,2026-10-02T05:39:42Z
+293,1,MOSPI_CPI,group_allindia|Miscellaneous|Miscellaneous-Overall|Rural|2025|August,,api_pagination_duplicate,low,row,,duplicate row from unstable API paging ignored (first copy kept),mospi_cpi_raw_2026-10-01.jsonl,2026-10-02T05:39:42Z
+294,1,MOSPI_CPI,group_allindia|Miscellaneous|Health|Rural|2025|August,,api_pagination_duplicate,low,row,,duplicate row from unstable API paging ignored (first copy kept),mospi_cpi_raw_2026-10-01.jsonl,2026-10-02T05:39:42Z
+295,1,MOSPI_CPI,Housing-Overall|2025|August|Rural,,non_numeric_index,low,index,,index stored as NULL (not published for this month),mospi_cpi_raw_2026-10-01.jsonl,2026-10-02T05:39:42Z
+296,1,MOSPI_CPI,group_allindia|Food and Beverages|Fruits|Rural|2025|August,,api_pagination_duplicate,low,row,,duplicate row from unstable API paging ignored (first copy kept),mospi_cpi_raw_2026-10-01.jsonl,2026-10-02T05:39:42Z
+297,1,MOSPI_CPI,group_allindia|Food and Beverages|Pulses and Products|Rural|2025|August,,api_pagination_duplicate,low,row,,duplicate row from unstable API paging ignored (first copy kept),mospi_cpi_raw_2026-10-01.jsonl,2026-10-02T05:39:42Z
+298,1,MOSPI_CPI,group_allindia|Food and Beverages|Vegetables|Rural|2025|August,,api_pagination_duplicate,low,row,,duplicate row from unstable API paging ignored (first copy kept),mospi_cpi_raw_2026-10-01.jsonl,2026-10-02T05:39:42Z
+299,1,MOSPI_CPI,group_allindia|Miscellaneous|Education|Urban|2025|August,,api_pagination_duplicate,low,row,,duplicate row from unstable API paging ignored (first copy kept),mospi_cpi_raw_2026-10-01.jsonl,2026-10-02T05:39:42Z
+300,1,MOSPI_CPI,group_allindia|Food and Beverages|Sugar and Confectionery|Urban|2025|August,,api_pagination_duplicate,low,row,,duplicate row from unstable API paging ignored (first copy kept),mospi_cpi_raw_2026-10-01.jsonl,2026-10-02T05:39:42Z
+301,1,MOSPI_CPI,group_allindia|Food and Beverages|Spices|Urban|2025|August,,api_pagination_duplicate,low,row,,duplicate row from unstable API paging ignored (first copy kept),mospi_cpi_raw_2026-10-01.jsonl,2026-10-02T05:39:42Z
+302,1,MOSPI_CPI,group_allindia|Food and Beverages|Spices|Urban|2025|August,,api_pagination_duplicate,low,row,,duplicate row from unstable API paging ignored (first copy kept),mospi_cpi_raw_2026-10-01.jsonl,2026-10-02T05:39:42Z
+303,1,MOSPI_CPI,group_allindia|Food and Beverages|Fruits|Combined|2025|August,,api_pagination_duplicate,low,row,,duplicate row from unstable API paging ignored (first copy kept),mospi_cpi_raw_2026-10-01.jsonl,2026-10-02T05:39:42Z
+304,1,MOSPI_CPI,group_allindia|Food and Beverages|Oils and Fats|Combined|2025|August,,api_pagination_duplicate,low,row,,duplicate row from unstable API paging ignored (first copy kept),mospi_cpi_raw_2026-10-01.jsonl,2026-10-02T05:39:42Z
+305,1,MOSPI_CPI,Housing-Overall|2025|July|Rural,,non_numeric_index,low,index,,index stored as NULL (not published for this month),mospi_cpi_raw_2026-10-01.jsonl,2026-10-02T05:39:42Z
+306,1,MOSPI_CPI,group_allindia|Food and Beverages|Milk and Products|Rural|2025|July,,api_pagination_duplicate,low,row,,duplicate row from unstable API paging ignored (first copy kept),mospi_cpi_raw_2026-10-01.jsonl,2026-10-02T05:39:42Z
+307,1,MOSPI_CPI,group_allindia|Food and Beverages|Meat and Fish|Rural|2025|July,,api_pagination_duplicate,low,row,,duplicate row from unstable API paging ignored (first copy kept),mospi_cpi_raw_2026-10-01.jsonl,2026-10-02T05:39:42Z
+308,1,MOSPI_CPI,group_allindia|Food and Beverages|Egg|Rural|2025|July,,api_pagination_duplicate,low,row,,duplicate row from unstable API paging ignored (first copy kept),mospi_cpi_raw_2026-10-01.jsonl,2026-10-02T05:39:42Z
+309,1,MOSPI_CPI,group_allindia|Miscellaneous|Personal Care and Effects|Urban|2025|July,,api_pagination_duplicate,low,row,,duplicate row from unstable API paging ignored (first copy kept),mospi_cpi_raw_2026-10-01.jsonl,2026-10-02T05:39:42Z
+310,1,MOSPI_CPI,group_allindia|Food and Beverages|Fruits|Urban|2025|July,,api_pagination_duplicate,low,row,,duplicate row from unstable API paging ignored (first copy kept),mospi_cpi_raw_2026-10-01.jsonl,2026-10-02T05:39:42Z
+311,1,MOSPI_CPI,group_allindia|Food and Beverages|Milk and Products|Urban|2025|July,,api_pagination_duplicate,low,row,,duplicate row from unstable API paging ignored (first copy kept),mospi_cpi_raw_2026-10-01.jsonl,2026-10-02T05:39:42Z
+312,1,MOSPI_CPI,group_allindia|Food and Beverages|Oils and Fats|Urban|2025|July,,api_pagination_duplicate,low,row,,duplicate row from unstable API paging ignored (first copy kept),mospi_cpi_raw_2026-10-01.jsonl,2026-10-02T05:39:42Z
+313,1,MOSPI_CPI,group_allindia|Miscellaneous|Miscellaneous-Overall|Combined|2025|July,,api_pagination_duplicate,low,row,,duplicate row from unstable API paging ignored (first copy kept),mospi_cpi_raw_2026-10-01.jsonl,2026-10-02T05:39:42Z
+314,1,MOSPI_CPI,group_allindia|Miscellaneous|Transport and Communication|Combined|2025|July,,api_pagination_duplicate,low,row,,duplicate row from unstable API paging ignored (first copy kept),mospi_cpi_raw_2026-10-01.jsonl,2026-10-02T05:39:42Z
+315,1,MOSPI_CPI,group_allindia|Food and Beverages|Milk and Products|Combined|2025|July,,api_pagination_duplicate,low,row,,duplicate row from unstable API paging ignored (first copy kept),mospi_cpi_raw_2026-10-01.jsonl,2026-10-02T05:39:42Z
+316,1,MOSPI_CPI,group_allindia|Food and Beverages|Egg|Combined|2025|July,,api_pagination_duplicate,low,row,,duplicate row from unstable API paging ignored (first copy kept),mospi_cpi_raw_2026-10-01.jsonl,2026-10-02T05:39:42Z
+317,1,MOSPI_CPI,group_allindia|Food and Beverages|Meat and Fish|Combined|2025|July,,api_pagination_duplicate,low,row,,duplicate row from unstable API paging ignored (first copy kept),mospi_cpi_raw_2026-10-01.jsonl,2026-10-02T05:39:42Z
+318,1,MOSPI_CPI,Housing-Overall|2025|June|Rural,,non_numeric_index,low,index,,index stored as NULL (not published for this month),mospi_cpi_raw_2026-10-01.jsonl,2026-10-02T05:39:42Z
+319,1,MOSPI_CPI,Housing-Overall|2025|May|Rural,,non_numeric_index,low,index,,index stored as NULL (not published for this month),mospi_cpi_raw_2026-10-01.jsonl,2026-10-02T05:39:42Z
+320,1,MOSPI_CPI,Housing-Overall|2025|April|Rural,,non_numeric_index,low,index,,index stored as NULL (not published for this month),mospi_cpi_raw_2026-10-01.jsonl,2026-10-02T05:39:42Z
+321,1,MOSPI_CPI,Housing-Overall|2025|March|Rural,,non_numeric_index,low,index,,index stored as NULL (not published for this month),mospi_cpi_raw_2026-10-01.jsonl,2026-10-02T05:39:42Z
+322,1,MOSPI_CPI,Housing-Overall|2025|February|Rural,,non_numeric_index,low,index,,index stored as NULL (not published for this month),mospi_cpi_raw_2026-10-01.jsonl,2026-10-02T05:39:42Z
+323,1,MOSPI_CPI,Housing-Overall|2025|January|Rural,,non_numeric_index,low,index,,index stored as NULL (not published for this month),mospi_cpi_raw_2026-10-01.jsonl,2026-10-02T05:39:42Z
+324,1,MOSPI_CPI,Housing-Overall|2024|July|Rural,,non_numeric_index,low,index,,index stored as NULL (not published for this month),mospi_cpi_raw_2026-10-01_backfill.jsonl,2026-10-02T05:39:42Z
+325,1,MOSPI_CPI,Housing-Overall|2024|August|Rural,,non_numeric_index,low,index,,index stored as NULL (not published for this month),mospi_cpi_raw_2026-10-01_backfill.jsonl,2026-10-02T05:39:42Z
+326,1,MOSPI_CPI,Housing-Overall|2024|September|Rural,,non_numeric_index,low,index,,index stored as NULL (not published for this month),mospi_cpi_raw_2026-10-01_backfill.jsonl,2026-10-02T05:39:42Z
+327,1,MOSPI_CPI,Housing-Overall|2024|October|Rural,,non_numeric_index,low,index,,index stored as NULL (not published for this month),mospi_cpi_raw_2026-10-01_backfill.jsonl,2026-10-02T05:39:42Z
+328,1,MOSPI_CPI,Housing-Overall|2024|November|Rural,,non_numeric_index,low,index,,index stored as NULL (not published for this month),mospi_cpi_raw_2026-10-01_backfill.jsonl,2026-10-02T05:39:42Z
+329,1,MOSPI_CPI,Housing-Overall|2024|December|Rural,,non_numeric_index,low,index,,index stored as NULL (not published for this month),mospi_cpi_raw_2026-10-01_backfill.jsonl,2026-10-02T05:39:42Z
+330,1,MOSPI_CPI,Housing-Overall|2025|July|Rural,,non_numeric_index,low,index,,index stored as NULL (not published for this month),mospi_cpi_raw_2026-10-01_backfill.jsonl,2026-10-02T05:39:42Z
+331,1,MOSPI_CPI,Housing-Overall|2025|August|Rural,,non_numeric_index,low,index,,index stored as NULL (not published for this month),mospi_cpi_raw_2026-10-01_backfill.jsonl,2026-10-02T05:39:42Z
+332,1,MOSPI_CPI,Housing-Overall|2025|September|Rural,,non_numeric_index,low,index,,index stored as NULL (not published for this month),mospi_cpi_raw_2026-10-01_backfill.jsonl,2026-10-02T05:39:42Z
+333,1,MOSPI_CPI,Housing-Overall|2025|October|Rural,,non_numeric_index,low,index,,index stored as NULL (not published for this month),mospi_cpi_raw_2026-10-01_backfill.jsonl,2026-10-02T05:39:42Z
+334,1,MOSPI_CPI,Housing-Overall|2025|November|Rural,,non_numeric_index,low,index,,index stored as NULL (not published for this month),mospi_cpi_raw_2026-10-01_backfill.jsonl,2026-10-02T05:39:42Z
+335,1,MOSPI_CPI,Housing-Overall|2025|December|Rural,,non_numeric_index,low,index,,index stored as NULL (not published for this month),mospi_cpi_raw_2026-10-01_backfill.jsonl,2026-10-02T05:39:42Z
+336,1,DOCA_PMD,DOCA_PMD:DOCA-BROKEN_RICE|2026-03-30|retail,4.0,not_reported_by_source,info,,,excluded from analysis,,2026-10-02T05:39:43Z
+337,1,DOCA_PMD,DOCA_PMD:DOCA-BROKEN_RICE|2025-09-30|retail,5.0,not_reported_by_source,info,,,excluded from analysis,,2026-10-02T05:39:43Z
+338,1,DOCA_PMD,DOCA_PMD:DOCA-BROKEN_RICE|2024-09-30|retail,6.0,not_reported_by_source,info,,,excluded from analysis,,2026-10-02T05:39:43Z
+339,1,DOCA_PMD,DOCA_PMD:DOCA-MILK|2026-09-30|retail,67.0,changed_product_name,low,,,"flagged, kept in analysis",,2026-10-02T05:39:43Z
+340,1,DOCA_PMD,DOCA_PMD:DOCA-MILK|2026-09-23|retail,68.0,changed_product_name,low,,,"flagged, kept in analysis",,2026-10-02T05:39:43Z
+341,1,DOCA_PMD,DOCA_PMD:DOCA-MILK|2026-08-30|retail,69.0,changed_product_name,low,,,"flagged, kept in analysis",,2026-10-02T05:39:43Z
+342,1,DOCA_PMD,DOCA_PMD:DOCA-MILK|2026-03-30|retail,70.0,changed_product_name,low,,,"flagged, kept in analysis",,2026-10-02T05:39:43Z
+343,1,DOCA_PMD,DOCA_PMD:DOCA-MILK|2025-09-30|retail,71.0,changed_product_name,low,,,"flagged, kept in analysis",,2026-10-02T05:39:43Z
+344,1,DOCA_PMD,DOCA_PMD:DOCA-MILK|2024-09-30|retail,72.0,changed_product_name,low,,,"flagged, kept in analysis",,2026-10-02T05:39:43Z
+345,1,DOCA_PMD,DOCA_PMD:DOCA-GINGER|2025-09-30|retail,245.0,not_reported_by_source,info,,,excluded from analysis,,2026-10-02T05:39:43Z
+346,1,DOCA_PMD,DOCA_PMD:DOCA-GINGER|2024-09-30|retail,246.0,not_reported_by_source,info,,,excluded from analysis,,2026-10-02T05:39:43Z
+347,1,DOCA_PMD,DOCA_PMD:DOCA-GARLIC|2025-09-30|retail,251.0,not_reported_by_source,info,,,excluded from analysis,,2026-10-02T05:39:43Z
+348,1,DOCA_PMD,DOCA_PMD:DOCA-GARLIC|2024-09-30|retail,252.0,not_reported_by_source,info,,,excluded from analysis,,2026-10-02T05:39:43Z
+349,1,DOCA_PMD,DOCA_PMD:DOCA-MILK|2026-09-30|wholesale,273.0,changed_product_name,low,,,"flagged, kept in analysis",,2026-10-02T05:39:43Z
+350,1,OPEN_PRICES,OPEN_PRICES:3210,276.0,missing_brand,low,,,"flagged, kept in analysis",,2026-10-02T05:39:43Z
+351,1,OPEN_PRICES,OPEN_PRICES:3210,276.0,normalized_price_outlier,low,,,"flagged, kept in analysis",,2026-10-02T05:39:43Z
+352,1,OPEN_PRICES,OPEN_PRICES:3210,276.0,unclassified_category,low,,,"flagged, kept in analysis",,2026-10-02T05:39:43Z
+353,1,OPEN_PRICES,OPEN_PRICES:29499,277.0,brand_alias_mapped,info,,,"flagged, kept in analysis",,2026-10-02T05:39:43Z
+354,1,OPEN_PRICES,OPEN_PRICES:29511,278.0,missing_pack_size,medium,,,"flagged, kept in analysis",,2026-10-02T05:39:43Z
+355,1,OPEN_PRICES,OPEN_PRICES:30569,280.0,missing_city,low,,,"flagged, kept in analysis",,2026-10-02T05:39:43Z
+356,1,OPEN_PRICES,OPEN_PRICES:36914,289.0,missing_pack_size,medium,,,"flagged, kept in analysis",,2026-10-02T05:39:43Z
+357,1,OPEN_PRICES,OPEN_PRICES:36914,289.0,unclassified_category,low,,,"flagged, kept in analysis",,2026-10-02T05:39:43Z
+358,1,OPEN_PRICES,OPEN_PRICES:37879,293.0,missing_brand,low,,,"flagged, kept in analysis",,2026-10-02T05:39:43Z
+359,1,OPEN_PRICES,OPEN_PRICES:37879,293.0,missing_pack_size,medium,,,"flagged, kept in analysis",,2026-10-02T05:39:43Z
+360,1,OPEN_PRICES,OPEN_PRICES:37879,293.0,missing_product_name,low,,,"flagged, kept in analysis",,2026-10-02T05:39:43Z
+361,1,OPEN_PRICES,OPEN_PRICES:39022,294.0,pack_size_from_name,low,,,"flagged, kept in analysis",,2026-10-02T05:39:43Z
+362,1,OPEN_PRICES,OPEN_PRICES:40083,296.0,missing_pack_size,medium,,,"flagged, kept in analysis",,2026-10-02T05:39:43Z
+363,1,OPEN_PRICES,OPEN_PRICES:46046,303.0,missing_pack_size,medium,,,"flagged, kept in analysis",,2026-10-02T05:39:43Z
+364,1,OPEN_PRICES,OPEN_PRICES:46067,304.0,missing_brand,low,,,"flagged, kept in analysis",,2026-10-02T05:39:43Z
+365,1,OPEN_PRICES,OPEN_PRICES:46067,304.0,missing_pack_size,medium,,,"flagged, kept in analysis",,2026-10-02T05:39:43Z
+366,1,OPEN_PRICES,OPEN_PRICES:46067,304.0,unclassified_category,low,,,"flagged, kept in analysis",,2026-10-02T05:39:43Z
+367,1,OPEN_PRICES,OPEN_PRICES:58337,306.0,missing_pack_size,medium,,,"flagged, kept in analysis",,2026-10-02T05:39:43Z
+368,1,OPEN_PRICES,OPEN_PRICES:58717,309.0,out_of_scope_location,high,,,excluded from analysis,,2026-10-02T05:39:43Z
+369,1,OPEN_PRICES,OPEN_PRICES:59021,310.0,missing_pack_size,medium,,,"flagged, kept in analysis",,2026-10-02T05:39:43Z
+370,1,OPEN_PRICES,OPEN_PRICES:59056,312.0,brand_alias_mapped,info,,,"flagged, kept in analysis",,2026-10-02T05:39:43Z
+371,1,OPEN_PRICES,OPEN_PRICES:59056,312.0,missing_pack_size,medium,,,"flagged, kept in analysis",,2026-10-02T05:39:43Z
+372,1,OPEN_PRICES,OPEN_PRICES:59744,315.0,missing_pack_size,medium,,,"flagged, kept in analysis",,2026-10-02T05:39:43Z
+373,1,OPEN_PRICES,OPEN_PRICES:61234,319.0,missing_city,low,,,"flagged, kept in analysis",,2026-10-02T05:39:43Z
+374,1,OPEN_PRICES,OPEN_PRICES:61234,319.0,missing_pack_size,medium,,,"flagged, kept in analysis",,2026-10-02T05:39:43Z
+375,1,OPEN_PRICES,OPEN_PRICES:61472,320.0,discount_without_list_price,medium,,,"flagged, kept in analysis",,2026-10-02T05:39:43Z
+376,1,OPEN_PRICES,OPEN_PRICES:61612,321.0,missing_city,low,,,"flagged, kept in analysis",,2026-10-02T05:39:43Z
+377,1,OPEN_PRICES,OPEN_PRICES:62196,323.0,brand_alias_mapped,info,,,"flagged, kept in analysis",,2026-10-02T05:39:43Z
+378,1,OPEN_PRICES,OPEN_PRICES:63734,327.0,missing_pack_size,medium,,,"flagged, kept in analysis",,2026-10-02T05:39:43Z
+379,1,OPEN_PRICES,OPEN_PRICES:69189,329.0,missing_pack_size,medium,,,"flagged, kept in analysis",,2026-10-02T05:39:43Z
+380,1,OPEN_PRICES,OPEN_PRICES:71601,331.0,brand_alias_mapped,info,,,"flagged, kept in analysis",,2026-10-02T05:39:43Z
+381,1,OPEN_PRICES,OPEN_PRICES:77046,335.0,missing_brand,low,,,"flagged, kept in analysis",,2026-10-02T05:39:43Z
+382,1,OPEN_PRICES,OPEN_PRICES:77722,336.0,brand_alias_mapped,info,,,"flagged, kept in analysis",,2026-10-02T05:39:43Z
+383,1,OPEN_PRICES,OPEN_PRICES:85593,339.0,discount_without_list_price,medium,,,"flagged, kept in analysis",,2026-10-02T05:39:43Z
+384,1,OPEN_PRICES,OPEN_PRICES:85595,340.0,brand_alias_mapped,info,,,"flagged, kept in analysis",,2026-10-02T05:39:43Z
+385,1,OPEN_PRICES,OPEN_PRICES:85595,340.0,missing_pack_size,medium,,,"flagged, kept in analysis",,2026-10-02T05:39:43Z
+386,1,OPEN_PRICES,OPEN_PRICES:85889,341.0,missing_brand,low,,,"flagged, kept in analysis",,2026-10-02T05:39:43Z
+387,1,OPEN_PRICES,OPEN_PRICES:87115,343.0,missing_pack_size,medium,,,"flagged, kept in analysis",,2026-10-02T05:39:43Z
+388,1,OPEN_PRICES,OPEN_PRICES:88347,346.0,missing_brand,low,,,"flagged, kept in analysis",,2026-10-02T05:39:43Z
+389,1,OPEN_PRICES,OPEN_PRICES:91857,351.0,missing_pack_size,medium,,,"flagged, kept in analysis",,2026-10-02T05:39:43Z
+390,1,OPEN_PRICES,OPEN_PRICES:93132,353.0,missing_product_name,low,,,"flagged, kept in analysis",,2026-10-02T05:39:43Z
+391,1,OPEN_PRICES,OPEN_PRICES:93139,354.0,missing_product_name,low,,,"flagged, kept in analysis",,2026-10-02T05:39:43Z
+392,1,OPEN_PRICES,OPEN_PRICES:93139,354.0,normalized_price_outlier,low,,,"flagged, kept in analysis",,2026-10-02T05:39:43Z
+393,1,OPEN_PRICES,OPEN_PRICES:93369,358.0,missing_brand,low,,,"flagged, kept in analysis",,2026-10-02T05:39:43Z
+394,1,OPEN_PRICES,OPEN_PRICES:93392,359.0,missing_brand,low,,,"flagged, kept in analysis",,2026-10-02T05:39:43Z
+395,1,OPEN_PRICES,OPEN_PRICES:93392,359.0,missing_pack_size,medium,,,"flagged, kept in analysis",,2026-10-02T05:39:43Z
+396,1,OPEN_PRICES,OPEN_PRICES:93392,359.0,out_of_scope_location,high,,,excluded from analysis,,2026-10-02T05:39:43Z
+397,1,OPEN_PRICES,OPEN_PRICES:93392,359.0,unclassified_category,low,,,"flagged, kept in analysis",,2026-10-02T05:39:43Z
+398,1,OPEN_PRICES,OPEN_PRICES:93393,360.0,missing_brand,low,,,"flagged, kept in analysis",,2026-10-02T05:39:43Z
+399,1,OPEN_PRICES,OPEN_PRICES:93393,360.0,missing_pack_size,medium,,,"flagged, kept in analysis",,2026-10-02T05:39:43Z
+400,1,OPEN_PRICES,OPEN_PRICES:93393,360.0,out_of_scope_location,high,,,excluded from analysis,,2026-10-02T05:39:43Z
+401,1,OPEN_PRICES,OPEN_PRICES:93393,360.0,unclassified_category,low,,,"flagged, kept in analysis",,2026-10-02T05:39:43Z
+402,1,OPEN_PRICES,OPEN_PRICES:93396,361.0,out_of_scope_location,high,,,excluded from analysis,,2026-10-02T05:39:43Z
+403,1,OPEN_PRICES,OPEN_PRICES:93430,362.0,missing_brand,low,,,"flagged, kept in analysis",,2026-10-02T05:39:43Z
+404,1,OPEN_PRICES,OPEN_PRICES:93430,362.0,missing_pack_size,medium,,,"flagged, kept in analysis",,2026-10-02T05:39:43Z
+405,1,OPEN_PRICES,OPEN_PRICES:93430,362.0,missing_product_name,low,,,"flagged, kept in analysis",,2026-10-02T05:39:43Z
+406,1,OPEN_PRICES,OPEN_PRICES:93430,362.0,out_of_scope_location,high,,,excluded from analysis,,2026-10-02T05:39:43Z
+407,1,OPEN_PRICES,OPEN_PRICES:93430,362.0,unclassified_category,low,,,"flagged, kept in analysis",,2026-10-02T05:39:43Z
+408,1,OPEN_PRICES,OPEN_PRICES:94258,364.0,missing_pack_size,medium,,,"flagged, kept in analysis",,2026-10-02T05:39:43Z
+409,1,OPEN_PRICES,OPEN_PRICES:95170,367.0,brand_alias_mapped,info,,,"flagged, kept in analysis",,2026-10-02T05:39:43Z
+410,1,OPEN_PRICES,OPEN_PRICES:95174,368.0,brand_alias_mapped,info,,,"flagged, kept in analysis",,2026-10-02T05:39:43Z
+411,1,OPEN_PRICES,OPEN_PRICES:95174,368.0,missing_pack_size,medium,,,"flagged, kept in analysis",,2026-10-02T05:39:43Z
+412,1,OPEN_PRICES,OPEN_PRICES:96012,370.0,missing_pack_size,medium,,,"flagged, kept in analysis",,2026-10-02T05:39:43Z
+413,1,OPEN_PRICES,OPEN_PRICES:96012,370.0,out_of_scope_category,medium,,,excluded from analysis,,2026-10-02T05:39:43Z
+414,1,OPEN_PRICES,OPEN_PRICES:99886,371.0,brand_alias_mapped,info,,,"flagged, kept in analysis",,2026-10-02T05:39:43Z
+415,1,OPEN_PRICES,OPEN_PRICES:100323,376.0,brand_alias_mapped,info,,,"flagged, kept in analysis",,2026-10-02T05:39:43Z
+416,1,OPEN_PRICES,OPEN_PRICES:100324,377.0,brand_alias_mapped,info,,,"flagged, kept in analysis",,2026-10-02T05:39:43Z
+417,1,OPEN_PRICES,OPEN_PRICES:100326,379.0,brand_alias_mapped,info,,,"flagged, kept in analysis",,2026-10-02T05:39:43Z
+418,1,OPEN_PRICES,OPEN_PRICES:100327,380.0,brand_alias_mapped,info,,,"flagged, kept in analysis",,2026-10-02T05:39:43Z
+419,1,OPEN_PRICES,OPEN_PRICES:100436,381.0,missing_pack_size,medium,,,"flagged, kept in analysis",,2026-10-02T05:39:43Z
+420,1,OPEN_PRICES,OPEN_PRICES:100436,381.0,missing_product_name,low,,,"flagged, kept in analysis",,2026-10-02T05:39:43Z
+421,1,OPEN_PRICES,OPEN_PRICES:100436,381.0,out_of_scope_location,high,,,excluded from analysis,,2026-10-02T05:39:43Z
+422,1,OPEN_PRICES,OPEN_PRICES:100508,384.0,missing_brand,low,,,"flagged, kept in analysis",,2026-10-02T05:39:43Z
+423,1,OPEN_PRICES,OPEN_PRICES:100508,384.0,missing_pack_size,medium,,,"flagged, kept in analysis",,2026-10-02T05:39:43Z
+424,1,OPEN_PRICES,OPEN_PRICES:100508,384.0,missing_product_name,low,,,"flagged, kept in analysis",,2026-10-02T05:39:43Z
+425,1,OPEN_PRICES,OPEN_PRICES:100508,384.0,unclassified_category,low,,,"flagged, kept in analysis",,2026-10-02T05:39:43Z
+426,1,OPEN_PRICES,OPEN_PRICES:102178,388.0,missing_pack_size,medium,,,"flagged, kept in analysis",,2026-10-02T05:39:43Z
+427,1,OPEN_PRICES,OPEN_PRICES:103446,390.0,missing_brand,low,,,"flagged, kept in analysis",,2026-10-02T05:39:43Z
+428,1,OPEN_PRICES,OPEN_PRICES:103446,390.0,missing_pack_size,medium,,,"flagged, kept in analysis",,2026-10-02T05:39:43Z
+429,1,OPEN_PRICES,OPEN_PRICES:103446,390.0,missing_product_name,low,,,"flagged, kept in analysis",,2026-10-02T05:39:43Z
+430,1,OPEN_PRICES,OPEN_PRICES:103446,390.0,out_of_scope_location,high,,,excluded from analysis,,2026-10-02T05:39:43Z
+431,1,OPEN_PRICES,OPEN_PRICES:103446,390.0,unclassified_category,low,,,"flagged, kept in analysis",,2026-10-02T05:39:43Z
+432,1,OPEN_PRICES,OPEN_PRICES:117037,398.0,normalized_price_outlier,low,,,"flagged, kept in analysis",,2026-10-02T05:39:43Z
+433,1,OPEN_PRICES,OPEN_PRICES:118414,401.0,missing_brand,low,,,"flagged, kept in analysis",,2026-10-02T05:39:43Z
+434,1,OPEN_PRICES,OPEN_PRICES:120157,406.0,missing_pack_size,medium,,,"flagged, kept in analysis",,2026-10-02T05:39:43Z
+435,1,OPEN_PRICES,OPEN_PRICES:120158,407.0,missing_pack_size,medium,,,"flagged, kept in analysis",,2026-10-02T05:39:43Z
+436,1,OPEN_PRICES,OPEN_PRICES:120205,408.0,missing_brand,low,,,"flagged, kept in analysis",,2026-10-02T05:39:43Z
+437,1,OPEN_PRICES,OPEN_PRICES:120205,408.0,missing_pack_size,medium,,,"flagged, kept in analysis",,2026-10-02T05:39:43Z
+438,1,OPEN_PRICES,OPEN_PRICES:120205,408.0,missing_product_name,low,,,"flagged, kept in analysis",,2026-10-02T05:39:43Z
+439,1,OPEN_PRICES,OPEN_PRICES:120205,408.0,unclassified_category,low,,,"flagged, kept in analysis",,2026-10-02T05:39:43Z
+440,1,OPEN_PRICES,OPEN_PRICES:120234,410.0,out_of_scope_location,high,,,excluded from analysis,,2026-10-02T05:39:43Z
+441,1,OPEN_PRICES,OPEN_PRICES:120236,412.0,out_of_scope_location,high,,,excluded from analysis,,2026-10-02T05:39:43Z
+442,1,OPEN_PRICES,OPEN_PRICES:120237,413.0,missing_pack_size,medium,,,"flagged, kept in analysis",,2026-10-02T05:39:43Z
+443,1,OPEN_PRICES,OPEN_PRICES:120237,413.0,out_of_scope_location,high,,,excluded from analysis,,2026-10-02T05:39:43Z
+444,1,OPEN_PRICES,OPEN_PRICES:120238,414.0,missing_pack_size,medium,,,"flagged, kept in analysis",,2026-10-02T05:39:43Z
+445,1,OPEN_PRICES,OPEN_PRICES:120238,414.0,out_of_scope_location,high,,,excluded from analysis,,2026-10-02T05:39:43Z
+446,1,OPEN_PRICES,OPEN_PRICES:120240,415.0,missing_pack_size,medium,,,"flagged, kept in analysis",,2026-10-02T05:39:43Z
+447,1,OPEN_PRICES,OPEN_PRICES:120255,418.0,missing_brand,low,,,"flagged, kept in analysis",,2026-10-02T05:39:43Z
+448,1,OPEN_PRICES,OPEN_PRICES:120255,418.0,missing_pack_size,medium,,,"flagged, kept in analysis",,2026-10-02T05:39:43Z
+449,1,OPEN_PRICES,OPEN_PRICES:120255,418.0,missing_product_name,low,,,"flagged, kept in analysis",,2026-10-02T05:39:43Z
+450,1,OPEN_PRICES,OPEN_PRICES:120255,418.0,unclassified_category,low,,,"flagged, kept in analysis",,2026-10-02T05:39:43Z
+451,1,OPEN_PRICES,OPEN_PRICES:120803,420.0,missing_pack_size,medium,,,"flagged, kept in analysis",,2026-10-02T05:39:43Z
+452,1,OPEN_PRICES,OPEN_PRICES:120806,422.0,missing_pack_size,medium,,,"flagged, kept in analysis",,2026-10-02T05:39:43Z
+453,1,OPEN_PRICES,OPEN_PRICES:120806,422.0,missing_product_name,low,,,"flagged, kept in analysis",,2026-10-02T05:39:43Z
+454,1,OPEN_PRICES,OPEN_PRICES:120806,422.0,unclassified_category,low,,,"flagged, kept in analysis",,2026-10-02T05:39:43Z
+455,1,OPEN_PRICES,OPEN_PRICES:120974,426.0,brand_alias_mapped,info,,,"flagged, kept in analysis",,2026-10-02T05:39:43Z
+456,1,OPEN_PRICES,OPEN_PRICES:120974,426.0,missing_pack_size,medium,,,"flagged, kept in analysis",,2026-10-02T05:39:43Z
+457,1,OPEN_PRICES,OPEN_PRICES:121230,428.0,brand_alias_mapped,info,,,"flagged, kept in analysis",,2026-10-02T05:39:43Z
+458,1,OPEN_PRICES,OPEN_PRICES:121230,428.0,missing_pack_size,medium,,,"flagged, kept in analysis",,2026-10-02T05:39:43Z
+459,1,OPEN_PRICES,OPEN_PRICES:122246,432.0,missing_pack_size,medium,,,"flagged, kept in analysis",,2026-10-02T05:39:43Z
+460,1,OPEN_PRICES,OPEN_PRICES:122246,432.0,quantity_without_unit,medium,,,"flagged, kept in analysis",,2026-10-02T05:39:43Z
+461,1,OPEN_PRICES,OPEN_PRICES:123156,446.0,brand_alias_mapped,info,,,"flagged, kept in analysis",,2026-10-02T05:39:43Z
+462,1,OPEN_PRICES,OPEN_PRICES:124870,450.0,brand_alias_mapped,info,,,"flagged, kept in analysis",,2026-10-02T05:39:43Z
+463,1,OPEN_PRICES,OPEN_PRICES:124870,450.0,missing_city,low,,,"flagged, kept in analysis",,2026-10-02T05:39:43Z
+464,1,OPEN_PRICES,OPEN_PRICES:125425,451.0,missing_pack_size,medium,,,"flagged, kept in analysis",,2026-10-02T05:39:43Z
+465,1,OPEN_PRICES,OPEN_PRICES:125452,452.0,missing_pack_size,medium,,,"flagged, kept in analysis",,2026-10-02T05:39:43Z
+466,1,OPEN_PRICES,OPEN_PRICES:125452,452.0,quantity_without_unit,medium,,,"flagged, kept in analysis",,2026-10-02T05:39:43Z
+467,1,OPEN_PRICES,OPEN_PRICES:126120,453.0,brand_alias_mapped,info,,,"flagged, kept in analysis",,2026-10-02T05:39:43Z
+468,1,OPEN_PRICES,OPEN_PRICES:126121,454.0,brand_alias_mapped,info,,,"flagged, kept in analysis",,2026-10-02T05:39:43Z
+469,1,OPEN_PRICES,OPEN_PRICES:126121,454.0,missing_pack_size,medium,,,"flagged, kept in analysis",,2026-10-02T05:39:43Z
+470,1,OPEN_PRICES,OPEN_PRICES:126150,455.0,pack_size_from_name,low,,,"flagged, kept in analysis",,2026-10-02T05:39:43Z
+471,1,OPEN_PRICES,OPEN_PRICES:126384,456.0,pack_size_name_mismatch,medium,,,"flagged, kept in analysis",,2026-10-02T05:39:43Z
+472,1,OPEN_PRICES,OPEN_PRICES:127151,460.0,missing_pack_size,medium,,,"flagged, kept in analysis",,2026-10-02T05:39:43Z
+473,1,OPEN_PRICES,OPEN_PRICES:127631,461.0,out_of_scope_category,medium,,,excluded from analysis,,2026-10-02T05:39:43Z
+474,1,OPEN_PRICES,OPEN_PRICES:127653,462.0,missing_pack_size,medium,,,"flagged, kept in analysis",,2026-10-02T05:39:43Z
+475,1,OPEN_PRICES,OPEN_PRICES:127653,462.0,out_of_scope_category,medium,,,excluded from analysis,,2026-10-02T05:39:43Z
+476,1,OPEN_PRICES,OPEN_PRICES:128936,464.0,missing_brand,low,,,"flagged, kept in analysis",,2026-10-02T05:39:43Z
+477,1,OPEN_PRICES,OPEN_PRICES:128936,464.0,missing_pack_size,medium,,,"flagged, kept in analysis",,2026-10-02T05:39:43Z
+478,1,OPEN_PRICES,OPEN_PRICES:129076,465.0,missing_brand,low,,,"flagged, kept in analysis",,2026-10-02T05:39:43Z
+479,1,OPEN_PRICES,OPEN_PRICES:130505,467.0,missing_city,low,,,"flagged, kept in analysis",,2026-10-02T05:39:43Z
+480,1,OPEN_PRICES,OPEN_PRICES:132366,471.0,brand_alias_mapped,info,,,"flagged, kept in analysis",,2026-10-02T05:39:43Z
+481,1,OPEN_PRICES,OPEN_PRICES:132366,471.0,missing_pack_size,medium,,,"flagged, kept in analysis",,2026-10-02T05:39:43Z
+482,1,OPEN_PRICES,OPEN_PRICES:132366,471.0,quantity_without_unit,medium,,,"flagged, kept in analysis",,2026-10-02T05:39:43Z
+483,1,OPEN_PRICES,OPEN_PRICES:133733,472.0,unclassified_category,low,,,"flagged, kept in analysis",,2026-10-02T05:39:43Z
+484,1,OPEN_PRICES,OPEN_PRICES:133855,473.0,missing_brand,low,,,"flagged, kept in analysis",,2026-10-02T05:39:43Z
+485,1,OPEN_PRICES,OPEN_PRICES:133855,473.0,unclassified_category,low,,,"flagged, kept in analysis",,2026-10-02T05:39:43Z
+486,1,OPEN_PRICES,OPEN_PRICES:134648,475.0,exact_duplicate,medium,,,excluded from analysis,,2026-10-02T05:39:43Z
+487,1,OPEN_PRICES,OPEN_PRICES:135154,478.0,brand_alias_mapped,info,,,"flagged, kept in analysis",,2026-10-02T05:39:43Z
+488,1,OPEN_PRICES,OPEN_PRICES:135154,478.0,pack_size_from_name,low,,,"flagged, kept in analysis",,2026-10-02T05:39:43Z
+489,1,OPEN_PRICES,OPEN_PRICES:137311,482.0,missing_brand,low,,,"flagged, kept in analysis",,2026-10-02T05:39:43Z
+490,1,OPEN_PRICES,OPEN_PRICES:137311,482.0,missing_pack_size,medium,,,"flagged, kept in analysis",,2026-10-02T05:39:43Z
+491,1,OPEN_PRICES,OPEN_PRICES:137311,482.0,unclassified_category,low,,,"flagged, kept in analysis",,2026-10-02T05:39:43Z
+492,1,OPEN_PRICES,OPEN_PRICES:137312,483.0,missing_brand,low,,,"flagged, kept in analysis",,2026-10-02T05:39:43Z
+493,1,OPEN_PRICES,OPEN_PRICES:137312,483.0,missing_pack_size,medium,,,"flagged, kept in analysis",,2026-10-02T05:39:43Z
+494,1,OPEN_PRICES,OPEN_PRICES:137312,483.0,missing_product_name,low,,,"flagged, kept in analysis",,2026-10-02T05:39:43Z
+495,1,OPEN_PRICES,OPEN_PRICES:137312,483.0,unclassified_category,low,,,"flagged, kept in analysis",,2026-10-02T05:39:43Z
+496,1,OPEN_PRICES,OPEN_PRICES:137314,485.0,brand_alias_mapped,info,,,"flagged, kept in analysis",,2026-10-02T05:39:43Z
+497,1,OPEN_PRICES,OPEN_PRICES:137315,486.0,missing_brand,low,,,"flagged, kept in analysis",,2026-10-02T05:39:43Z
+498,1,OPEN_PRICES,OPEN_PRICES:137315,486.0,missing_pack_size,medium,,,"flagged, kept in analysis",,2026-10-02T05:39:43Z
+499,1,OPEN_PRICES,OPEN_PRICES:137315,486.0,missing_product_name,low,,,"flagged, kept in analysis",,2026-10-02T05:39:43Z
+500,1,OPEN_PRICES,OPEN_PRICES:137315,486.0,unclassified_category,low,,,"flagged, kept in analysis",,2026-10-02T05:39:43Z
+501,1,OPEN_PRICES,OPEN_PRICES:139271,491.0,brand_alias_mapped,info,,,"flagged, kept in analysis",,2026-10-02T05:39:43Z
+502,1,OPEN_PRICES,OPEN_PRICES:141684,499.0,exact_duplicate,medium,,,excluded from analysis,,2026-10-02T05:39:43Z
+503,1,OPEN_PRICES,OPEN_PRICES:142457,501.0,missing_pack_size,medium,,,"flagged, kept in analysis",,2026-10-02T05:39:43Z
+504,1,OPEN_PRICES,OPEN_PRICES:149772,510.0,missing_brand,low,,,"flagged, kept in analysis",,2026-10-02T05:39:43Z
+505,1,OPEN_PRICES,OPEN_PRICES:149772,510.0,missing_pack_size,medium,,,"flagged, kept in analysis",,2026-10-02T05:39:43Z
+506,1,OPEN_PRICES,OPEN_PRICES:149772,510.0,missing_product_name,low,,,"flagged, kept in analysis",,2026-10-02T05:39:43Z
+507,1,OPEN_PRICES,OPEN_PRICES:151137,512.0,brand_alias_mapped,info,,,"flagged, kept in analysis",,2026-10-02T05:39:43Z
+508,1,OPEN_PRICES,OPEN_PRICES:163720,530.0,implausible_list_price,high,,,"flagged, kept in analysis",,2026-10-02T05:39:43Z
+509,1,OPEN_PRICES,OPEN_PRICES:163720,530.0,missing_brand,low,,,"flagged, kept in analysis",,2026-10-02T05:39:43Z
+510,1,OPEN_PRICES,OPEN_PRICES:163720,530.0,missing_pack_size,medium,,,"flagged, kept in analysis",,2026-10-02T05:39:43Z
+511,1,OPEN_PRICES,OPEN_PRICES:163720,530.0,missing_product_name,low,,,"flagged, kept in analysis",,2026-10-02T05:39:43Z
+512,1,OPEN_PRICES,OPEN_PRICES:163720,530.0,unclassified_category,low,,,"flagged, kept in analysis",,2026-10-02T05:39:43Z
+513,1,OPEN_PRICES,OPEN_PRICES:163721,531.0,implausible_list_price,high,,,"flagged, kept in analysis",,2026-10-02T05:39:43Z
+514,1,OPEN_PRICES,OPEN_PRICES:163797,532.0,brand_alias_mapped,info,,,"flagged, kept in analysis",,2026-10-02T05:39:43Z
+515,1,OPEN_PRICES,OPEN_PRICES:164342,533.0,missing_brand,low,,,"flagged, kept in analysis",,2026-10-02T05:39:43Z
+516,1,OPEN_PRICES,OPEN_PRICES:164342,533.0,missing_pack_size,medium,,,"flagged, kept in analysis",,2026-10-02T05:39:43Z
+517,1,OPEN_PRICES,OPEN_PRICES:164342,533.0,missing_product_name,low,,,"flagged, kept in analysis",,2026-10-02T05:39:43Z
+518,1,OPEN_PRICES,OPEN_PRICES:164342,533.0,unclassified_category,low,,,"flagged, kept in analysis",,2026-10-02T05:39:43Z
+519,1,OPEN_PRICES,OPEN_PRICES:164343,534.0,missing_pack_size,medium,,,"flagged, kept in analysis",,2026-10-02T05:39:43Z
+520,1,OPEN_PRICES,OPEN_PRICES:164344,535.0,implausible_list_price,high,,,"flagged, kept in analysis",,2026-10-02T05:39:43Z
+521,1,OPEN_PRICES,OPEN_PRICES:164344,535.0,missing_pack_size,medium,,,"flagged, kept in analysis",,2026-10-02T05:39:43Z
+522,1,OPEN_PRICES,OPEN_PRICES:164345,536.0,implausible_list_price,high,,,"flagged, kept in analysis",,2026-10-02T05:39:43Z
+523,1,OPEN_PRICES,OPEN_PRICES:164345,536.0,missing_pack_size,medium,,,"flagged, kept in analysis",,2026-10-02T05:39:43Z
+524,1,OPEN_PRICES,OPEN_PRICES:164345,536.0,price_far_below_product_median,high,price_paid,paid=1 product_median=34,excluded from analysis,,2026-10-02T05:39:43Z
+525,1,OPEN_PRICES,OPEN_PRICES:165530,537.0,missing_pack_size,medium,,,"flagged, kept in analysis",,2026-10-02T05:39:43Z
+526,1,OPEN_PRICES,OPEN_PRICES:170790,542.0,missing_pack_size,medium,,,"flagged, kept in analysis",,2026-10-02T05:39:43Z
+527,1,OPEN_PRICES,OPEN_PRICES:170939,543.0,missing_pack_size,medium,,,"flagged, kept in analysis",,2026-10-02T05:39:43Z
+528,1,OPEN_PRICES,OPEN_PRICES:173234,554.0,exact_duplicate,medium,,,excluded from analysis,,2026-10-02T05:39:43Z
+529,1,OPEN_PRICES,OPEN_PRICES:173882,556.0,missing_brand,low,,,"flagged, kept in analysis",,2026-10-02T05:39:43Z
+530,1,OPEN_PRICES,OPEN_PRICES:173882,556.0,missing_product_name,low,,,"flagged, kept in analysis",,2026-10-02T05:39:43Z
+531,1,OPEN_PRICES,OPEN_PRICES:173882,556.0,out_of_scope_location,high,,,excluded from analysis,,2026-10-02T05:39:43Z
+532,1,OPEN_PRICES,OPEN_PRICES:173882,556.0,unclassified_category,low,,,"flagged, kept in analysis",,2026-10-02T05:39:43Z
+533,1,OPEN_PRICES,OPEN_PRICES:183457,557.0,brand_alias_mapped,info,,,"flagged, kept in analysis",,2026-10-02T05:39:43Z
+534,1,OPEN_PRICES,OPEN_PRICES:183457,557.0,missing_pack_size,medium,,,"flagged, kept in analysis",,2026-10-02T05:39:43Z
+535,1,OPEN_PRICES,OPEN_PRICES:183471,558.0,missing_pack_size,medium,,,"flagged, kept in analysis",,2026-10-02T05:39:43Z
+536,1,OPEN_PRICES,OPEN_PRICES:185918,560.0,missing_pack_size,medium,,,"flagged, kept in analysis",,2026-10-02T05:39:43Z
+537,1,OPEN_PRICES,OPEN_PRICES:193942,563.0,implausible_list_price,high,,,"flagged, kept in analysis",,2026-10-02T05:39:43Z
+538,1,OPEN_PRICES,OPEN_PRICES:194281,564.0,normalized_price_outlier,low,,,"flagged, kept in analysis",,2026-10-02T05:39:43Z
+539,1,OPEN_PRICES,OPEN_PRICES:216430,567.0,missing_pack_size,medium,,,"flagged, kept in analysis",,2026-10-02T05:39:43Z
+540,1,OPEN_PRICES,OPEN_PRICES:216430,567.0,unclassified_category,low,,,"flagged, kept in analysis",,2026-10-02T05:39:43Z
+541,1,OPEN_PRICES,OPEN_PRICES:218875,568.0,pack_size_from_name,low,,,"flagged, kept in analysis",,2026-10-02T05:39:43Z
+542,1,OPEN_PRICES,OPEN_PRICES:218875,568.0,quantity_without_unit,medium,,,"flagged, kept in analysis",,2026-10-02T05:39:43Z
+543,1,OPEN_PRICES,OPEN_PRICES:226402,570.0,missing_pack_size,medium,,,"flagged, kept in analysis",,2026-10-02T05:39:43Z
+544,1,OPEN_PRICES,OPEN_PRICES:232464,572.0,missing_pack_size,medium,,,"flagged, kept in analysis",,2026-10-02T05:39:43Z
+545,1,OPEN_PRICES,OPEN_PRICES:232858,573.0,missing_pack_size,medium,,,"flagged, kept in analysis",,2026-10-02T05:39:43Z
+546,1,OPEN_PRICES,OPEN_PRICES:237572,576.0,brand_alias_mapped,info,,,"flagged, kept in analysis",,2026-10-02T05:39:43Z
+547,1,OPEN_PRICES,OPEN_PRICES:249302,581.0,missing_brand,low,,,"flagged, kept in analysis",,2026-10-02T05:39:43Z
+548,1,OPEN_PRICES,OPEN_PRICES:249302,581.0,missing_pack_size,medium,,,"flagged, kept in analysis",,2026-10-02T05:39:43Z
+549,1,OPEN_PRICES,OPEN_PRICES:249302,581.0,missing_product_name,low,,,"flagged, kept in analysis",,2026-10-02T05:39:43Z
+550,1,OPEN_PRICES,OPEN_PRICES:249308,582.0,missing_brand,low,,,"flagged, kept in analysis",,2026-10-02T05:39:43Z
+551,1,OPEN_PRICES,OPEN_PRICES:249308,582.0,missing_pack_size,medium,,,"flagged, kept in analysis",,2026-10-02T05:39:43Z
+552,1,OPEN_PRICES,OPEN_PRICES:249308,582.0,unclassified_category,low,,,"flagged, kept in analysis",,2026-10-02T05:39:43Z
+553,1,OPEN_PRICES,OPEN_PRICES:249310,583.0,missing_pack_size,medium,,,"flagged, kept in analysis",,2026-10-02T05:39:43Z
+554,1,OPEN_PRICES,OPEN_PRICES:249310,583.0,unclassified_category,low,,,"flagged, kept in analysis",,2026-10-02T05:39:43Z
+555,1,OPEN_PRICES,OPEN_PRICES:249311,584.0,missing_pack_size,medium,,,"flagged, kept in analysis",,2026-10-02T05:39:43Z
+556,1,OPEN_PRICES,OPEN_PRICES:259153,585.0,brand_alias_mapped,info,,,"flagged, kept in analysis",,2026-10-02T05:39:43Z
+557,1,OPEN_PRICES,OPEN_PRICES:259172,589.0,brand_alias_mapped,info,,,"flagged, kept in analysis",,2026-10-02T05:39:43Z
+558,1,OPEN_PRICES,OPEN_PRICES:259542,590.0,brand_alias_mapped,info,,,"flagged, kept in analysis",,2026-10-02T05:39:43Z
+559,1,OPEN_PRICES,OPEN_PRICES:259972,591.0,brand_alias_mapped,info,,,"flagged, kept in analysis",,2026-10-02T05:39:43Z
+560,1,OPEN_PRICES,OPEN_PRICES:259972,591.0,missing_pack_size,medium,,,"flagged, kept in analysis",,2026-10-02T05:39:43Z
+561,1,OPEN_PRICES,OPEN_PRICES:268060,599.0,brand_alias_mapped,info,,,"flagged, kept in analysis",,2026-10-02T05:39:43Z
+562,1,OPEN_PRICES,OPEN_PRICES:268060,599.0,missing_pack_size,medium,,,"flagged, kept in analysis",,2026-10-02T05:39:43Z
+563,1,OPEN_PRICES,OPEN_PRICES:268060,599.0,quantity_without_unit,medium,,,"flagged, kept in analysis",,2026-10-02T05:39:43Z
+564,1,OPEN_PRICES,OPEN_PRICES:269011,602.0,brand_alias_mapped,info,,,"flagged, kept in analysis",,2026-10-02T05:39:43Z
+565,1,OPEN_PRICES,OPEN_PRICES:269011,602.0,normalized_price_outlier,low,,,"flagged, kept in analysis",,2026-10-02T05:39:43Z
+566,1,OPEN_PRICES,OPEN_PRICES:269011,602.0,pack_size_from_name,low,,,"flagged, kept in analysis",,2026-10-02T05:39:43Z
+567,1,OPEN_PRICES,OPEN_PRICES:270808,606.0,missing_pack_size,medium,,,"flagged, kept in analysis",,2026-10-02T05:39:43Z
+568,1,OPEN_PRICES,OPEN_PRICES:271052,607.0,missing_brand,low,,,"flagged, kept in analysis",,2026-10-02T05:39:43Z
+569,1,OPEN_PRICES,OPEN_PRICES:271052,607.0,missing_pack_size,medium,,,"flagged, kept in analysis",,2026-10-02T05:39:43Z
+570,1,OPEN_PRICES,OPEN_PRICES:271052,607.0,missing_product_name,low,,,"flagged, kept in analysis",,2026-10-02T05:39:43Z
+571,1,OPEN_PRICES,OPEN_PRICES:273082,610.0,brand_alias_mapped,info,,,"flagged, kept in analysis",,2026-10-02T05:39:43Z
+572,1,OPEN_PRICES,OPEN_PRICES:277576,613.0,missing_brand,low,,,"flagged, kept in analysis",,2026-10-02T05:39:43Z
+573,1,OPEN_PRICES,OPEN_PRICES:277632,614.0,missing_brand,low,,,"flagged, kept in analysis",,2026-10-02T05:39:43Z
+574,1,OPEN_PRICES,OPEN_PRICES:277632,614.0,missing_pack_size,medium,,,"flagged, kept in analysis",,2026-10-02T05:39:43Z
+575,1,OPEN_PRICES,OPEN_PRICES:277632,614.0,unclassified_category,low,,,"flagged, kept in analysis",,2026-10-02T05:39:43Z
+576,1,OPEN_PRICES,OPEN_PRICES:278019,619.0,missing_pack_size,medium,,,"flagged, kept in analysis",,2026-10-02T05:39:43Z
+577,1,OPEN_PRICES,OPEN_PRICES:280258,623.0,missing_brand,low,,,"flagged, kept in analysis",,2026-10-02T05:39:43Z
+578,1,OPEN_PRICES,OPEN_PRICES:280258,623.0,missing_pack_size,medium,,,"flagged, kept in analysis",,2026-10-02T05:39:43Z
+579,1,OPEN_PRICES,OPEN_PRICES:282102,628.0,brand_alias_mapped,info,,,"flagged, kept in analysis",,2026-10-02T05:39:43Z
+580,1,OPEN_PRICES,OPEN_PRICES:288332,632.0,discount_without_list_price,medium,,,"flagged, kept in analysis",,2026-10-02T05:39:43Z
+581,1,OPEN_PRICES,OPEN_PRICES:289159,633.0,brand_alias_mapped,info,,,"flagged, kept in analysis",,2026-10-02T05:39:43Z
+582,1,OPEN_PRICES,OPEN_PRICES:289159,633.0,pack_size_from_name,low,,,"flagged, kept in analysis",,2026-10-02T05:39:43Z
+583,1,OPEN_PRICES,OPEN_PRICES:292675,637.0,brand_alias_mapped,info,,,"flagged, kept in analysis",,2026-10-02T05:39:43Z
+584,1,OPEN_PRICES,OPEN_PRICES:292675,637.0,missing_pack_size,medium,,,"flagged, kept in analysis",,2026-10-02T05:39:43Z
+585,1,OPEN_PRICES,OPEN_PRICES:294374,639.0,exact_duplicate,medium,,,excluded from analysis,,2026-10-02T05:39:43Z
+586,1,OPEN_PRICES,OPEN_PRICES:294374,639.0,missing_pack_size,medium,,,"flagged, kept in analysis",,2026-10-02T05:39:43Z
+587,1,OPEN_PRICES,OPEN_PRICES:294374,639.0,source_marked_duplicate,medium,,,excluded from analysis,,2026-10-02T05:39:43Z
+588,1,OPEN_PRICES,OPEN_PRICES:297108,641.0,pack_size_from_name,low,,,"flagged, kept in analysis",,2026-10-02T05:39:43Z
+589,1,OPEN_PRICES,OPEN_PRICES:300794,642.0,brand_alias_mapped,info,,,"flagged, kept in analysis",,2026-10-02T05:39:43Z
+590,1,OPEN_PRICES,OPEN_PRICES:303880,644.0,brand_alias_mapped,info,,,"flagged, kept in analysis",,2026-10-02T05:39:43Z
+591,1,OPEN_PRICES,OPEN_PRICES:304944,649.0,missing_brand,low,,,"flagged, kept in analysis",,2026-10-02T05:39:43Z
+592,1,OPEN_PRICES,OPEN_PRICES:305968,651.0,exact_duplicate,medium,,,excluded from analysis,,2026-10-02T05:39:43Z
+593,1,OPEN_PRICES,OPEN_PRICES:305968,651.0,source_marked_duplicate,medium,,,excluded from analysis,,2026-10-02T05:39:43Z
+594,1,OPEN_PRICES,OPEN_PRICES:321327,659.0,brand_alias_mapped,info,,,"flagged, kept in analysis",,2026-10-02T05:39:43Z
+595,1,OPEN_PRICES,OPEN_PRICES:325228,662.0,brand_alias_mapped,info,,,"flagged, kept in analysis",,2026-10-02T05:39:43Z
+596,1,OPEN_PRICES,OPEN_PRICES:326423,665.0,brand_alias_mapped,info,,,"flagged, kept in analysis",,2026-10-02T05:39:43Z
+597,1,OPEN_PRICES,OPEN_PRICES:330427,669.0,exact_duplicate,medium,,,excluded from analysis,,2026-10-02T05:39:43Z
+598,1,OPEN_PRICES,OPEN_PRICES:330427,669.0,source_marked_duplicate,medium,,,excluded from analysis,,2026-10-02T05:39:43Z
+599,1,OPEN_PRICES,OPEN_PRICES:331160,670.0,unclassified_category,low,,,"flagged, kept in analysis",,2026-10-02T05:39:43Z
+600,1,OPEN_PRICES,OPEN_PRICES:333220,673.0,brand_alias_mapped,info,,,"flagged, kept in analysis",,2026-10-02T05:39:43Z
+601,1,OPEN_PRICES,OPEN_PRICES:333220,673.0,quantity_without_unit,medium,,,"flagged, kept in analysis",,2026-10-02T05:39:43Z
+602,1,OPEN_PRICES,OPEN_PRICES:335809,675.0,exact_duplicate,medium,,,excluded from analysis,,2026-10-02T05:39:43Z
+603,1,OPEN_PRICES,OPEN_PRICES:336948,676.0,quantity_without_unit,medium,,,"flagged, kept in analysis",,2026-10-02T05:39:43Z

@@ -1,0 +1,59 @@
+table dq_check_summary
+	lineageTag: 74b62531-276e-5648-93c2-083f164cab28
+
+	column run_id
+		dataType: int64
+		formatString: 0
+		lineageTag: aa057c05-837d-5cf4-833e-057db90dbc55
+		summarizeBy: none
+		sourceColumn: run_id
+
+	column check_name
+		dataType: string
+		lineageTag: 7f9e5a49-8de1-55e6-b09b-f87d8f591853
+		summarizeBy: none
+		sourceColumn: check_name
+
+	column description
+		dataType: string
+		lineageTag: f2310298-b221-5d26-b8c0-817ae570b43f
+		summarizeBy: none
+		sourceColumn: description
+
+	column source_code
+		dataType: string
+		lineageTag: 962ac294-15c8-56d2-bd1d-43a26c3c469f
+		summarizeBy: none
+		sourceColumn: source_code
+
+	column rows_checked
+		dataType: int64
+		formatString: 0
+		lineageTag: 21d72979-acaf-50f7-88cd-bf725d807136
+		summarizeBy: none
+		sourceColumn: rows_checked
+
+	column rows_flagged
+		dataType: int64
+		formatString: 0
+		lineageTag: dea754c1-97d7-5f68-b758-89bd44cb53c7
+		summarizeBy: none
+		sourceColumn: rows_flagged
+
+	column action
+		dataType: string
+		lineageTag: 0886413c-38a2-57fe-bd96-8848c5d9fdee
+		summarizeBy: none
+		sourceColumn: action
+
+	partition dq_check_summary = m
+		mode: import
+		source =
+				let
+				    Source = Csv.Document(File.Contents(DataFolder & "\dq_check_summary.csv"), [Delimiter = ",", Encoding = 65001, QuoteStyle = QuoteStyle.Csv]),
+				    Promoted = Table.PromoteHeaders(Source, [PromoteAllScalars = true]),
+				    Nulls = Table.TransformColumns(Promoted, List.Transform(Table.ColumnNames(Promoted), (c) => {c, each if _ = "" then null else _})),
+				    Typed = Table.TransformColumnTypes(Nulls, {{"run_id", Int64.Type}, {"check_name", type text}, {"description", type text}, {"source_code", type text}, {"rows_checked", Int64.Type}, {"rows_flagged", Int64.Type}, {"action", type text}}, "en-US")
+				in
+				    Typed
+

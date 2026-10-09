@@ -1,0 +1,9 @@
+﻿category,n_commodities,avg_cv_pct,max_cv_pct,most_volatile_commodity,avg_high_low_range_pct,avg_max_step_change_pct
+Vegetables,6,16.18,28.69,Onion,62.0,38.6
+Sugar & Gur,2,10.92,13.58,Sugar,32.5,27.9
+Edible Oils & Ghee,7,8.3,12.76,Sunflower Oil (Packed),28.2,15.3
+"Tea, Salt & Spices",7,5.87,11.79,Turmeric (Powder),17.9,12.2
+Pulses,7,3.55,12.32,Tur/Arhar Dal,11.5,8.8
+"Milk, Dairy & Eggs",3,2.41,3.66,Eggs,6.1,4.4
+Cereals & Flours,8,1.89,3.46,Rice,5.2,3.5
+Fruits,1,1.07,1.07,Banana,2.9,2.3

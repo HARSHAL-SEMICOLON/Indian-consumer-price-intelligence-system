@@ -1,0 +1,42 @@
+﻿product_name,category,n_points,min_price,max_price,normalized_unit,cv_pct
+Onion,Vegetables,6,25.46,54.27,INR/kg,28.69
+Potato,Vegetables,6,20.76,36.61,INR/kg,21.48
+Tomato,Vegetables,6,27.44,52.98,INR/kg,19.11
+Ginger,Vegetables,4,98.8,149.36,INR/kg,15.19
+Sugar,Sugar & Gur,6,44.8,64.23,INR/kg,13.58
+Sunflower Oil (Packed),Edible Oils & Ghee,6,132.11,194.26,INR/kg,12.76
+Tur/Arhar Dal,Pulses,6,114.87,163.64,INR/kg,12.32
+Turmeric (Powder),"Tea, Salt & Spices",6,323.4,438.6,INR/kg,11.79
+Cumin Seed,"Tea, Salt & Spices",6,400.6,527.0,INR/kg,10.32
+Palm Oil (Packed),Edible Oils & Ghee,6,114.85,153.89,INR/kg,9.96
+Mustard Oil (Packed),Edible Oils & Ghee,6,154.0,202.94,INR/kg,8.97
+Soya Oil (Packed),Edible Oils & Ghee,6,129.33,166.87,INR/kg,8.79
+Vanaspati (Packed),Edible Oils & Ghee,6,130.06,168.53,INR/kg,8.43
+Gur,Sugar & Gur,6,55.36,67.36,INR/kg,8.26
+Garlic,Vegetables,4,147.44,181.92,INR/kg,8.24
+Coriander (Whole),"Tea, Salt & Spices",6,143.8,176.28,INR/kg,7.89
+Red Chillies (Whole),"Tea, Salt & Spices",6,279.1,342.3,INR/kg,6.76
+Groundnut Oil (Packed),Edible Oils & Ghee,6,186.7,209.96,INR/kg,4.92
+Brinjal,Vegetables,6,38.68,44.48,INR/kg,4.36
+Desi Ghee,Edible Oils & Ghee,6,619.5,701.75,INR/kg,4.31
+Eggs,"Milk, Dairy & Eggs",6,6.46,6.98,INR/unit,3.66
+Rice,Cereals & Flours,6,42.92,46.53,INR/kg,3.46
+Gram Dal,Pulses,6,85.56,93.62,INR/kg,3.05
+Urad Dal,Pulses,6,114.48,124.62,INR/kg,3.0
+Gram Dal (Bharat Dal adjusted),Pulses,6,81.73,88.58,INR/kg,2.72
+Suji,Cereals & Flours,6,44.89,47.49,INR/kg,2.24
+Maida (Wheat),Cereals & Flours,6,40.27,42.64,INR/kg,1.93
+Butter (Pasteurised),"Milk, Dairy & Eggs",6,573.0,605.5,INR/kg,1.92
+"Salt (Iodised, Packed)","Tea, Salt & Spices",6,21.54,22.61,INR/kg,1.76
+Bajra,Cereals & Flours,6,36.89,38.68,INR/kg,1.75
+Jowar,Cereals & Flours,6,43.0,45.17,INR/kg,1.73
+Milk,"Milk, Dairy & Eggs",6,58.7,61.33,INR/l,1.64
+Moong Dal,Pulses,6,110.63,115.83,INR/kg,1.58
+Ragi,Cereals & Flours,6,54.03,56.26,INR/kg,1.51
+Atta (Wheat),Cereals & Flours,6,36.01,37.66,INR/kg,1.49
+Besan,Pulses,6,95.44,99.81,INR/kg,1.47
+Tea (Loose),"Tea, Salt & Spices",6,265.52,276.2,INR/kg,1.3
+Black Pepper,"Tea, Salt & Spices",6,872.4,907.2,INR/kg,1.28
+Banana,Fruits,6,48.22,49.61,INR/kg,1.07
+Wheat,Cereals & Flours,6,31.11,31.89,INR/kg,1.02
+Masoor Dal,Pulses,6,88.56,90.49,INR/kg,0.73

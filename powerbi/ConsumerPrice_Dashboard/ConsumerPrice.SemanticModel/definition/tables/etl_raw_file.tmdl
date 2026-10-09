@@ -1,0 +1,73 @@
+table etl_raw_file
+	lineageTag: f580081e-89eb-502e-8193-0434b46d85d9
+
+	column raw_file_id
+		dataType: int64
+		formatString: 0
+		lineageTag: 526865e3-6539-5e88-a858-42fb592a91e2
+		summarizeBy: none
+		sourceColumn: raw_file_id
+
+	column source_code
+		dataType: string
+		lineageTag: 5f5d2d31-e7db-55b4-ad5c-b1b724d6a1a8
+		summarizeBy: none
+		sourceColumn: source_code
+
+	column relative_path
+		dataType: string
+		lineageTag: 34a1e281-1709-5029-a147-4d78cb70a4a5
+		summarizeBy: none
+		sourceColumn: relative_path
+
+	column sha256
+		dataType: string
+		lineageTag: 15416446-4792-5635-8bda-e14a8fb6a306
+		summarizeBy: none
+		sourceColumn: sha256
+
+	column bytes
+		dataType: int64
+		formatString: 0
+		lineageTag: 4a0e48f5-352d-58d7-94d7-8cd429fb8d8c
+		summarizeBy: none
+		sourceColumn: bytes
+
+	column collection_date
+		dataType: dateTime
+		formatString: yyyy-mm-dd
+		lineageTag: 801254c2-c2aa-5efd-bdcc-21469be685d0
+		summarizeBy: none
+		sourceColumn: collection_date
+
+	column records_parsed
+		dataType: int64
+		formatString: 0
+		lineageTag: c3b1a878-c64c-5f98-bd13-f9ab6a6f13e1
+		summarizeBy: none
+		sourceColumn: records_parsed
+
+	column loaded_at_utc
+		dataType: string
+		lineageTag: b1b109f5-32ee-5081-9b0f-a078db71a185
+		summarizeBy: none
+		sourceColumn: loaded_at_utc
+
+	column run_id
+		dataType: int64
+		formatString: 0
+		lineageTag: 6a1af488-321a-5156-8578-3185ae50bc34
+		summarizeBy: none
+		sourceColumn: run_id
+
+	partition etl_raw_file = m
+		mode: import
+		source =
+				let
+				    Source = Csv.Document(File.Contents(DataFolder & "\etl_raw_file.csv"), [Delimiter = ",", Encoding = 65001, QuoteStyle = QuoteStyle.Csv]),
+				    Promoted = Table.PromoteHeaders(Source, [PromoteAllScalars = true]),
+				    Nulls = Table.TransformColumns(Promoted, List.Transform(Table.ColumnNames(Promoted), (c) => {c, each if _ = "" then null else _})),
+				    Typed = Table.TransformColumnTypes(Nulls, {{"raw_file_id", Int64.Type}, {"source_code", type text}, {"relative_path", type text}, {"sha256", type text}, {"bytes", Int64.Type}, {"collection_date", type date}, {"records_parsed", Int64.Type}, {"loaded_at_utc", type text}, {"run_id", Int64.Type}}, "en-US")
+				in
+				    Typed
+

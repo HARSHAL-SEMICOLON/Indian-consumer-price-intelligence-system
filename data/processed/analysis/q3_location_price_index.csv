@@ -1,0 +1,19 @@
+﻿method,city,state,region,n_obs,n_products,price_index
+A_product_matched,Danapur,Bihar,East,1,1,117.8
+A_product_matched,Bengaluru,Karnataka,South,2,2,102.2
+A_product_matched,Irinjalakuda,Kerala,South,1,1,100.0
+A_product_matched,Pedda Amiram,Andhra Pradesh,South,1,1,100.0
+A_product_matched,Thrissur,Kerala,South,1,1,100.0
+A_product_matched,Hyderabad,Telangana,South,1,1,95.7
+A_product_matched,Dholi,Bihar,East,1,1,82.2
+B_category_relative,Pune,Maharashtra,West,9,9,249.8
+B_category_relative,Kochi (Ernakulam),Kerala,South,10,10,134.7
+B_category_relative,Dispur,Assam,North-East,8,8,117.5
+B_category_relative,Mahesana,Gujarat,West,9,9,114.1
+B_category_relative,Pune (Pimpri-Chinchwad),Maharashtra,West,6,6,109.8
+B_category_relative,Bengaluru,Karnataka,South,38,37,98.2
+B_category_relative,Madurai,Tamil Nadu,South,46,42,88.6
+B_category_relative,Hyderabad,Telangana,South,43,42,62.9
+B_category_relative,Lucknow,Uttar Pradesh,North,5,5,54.1
+B_category_relative,Delhi,Delhi,North,9,9,53.0
+B_category_relative,Mumbai,Maharashtra,West,5,5,45.5

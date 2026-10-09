@@ -1,0 +1,107 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/fabric/item/report/definition/visualContainer/2.13.0/schema.json",
+  "name": "p6_quality_bysrc",
+  "position": {
+    "x": 644,
+    "y": 176,
+    "z": 900,
+    "height": 250,
+    "width": 620,
+    "tabOrder": 900
+  },
+  "visual": {
+    "visualType": "clusteredBarChart",
+    "query": {
+      "queryState": {
+        "Category": {
+          "projections": [
+            {
+              "field": {
+                "Column": {
+                  "Expression": {
+                    "SourceRef": {
+                      "Entity": "dim_source"
+                    }
+                  },
+                  "Property": "source_name"
+                }
+              },
+              "queryRef": "dim_source.source_name",
+              "nativeQueryRef": "source_name",
+              "displayName": "Source"
+            }
+          ]
+        },
+        "Y": {
+          "projections": [
+            {
+              "field": {
+                "Measure": {
+                  "Expression": {
+                    "SourceRef": {
+                      "Entity": "_Measures"
+                    }
+                  },
+                  "Property": "Records Included"
+                }
+              },
+              "queryRef": "_Measures.Records Included",
+              "nativeQueryRef": "Records Included",
+              "displayName": "Included"
+            },
+            {
+              "field": {
+                "Measure": {
+                  "Expression": {
+                    "SourceRef": {
+                      "Entity": "_Measures"
+                    }
+                  },
+                  "Property": "Records Excluded"
+                }
+              },
+              "queryRef": "_Measures.Records Excluded",
+              "nativeQueryRef": "Records Excluded",
+              "displayName": "Excluded"
+            }
+          ]
+        }
+      }
+    },
+    "visualContainerObjects": {
+      "title": [
+        {
+          "properties": {
+            "show": {
+              "expr": {
+                "Literal": {
+                  "Value": "true"
+                }
+              }
+            },
+            "text": {
+              "expr": {
+                "Literal": {
+                  "Value": "'Price records kept vs excluded, by source'"
+                }
+              }
+            }
+          }
+        }
+      ],
+      "subTitle": [
+        {
+          "properties": {
+            "show": {
+              "expr": {
+                "Literal": {
+                  "Value": "false"
+                }
+              }
+            }
+          }
+        }
+      ]
+    }
+  }
+}

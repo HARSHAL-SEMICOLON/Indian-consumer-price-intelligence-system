@@ -1,0 +1,36 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/fabric/item/report/definition/visualContainer/2.13.0/schema.json",
+  "name": "p3_brands_warn",
+  "position": {
+    "x": 724,
+    "y": 82,
+    "z": 600,
+    "height": 54,
+    "width": 540,
+    "tabOrder": 600
+  },
+  "visual": {
+    "visualType": "textbox",
+    "objects": {
+      "general": [
+        {
+          "properties": {
+            "paragraphs": [
+              {
+                "textRuns": [
+                  {
+                    "value": "Compare within one category and one unit only. Many brands have just 1-2 observations: check the Sample column before reading a gap as real.",
+                    "textStyle": {
+                      "fontSize": "9pt",
+                      "color": "#8A4B12"
+                    }
+                  }
+                ]
+              }
+            ]
+          }
+        }
+      ]
+    }
+  }
+}

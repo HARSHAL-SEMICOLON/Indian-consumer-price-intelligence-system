@@ -1,0 +1,24 @@
+﻿product_name,category,obs_date,normalized_unit,wholesale_per_unit,retail_per_unit,retail_markup_over_wholesale_pct
+Potato,Vegetables,2026-09-30,INR/kg,16.79,22.61,34.7
+Tomato,Vegetables,2026-09-30,INR/kg,31.79,40.4,27.1
+"Salt (Iodised, Packed)","Tea, Salt & Spices",2026-09-30,INR/kg,18.76,22.45,19.7
+Onion,Vegetables,2026-09-30,INR/kg,46.16,53.86,16.7
+Broken Rice,Cereals & Flours,2026-09-30,INR/kg,29.65,33.84,14.1
+Atta (Wheat),Cereals & Flours,2026-09-30,INR/kg,33.4,37.54,12.4
+Gur,Sugar & Gur,2026-09-30,INR/kg,59.17,66.5,12.4
+Tea (Loose),"Tea, Salt & Spices",2026-09-30,INR/kg,245.96,276.2,12.3
+Rice,Cereals & Flours,2026-09-30,INR/kg,41.71,46.43,11.3
+Wheat,Cereals & Flours,2026-09-30,INR/kg,28.7,31.88,11.1
+Masoor Dal,Pulses,2026-09-30,INR/kg,82.06,90.38,10.1
+Moong Dal,Pulses,2026-09-30,INR/kg,102.32,112.11,9.6
+Gram Dal,Pulses,2026-09-30,INR/kg,81.47,88.96,9.2
+Sugar,Sugar & Gur,2026-09-30,INR/kg,51.52,56.02,8.7
+Urad Dal,Pulses,2026-09-30,INR/kg,113.77,123.18,8.3
+Tur/Arhar Dal,Pulses,2026-09-30,INR/kg,116.45,125.81,8.0
+Vanaspati (Packed),Edible Oils & Ghee,2026-09-30,INR/kg,157.92,168.53,6.7
+Milk,"Milk, Dairy & Eggs",2026-09-30,INR/l,57.67,61.33,6.4
+Soya Oil (Packed),Edible Oils & Ghee,2026-09-30,INR/kg,156.84,166.8,6.3
+Palm Oil (Packed),Edible Oils & Ghee,2026-09-30,INR/kg,144.89,153.72,6.1
+Groundnut Oil (Packed),Edible Oils & Ghee,2026-09-30,INR/kg,198.79,209.96,5.6
+Mustard Oil (Packed),Edible Oils & Ghee,2026-09-30,INR/kg,192.72,202.94,5.3
+Sunflower Oil (Packed),Edible Oils & Ghee,2026-09-30,INR/kg,183.53,192.54,4.9

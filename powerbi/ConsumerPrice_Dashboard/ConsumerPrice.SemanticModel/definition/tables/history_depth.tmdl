@@ -1,0 +1,54 @@
+table history_depth
+	lineageTag: 17d2d84c-d542-5b9a-8d5e-837482b5885c
+
+	column product_name
+		dataType: string
+		lineageTag: 5f64cf25-8eb4-5a92-a93d-2b9bb0953d18
+		summarizeBy: none
+		sourceColumn: product_name
+
+	column dated_points
+		dataType: int64
+		formatString: 0
+		lineageTag: b7f79654-6d21-58f9-b07c-9a226248eaa5
+		summarizeBy: none
+		sourceColumn: dated_points
+
+	column daily_steps
+		dataType: int64
+		formatString: 0
+		lineageTag: 488bccdf-2c94-5df5-b3fc-354648493979
+		summarizeBy: none
+		sourceColumn: daily_steps
+
+	column first_date
+		dataType: dateTime
+		formatString: yyyy-mm-dd
+		lineageTag: 75e66f0e-4b7f-5537-8179-01261e425b0e
+		summarizeBy: none
+		sourceColumn: first_date
+
+	column last_date
+		dataType: dateTime
+		formatString: yyyy-mm-dd
+		lineageTag: 15ceff41-42c5-5fc5-96ce-57dc229f19e9
+		summarizeBy: none
+		sourceColumn: last_date
+
+	column spike_detection_status
+		dataType: string
+		lineageTag: a8995923-a161-573a-a6e2-468e45e399d9
+		summarizeBy: none
+		sourceColumn: spike_detection_status
+
+	partition history_depth = m
+		mode: import
+		source =
+				let
+				    Source = Csv.Document(File.Contents(DataFolder & "\history_depth.csv"), [Delimiter = ",", Encoding = 65001, QuoteStyle = QuoteStyle.Csv]),
+				    Promoted = Table.PromoteHeaders(Source, [PromoteAllScalars = true]),
+				    Nulls = Table.TransformColumns(Promoted, List.Transform(Table.ColumnNames(Promoted), (c) => {c, each if _ = "" then null else _})),
+				    Typed = Table.TransformColumnTypes(Nulls, {{"product_name", type text}, {"dated_points", Int64.Type}, {"daily_steps", Int64.Type}, {"first_date", type date}, {"last_date", type date}, {"spike_detection_status", type text}}, "en-US")
+				in
+				    Typed
+

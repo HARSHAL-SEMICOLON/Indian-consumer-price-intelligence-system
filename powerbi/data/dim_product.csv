@@ -1,0 +1,420 @@
+﻿product_key,source_code,product_code,product_name,brand_key,category_key,pack_size_qty,std_unit,pack_size_label,pack_size_source,product_type,first_seen_date,last_seen_date
+1,DOCA_PMD,DOCA-BROKEN_RICE,Broken Rice,1,1,1.0,kg,1 Kg,doca_reporting_unit,Commodity average,2024-09-30,2026-09-30
+2,DOCA_PMD,DOCA-RICE,Rice,1,1,1.0,kg,1 Kg,doca_reporting_unit,Commodity average,2024-09-30,2026-09-30
+3,DOCA_PMD,DOCA-WHEAT,Wheat,1,1,1.0,kg,1 Kg,doca_reporting_unit,Commodity average,2024-09-30,2026-09-30
+4,DOCA_PMD,DOCA-ATTA_WHEAT,Atta (Wheat),1,1,1.0,kg,1 Kg,doca_reporting_unit,Commodity average,2024-09-30,2026-09-30
+5,DOCA_PMD,DOCA-GRAM_DAL_BHARAT_DAL_ADJUSTED,Gram Dal (Bharat Dal adjusted),1,2,1.0,kg,1 Kg,doca_reporting_unit,Commodity average,2024-09-30,2026-09-30
+6,DOCA_PMD,DOCA-GRAM_DAL,Gram Dal,1,2,1.0,kg,1 Kg,doca_reporting_unit,Commodity average,2024-09-30,2026-09-30
+7,DOCA_PMD,DOCA-TUR_ARHAR_DAL,Tur/Arhar Dal,1,2,1.0,kg,1 Kg,doca_reporting_unit,Commodity average,2024-09-30,2026-09-30
+8,DOCA_PMD,DOCA-URAD_DAL,Urad Dal,1,2,1.0,kg,1 Kg,doca_reporting_unit,Commodity average,2024-09-30,2026-09-30
+9,DOCA_PMD,DOCA-MOONG_DAL,Moong Dal,1,2,1.0,kg,1 Kg,doca_reporting_unit,Commodity average,2024-09-30,2026-09-30
+10,DOCA_PMD,DOCA-MASOOR_DAL,Masoor Dal,1,2,1.0,kg,1 Kg,doca_reporting_unit,Commodity average,2024-09-30,2026-09-30
+11,DOCA_PMD,DOCA-SUGAR,Sugar,1,3,1.0,kg,1 Kg,doca_reporting_unit,Commodity average,2024-09-30,2026-09-30
+12,DOCA_PMD,DOCA-MILK,Milk,1,4,1.0,l,1 Ltr,doca_reporting_unit,Commodity average,2024-09-30,2026-09-30
+13,DOCA_PMD,DOCA-GROUNDNUT_OIL_PACKED,Groundnut Oil (Packed),1,5,1.0,kg,1 Kg,doca_reporting_unit,Commodity average,2024-09-30,2026-09-30
+14,DOCA_PMD,DOCA-MUSTARD_OIL_PACKED,Mustard Oil (Packed),1,5,1.0,kg,1 Kg,doca_reporting_unit,Commodity average,2024-09-30,2026-09-30
+15,DOCA_PMD,DOCA-VANASPATI_PACKED,Vanaspati (Packed),1,5,1.0,kg,1 Kg,doca_reporting_unit,Commodity average,2024-09-30,2026-09-30
+16,DOCA_PMD,DOCA-SOYA_OIL_PACKED,Soya Oil (Packed),1,5,1.0,kg,1 Kg,doca_reporting_unit,Commodity average,2024-09-30,2026-09-30
+17,DOCA_PMD,DOCA-SUNFLOWER_OIL_PACKED,Sunflower Oil (Packed),1,5,1.0,kg,1 Kg,doca_reporting_unit,Commodity average,2024-09-30,2026-09-30
+18,DOCA_PMD,DOCA-PALM_OIL_PACKED,Palm Oil (Packed),1,5,1.0,kg,1 Kg,doca_reporting_unit,Commodity average,2024-09-30,2026-09-30
+19,DOCA_PMD,DOCA-GUR,Gur,1,3,1.0,kg,1 Kg,doca_reporting_unit,Commodity average,2024-09-30,2026-09-30
+20,DOCA_PMD,DOCA-TEA_LOOSE,Tea (Loose),1,6,1.0,kg,1 Kg,doca_reporting_unit,Commodity average,2024-09-30,2026-09-30
+21,DOCA_PMD,DOCA-SALT_IODISED_PACKED,"Salt (Iodised, Packed)",1,6,1.0,kg,1 Kg,doca_reporting_unit,Commodity average,2024-09-30,2026-09-30
+22,DOCA_PMD,DOCA-POTATO,Potato,1,7,1.0,kg,1 Kg,doca_reporting_unit,Commodity average,2024-09-30,2026-09-30
+23,DOCA_PMD,DOCA-ONION,Onion,1,7,1.0,kg,1 Kg,doca_reporting_unit,Commodity average,2024-09-30,2026-09-30
+24,DOCA_PMD,DOCA-TOMATO,Tomato,1,7,1.0,kg,1 Kg,doca_reporting_unit,Commodity average,2024-09-30,2026-09-30
+25,DOCA_PMD,DOCA-BAJRA,Bajra,1,1,1.0,kg,1 Kg,doca_reporting_unit,Commodity average,2024-09-30,2026-09-30
+26,DOCA_PMD,DOCA-JOWAR,Jowar,1,1,1.0,kg,1 Kg,doca_reporting_unit,Commodity average,2024-09-30,2026-09-30
+27,DOCA_PMD,DOCA-MAIDA_WHEAT,Maida (Wheat),1,1,1.0,kg,1 Kg,doca_reporting_unit,Commodity average,2024-09-30,2026-09-30
+28,DOCA_PMD,DOCA-RAGI,Ragi,1,1,1.0,kg,1 kg,doca_reporting_unit,Commodity average,2024-09-30,2026-09-30
+29,DOCA_PMD,DOCA-SUJI,Suji,1,1,1.0,kg,1 Kg,doca_reporting_unit,Commodity average,2024-09-30,2026-09-30
+30,DOCA_PMD,DOCA-BESAN,Besan,1,2,1.0,kg,1 Kg,doca_reporting_unit,Commodity average,2024-09-30,2026-09-30
+31,DOCA_PMD,DOCA-DESI_GHEE,Desi Ghee,1,5,1.0,kg,1 Kg,doca_reporting_unit,Commodity average,2024-09-30,2026-09-30
+32,DOCA_PMD,DOCA-BUTTER_PASTEURISED,Butter (Pasteurised),1,4,0.1,kg,100 gm,doca_reporting_unit,Commodity average,2024-09-30,2026-09-30
+33,DOCA_PMD,DOCA-EGGS,Eggs,1,4,12.0,unit,1 Dozen,doca_reporting_unit,Commodity average,2024-09-30,2026-09-30
+34,DOCA_PMD,DOCA-BRINJAL,Brinjal,1,7,1.0,kg,1 Kg,doca_reporting_unit,Commodity average,2024-09-30,2026-09-30
+35,DOCA_PMD,DOCA-BLACK_PEPPER,Black Pepper,1,6,0.1,kg,100 gm,doca_reporting_unit,Commodity average,2024-09-30,2026-09-30
+36,DOCA_PMD,DOCA-CORIANDER_WHOLE,Coriander (Whole),1,6,0.25,kg,250 gm,doca_reporting_unit,Commodity average,2024-09-30,2026-09-30
+37,DOCA_PMD,DOCA-CUMIN_SEED,Cumin Seed,1,6,0.1,kg,100 gm,doca_reporting_unit,Commodity average,2024-09-30,2026-09-30
+38,DOCA_PMD,DOCA-RED_CHILLIES_WHOLE,Red Chillies (Whole),1,6,0.1,kg,100 gm,doca_reporting_unit,Commodity average,2024-09-30,2026-09-30
+39,DOCA_PMD,DOCA-TURMERIC_POWDER,Turmeric (Powder),1,6,0.05,kg,50 gm,doca_reporting_unit,Commodity average,2024-09-30,2026-09-30
+40,DOCA_PMD,DOCA-BANANA,Banana,1,8,1.0,kg,1 Kg,doca_reporting_unit,Commodity average,2024-09-30,2026-09-30
+41,DOCA_PMD,DOCA-GINGER,Ginger,1,7,0.25,kg,250 gm,doca_reporting_unit,Commodity average,2024-09-30,2026-09-30
+42,DOCA_PMD,DOCA-GARLIC,Garlic,1,7,0.25,kg,250 gm,doca_reporting_unit,Commodity average,2024-09-30,2026-09-30
+43,OPEN_PRICES,8902901222456,Cardomon,2,9,0.05,kg,50 g,api_product_quantity,Branded product,2024-01-24,2024-01-24
+44,OPEN_PRICES,8901058895780,Hot & sweet tomato chili sauce,3,10,0.5,kg,500 g,api_product_quantity,Branded product,2024-07-03,2024-07-03
+45,OPEN_PRICES,8906065030131,Karachi Biscuits Fruit Almond,4,11,,,,missing,Branded product,2024-07-04,2024-07-04
+46,OPEN_PRICES,8906117363637,Makhana Chatpati Imli,5,12,0.02,kg,20 g,api_product_quantity,Branded product,2024-07-18,2024-07-18
+47,OPEN_PRICES,8908013982646,Lahori Zeera,6,13,0.16,l,160 ml,api_product_quantity,Branded product,2024-07-26,2024-07-26
+48,OPEN_PRICES,8906059639890,Chocolate Milk Shake,7,14,0.18,l,180 ml,api_product_quantity,Branded product,2024-08-12,2024-08-12
+49,OPEN_PRICES,8906066851452,Natureland Organics Barley Dalia,8,15,0.5,kg,500 g,api_product_quantity,Branded product,2024-08-15,2024-08-15
+50,OPEN_PRICES,8908020710102,Coffee Fudge,9,16,0.04,kg,40 g,api_product_quantity,Branded product,2024-08-28,2024-08-28
+51,OPEN_PRICES,8901595853403,Veg Hakka Noodles,10,15,0.6,kg,600 g,api_product_quantity,Branded product,2024-08-31,2024-08-31
+52,OPEN_PRICES,8901725012335,Dream cream 20,11,11,0.12,kg,120 g,api_product_quantity,Branded product,2024-09-03,2024-09-03
+53,OPEN_PRICES,8902080364589,Mountain Dew,12,13,0.4,l,400 ml,api_product_quantity,Branded product,2024-09-29,2024-09-29
+54,OPEN_PRICES,8901192002105,Catch Pink Rock Salt(Sendha Namak),13,17,0.1,kg,100 g,api_product_quantity,Branded product,2023-11-23,2023-11-23
+55,OPEN_PRICES,8901063342026,Vitarich Sandwich Premium White Bread,14,11,0.4,kg,400 g,api_product_quantity,Branded product,2024-10-02,2024-10-02
+56,OPEN_PRICES,8901063341500,White bread,14,9,,,,missing,Branded product,2024-10-02,2024-10-02
+57,OPEN_PRICES,8901652140583,Puff choco vanilla flavoured sandwich biscuits,15,11,0.04,kg,40 g,api_product_quantity,Branded product,2024-10-04,2024-10-04
+58,OPEN_PRICES,8908005144076,Multigrain Energy Bar,16,16,0.038,kg,38 g,api_product_quantity,Branded product,2024-10-06,2024-10-06
+59,OPEN_PRICES,8901401000489,Threptin Lite,17,12,0.275,kg,275 g,api_product_quantity,Branded product,2024-10-08,2024-10-08
+60,OPEN_PRICES,8901548431177,,2,12,,,,missing,Branded product,2024-10-08,2024-10-08
+61,OPEN_PRICES,8901063017627,Brit 50-50 maska chaska 40g (20),14,11,0.04,kg,40 g,parsed_product_name,Branded product,2024-10-15,2024-10-15
+62,OPEN_PRICES,7622202237942,Cadbury dairy milk,18,16,0.012,kg,12 g,api_product_quantity,Branded product,2024-10-17,2024-10-17
+63,OPEN_PRICES,8901499011534,Kellogg's oats,19,15,,,,missing,Branded product,2024-06-22,2024-06-22
+64,OPEN_PRICES,8901242513919,Instant Gulab Jamun Mix,20,12,0.5,kg,500 g,api_product_quantity,Branded product,2024-10-30,2024-10-30
+65,OPEN_PRICES,8904063255518,Whoopies,21,18,0.045,kg,45 g,api_product_quantity,Branded product,2024-11-08,2024-11-08
+66,OPEN_PRICES,8901058005080,Munch Max,22,11,0.038,kg,38 g,api_product_quantity,Branded product,2024-11-09,2024-11-09
+67,OPEN_PRICES,8906080604812,Classic Salted Cashews,23,18,0.07,kg,70 g,api_product_quantity,Branded product,2024-11-12,2024-11-12
+68,OPEN_PRICES,8901063017719,50 50 Golmaal,14,11,0.11,kg,110 g,api_product_quantity,Branded product,2024-11-13,2024-11-13
+69,OPEN_PRICES,8901648002444,Mother Dairy Probiotic Tadka Chach,24,12,0.27,l,270 ml,api_product_quantity,Branded product,2024-11-14,2024-11-14
+70,OPEN_PRICES,8996001312490,Mayora Malkist Chocolate Flavored Sandwich Cracker Biscuits,25,11,,,,missing,Branded product,2024-11-18,2024-11-18
+71,OPEN_PRICES,8908021821128,Freshko,2,9,,,,missing,Branded product,2024-11-19,2024-11-19
+72,OPEN_PRICES,8906002482450,Snickers Chocolate Bar,26,16,0.045,kg,45 g,api_product_quantity,Branded product,2024-12-09,2024-12-09
+73,OPEN_PRICES,8901030902352,knorr Tomato chatpata,27,12,,,,missing,Branded product,2024-12-09,2024-12-09
+74,OPEN_PRICES,3948719127465,HIDE & SEEK Choco Chip Creme Sandwiches,28,11,0.4,kg,400 g,api_product_quantity,Branded product,2024-12-10,2024-12-10
+75,OPEN_PRICES,8904256000109,Nivea Cocoa nourish,29,19,0.4,l,400 ml,api_product_quantity,Branded product,2024-12-10,2024-12-10
+76,OPEN_PRICES,8901030739019,Magnum Chocolate Truffle,30,16,0.062,kg,62 g,api_product_quantity,Branded product,2024-12-12,2024-12-12
+77,OPEN_PRICES,8906140881405,Dryfruit Kachori,31,12,,,,missing,Branded product,2024-12-05,2024-12-05
+78,OPEN_PRICES,8904089929110,Fresh Paneer,32,14,0.2,kg,200 g,api_product_quantity,Branded product,2024-12-14,2024-12-14
+79,OPEN_PRICES,8906080603518,Paper boat Zero Sparkling Coffee,23,13,,,,missing,Branded product,2024-12-14,2024-12-14
+80,OPEN_PRICES,8906003656126,Three Mango Lime Pickle,33,12,0.3,kg,300 g,api_product_quantity,Branded product,2024-12-16,2024-12-16
+81,OPEN_PRICES,8904043553054,Milk Plus Bread,34,11,0.45,kg,450 g,api_product_quantity,Branded product,2024-12-18,2024-12-18
+82,OPEN_PRICES,8908004114445,Raisins,35,20,,,,missing,Branded product,2024-12-18,2024-12-18
+83,OPEN_PRICES,8906005506924,Bikaji Sub-Kuch Namkeen,36,18,0.048,kg,48 g,api_product_quantity,Branded product,2024-12-18,2024-12-18
+84,OPEN_PRICES,8901063155442,Tiger Krunch ChocoChips,14,11,0.031,kg,31 g,api_product_quantity,Branded product,2024-12-18,2024-12-18
+85,OPEN_PRICES,8902901225914,Ragi Flour,37,17,1.0,kg,1 kg,api_product_quantity,Branded product,2024-12-19,2024-12-19
+86,OPEN_PRICES,8901512562609,Act II Popcorn,38,18,,,,missing,Branded product,2024-12-27,2024-12-27
+87,OPEN_PRICES,8908010881003,Jaggery,39,17,0.9500000000000001,kg,950 g,api_product_quantity,Branded product,2024-12-26,2024-12-26
+88,OPEN_PRICES,8906069400060,Southwest Chipotle Dressing,40,10,0.3,kg,300 g,api_product_quantity,Branded product,2024-12-28,2024-12-28
+89,OPEN_PRICES,8906005508904,Bikaji mobile bhel chowpati bhelpuri,36,12,0.11,kg,110 g,api_product_quantity,Branded product,2024-12-29,2024-12-29
+90,OPEN_PRICES,8901058001198,Rich tomato ketchup,3,10,0.485,kg,485 g,api_product_quantity,Branded product,2024-12-30,2024-12-30
+91,OPEN_PRICES,7622202031618,Nutties,18,16,0.03,kg,30 g,api_product_quantity,Branded product,2025-01-01,2025-01-01
+92,OPEN_PRICES,8902901027310,Pulses moong dal 2kg,41,17,2.0,kg,2 kg,api_product_quantity,Branded product,2025-01-02,2025-01-02
+93,OPEN_PRICES,8908009059154,Whole Wheat Bread,42,11,0.25,kg,250 g,api_product_quantity,Branded product,2025-01-04,2025-01-04
+94,OPEN_PRICES,8906076132640,Whole Wheat Loaf,43,11,,,,missing,Branded product,2025-01-04,2025-01-04
+95,OPEN_PRICES,8901725125370,Turmeric powder,44,17,0.5,kg,500 g,api_product_quantity,Branded product,2025-01-07,2025-01-07
+96,OPEN_PRICES,8906142560421,Nourish Organics Popeas Organic Chickpea Protein Puffs,45,12,,,,missing,Branded product,2025-01-19,2025-01-19
+97,OPEN_PRICES,8906143890107,Dark Chocolate Peanut Butter,46,17,0.325,kg,325 g,api_product_quantity,Branded product,2025-01-23,2025-01-23
+98,OPEN_PRICES,8901030831706,Mixed Fruit Jam,47,10,0.5,kg,500 g,api_product_quantity,Branded product,2025-01-24,2025-01-24
+99,OPEN_PRICES,8901491103800,Oats,48,15,1.0,kg,1 kg,api_product_quantity,Branded product,2025-01-24,2025-01-24
+100,OPEN_PRICES,8901393018134,Chupa Chups Bites Multi Colour,49,16,0.061,kg,61 g,api_product_quantity,Branded product,2025-01-27,2025-01-27
+101,OPEN_PRICES,8904043551548,Modern 100% Whole Wheat Bread,34,11,0.4,kg,400 g,api_product_quantity,Branded product,2025-01-30,2025-03-09
+102,OPEN_PRICES,8908002126068,Mahabhringaraj Oil,2,19,0.5,l,500 ml,api_product_quantity,Branded product,2025-02-07,2025-02-07
+103,OPEN_PRICES,8906010502201,Chana Jor Garam,50,11,0.25,kg,250 g,api_product_quantity,Branded product,2025-02-11,2025-02-11
+104,OPEN_PRICES,6291100212606,Date Crown Bumaan,51,20,0.5,kg,500 g,api_product_quantity,Branded product,2025-02-22,2025-04-04
+105,OPEN_PRICES,8901764042911,Thums up,52,13,0.25,l,250 ml,api_product_quantity,Branded product,2025-02-26,2025-02-26
+106,OPEN_PRICES,8908002105117,Brown Bread,53,11,0.4,kg,400 g,api_product_quantity,Branded product,2025-02-27,2025-02-27
+107,OPEN_PRICES,8903363010704,DMart Premia Rajma Kashmiri,54,17,,,,missing,Branded product,2025-02-27,2025-02-27
+108,OPEN_PRICES,8904288611403,Green chilli pickle,2,12,1.0,kg,1 kg,api_product_quantity,Branded product,2025-02-28,2025-02-28
+109,OPEN_PRICES,8904089993807,Heritage A-One Spiced Buttermilk,32,14,0.18,l,180 ml,api_product_quantity,Branded product,2025-03-06,2025-03-06
+110,OPEN_PRICES,8906010500542,Balaji Wafers Sev Murmura,50,12,,,,missing,Branded product,2025-03-05,2025-03-05
+111,OPEN_PRICES,8906036670977,Nandini Paneer,55,14,0.2,kg,200 g,api_product_quantity,Branded product,2025-03-02,2025-03-02
+112,OPEN_PRICES,8901725006693,Besan,2,12,0.5,kg,500 g,api_product_quantity,Branded product,2025-03-12,2025-03-12
+113,OPEN_PRICES,8906113490801,Masala Oats and Millets,56,17,0.035,kg,35 g,api_product_quantity,Branded product,2025-03-18,2025-03-18
+114,OPEN_PRICES,8904004400045,,21,18,0.2,kg,200 g,api_product_quantity,Branded product,2025-03-18,2025-03-18
+115,OPEN_PRICES,8906032018810,Patanjali Doodh biscuits,57,11,0.8,kg,800 g,api_product_quantity,Branded product,2025-03-22,2025-03-22
+116,OPEN_PRICES,8902901226690,Sago,37,12,0.2,kg,200 g,api_product_quantity,Branded product,2025-03-22,2025-03-22
+117,OPEN_PRICES,8901719101038,Parle - G,28,11,,,,missing,Branded product,2025-03-24,2025-03-24
+118,OPEN_PRICES,8906080604751,Swing Coconut Water Drink,23,13,1.2,l,1.2 l,api_product_quantity,Branded product,2025-03-02,2025-09-23
+119,OPEN_PRICES,8901030698316,,58,10,0.375,kg,375 g,api_product_quantity,Branded product,2025-02-22,2025-02-22
+120,OPEN_PRICES,8904256020572,,29,19,0.004,kg,4 g,api_product_quantity,Branded product,2025-03-26,2025-03-26
+121,OPEN_PRICES,8908003392332,Red Chilly,59,10,0.2,kg,200 g,api_product_quantity,Branded product,2025-03-27,2025-03-27
+122,OPEN_PRICES,8904132909953,Natural honey,60,10,1.0,kg,1 kg,api_product_quantity,Branded product,2025-03-27,2025-03-27
+123,OPEN_PRICES,8902080000722,Slice,61,12,0.125,l,125 ml,api_product_quantity,Branded product,2025-03-28,2025-03-28
+124,OPEN_PRICES,8809624507009,Mirabelle sheet mask,2,19,0.025,l,25 ml,api_product_quantity,Branded product,2025-03-29,2025-03-29
+125,OPEN_PRICES,00001292,,2,9,,,,missing,Branded product,2025-03-29,2025-03-29
+126,OPEN_PRICES,8906005274106,Gentle Skin Cleanser,62,19,0.125,l,125 ml,api_product_quantity,Branded product,2025-03-29,2025-03-29
+127,OPEN_PRICES,8901396601517,,2,9,,,,missing,Branded product,2025-03-29,2025-03-29
+128,OPEN_PRICES,8904132928640,Oats,63,15,1.5,kg,1.5 kg,api_product_quantity,Branded product,2025-03-31,2025-03-31
+129,OPEN_PRICES,8901042968926,Spicy Sambar Powder,64,17,,,,missing,Branded product,2025-04-01,2025-04-01
+130,OPEN_PRICES,8901719127786,Melody Chocolaty,28,16,0.17500000000000002,kg,175 g,api_product_quantity,Branded product,2025-04-05,2025-04-05
+131,OPEN_PRICES,8906010502232,Balaji wafers panjabi tadka,50,18,0.022,kg,22 g,api_product_quantity,Branded product,2025-04-08,2025-04-08
+132,OPEN_PRICES,8906010500023,Potato Wafers,50,18,,,,missing,Branded product,2025-04-08,2025-04-08
+133,OPEN_PRICES,8908023008022,Celnutra 2.0,65,14,0.4,kg,400 g,api_product_quantity,Branded product,2025-04-12,2025-04-12
+134,OPEN_PRICES,8904336800339,Konnect Core II,66,21,,,,missing,Branded product,2025-04-12,2025-04-12
+135,OPEN_PRICES,89080153,Maggi masala magic,3,17,0.006,kg,6 g,api_product_quantity,Branded product,2025-04-18,2025-04-18
+136,OPEN_PRICES,8901030897542,Kissan Fresh Tomato,67,10,0.09,kg,90 g,api_product_quantity,Branded product,2025-04-20,2025-04-20
+137,OPEN_PRICES,8901207052804,Red,68,19,0.2,kg,200 g,api_product_quantity,Branded product,2025-04-20,2025-04-20
+138,OPEN_PRICES,8901287100518,Mysore Sandal Soap,69,22,0.45,kg,450 g,api_product_quantity,Branded product,2025-04-20,2025-06-28
+139,OPEN_PRICES,8901030970351,Pepsodent,70,19,0.2,kg,200 g,api_product_quantity,Branded product,2025-04-20,2025-04-20
+140,OPEN_PRICES,8901030942709,Glow & Lovely,47,19,0.08,kg,80 g,api_product_quantity,Branded product,2025-04-20,2025-04-20
+141,OPEN_PRICES,8901207049644,Dabur RED,68,19,0.036000000000000004,kg,36 g,api_product_quantity,Branded product,2025-04-20,2025-06-28
+142,OPEN_PRICES,8909106018006,Vim,71,22,0.5,l,500 ml,api_product_quantity,Branded product,2025-04-20,2025-04-20
+143,OPEN_PRICES,8909106013919,Bru Instant Coffee,47,17,0.006,kg,6 g,api_product_quantity,Branded product,2025-04-20,2025-04-20
+144,OPEN_PRICES,8909106040175,Boost,47,13,0.55,kg,550 g,api_product_quantity,Branded product,2025-04-20,2025-09-14
+145,OPEN_PRICES,8901138500719,,72,19,,,,missing,Branded product,2025-04-22,2025-04-22
+146,OPEN_PRICES,8906125670246,Gulas Jaggery Powder,73,17,0.5,kg,500 g,api_product_quantity,Branded product,2025-04-21,2025-04-21
+147,OPEN_PRICES,8904320036683,DiSana,74,17,0.1,kg,100 g,api_product_quantity,Branded product,2025-04-21,2025-04-21
+148,OPEN_PRICES,TA024473,,2,9,,,,missing,Branded product,2025-04-21,2025-04-21
+149,OPEN_PRICES,8901764042805,Thums Up,75,13,1.25,l,1.25 l,api_product_quantity,Branded product,2025-04-26,2025-04-26
+150,OPEN_PRICES,8901499010476,,19,15,0.5,kg,500 g,api_product_quantity,Branded product,2025-04-14,2025-04-14
+151,OPEN_PRICES,8901725001070,Aashirvaad Double Roasted Suji Rava,76,17,0.5,kg,500 g,api_product_quantity,Branded product,2025-04-27,2025-04-27
+152,OPEN_PRICES,8902710500752,Nutty Fruity Muesli,77,15,,,,missing,Branded product,2025-04-28,2025-04-28
+153,OPEN_PRICES,8901030975530,Boost milk shake,78,14,0.18,l,180 ml,api_product_quantity,Branded product,2025-04-30,2025-04-30
+154,OPEN_PRICES,0941559124543,,2,9,,,,missing,Branded product,2025-05-07,2025-05-07
+155,OPEN_PRICES,8901030695452,Matic Liquid,79,23,1.0,l,1 l,api_product_quantity,Branded product,2025-05-15,2025-06-25
+156,OPEN_PRICES,8901314009081,Active Salt,80,19,0.2,kg,200 g,api_product_quantity,Branded product,2025-05-15,2025-05-15
+157,OPEN_PRICES,8908021430016,Bombay Mixture,81,12,0.25,kg,250 g,api_product_quantity,Branded product,2025-05-17,2025-05-17
+158,OPEN_PRICES,8906032019664,Aarogya Multigrain Biscuits,57,11,0.075,kg,75 g,api_product_quantity,Branded product,2025-05-18,2025-05-18
+159,OPEN_PRICES,8906010500214,Balaji Wafers Sev Murmura,50,15,0.025,kg,25 g,api_product_quantity,Branded product,2025-05-18,2025-05-18
+160,OPEN_PRICES,8901288011004,Vicco Vajradanti Paste,82,19,0.1,kg,100 g,api_product_quantity,Branded product,2025-05-20,2025-05-20
+161,OPEN_PRICES,8906011830068,Sooji,83,12,0.5,kg,500 g,api_product_quantity,Branded product,2025-05-20,2025-05-20
+162,OPEN_PRICES,4987205000140,Bigen Speedy Hair Colour Conditioner,84,19,0.08,kg,80 g,api_product_quantity,Branded product,2025-05-20,2025-05-20
+163,OPEN_PRICES,8901595862818,Dark Soy sauce,85,10,0.09,kg,90 g,api_product_quantity,Branded product,2025-05-23,2025-05-23
+164,OPEN_PRICES,8904320015398,Peanut butter Creamy,86,17,0.924,kg,924 g,api_product_quantity,Branded product,2025-05-27,2025-05-27
+165,OPEN_PRICES,8901393019117,Happydent wave sugarfree,2,16,0.017,kg,17 g,api_product_quantity,Branded product,2025-05-31,2025-05-31
+166,OPEN_PRICES,8901042955254,MTR Puliogare Paste,87,10,0.2,kg,200 g,api_product_quantity,Branded product,2025-01-18,2025-01-18
+167,OPEN_PRICES,8901030851070,Kissan Jam,67,10,1.0,kg,1 kg,api_product_quantity,Branded product,2025-06-03,2025-06-03
+168,OPEN_PRICES,8901414001176,Bikano peanut salted 200g,88,20,0.2,kg,200 g,api_product_quantity,Branded product,2025-06-05,2025-06-05
+169,OPEN_PRICES,89000564,,75,13,0.5,l,500 ml,api_product_quantity,Branded product,2025-06-07,2025-06-07
+170,OPEN_PRICES,8904043551524,Modern Family Special Bread,34,11,,,,missing,Branded product,2025-06-08,2025-06-08
+171,OPEN_PRICES,0811307031716,Peanuts,89,20,,,,missing,Branded product,2025-06-09,2025-06-09
+172,OPEN_PRICES,8901044105343,,2,9,,,,missing,Branded product,2025-06-09,2025-06-09
+173,OPEN_PRICES,8906041151348,Mango Burfi,90,16,0.25,kg,250 g,api_product_quantity,Branded product,2025-06-09,2025-06-09
+174,OPEN_PRICES,8908005144359,Breakfast protein bar,16,16,0.045,kg,45 g,api_product_quantity,Branded product,2025-06-10,2025-06-10
+175,OPEN_PRICES,8906069852043,Cups Papad,91,11,0.005,kg,5 g,api_product_quantity,Branded product,2025-06-10,2025-06-10
+176,OPEN_PRICES,8906078722122,Chips,92,18,0.02,kg,20 g,api_product_quantity,Branded product,2025-06-10,2025-06-10
+177,OPEN_PRICES,00027687,Safawi dates,93,20,,,,missing,Branded product,2025-06-10,2025-06-10
+178,OPEN_PRICES,8908014250003,Almond Brittle,94,16,,,,missing,Branded product,2025-06-10,2025-06-10
+179,OPEN_PRICES,8901719131141,Parle 20-20 Cashew Cookies,28,11,0.035,kg,35 g,api_product_quantity,Branded product,2025-06-05,2025-06-05
+180,OPEN_PRICES,7622202334009,Dairy Milk,95,16,0.011,kg,11 g,api_product_quantity,Branded product,2025-06-10,2025-06-10
+181,OPEN_PRICES,8901030951091,,2,9,,,,missing,Branded product,2025-06-10,2025-06-10
+182,OPEN_PRICES,8906005274137,Moisturising Lotion,62,19,0.1,l,100 ml,api_product_quantity,Branded product,2025-06-12,2025-06-12
+183,OPEN_PRICES,8901207062865,Hajmola,68,12,,,,missing,Branded product,2025-06-13,2025-06-13
+184,OPEN_PRICES,8901246005373,Tomato Ketchup Classic Blend,96,10,0.9,kg,900 g,api_product_quantity,Branded product,2025-06-13,2025-06-13
+185,OPEN_PRICES,8901030979354,,97,9,,,,missing,Branded product,2025-06-13,2025-06-13
+186,OPEN_PRICES,8908001658058,Ocean Fruit drink crispy apple flavour,98,13,0.5,l,500 ml,api_product_quantity,Branded product,2025-06-14,2025-06-14
+187,OPEN_PRICES,8904132976351,Energy Drink Berry Kick,99,13,0.185,l,185 ml,api_product_quantity,Branded product,2025-06-14,2025-06-14
+188,OPEN_PRICES,8906060010107,Crushed peanut chikki,100,11,0.5,kg,500 g,api_product_quantity,Branded product,2025-06-15,2025-06-15
+189,OPEN_PRICES,8901725118921,Tedha Medha,101,18,,,,missing,Branded product,2025-06-16,2025-06-17
+190,OPEN_PRICES,8901012136010,Listerine,102,19,0.08,l,80 ml,api_product_quantity,Branded product,2025-06-16,2025-06-16
+191,OPEN_PRICES,8901207027253,Dabur Red,68,19,0.1,kg,100 g,api_product_quantity,Branded product,2025-06-13,2025-06-13
+192,OPEN_PRICES,8901030985812,3 Roses Tea,103,17,0.1,kg,100 g,api_product_quantity,Branded product,2025-06-13,2025-06-13
+193,OPEN_PRICES,00000723,Kaju Katli,104,16,0.25,kg,250 g,api_product_quantity,Branded product,2025-06-20,2025-06-20
+194,OPEN_PRICES,8901063092754,Good Day Fruit &Nut,105,11,,,,missing,Branded product,2025-06-24,2025-06-24
+195,OPEN_PRICES,8901088002530,Tasty+,106,5,0.8200000000000001,kg,820 g,api_product_quantity,Branded product,2025-06-24,2025-06-24
+196,OPEN_PRICES,8908002584103,Export Quality flavoured tea,107,17,0.05,kg,50 g,api_product_quantity,Branded product,2025-06-25,2025-06-25
+197,OPEN_PRICES,8909106006478,Surf Excel Quick Wash Detergent Powder,79,23,1.0,kg,1 kg,api_product_quantity,Branded product,2025-06-25,2025-06-25
+198,OPEN_PRICES,8901396151005,Harpic,108,22,0.5,l,500 ml,api_product_quantity,Branded product,2025-06-25,2025-06-25
+199,OPEN_PRICES,8901030795589,Dove Cream Beauty Bar,109,12,0.1,kg,100 g,api_product_quantity,Branded product,2025-06-25,2025-09-14
+200,OPEN_PRICES,8901207027420,Toothpaste,68,19,0.3,kg,300 g,api_product_quantity,Branded product,2025-06-25,2025-06-25
+201,OPEN_PRICES,8906080603280,Green Apple Sparkling Water,23,13,0.6,l,600 ml,api_product_quantity,Branded product,2025-06-18,2025-06-18
+202,OPEN_PRICES,8909106026346,Surf Excel Easy Wash Blue,110,23,0.5,kg,500 g,api_product_quantity,Branded product,2025-06-28,2025-06-28
+203,OPEN_PRICES,8901030970368,Pepsodent Germi Check Toothpaste,111,19,0.3,kg,300 g,api_product_quantity,Branded product,2025-06-28,2025-06-28
+204,OPEN_PRICES,8901030907449,Hamam 100% Pure Neem Oil,112,19,0.1,kg,100 g,api_product_quantity,Branded product,2025-06-28,2025-06-28
+205,OPEN_PRICES,8906019779659,Chia Seeds,113,20,0.1,kg,100 g,api_product_quantity,Branded product,2025-06-12,2025-06-12
+206,OPEN_PRICES,8909106010772,Ponds,114,19,0.019,kg,19 g,api_product_quantity,Branded product,2025-07-02,2025-07-02
+207,OPEN_PRICES,8901262301862,Protein Kulfi,115,12,0.24,kg,240 g,api_product_quantity,Branded product,2025-07-03,2025-07-03
+208,OPEN_PRICES,8901030971839,Vaseline Deep Moisturizer,47,19,0.4,l,400 ml,api_product_quantity,Branded product,2025-07-10,2025-07-10
+209,OPEN_PRICES,0099482410681,Organic Tomato Ketchup,116,10,,,,missing,Branded product,2025-07-12,2025-07-12
+210,OPEN_PRICES,8902080000227,Sting Energy,117,13,,,,missing,Branded product,2025-07-12,2025-07-12
+211,OPEN_PRICES,8901725007102,Bingo,76,18,0.021,kg,21 g,api_product_quantity,Branded product,2025-07-16,2025-07-16
+212,OPEN_PRICES,8901063019188,Little Hearts,14,11,,,,missing,Branded product,2025-07-16,2025-07-16
+213,OPEN_PRICES,8901764082405,Kinley Mineral Water 1ltr,118,13,1.0,l,1 l,parsed_product_name,Branded product,2025-07-16,2025-07-16
+214,OPEN_PRICES,8904335602392,Daily 10g Protein Bar,16,24,0.05,kg,50 g,api_product_quantity,Branded product,2025-07-17,2025-07-17
+215,OPEN_PRICES,8906002008537,Peanut Butter Creamy,119,17,0.75,kg,750 g,api_product_quantity,Branded product,2025-07-17,2025-07-17
+216,OPEN_PRICES,8908002701197,Mixed pickle in oil,120,12,0.4,kg,400 g,api_product_quantity,Branded product,2025-07-17,2025-07-17
+217,OPEN_PRICES,8901571004829,Sensodyne Rapid Relief,121,19,0.04,kg,40 g,api_product_quantity,Branded product,2025-07-17,2025-07-17
+218,OPEN_PRICES,8906095124732,Chia seeds,35,20,,,,missing,Branded product,2025-07-21,2025-07-21
+219,OPEN_PRICES,8904336807512,Konnect B,66,21,0.036000000000000004,kg,36 g,api_product_quantity,Branded product,2025-07-23,2025-07-23
+220,OPEN_PRICES,8806090000973,"Type C to C Cable, EP-DA705",122,21,,,,missing,Branded product,2025-07-23,2025-07-23
+221,OPEN_PRICES,8901192205100,Catch Chat Masala,13,10,0.1,kg,100 g,api_product_quantity,Branded product,2025-07-27,2025-07-27
+222,OPEN_PRICES,8906010502294,Flaming hot nachos,2,18,,,,missing,Branded product,2025-07-27,2025-07-27
+223,OPEN_PRICES,8909081000263,Sunfast darkfasy,2,11,0.249,kg,249 g,api_product_quantity,Branded product,2025-07-24,2025-07-24
+224,OPEN_PRICES,8906078262178,Bourbo,123,11,0.5,kg,500 g,api_product_quantity,Branded product,2025-08-02,2025-08-02
+225,OPEN_PRICES,8906146680958,Vitamin C Body Wash,124,19,0.3,l,300 ml,api_product_quantity,Branded product,2025-08-07,2025-08-07
+226,OPEN_PRICES,8904037212318,Noni Juice Concentrate Ayurvedic Medicine,125,19,1.0,kg,1 kg,api_product_quantity,Branded product,2025-08-07,2025-08-07
+227,OPEN_PRICES,8901063029316,brittania Jimjam pops,14,11,0.35000000000000003,kg,350 g,api_product_quantity,Branded product,2025-08-08,2025-08-08
+228,OPEN_PRICES,8906078721026,Chips Creamy Onion,126,18,0.03,kg,30 g,api_product_quantity,Branded product,2025-08-14,2025-08-14
+229,OPEN_PRICES,8901058017687,Maggi,3,15,,,,missing,Branded product,2025-08-15,2026-04-22
+230,OPEN_PRICES,8905604003025,Drink,127,9,0.16,l,160 ml,api_product_quantity,Branded product,2025-06-19,2025-06-19
+231,OPEN_PRICES,8901764372803,Minute maid,2,9,0.25,l,250 ml,api_product_quantity,Branded product,2025-06-05,2025-06-05
+232,OPEN_PRICES,8939217882562,PR Golden Tea,128,17,0.25,kg,250 g,api_product_quantity,Branded product,2025-08-24,2025-08-24
+233,OPEN_PRICES,8909106030534,Glow & Lovely Re-New Bright Advanced Multi Vitamin Serum in Cream,129,19,0.08,kg,80 g,api_product_quantity,Branded product,2025-08-24,2025-08-24
+234,OPEN_PRICES,8904335604150,Yoga Bar Millet Muesli,16,15,0.5,kg,500 g,api_product_quantity,Branded product,2025-08-24,2025-08-24
+235,OPEN_PRICES,8901764061257,Diet Coke Can 250ml,75,13,0.25,l,250 ml,parsed_product_name,Branded product,2025-08-25,2025-08-25
+236,OPEN_PRICES,8904089974844,Heritage Milk Shake,32,14,0.18,l,180 ml,api_product_quantity,Branded product,2025-08-26,2025-08-26
+237,OPEN_PRICES,8906018302001,Vijaya Ground nut oil,130,12,1.0,l,1 l,api_product_quantity,Branded product,2025-09-06,2025-09-06
+238,OPEN_PRICES,8906020460010,Harvest Gold White Bread,131,11,0.7000000000000001,kg,700 g,api_product_quantity,Branded product,2025-08-21,2025-08-21
+239,OPEN_PRICES,8901719135354,Parle Monaco Cheeslings,2,9,,,,missing,Branded product,2025-09-10,2025-09-10
+240,OPEN_PRICES,8906031251263,,2,9,,,,missing,Branded product,2025-09-10,2025-09-10
+241,OPEN_PRICES,8901063017399,Britannia 5050 maska chaska (300g),14,11,0.3,kg,300 g,api_product_quantity,Branded product,2025-09-10,2025-09-10
+242,OPEN_PRICES,8901764032707,Sprite,75,13,0.6,l,600 ml,api_product_quantity,Branded product,2025-09-10,2025-09-10
+243,OPEN_PRICES,8906006720305,,2,9,,,,missing,Branded product,2025-09-10,2025-09-10
+244,OPEN_PRICES,8901063162600,Marie Gold,14,11,0.117,kg,117 g,api_product_quantity,Branded product,2025-09-10,2025-09-10
+245,OPEN_PRICES,0986614900106,OK Hyderabadi Veg Biriyani,132,11,0.025,kg,25 g,api_product_quantity,Branded product,2025-09-11,2025-09-11
+246,OPEN_PRICES,8909106051096,Surf Excel Matic Top Load Liquid Detergent,79,23,1.0,l,1 l,api_product_quantity,Branded product,2025-09-14,2025-09-14
+247,OPEN_PRICES,8901030535697,Maha Bar,133,22,0.11,kg,110 g,api_product_quantity,Branded product,2025-09-14,2025-09-14
+248,OPEN_PRICES,8901030985843,3 Roses,134,17,0.5,kg,500 g,api_product_quantity,Branded product,2025-09-14,2025-09-14
+249,OPEN_PRICES,8906010503253,Balaji Wafers Dum Bar,50,16,0.019,kg,19 g,api_product_quantity,Branded product,2025-09-21,2025-09-24
+250,OPEN_PRICES,8901396350200,Dettol 125Ml,135,19,0.125,l,125 ml,api_product_quantity,Branded product,2025-09-24,2025-09-24
+251,OPEN_PRICES,8909106051102,Surf Excel Matic Front Load Liquid Detergent,79,23,1.0,l,1 l,api_product_quantity,Branded product,2025-09-27,2025-09-27
+252,OPEN_PRICES,8901262071048,Amul Sugar free chocolate,115,16,0.15,kg,150 g,api_product_quantity,Branded product,2025-09-28,2025-09-28
+253,OPEN_PRICES,7622202307171,Shots,18,16,,,,missing,Branded product,2025-09-28,2025-09-28
+254,OPEN_PRICES,8901058005233,Kitkat mini chocolate coated wafer,136,11,0.011,kg,11 g,api_product_quantity,Branded product,2025-09-28,2025-09-28
+255,OPEN_PRICES,8901262301435,Berry Dazzle,115,16,0.125,l,125 ml,api_product_quantity,Branded product,2025-10-02,2025-10-02
+256,OPEN_PRICES,8906153561707,Mango Lassi,55,14,0.18,l,180 ml,api_product_quantity,Branded product,2025-10-02,2025-10-02
+257,OPEN_PRICES,8906001022626,Gowardhan Star Dahi,137,14,0.5,kg,500 g,api_product_quantity,Branded product,2025-10-02,2025-10-02
+258,OPEN_PRICES,8901888005748,Real Masala Mixed Fruit Juice,138,13,1.0,l,1 l,api_product_quantity,Branded product,2025-10-04,2025-10-04
+259,OPEN_PRICES,8908010900070,Pintola all natural peanut butter (crunchy),139,17,1.0,kg,1 kg,api_product_quantity,Branded product,2025-10-05,2025-10-05
+260,OPEN_PRICES,8908001105446,The Only Cinnamon Powder you need,140,17,0.045,kg,45 g,api_product_quantity,Branded product,2025-06-05,2025-06-05
+261,OPEN_PRICES,8901030718861,,2,11,,,,missing,Branded product,2025-10-12,2025-10-12
+262,OPEN_PRICES,8908012605010,Tomato Ketchup,141,10,0.45,kg,450 g,api_product_quantity,Branded product,2025-10-13,2025-10-13
+263,OPEN_PRICES,8901262010320,Amul Butter,115,5,0.2,kg,200 g,api_product_quantity,Branded product,2025-08-24,2025-08-24
+264,OPEN_PRICES,8901262090469,T-Special Premium Dairy Whitener,115,14,0.022,kg,22 g,api_product_quantity,Branded product,2025-10-16,2025-10-16
+265,OPEN_PRICES,8909106018327,Boost,142,13,0.009000000000000001,kg,9 g,api_product_quantity,Branded product,2025-10-19,2025-10-19
+266,OPEN_PRICES,8908015676215,Purple Sweet Potato with Panipuri Masala,143,18,0.075,kg,75 g,api_product_quantity,Branded product,2025-10-19,2025-10-19
+267,OPEN_PRICES,8906010911218,Bada Cup Vanilla Ice Cream,144,16,0.08,l,80 ml,api_product_quantity,Branded product,2025-10-26,2025-10-26
+268,OPEN_PRICES,8908013479122,Peanut Butter Protein Bar,46,24,0.052000000000000005,kg,52 g,api_product_quantity,Branded product,2025-10-26,2025-10-26
+269,OPEN_PRICES,8908017474444,Safawy Kalmi,51,20,0.5,kg,500 g,api_product_quantity,Branded product,2025-10-27,2025-10-27
+270,OPEN_PRICES,8903363009067,Roasted and Salted Pista,145,18,0.4,kg,400 g,api_product_quantity,Branded product,2025-10-27,2025-10-27
+271,OPEN_PRICES,4987176244987,Vicks VapoRub,146,22,0.05,l,50 ml,api_product_quantity,Branded product,2025-11-02,2025-11-02
+272,OPEN_PRICES,8904083303077,Farm Fresh Sahi Plain Yoghurt,147,14,1.0,kg,1 kg,api_product_quantity,Branded product,2025-11-02,2025-11-02
+273,OPEN_PRICES,8906010500375,Tikha Mitha Mix,50,12,0.048,kg,48 g,api_product_quantity,Branded product,2025-11-04,2025-11-04
+274,OPEN_PRICES,0706502578329,Jain Misal,148,15,0.085,kg,85 g,api_product_quantity,Branded product,2025-11-05,2025-11-05
+275,OPEN_PRICES,0810048090020,Patra,149,12,0.2,kg,200 g,api_product_quantity,Branded product,2025-11-06,2025-11-06
+276,OPEN_PRICES,8908009523013,Badam Flavoured Milk,150,13,0.18,l,180 ml,api_product_quantity,Branded product,2025-11-09,2025-11-09
+277,OPEN_PRICES,8904001800237,,151,5,0.914,kg,914 g,api_product_quantity,Branded product,2025-11-09,2025-11-09
+278,OPEN_PRICES,8906112662803,Muesli,152,15,1.0,kg,1 kg,api_product_quantity,Branded product,2025-11-10,2025-11-10
+279,OPEN_PRICES,8909106034938,Magnum Chocolate Truffle,153,16,0.063,kg,63 g,api_product_quantity,Branded product,2025-11-10,2025-11-10
+280,OPEN_PRICES,0048107251123,100% Whey Protein Pro Performance,154,24,0.907,kg,907 g,api_product_quantity,Branded product,2025-11-12,2025-11-12
+281,OPEN_PRICES,0000103595317,,2,9,,,,missing,Branded product,2025-11-15,2025-11-15
+282,OPEN_PRICES,8998009010224,Ultra milk full cream,155,14,0.25,l,250 ml,api_product_quantity,Branded product,2025-11-15,2025-11-15
+283,OPEN_PRICES,8901030817281,Boost,47,13,0.5,kg,500 g,api_product_quantity,Branded product,2025-11-15,2025-11-15
+284,OPEN_PRICES,9786237447450,,2,9,,,,missing,Branded product,2025-11-16,2025-11-16
+285,OPEN_PRICES,9786237447863,Makanan kucing dewasa,156,25,,,,missing,Branded product,2025-11-16,2025-11-16
+286,OPEN_PRICES,9786023178643,Tahi ayam,157,19,,,,missing,Branded product,2025-11-16,2025-11-16
+287,OPEN_PRICES,8906010504878,Khichiya Papad,50,12,,,,missing,Branded product,2025-11-11,2025-11-11
+288,OPEN_PRICES,11928227,Chocolate Feast,158,16,0.062,kg,62 g,api_product_quantity,Branded product,2025-11-20,2025-11-20
+289,OPEN_PRICES,8902080105045,Pepsi,159,13,0.3,l,300 ml,api_product_quantity,Branded product,2025-11-20,2025-11-20
+290,OPEN_PRICES,8906161680049,Furpro-40,160,12,0.4,kg,400 g,api_product_quantity,Branded product,2025-12-01,2025-12-01
+291,OPEN_PRICES,8901491103794,Oats,61,15,0.4,kg,400 g,api_product_quantity,Branded product,2025-12-01,2025-12-01
+292,OPEN_PRICES,8901691000633,Everyday Battery,161,22,,,,missing,Branded product,2025-12-08,2025-12-08
+293,OPEN_PRICES,8904256023283,Nivea body milk,29,19,,,,missing,Branded product,2025-12-01,2025-12-01
+294,OPEN_PRICES,8901063370050,Good day,162,11,0.1,kg,100 g,api_product_quantity,Branded product,2025-12-11,2025-12-11
+295,OPEN_PRICES,8901262180016,Malai Paneer,115,14,0.2,kg,200 g,api_product_quantity,Branded product,2025-12-11,2025-12-11
+296,OPEN_PRICES,8906112993723,Double Protein Brown Bread,163,11,0.27,kg,270 g,api_product_quantity,Branded product,2025-12-11,2025-12-11
+297,OPEN_PRICES,8901058010749,Maggie,164,16,0.28,kg,280 g,api_product_quantity,Branded product,2025-12-01,2025-12-01
+298,OPEN_PRICES,8901262223379,Jiralu Masala Ghee Khakhra,115,18,0.2,kg,200 g,api_product_quantity,Branded product,2025-12-03,2025-12-03
+299,OPEN_PRICES,8908014757045,Mumbai Bhaji,165,15,0.3,kg,300 g,api_product_quantity,Branded product,2025-12-03,2025-12-03
+300,OPEN_PRICES,8906112662414,Rolled oats,152,17,0.5,kg,500 g,api_product_quantity,Branded product,2025-12-14,2025-12-14
+301,OPEN_PRICES,8906120100137,Chia seeds,166,17,0.2,kg,200 g,api_product_quantity,Branded product,2025-12-14,2025-12-14
+302,OPEN_PRICES,8908002735055,Mik bread,167,11,0.45,kg,450 g,api_product_quantity,Branded product,2025-12-16,2025-12-16
+303,OPEN_PRICES,8902519002020,Classmate book,168,12,0.05,kg,50 g,api_product_quantity,Branded product,2025-12-16,2025-12-16
+304,OPEN_PRICES,8906024482049,Cow ghee,169,5,0.5,l,500 ml,api_product_quantity,Branded product,2025-12-17,2025-12-17
+305,OPEN_PRICES,CAT:en:legume-seeds,,2,9,1.0,unit,1 unit(s),price_per_field,Branded product,2025-12-18,2025-12-18
+306,OPEN_PRICES,8906010503543,Balaji Crunchem Chaat Chaska,50,18,,,,missing,Branded product,2026-01-09,2026-01-09
+307,OPEN_PRICES,4987176164155,Baby Diaper XL,170,26,,,,missing,Branded product,2026-01-09,2026-01-09
+308,OPEN_PRICES,8901512102904,Sundrop Superlite Advanced Refined Sunflower Oil,171,5,1.0,l,1 l,api_product_quantity,Branded product,2026-01-10,2026-01-10
+309,OPEN_PRICES,8901548310403,DoodhShakti,172,5,,,,missing,Branded product,2026-01-18,2026-01-18
+310,OPEN_PRICES,8000500418512,Schokobons crispy,173,11,0.022,kg,22 g,api_product_quantity,Branded product,2026-01-18,2026-01-18
+311,OPEN_PRICES,8902433007385,Orbit,174,16,0.003,kg,3 g,api_product_quantity,Branded product,2026-01-18,2026-01-18
+312,OPEN_PRICES,8904320075446,Chocolate Peanut Butter,86,17,0.35000000000000003,kg,350 g,api_product_quantity,Branded product,2026-01-29,2026-01-29
+313,OPEN_PRICES,80177173,Nutella,173,10,0.015,kg,15 g,api_product_quantity,Branded product,2026-01-30,2026-01-30
+314,OPEN_PRICES,8904057396289,Hatsun Curd,175,14,0.2,kg,200 g,api_product_quantity,Branded product,2026-02-07,2026-02-07
+315,OPEN_PRICES,8901262152228,Amul kool elaichi 180ml,115,14,0.18,l,180 ml,api_product_quantity,Branded product,2026-02-10,2026-02-10
+316,OPEN_PRICES,8901972075688,Waffy,176,9,,,,missing,Branded product,2026-02-13,2026-02-13
+317,OPEN_PRICES,8902080304059,7up Super Duper 750ml,12,13,0.75,l,750 ml,parsed_product_name,Branded product,2026-02-14,2026-02-14
+318,OPEN_PRICES,8901764032301,Sprite,177,13,1.0,l,1 l,api_product_quantity,Branded product,2026-02-17,2026-02-17
+319,OPEN_PRICES,8906010090869,100 % Mozzarella Cheese,178,14,,,,missing,Branded product,2026-02-21,2026-02-21
+320,OPEN_PRICES,8908001017855,Peri Peri Nacho Crisps,179,18,0.15,kg,150 g,api_product_quantity,Branded product,2026-02-21,2026-02-21
+321,OPEN_PRICES,8720169185777,LED Lamp 12w,180,22,,,,missing,Branded product,2026-02-25,2026-02-25
+322,OPEN_PRICES,4006040132974,Sonnenblumenöl,181,5,,,,missing,Branded product,2026-02-26,2026-02-26
+323,OPEN_PRICES,8901063032675,B. waffy choco,14,11,0.05,kg,50 g,api_product_quantity,Branded product,2026-03-05,2026-03-05
+324,OPEN_PRICES,8901399084515,Glucose,182,12,1.0,kg,1 kg,api_product_quantity,Branded product,2026-03-05,2026-03-05
+325,OPEN_PRICES,8903363008275,Roasted Yellow Chana,54,12,0.2,kg,200 g,api_product_quantity,Branded product,2026-03-05,2026-03-05
+326,OPEN_PRICES,8901262180115,Malai Paneer Fresh,115,14,0.2,kg,200 g,api_product_quantity,Branded product,2026-03-05,2026-03-05
+327,OPEN_PRICES,8901262201001,Amul Spiced Buttermilk,115,14,0.2,l,200 ml,api_product_quantity,Branded product,2026-03-11,2026-03-11
+328,OPEN_PRICES,8906140204020,Omani Seedless Dates,183,20,0.5,kg,500 g,api_product_quantity,Branded product,2026-03-13,2026-03-13
+329,OPEN_PRICES,8909081005053,8909081005053,184,11,0.47100000000000003,kg,471 g,api_product_quantity,Branded product,2026-03-20,2026-03-20
+330,OPEN_PRICES,8901962222375,,2,14,,,,missing,Branded product,2026-03-22,2026-03-22
+331,OPEN_PRICES,8906005506955,8906005506955,2,9,,,,missing,Branded product,2026-03-22,2026-03-22
+332,OPEN_PRICES,1701040600001,Roasted Channa Whole,185,9,,,,missing,Branded product,2026-03-22,2026-03-22
+333,OPEN_PRICES,8901058018639,Milkybar,22,16,,,,missing,Branded product,2026-03-22,2026-03-22
+334,OPEN_PRICES,8902579000370,Frooti mango drink,186,13,0.15,l,150 ml,api_product_quantity,Branded product,2026-04-01,2026-04-01
+335,OPEN_PRICES,8904288603613,Tops Tomato Ketchup,187,10,0.85,kg,850 g,api_product_quantity,Branded product,2026-04-01,2026-04-01
+336,OPEN_PRICES,4897036695678,Monster Energy Pipeline Punch,188,13,0.35000000000000003,l,350 ml,api_product_quantity,Branded product,2026-04-01,2026-04-01
+337,OPEN_PRICES,8906019776092,Arabian Premium Dates,113,20,0.5,kg,500 g,api_product_quantity,Branded product,2026-04-01,2026-04-01
+338,OPEN_PRICES,8901058027129,Maggi 2-minute noodles with limited edition bowl,3,15,0.9,kg,900 g,api_product_quantity,Branded product,2026-04-04,2026-04-04
+339,OPEN_PRICES,8906010500764,Balaji Wafers Chataka Pataka,50,11,0.025,kg,25 g,api_product_quantity,Branded product,2026-04-04,2026-04-04
+340,OPEN_PRICES,97276722,Paper boat NaTa mixed berries,23,13,,,,missing,Branded product,2026-03-27,2026-03-27
+341,OPEN_PRICES,8906090572217,Too yumm,189,18,0.07,kg,70 g,api_product_quantity,Branded product,2026-04-05,2026-04-05
+342,OPEN_PRICES,8906043190451,Soan Papdi,190,12,0.4,kg,400 g,api_product_quantity,Branded product,2026-04-09,2026-04-10
+343,OPEN_PRICES,8901044250197,Mapro Mix Fruit Jam,191,10,0.5,kg,500 g,api_product_quantity,Branded product,2026-03-31,2026-03-31
+344,OPEN_PRICES,8906001020196,Go Cheese Slices,192,14,0.2,kg,200 g,api_product_quantity,Branded product,2026-04-17,2026-04-17
+345,OPEN_PRICES,8906006783362,Dark Soya Shandar Sauce,193,10,0.1,kg,100 g,api_product_quantity,Branded product,2026-04-17,2026-04-17
+346,OPEN_PRICES,8901648097983,Mother Dairy Ultimate Dahi,24,14,0.4,kg,400 g,api_product_quantity,Branded product,2026-04-17,2026-04-17
+347,OPEN_PRICES,8901138836108,Complete Care Toothpaste,72,19,0.15,kg,150 g,api_product_quantity,Branded product,2026-04-26,2026-04-26
+348,OPEN_PRICES,8906188960018,Choco Nut Cookies,194,11,0.075,kg,75 g,api_product_quantity,Branded product,2026-04-26,2026-04-26
+349,OPEN_PRICES,4987176239976,CrissCross Deep Clean Anti-Plaque Toothbrush,195,19,4.0,unit,4 unit(s),parsed_quantity,Branded product,2026-04-26,2026-04-26
+350,OPEN_PRICES,8901396389682,Dettol Skincare Liquid Handwash.,135,19,0.675,l,675 ml,api_product_quantity,Branded product,2026-04-26,2026-04-26
+351,OPEN_PRICES,8909106050426,Surf Excel Matic Front Load Liquid Detergent,196,23,1.0,kg,1 kg,api_product_quantity,Branded product,2026-04-26,2026-04-26
+352,OPEN_PRICES,8908002506969,BAT Shamim Dates,197,20,0.4,kg,400 g,api_product_quantity,Branded product,2026-04-30,2026-04-30
+353,OPEN_PRICES,8901262153331,Amul Protein Blueberry Shake,115,14,,,,missing,Branded product,2026-02-06,2026-02-06
+354,OPEN_PRICES,00697259,,2,12,,,,missing,Branded product,2026-05-02,2026-05-02
+355,OPEN_PRICES,8901058861921,Milky bar,22,16,0.042,kg,42 g,api_product_quantity,Branded product,2026-05-07,2026-05-07
+356,OPEN_PRICES,8901652141047,Veg magic fruit cake,15,11,0.15,kg,150 g,api_product_quantity,Branded product,2026-05-09,2026-05-09
+357,OPEN_PRICES,3948764012990,Coco cola,75,13,0.75,l,750 ml,api_product_quantity,Branded product,2026-05-09,2026-05-09
+358,OPEN_PRICES,8901826601209,Verka Shakti Milk,198,14,0.5,l,500 ml,api_product_quantity,Branded product,2026-05-12,2026-05-12
+359,OPEN_PRICES,8909106066410,Bru Instant Coffee,199,17,0.007,kg,7 g,api_product_quantity,Branded product,2026-05-24,2026-05-24
+360,OPEN_PRICES,89080528,Iced Latté,2,13,0.17,l,170 ml,api_product_quantity,Branded product,2026-05-24,2026-05-24
+361,OPEN_PRICES,8902246014457,Budweiser,2,9,,,,missing,Branded product,2026-05-24,2026-05-24
+362,OPEN_PRICES,8901063368606,Gobbles Frooty Fun Cake,14,11,0.05,kg,50 g,api_product_quantity,Branded product,2026-05-25,2026-05-25
+363,OPEN_PRICES,8996001305706,Mayora Malkist Chocolate Crackers,200,11,0.07200000000000001,kg,72 g,api_product_quantity,Branded product,2026-05-26,2026-05-26
+364,OPEN_PRICES,8906009077017,UNIBIC Fruit & Nut Cookies,194,11,0.075,kg,75 g,api_product_quantity,Branded product,2026-05-26,2026-05-26
+365,OPEN_PRICES,8906192033173,Aparshree Sweet Jelly Hearts Candy,201,16,0.06,kg,60 g,api_product_quantity,Branded product,2026-05-26,2026-05-26
+366,OPEN_PRICES,8939114831816,Neem Comb,202,22,,,,missing,Branded product,2026-05-26,2026-05-26
+367,OPEN_PRICES,4711387298565,Mw 103,203,22,0.045,kg,45 g,api_product_quantity,Branded product,2026-05-26,2026-05-26
+368,OPEN_PRICES,8904057301757,Red Velvet Flavoured Ice Cream,204,16,0.079,kg,79 g,api_product_quantity,Branded product,2026-05-27,2026-05-27
+369,OPEN_PRICES,8908016018045,Paneer,205,14,0.2,kg,200 g,api_product_quantity,Branded product,2026-06-01,2026-06-01
+370,OPEN_PRICES,8908017962569,Instant Noodles,2,15,,,,missing,Branded product,2026-06-03,2026-06-03
+371,OPEN_PRICES,8906137050012,Milma Prime,206,14,0.5,l,500 ml,api_product_quantity,Branded product,2026-06-07,2026-06-07
+372,OPEN_PRICES,8902433003738,Galaxy Milk Chocolate with Cookie Crumble,207,16,0.05,kg,50 g,api_product_quantity,Branded product,2026-06-07,2026-06-07
+373,OPEN_PRICES,8901030980053,Peanut Butter Crunchy,67,17,0.35000000000000003,kg,350 g,api_product_quantity,Branded product,2026-06-08,2026-06-08
+374,OPEN_PRICES,0799872395238,Chekku Gingelly Oil,208,5,0.91,kg,910 g,api_product_quantity,Branded product,2026-06-08,2026-06-08
+375,OPEN_PRICES,8901764421273,Maaza can,75,13,0.3,l,300 ml,api_product_quantity,Branded product,2026-06-08,2026-06-08
+376,OPEN_PRICES,8909081001567,Aashirvaad Superior MP Atta,44,17,0.5,kg,500 g,api_product_quantity,Branded product,2026-06-11,2026-06-11
+377,OPEN_PRICES,8901425076804,Camlin White Glue,209,22,0.045,kg,45 g,api_product_quantity,Branded product,2026-06-15,2026-06-15
+378,OPEN_PRICES,0742259099687,Iced Mocha,210,12,0.025,kg,25 g,api_product_quantity,Branded product,2026-06-18,2026-06-18
+379,OPEN_PRICES,8908000861947,Nylon chivda,211,12,0.25,kg,250 g,api_product_quantity,Branded product,2026-06-22,2026-06-22
+380,OPEN_PRICES,8906080604652,Paper boat lychee 250ml pet,23,13,0.25,l,250 ml,parsed_product_name,Branded product,2026-06-28,2026-06-28
+381,OPEN_PRICES,0946590641530,ENERDOZE power up,115,13,0.25,l,250 ml,api_product_quantity,Branded product,2026-06-29,2026-06-29
+382,OPEN_PRICES,8901123001214,Lotte Choco Pie,212,11,0.023,kg,23 g,api_product_quantity,Branded product,2026-07-05,2026-07-05
+383,OPEN_PRICES,8906036300058,Rajgira peanut chikki,213,20,0.09,kg,90 g,api_product_quantity,Branded product,2026-07-09,2026-07-09
+384,OPEN_PRICES,8901764112911,Coke Zero,75,13,,,,missing,Branded product,2026-07-09,2026-07-09
+385,OPEN_PRICES,8901262152860,Buffalo milk A2 milk,115,14,1.0,l,1 l,api_product_quantity,Branded product,2026-07-15,2026-07-15
+386,OPEN_PRICES,89009758,NESCAFE classic,214,17,0.024,kg,24 g,api_product_quantity,Branded product,2026-07-21,2026-07-21
+387,OPEN_PRICES,8908024057012,Peanut chocolate laddoos,215,16,0.07,kg,70 g,parsed_quantity,Branded product,2026-07-24,2026-07-24
+388,OPEN_PRICES,8901491366052,Puffcorn,216,11,0.058,kg,58 g,api_product_quantity,Branded product,2026-07-29,2026-07-29
+389,OPEN_PRICES,8901262176637,Kashmiri Kulfi,115,16,0.048,kg,48 g,api_product_quantity,Branded product,2026-08-03,2026-08-03
+390,OPEN_PRICES,8901725015275,Dark Fantasy Choco fills,217,11,0.069,kg,69 g,api_product_quantity,Branded product,2026-08-03,2026-09-02
+391,OPEN_PRICES,8906161391600,Aloo Bhujiya,218,18,0.03,kg,30 g,api_product_quantity,Branded product,2026-08-04,2026-08-04
+392,OPEN_PRICES,8906161390795,Onion Bhujia,218,18,0.03,kg,30 g,api_product_quantity,Branded product,2026-08-04,2026-08-04
+393,OPEN_PRICES,7452212959974,Masala Lemon,219,20,0.04,kg,40 g,api_product_quantity,Branded product,2026-08-07,2026-08-07
+394,OPEN_PRICES,8901595854127,Whole Wheat Noodles,220,15,0.28,kg,280 g,api_product_quantity,Branded product,2026-08-05,2026-08-05
+395,OPEN_PRICES,8901058022216,Veg Atta Noodles,2,15,0.435,kg,435 g,api_product_quantity,Branded product,2026-08-08,2026-08-08
+396,OPEN_PRICES,8901030953200,Kissan No onion no garlic Tomato Ketchup,67,10,0.85,kg,850 g,api_product_quantity,Branded product,2026-08-09,2026-08-09
+397,OPEN_PRICES,8904132959309,Campa cola,99,13,0.5,l,500 ml,api_product_quantity,Branded product,2026-08-09,2026-08-09
+398,OPEN_PRICES,8904132959347,Campa Power Up,99,13,0.55,kg,550 g,api_product_quantity,Branded product,2026-08-09,2026-08-09
+399,OPEN_PRICES,8908017962507,Korean Cup Noodles,221,15,0.06,kg,60 g,api_product_quantity,Branded product,2026-08-14,2026-08-14
+400,OPEN_PRICES,6971606793495,Crispy roll strawberry,222,15,0.02,kg,20 g,api_product_quantity,Branded product,2026-08-25,2026-08-25
+401,OPEN_PRICES,8904132976962,Campa Jeera Up,99,13,0.15,l,150 ml,api_product_quantity,Branded product,2026-08-26,2026-08-26
+402,OPEN_PRICES,8908007499648,Chocolate chip cookies,223,18,0.225,kg,225 g,api_product_quantity,Branded product,2026-08-27,2026-08-27
+403,OPEN_PRICES,8901262172493,Amul Chocochips Icecream,115,16,0.54,kg,540 g,api_product_quantity,Branded product,2026-08-28,2026-08-28
+404,OPEN_PRICES,8901725013684,Bingo! Mad Angles Achaari Masti,101,11,0.058,kg,58 g,api_product_quantity,Branded product,2026-08-28,2026-08-28
+405,OPEN_PRICES,8901058024425,Maggie Double Masala Instant Noodles,224,15,0.095,kg,95 g,api_product_quantity,Branded product,2026-08-28,2026-08-28
+406,OPEN_PRICES,8908003718439,Groundnut Oil,225,12,1.0,l,1 l,api_product_quantity,Branded product,2026-08-29,2026-08-29
+407,OPEN_PRICES,8907892000540,Kab's Jackpot Korean Ramyun,226,15,0.105,kg,105 g,api_product_quantity,Branded product,2026-09-05,2026-09-05
+408,OPEN_PRICES,8907892000823,Kab's Jackpot Korean Style Instant Noodles,226,15,0.105,kg,105 g,api_product_quantity,Branded product,2026-09-06,2026-09-06
+409,OPEN_PRICES,8901491503051,West Indies' Hot 'n' Sweet Chilli flavor,227,18,0.025,kg,25 g,api_product_quantity,Branded product,2026-09-06,2026-09-06
+410,OPEN_PRICES,8906161391846,Banana Walnut Cake,218,11,0.15,kg,150 g,api_product_quantity,Branded product,2026-08-08,2026-08-08
+411,OPEN_PRICES,8904071700864,Nylon Sev,228,12,0.17,kg,170 g,api_product_quantity,Branded product,2026-09-13,2026-09-13
+412,OPEN_PRICES,0726436140836,Bombay Bunta Masala Soda,229,13,0.25,l,250 ml,api_product_quantity,Branded product,2026-09-13,2026-09-13
+413,OPEN_PRICES,8906125483976,Drools,230,9,1.2,kg,1.2 kg,api_product_quantity,Branded product,2026-09-15,2026-09-15
+414,OPEN_PRICES,8905532004736,Nafed mango,231,12,0.2,l,200 ml,api_product_quantity,Branded product,2026-09-21,2026-09-21
+415,OPEN_PRICES,8901262151344,Badam Shakers,115,14,0.2,l,200 ml,api_product_quantity,Branded product,2026-09-22,2026-09-22
+416,OPEN_PRICES,8901491100533,Chilli Chatka,216,11,0.075,kg,75 g,api_product_quantity,Branded product,2026-09-22,2026-09-22
+417,OPEN_PRICES,8908008011238,Vita ghee,232,5,0.905,kg,905 g,api_product_quantity,Branded product,2026-09-26,2026-09-26
+418,OPEN_PRICES,0724022008461,Tomato Soup,233,15,0.055,kg,55 g,api_product_quantity,Branded product,2026-09-29,2026-09-29
+419,OPEN_PRICES,8906033534074,Snappin Street Jaljeera,234,13,0.005,kg,5 g,api_product_quantity,Branded product,2026-09-29,2026-09-29

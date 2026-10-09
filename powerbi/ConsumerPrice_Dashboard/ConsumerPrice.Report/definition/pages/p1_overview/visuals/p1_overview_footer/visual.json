@@ -1,0 +1,36 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/fabric/item/report/definition/visualContainer/2.13.0/schema.json",
+  "name": "p1_overview_footer",
+  "position": {
+    "x": 16,
+    "y": 676,
+    "z": 200,
+    "height": 38,
+    "width": 1248,
+    "tabOrder": 200
+  },
+  "visual": {
+    "visualType": "textbox",
+    "objects": {
+      "general": [
+        {
+          "properties": {
+            "paragraphs": [
+              {
+                "textRuns": [
+                  {
+                    "value": "Sources: DoCA Price Monitoring Division (All-India averages), Open Prices / Open Food Facts (crowd-sourced, ODbL), MoSPI CPI (benchmark only). Not an official inflation measure. Captured 2026-10-01; see docs/METHODOLOGY_AND_LIMITATIONS.md.",
+                    "textStyle": {
+                      "fontSize": "8pt",
+                      "color": "#5B6470"
+                    }
+                  }
+                ]
+              }
+            ]
+          }
+        }
+      ]
+    }
+  }
+}

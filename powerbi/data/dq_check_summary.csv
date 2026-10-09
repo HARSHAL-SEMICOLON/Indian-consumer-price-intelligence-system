@@ -1,0 +1,55 @@
+﻿run_id,check_name,description,source_code,rows_checked,rows_flagged,action
+1,brand_alias_mapped,Brand spelling standardised via alias table,DOCA_PMD,275,0,flag only
+1,brand_alias_mapped,Brand spelling standardised via alias table,OPEN_PRICES,402,43,flag only
+1,changed_product_name,Same barcode/commodity seen with more than one raw name,DOCA_PMD,275,7,flag only
+1,changed_product_name,Same barcode/commodity seen with more than one raw name,OPEN_PRICES,402,0,flag only
+1,discount_without_list_price,Marked discounted but pre-discount price missing,DOCA_PMD,275,0,flag only
+1,discount_without_list_price,Marked discounted but pre-discount price missing,OPEN_PRICES,402,3,flag only
+1,exact_duplicate,"Same product, outlet, date and price already recorded (crowd double submission)",DOCA_PMD,275,0,exclude from analysis
+1,exact_duplicate,"Same product, outlet, date and price already recorded (crowd double submission)",OPEN_PRICES,402,7,exclude from analysis
+1,future_date,Observation date after collection date,DOCA_PMD,275,0,exclude from analysis
+1,future_date,Observation date after collection date,OPEN_PRICES,402,0,exclude from analysis
+1,implausible_list_price,Pre-discount price > 5x price paid (likely entry error) - excluded from discount analysis only,DOCA_PMD,275,0,flag only
+1,implausible_list_price,Pre-discount price > 5x price paid (likely entry error) - excluded from discount analysis only,OPEN_PRICES,402,5,flag only
+1,invalid_discount,Pre-discount price lower than or equal to price paid,DOCA_PMD,275,0,flag only
+1,invalid_discount,Pre-discount price lower than or equal to price paid,OPEN_PRICES,402,0,flag only
+1,invalid_price,Price <= 0 or non-numeric,DOCA_PMD,275,0,exclude from analysis
+1,invalid_price,Price <= 0 or non-numeric,OPEN_PRICES,402,0,exclude from analysis
+1,missing_brand,Brand missing in source,DOCA_PMD,275,0,flag only
+1,missing_brand,Brand missing in source,OPEN_PRICES,402,32,flag only
+1,missing_city,Indian outlet with no resolvable city,DOCA_PMD,275,0,flag only
+1,missing_city,Indian outlet with no resolvable city,OPEN_PRICES,402,5,flag only
+1,missing_date,No observation date,DOCA_PMD,275,0,exclude from analysis
+1,missing_date,No observation date,OPEN_PRICES,402,0,exclude from analysis
+1,missing_pack_size,Pack size/unit unknown -> normalised price not computable,DOCA_PMD,275,0,flag only
+1,missing_pack_size,Pack size/unit unknown -> normalised price not computable,OPEN_PRICES,402,78,flag only
+1,missing_price,Price field empty although the source reported the row,DOCA_PMD,275,0,exclude from analysis
+1,missing_price,Price field empty although the source reported the row,OPEN_PRICES,402,0,exclude from analysis
+1,missing_product_name,Product name missing in source,DOCA_PMD,275,0,flag only
+1,missing_product_name,Product name missing in source,OPEN_PRICES,402,18,flag only
+1,non_inr_currency,Currency other than INR,DOCA_PMD,275,0,exclude from analysis
+1,non_inr_currency,Currency other than INR,OPEN_PRICES,402,0,exclude from analysis
+1,normalized_price_outlier,Normalised price > 3.5 robust z-scores from its category median (review),DOCA_PMD,275,0,flag only
+1,normalized_price_outlier,Normalised price > 3.5 robust z-scores from its category median (review),OPEN_PRICES,402,5,flag only
+1,not_reported_by_source,DoCA shows '--' for this commodity/date (no price reported),DOCA_PMD,275,7,exclude from analysis
+1,not_reported_by_source,DoCA shows '--' for this commodity/date (no price reported),OPEN_PRICES,402,0,exclude from analysis
+1,out_of_scope_category,"Product is not a consumer grocery/household/personal-care item (electronics, alcohol)",DOCA_PMD,275,0,exclude from analysis
+1,out_of_scope_category,"Product is not a consumer grocery/household/personal-care item (electronics, alcohol)",OPEN_PRICES,402,3,exclude from analysis
+1,out_of_scope_location,Observation located outside India / no country,DOCA_PMD,275,0,exclude from analysis
+1,out_of_scope_location,Observation located outside India / no country,OPEN_PRICES,402,12,exclude from analysis
+1,pack_size_from_name,"Pack size parsed from product name/quantity text, not a structured field",DOCA_PMD,275,0,flag only
+1,pack_size_from_name,"Pack size parsed from product name/quantity text, not a structured field",OPEN_PRICES,402,7,flag only
+1,pack_size_name_mismatch,Pack size in product name differs from structured quantity by >10%,DOCA_PMD,275,0,flag only
+1,pack_size_name_mismatch,Pack size in product name differs from structured quantity by >10%,OPEN_PRICES,402,1,flag only
+1,price_far_below_product_median,"Price paid is more than 10x below the median price of the same product (likely typo, e.g. Rs 1 instead of 67)",DOCA_PMD,275,0,exclude from analysis
+1,price_far_below_product_median,"Price paid is more than 10x below the median price of the same product (likely typo, e.g. Rs 1 instead of 67)",OPEN_PRICES,402,1,exclude from analysis
+1,provisional_weekend_value,DoCA weekend/holiday value - provisional until verified,DOCA_PMD,275,0,flag only
+1,provisional_weekend_value,DoCA weekend/holiday value - provisional until verified,OPEN_PRICES,402,0,flag only
+1,quantity_without_unit,Quantity text has a number but no unit (e.g. '78.9'),DOCA_PMD,275,0,flag only
+1,quantity_without_unit,Quantity text has a number but no unit (e.g. '78.9'),OPEN_PRICES,402,7,flag only
+1,source_marked_duplicate,Source API marks the row as duplicate_of another price,DOCA_PMD,275,0,exclude from analysis
+1,source_marked_duplicate,Source API marks the row as duplicate_of another price,OPEN_PRICES,402,3,exclude from analysis
+1,unclassified_category,No category tags in source,DOCA_PMD,275,0,flag only
+1,unclassified_category,No category tags in source,OPEN_PRICES,402,24,flag only
+1,value_revised_by_source,Source changed a previously captured value,DOCA_PMD,275,0,flag only
+1,value_revised_by_source,Source changed a previously captured value,OPEN_PRICES,402,0,flag only

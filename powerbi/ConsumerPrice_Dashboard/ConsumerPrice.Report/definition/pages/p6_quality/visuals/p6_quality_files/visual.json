@@ -1,0 +1,173 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/fabric/item/report/definition/visualContainer/2.13.0/schema.json",
+  "name": "p6_quality_files",
+  "position": {
+    "x": 862,
+    "y": 434,
+    "z": 1200,
+    "height": 234,
+    "width": 402,
+    "tabOrder": 1200
+  },
+  "visual": {
+    "visualType": "tableEx",
+    "query": {
+      "queryState": {
+        "Values": {
+          "projections": [
+            {
+              "field": {
+                "Column": {
+                  "Expression": {
+                    "SourceRef": {
+                      "Entity": "etl_raw_file"
+                    }
+                  },
+                  "Property": "relative_path"
+                }
+              },
+              "queryRef": "etl_raw_file.relative_path",
+              "nativeQueryRef": "relative_path",
+              "displayName": "Raw file"
+            },
+            {
+              "field": {
+                "Column": {
+                  "Expression": {
+                    "SourceRef": {
+                      "Entity": "etl_raw_file"
+                    }
+                  },
+                  "Property": "collection_date"
+                }
+              },
+              "queryRef": "etl_raw_file.collection_date",
+              "nativeQueryRef": "collection_date",
+              "displayName": "Collected"
+            },
+            {
+              "field": {
+                "Column": {
+                  "Expression": {
+                    "SourceRef": {
+                      "Entity": "etl_raw_file"
+                    }
+                  },
+                  "Property": "records_parsed"
+                }
+              },
+              "queryRef": "etl_raw_file.records_parsed",
+              "nativeQueryRef": "records_parsed",
+              "displayName": "Records"
+            },
+            {
+              "field": {
+                "Column": {
+                  "Expression": {
+                    "SourceRef": {
+                      "Entity": "etl_raw_file"
+                    }
+                  },
+                  "Property": "sha256"
+                }
+              },
+              "queryRef": "etl_raw_file.sha256",
+              "nativeQueryRef": "sha256",
+              "displayName": "SHA-256"
+            }
+          ]
+        }
+      }
+    },
+    "objects": {
+      "total": [
+        {
+          "properties": {
+            "totals": {
+              "expr": {
+                "Literal": {
+                  "Value": "false"
+                }
+              }
+            }
+          }
+        }
+      ],
+      "values": [
+        {
+          "properties": {
+            "wordWrap": {
+              "expr": {
+                "Literal": {
+                  "Value": "true"
+                }
+              }
+            },
+            "fontSize": {
+              "expr": {
+                "Literal": {
+                  "Value": "9D"
+                }
+              }
+            }
+          }
+        }
+      ],
+      "columnHeaders": [
+        {
+          "properties": {
+            "wordWrap": {
+              "expr": {
+                "Literal": {
+                  "Value": "true"
+                }
+              }
+            },
+            "fontSize": {
+              "expr": {
+                "Literal": {
+                  "Value": "9D"
+                }
+              }
+            }
+          }
+        }
+      ]
+    },
+    "visualContainerObjects": {
+      "title": [
+        {
+          "properties": {
+            "show": {
+              "expr": {
+                "Literal": {
+                  "Value": "true"
+                }
+              }
+            },
+            "text": {
+              "expr": {
+                "Literal": {
+                  "Value": "'Raw file provenance'"
+                }
+              }
+            }
+          }
+        }
+      ],
+      "subTitle": [
+        {
+          "properties": {
+            "show": {
+              "expr": {
+                "Literal": {
+                  "Value": "false"
+                }
+              }
+            }
+          }
+        }
+      ]
+    }
+  }
+}

@@ -1,0 +1,36 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/fabric/item/report/definition/visualContainer/2.13.0/schema.json",
+  "name": "p1_overview_note",
+  "position": {
+    "x": 676,
+    "y": 82,
+    "z": 500,
+    "height": 54,
+    "width": 588,
+    "tabOrder": 500
+  },
+  "visual": {
+    "visualType": "textbox",
+    "objects": {
+      "general": [
+        {
+          "properties": {
+            "paragraphs": [
+              {
+                "textRuns": [
+                  {
+                    "value": "Short official history: DoCA gives 6 dated points per commodity (today, 1 week, 1 month, 6 months, 1 and 2 years back). Daily runs build a real series.",
+                    "textStyle": {
+                      "fontSize": "9pt",
+                      "color": "#5B6470"
+                    }
+                  }
+                ]
+              }
+            ]
+          }
+        }
+      ]
+    }
+  }
+}

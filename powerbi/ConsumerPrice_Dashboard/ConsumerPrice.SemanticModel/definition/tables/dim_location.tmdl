@@ -1,0 +1,93 @@
+table dim_location
+	lineageTag: 91b145f7-585a-5097-88f7-6050dce28c03
+
+	column location_key
+		dataType: int64
+		formatString: 0
+		lineageTag: 3c469e17-da14-5a7e-b6f5-c57ea7153efd
+		summarizeBy: none
+		sourceColumn: location_key
+
+	column source_code
+		dataType: string
+		lineageTag: ea6e34bd-1b4e-5307-a988-f28f72e59f0e
+		summarizeBy: none
+		sourceColumn: source_code
+
+	column location_src_id
+		dataType: string
+		lineageTag: 790edf1e-01ab-5bc2-bef1-50f5ff695024
+		summarizeBy: none
+		sourceColumn: location_src_id
+
+	column location_level
+		dataType: string
+		lineageTag: 36f79484-3414-5863-be24-40d5e98148e3
+		summarizeBy: none
+		sourceColumn: location_level
+
+	column outlet_name
+		dataType: string
+		lineageTag: 0dd13088-59ca-5a90-8ac3-727381adfa88
+		summarizeBy: none
+		sourceColumn: outlet_name
+
+	column outlet_type
+		dataType: string
+		lineageTag: 8cef7ca8-0933-5691-8fa0-182550b1322a
+		summarizeBy: none
+		sourceColumn: outlet_type
+
+	column city
+		dataType: string
+		lineageTag: 37bd7202-4adf-57a8-ae17-ee226accd561
+		summarizeBy: none
+		sourceColumn: city
+
+	column state
+		dataType: string
+		lineageTag: c281b867-1b79-531b-bf31-3ec7ebbe09e8
+		summarizeBy: none
+		sourceColumn: state
+
+	column region
+		dataType: string
+		lineageTag: a5cab599-9415-5e3f-b93e-9b8bbbc5181f
+		summarizeBy: none
+		sourceColumn: region
+
+	column country_code
+		dataType: string
+		lineageTag: 1b858697-b334-5ff1-af28-05b27e58af5f
+		summarizeBy: none
+		sourceColumn: country_code
+
+	column latitude
+		dataType: double
+		lineageTag: 28815623-9d77-57e3-aed3-c105beea51c6
+		summarizeBy: none
+		sourceColumn: latitude
+
+	column longitude
+		dataType: double
+		lineageTag: ecbaca14-17a9-5931-adcb-75c2fdc7ba4c
+		summarizeBy: none
+		sourceColumn: longitude
+
+	column city_source
+		dataType: string
+		lineageTag: 10625558-04f0-5098-9714-e559e54e1eaa
+		summarizeBy: none
+		sourceColumn: city_source
+
+	partition dim_location = m
+		mode: import
+		source =
+				let
+				    Source = Csv.Document(File.Contents(DataFolder & "\dim_location.csv"), [Delimiter = ",", Encoding = 65001, QuoteStyle = QuoteStyle.Csv]),
+				    Promoted = Table.PromoteHeaders(Source, [PromoteAllScalars = true]),
+				    Nulls = Table.TransformColumns(Promoted, List.Transform(Table.ColumnNames(Promoted), (c) => {c, each if _ = "" then null else _})),
+				    Typed = Table.TransformColumnTypes(Nulls, {{"location_key", Int64.Type}, {"source_code", type text}, {"location_src_id", type text}, {"location_level", type text}, {"outlet_name", type text}, {"outlet_type", type text}, {"city", type text}, {"state", type text}, {"region", type text}, {"country_code", type text}, {"latitude", type number}, {"longitude", type number}, {"city_source", type text}}, "en-US")
+				in
+				    Typed
+

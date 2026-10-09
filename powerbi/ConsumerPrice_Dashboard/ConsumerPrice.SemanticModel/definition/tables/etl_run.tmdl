@@ -1,0 +1,60 @@
+table etl_run
+	lineageTag: 065336e5-dc55-5c2b-8cf4-e4ff7a8d0598
+
+	column run_id
+		dataType: int64
+		formatString: 0
+		lineageTag: 3d290af0-8a0e-57ba-bc6a-0e06207136e2
+		summarizeBy: none
+		sourceColumn: run_id
+
+	column started_utc
+		dataType: string
+		lineageTag: 18e7cd6a-f77f-582c-89f6-f5ec05fdb6d3
+		summarizeBy: none
+		sourceColumn: started_utc
+
+	column finished_utc
+		dataType: string
+		lineageTag: 1126cda3-f7d6-52ae-8299-4a6ad0b47218
+		summarizeBy: none
+		sourceColumn: finished_utc
+
+	column new_files
+		dataType: int64
+		formatString: 0
+		lineageTag: d3df37d8-0f6a-51f9-8658-017b021bea05
+		summarizeBy: none
+		sourceColumn: new_files
+
+	column new_fact_rows
+		dataType: int64
+		formatString: 0
+		lineageTag: 66740641-d105-5e3b-b797-d0cf95e0423a
+		summarizeBy: none
+		sourceColumn: new_fact_rows
+
+	column updated_fact_rows
+		dataType: int64
+		formatString: 0
+		lineageTag: af7cd5c8-0905-502f-a9c7-435bb8ee16fd
+		summarizeBy: none
+		sourceColumn: updated_fact_rows
+
+	column notes
+		dataType: string
+		lineageTag: 463c994b-589b-58ae-83ce-a47dfcc6060b
+		summarizeBy: none
+		sourceColumn: notes
+
+	partition etl_run = m
+		mode: import
+		source =
+				let
+				    Source = Csv.Document(File.Contents(DataFolder & "\etl_run.csv"), [Delimiter = ",", Encoding = 65001, QuoteStyle = QuoteStyle.Csv]),
+				    Promoted = Table.PromoteHeaders(Source, [PromoteAllScalars = true]),
+				    Nulls = Table.TransformColumns(Promoted, List.Transform(Table.ColumnNames(Promoted), (c) => {c, each if _ = "" then null else _})),
+				    Typed = Table.TransformColumnTypes(Nulls, {{"run_id", Int64.Type}, {"started_utc", type text}, {"finished_utc", type text}, {"new_files", Int64.Type}, {"new_fact_rows", Int64.Type}, {"updated_fact_rows", Int64.Type}, {"notes", type text}}, "en-US")
+				in
+				    Typed
+

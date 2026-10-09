@@ -1,0 +1,173 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/fabric/item/report/definition/visualContainer/2.13.0/schema.json",
+  "name": "p6_quality_issues",
+  "position": {
+    "x": 434,
+    "y": 434,
+    "z": 1100,
+    "height": 234,
+    "width": 420,
+    "tabOrder": 1100
+  },
+  "visual": {
+    "visualType": "tableEx",
+    "query": {
+      "queryState": {
+        "Values": {
+          "projections": [
+            {
+              "field": {
+                "Column": {
+                  "Expression": {
+                    "SourceRef": {
+                      "Entity": "dq_issue_log"
+                    }
+                  },
+                  "Property": "check_name"
+                }
+              },
+              "queryRef": "dq_issue_log.check_name",
+              "nativeQueryRef": "check_name",
+              "displayName": "Check"
+            },
+            {
+              "field": {
+                "Column": {
+                  "Expression": {
+                    "SourceRef": {
+                      "Entity": "dq_issue_log"
+                    }
+                  },
+                  "Property": "severity"
+                }
+              },
+              "queryRef": "dq_issue_log.severity",
+              "nativeQueryRef": "severity",
+              "displayName": "Severity"
+            },
+            {
+              "field": {
+                "Column": {
+                  "Expression": {
+                    "SourceRef": {
+                      "Entity": "dq_issue_log"
+                    }
+                  },
+                  "Property": "record_key"
+                }
+              },
+              "queryRef": "dq_issue_log.record_key",
+              "nativeQueryRef": "record_key",
+              "displayName": "Record"
+            },
+            {
+              "field": {
+                "Column": {
+                  "Expression": {
+                    "SourceRef": {
+                      "Entity": "dq_issue_log"
+                    }
+                  },
+                  "Property": "action_taken"
+                }
+              },
+              "queryRef": "dq_issue_log.action_taken",
+              "nativeQueryRef": "action_taken",
+              "displayName": "Action taken"
+            }
+          ]
+        }
+      }
+    },
+    "objects": {
+      "total": [
+        {
+          "properties": {
+            "totals": {
+              "expr": {
+                "Literal": {
+                  "Value": "false"
+                }
+              }
+            }
+          }
+        }
+      ],
+      "values": [
+        {
+          "properties": {
+            "wordWrap": {
+              "expr": {
+                "Literal": {
+                  "Value": "true"
+                }
+              }
+            },
+            "fontSize": {
+              "expr": {
+                "Literal": {
+                  "Value": "9D"
+                }
+              }
+            }
+          }
+        }
+      ],
+      "columnHeaders": [
+        {
+          "properties": {
+            "wordWrap": {
+              "expr": {
+                "Literal": {
+                  "Value": "true"
+                }
+              }
+            },
+            "fontSize": {
+              "expr": {
+                "Literal": {
+                  "Value": "9D"
+                }
+              }
+            }
+          }
+        }
+      ]
+    },
+    "visualContainerObjects": {
+      "title": [
+        {
+          "properties": {
+            "show": {
+              "expr": {
+                "Literal": {
+                  "Value": "true"
+                }
+              }
+            },
+            "text": {
+              "expr": {
+                "Literal": {
+                  "Value": "'Issue log'"
+                }
+              }
+            }
+          }
+        }
+      ],
+      "subTitle": [
+        {
+          "properties": {
+            "show": {
+              "expr": {
+                "Literal": {
+                  "Value": "false"
+                }
+              }
+            }
+          }
+        }
+      ]
+    }
+  }
+}

@@ -1,0 +1,66 @@
+table fact_cpi_benchmark
+	lineageTag: d8e0ad23-2154-5ddc-b8d8-55114d0ec3fc
+
+	column cpi_item_key
+		dataType: int64
+		formatString: 0
+		lineageTag: 8311240a-a886-5ca5-979a-af851e76df09
+		summarizeBy: none
+		sourceColumn: cpi_item_key
+
+	column date_key
+		dataType: int64
+		formatString: 0
+		lineageTag: e318e750-e8aa-50bc-895c-67d6efa65f35
+		summarizeBy: none
+		sourceColumn: date_key
+
+	column base_year
+		dataType: int64
+		formatString: 0
+		lineageTag: 02d658b9-6436-5814-b4fc-e4de76631661
+		summarizeBy: none
+		sourceColumn: base_year
+
+	column index_value
+		dataType: double
+		lineageTag: 1599e590-0dce-5a4c-91b7-24268a5488ec
+		summarizeBy: none
+		sourceColumn: index_value
+
+	column yoy_inflation_pct
+		dataType: double
+		lineageTag: 58bee86c-1fab-5f52-b1aa-39b860e3f64c
+		summarizeBy: none
+		sourceColumn: yoy_inflation_pct
+
+	column status
+		dataType: string
+		lineageTag: e59827d0-729b-586f-9658-49047f283a69
+		summarizeBy: none
+		sourceColumn: status
+
+	column capture_file
+		dataType: string
+		lineageTag: 5a29e5f8-b7e4-5f7f-acfb-5bdcb4fe12ec
+		summarizeBy: none
+		sourceColumn: capture_file
+
+	column month_start
+		dataType: dateTime
+		formatString: yyyy-mm-dd
+		lineageTag: 6163368c-5f6e-55ff-ba39-67623beeb678
+		summarizeBy: none
+		sourceColumn: month_start
+
+	partition fact_cpi_benchmark = m
+		mode: import
+		source =
+				let
+				    Source = Csv.Document(File.Contents(DataFolder & "\fact_cpi_benchmark.csv"), [Delimiter = ",", Encoding = 65001, QuoteStyle = QuoteStyle.Csv]),
+				    Promoted = Table.PromoteHeaders(Source, [PromoteAllScalars = true]),
+				    Nulls = Table.TransformColumns(Promoted, List.Transform(Table.ColumnNames(Promoted), (c) => {c, each if _ = "" then null else _})),
+				    Typed = Table.TransformColumnTypes(Nulls, {{"cpi_item_key", Int64.Type}, {"date_key", Int64.Type}, {"base_year", Int64.Type}, {"index_value", type number}, {"yoy_inflation_pct", type number}, {"status", type text}, {"capture_file", type text}, {"month_start", type date}}, "en-US")
+				in
+				    Typed
+

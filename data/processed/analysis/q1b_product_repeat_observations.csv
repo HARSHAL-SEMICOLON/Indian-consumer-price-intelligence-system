@@ -1,0 +1,12 @@
+﻿product_name,brand_name,pack_size_label,normalized_unit,first_date,first_city,first_norm_price,last_date,last_city,last_norm_price,pct_change,days_apart,comparability
+Swing Coconut Water Drink,Paper Boat,1.2 l,INR/l,2025-03-02,Bengaluru,75.0,2025-09-23,Bengaluru,125.0,66.67,205,same city
+Dove Cream Beauty Bar,Dove,100 g,INR/kg,2025-06-25,Madurai,580.0,2025-09-14,Madurai,600.0,3.45,81,same city
+Dabur RED,Dabur,36 g,INR/kg,2025-04-20,Madurai,555.56,2025-06-28,Madurai,555.56,0.0,69,same city
+Dark Fantasy Choco fills,ITC (Sunfeast),69 g,INR/kg,2026-08-03,Pedda Amiram,579.71,2026-09-02,Bengaluru,579.71,0.0,30,different city
+Balaji Wafers Dum Bar,Balaji Wafers,19 g,INR/kg,2025-09-21,Kopargaon,263.16,2025-09-24,Kopargaon,263.16,0.0,3,same city
+Date Crown Bumaan,Date Crown,500 g,INR/kg,2025-02-22,Hyderabad,190.0,2025-04-04,Hyderabad,178.0,-6.32,41,same city
+Boost,Hindustan Unilever,550 g,INR/kg,2025-04-20,Madurai,434.55,2025-09-14,Madurai,403.64,-7.11,147,same city
+Modern 100% Whole Wheat Bread,Modern,400 g,INR/kg,2025-01-30,Bengaluru,150.0,2025-03-09,Hyderabad,137.5,-8.33,38,different city
+Mysore Sandal Soap,Karnataka Soaps & Detergents Ltd.,450 g,INR/kg,2025-04-20,Madurai,540.0,2025-06-28,Madurai,471.11,-12.76,69,same city
+Matic Liquid,Surf Excel,1 l,INR/l,2025-05-15,Madurai,175.0,2025-06-25,Madurai,138.0,-21.14,41,same city
+Soan Papdi,Pramod Multifold pvt ltd,400 g,INR/kg,2026-04-09,Danapur,447.5,2026-04-10,Dholi,312.5,-30.17,1,different city

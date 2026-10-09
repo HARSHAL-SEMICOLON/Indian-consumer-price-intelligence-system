@@ -1,0 +1,384 @@
+﻿cpi_item_key,series_kind,cpi_group,cpi_item,sector
+1,item,,"Air Conditioner, Air Cooler",Combined
+2,item,,Air Fare (normal): Economy Class(adult),Combined
+3,item,,"Almirah, Dressing Table",Combined
+4,item,,Any Other Personal Goods,Combined
+5,item,,Apple,Combined
+6,item,,"Arhar, Tur",Combined
+7,item,,Baby Food,Combined
+8,item,,Bajra & its Products,Combined
+9,item,,Banana (no.),Combined
+10,item,,"Baniyan, Socks, Other Hosiery and Undergarments, Etc.(no.)",Combined
+11,item,,"Barber, Beautician, etc.",Combined
+12,item,,Bathroom and Sanitary Equipment,Combined
+13,item,,"Beans, Barbati",Combined
+14,item,,Bedding: Others,Combined
+15,item,,"Bed Sheet, Bed Cover (no.)",Combined
+16,item,,Bedstead,Combined
+17,item,,Beef/ Buffalo Meat,Combined
+18,item,,Beer (litre),Combined
+19,item,,Berries,Combined
+20,item,,Besan,Combined
+21,item,,Bicycle(without Accessories),Combined
+22,item,,Bidi (no.),Combined
+23,item,,"Biscuits, Chocolates, etc.",Combined
+24,item,,Black Pepper (gm),Combined
+25,item,,"Books, Journals: First Hand",Combined
+26,item,,Bread (bakery),Combined
+27,item,,Brinjal,Combined
+28,item,,"Bucket, Water Bottle/ Feeding Bottle & Other Plastic Goods",Combined
+29,item,,Bus/tram Fare,Combined
+30,item,,Butter,Combined
+31,item,,Cabbage,Combined
+32,item,,Camera & Photographic Equipment,Combined
+33,item,,Candle (no.),Combined
+34,item,,"Candy, Misri",Combined
+35,item,,"Carpet, Daree & Other Floor Mattings",Combined
+36,item,,Carrot,Combined
+37,item,,Cashewnut,Combined
+38,item,,Cauliflower,Combined
+39,item,,"CD, DVD, Audio/video Cassette, etc",Combined
+40,item,,"Cereal Substitutes: Tapioca, etc.",Combined
+41,item,,"Chair, Stool, Bench, Table",Combined
+42,item,,Charcoal,Combined
+43,item,,Cheroot (no.),Combined
+44,item,,Chicken,Combined
+45,item,,Chips (gm),Combined
+46,item,,Chira,Combined
+47,item,,Cigarettes (no.),Combined
+48,item,,Cinema: New Release(normal Day),Combined
+49,item,,"Clock, Watch",Combined
+50,item,,"Cloth for Coat, Trousers, Suit, etc. (metre)",Combined
+51,item,,"Cloth for Shirt, Pyjama, Kurta, Salwar, etc. (metre)",Combined
+52,item,,"Cloth for Upholstery, Curtains, Tablecloth, etc. (metre)",Combined
+53,item,,Clothing (first-hand): Other,Combined
+54,item,,Clothing: Second-hand,Combined
+55,item,,Club Fees,Combined
+56,item,,Coal,Combined
+57,item,,"Coat, Jacket, Sweater, Windcheater (no.)",Combined
+58,item,,Coconut: Copra,Combined
+59,item,,Coconut (no.),Combined
+60,item,,Coconut Oil,Combined
+61,item,,Coffee: Cups (no.),Combined
+62,item,,Coffee: Powder (gm),Combined
+63,item,,"Coir, Rope, etc.",Combined
+64,item,,Coke,Combined
+65,item,,Cold Beverages: Bottled/canned (litre),Combined
+66,item,,Cooked Meals Purchased (no.),Combined
+67,item,,"Cooked Snacks Purchased [samosa, Puri, Paratha, Burger, Chowmein, Idli, Dosa, Vada, Chops, Pakoras, Pao Bhaji, Etc.]",Combined
+68,item,,Country Liquor (litre),Combined
+69,item,,Curd,Combined
+70,item,,Curry Powder (gm),Combined
+71,item,,Dates,Combined
+72,item,,Dhania (gm),Combined
+73,item,,Dhoti (no.),Combined
+74,item,,Diesel for Vehicle,Combined
+75,item,,Diesel (litre) [excl. Conveyance],Combined
+76,item,,Doctor’s/ Surgeon’s Fee-first Consultation (non-institutional),Combined
+77,item,,Domestic Servant/cook,Combined
+78,item,,Dry Chillies (gm),Combined
+79,item,,Dung Cake,Combined
+80,item,,Earthenware,Combined
+81,item,,Eggs (no.),Combined
+82,item,,Electric Batteries,Combined
+83,item,,"Electric Bulb, Tubelight",Combined
+84,item,,Electric Fan,Combined
+85,item,,"Electric Iron, Heater, Toaster, Oven & Other Electric Heating Appliances",Combined
+86,item,,Electricity (std. Unit),Combined
+87,item,,Family Planning Devices,Combined
+88,item,,Firewood and Chips,Combined
+89,item,,"Fish, Prawn",Combined
+90,item,,Flower (fresh): All Purposes,Combined
+91,item,,Foreign/refined Liquor or Wine (litre),Combined
+92,item,,"Frocks, Skirts, etc. (no.)",Combined
+93,item,,Fruit Juice and Shake (litre),Combined
+94,item,,"Gamchha, Towel, Handkerchief (no.)",Combined
+95,item,,Garlic (gm),Combined
+96,item,,Ghee,Combined
+97,item,,Ginger (gm),Combined
+98,item,,Glassware,Combined
+99,item,,Goat Meat/mutton,Combined
+100,item,,Gold,Combined
+101,item,,Goods for Recreation and Hobbies,Combined
+102,item,,"Gourd, Pumpkin",Combined
+103,item,,Gram Products,Combined
+104,item,,Gram: Split,Combined
+105,item,,Gram: Whole,Combined
+106,item,,Grapes,Combined
+107,item,,Green Chillies,Combined
+108,item,,Green Coconut (no.),Combined
+109,item,,Grinding Charges,Combined
+110,item,,Groundnut,Combined
+111,item,,Groundnut Oil,Combined
+112,item,,Guava,Combined
+113,item,,Gur,Combined
+114,item,,"Hair Oil, Shampoo, Hair Cream",Combined
+115,item,,"Headwear, Belts, Ties (no.)",Combined
+116,item,,Honey,Combined
+117,item,,Hookah Tobacco (gm),Combined
+118,item,,Horse Cart Fare,Combined
+119,item,,Hospital & Nursing Home Charges,Combined
+120,item,,Hotel Lodging Charges,Combined
+121,item,,"House Rent, Garage Rent",Combined
+122,item,,Ice-cream,Combined
+123,item,,"Incense (agarbatti), Room Freshener",Combined
+124,item,,Ingredients for Pan (gm),Combined
+125,item,,Internet Expenses,Combined
+126,item,,Inverter,Combined
+127,item,,Jackfruit,Combined
+128,item,,Jeera (gm),Combined
+129,item,,Jowar & its Products,Combined
+130,item,,Kerosene – Other Sources (litre),Combined
+131,item,,Kerosene – PDS (litre),Combined
+132,item,,Kharbooza,Combined
+133,item,,Khesari,Combined
+134,item,,Knitting Wool (gm),Combined
+135,item,,Kurta-pajama Suits: Females (no.),Combined
+136,item,,Kurta-pajama Suits: Males (no.),Combined
+137,item,,Lady's Finger,Combined
+138,item,,Leaf Tobacco (gm),Combined
+139,item,,"Leather Boots, Shoes",Combined
+140,item,,"Leather Sandals, Chappals, etc.",Combined
+141,item,,Leechi,Combined
+142,item,,Lemon (no.),Combined
+143,item,,Library Charges,Combined
+144,item,,Lighter (bidi/ Cigarette/ Gas Stove),Combined
+145,item,,Lock,Combined
+146,item,,LPG [excl. Conveyance],Combined
+147,item,,Lubricants & Other Fuels for Vehicle,Combined
+148,item,,Lungi (no.),Combined
+149,item,,Maida,Combined
+150,item,,Maize & Products,Combined
+151,item,,Mango,Combined
+152,item,,Masur,Combined
+153,item,,Matches (box),Combined
+154,item,,Medicine (non-institutional),Combined
+155,item,,Milk: Condensed/ Powder,Combined
+156,item,,Milk: Liquid (litre),Combined
+157,item,,Mineral Water (litre),Combined
+158,item,,Mobile Handset,Combined
+159,item,,Monthly Charges for Cable Tv Connection,Combined
+160,item,,Monthly Maintainance Charges,Combined
+161,item,,Moong,Combined
+162,item,,Mosquito Net (no.),Combined
+163,item,,"Mosquito Repellent, Insecticide, Acid etc.",Combined
+164,item,,"Motor Car, Jeep",Combined
+165,item,,"Motor Cycle, Scooter",Combined
+166,item,,Muri,Combined
+167,item,,Mustard Oil,Combined
+168,item,,"Newspapers, Periodicals",Combined
+169,item,,Oilseeds (gm),Combined
+170,item,,Onion,Combined
+171,item,,"Orange, Mausami (no.)",Combined
+172,item,,"Other Beverages: Cocoa, Chocolate, etc.",Combined
+173,item,,Other Cereals,Combined
+174,item,,Other Consumer Services Excluding Conveyance,Combined
+175,item,,Other Conveyance Expenses,Combined
+176,item,,Other Cooking/ Household Appliances,Combined
+177,item,,Other Crockery & Utensils,Combined
+178,item,,Other Dry Fruits,Combined
+179,item,,Other Durables (specify)….,Combined
+180,item,,Other Educational Expenses (incl. Fees for Enrollment in Web-based Training),Combined
+181,item,,Other Entertainment,Combined
+182,item,,Other Footwear,Combined
+183,item,,Other Fresh Fruits,Combined
+184,item,,Other Fuel,Combined
+185,item,,"Other Furniture & Fixtures (couch, Sofa, Etc.)",Combined
+186,item,,Other Intoxicants,Combined
+187,item,,Other Leather Footwear,Combined
+188,item,,Other Medical Expenses (non-institutional),Combined
+189,item,,Other Metal Utensils,Combined
+190,item,,Other Milk Products,Combined
+191,item,,Other Nuts,Combined
+192,item,,Other Ornaments,Combined
+193,item,,Other Packaged Processed Food,Combined
+194,item,,Other Petty Articles,Combined
+195,item,,Other Pulse Products,Combined
+196,item,,Other Pulses,Combined
+197,item,,Other Rice Products,Combined
+198,item,,"Others: Birds, Crab, Oyster, Tortoise, etc.",Combined
+199,item,,Other Tobacco Products,Combined
+200,item,,Other Vegetables,Combined
+201,item,,Other Washing Requisites,Combined
+202,item,,Palak/other Leafy Vegetables,Combined
+203,item,,Pan: Finished (no.),Combined
+204,item,,Pan: Leaf (no.),Combined
+205,item,,"Papad, Bhujia, Namkeen, Mixture, Chanachur",Combined
+206,item,,Papaya,Combined
+207,item,,"Parwal/patal, Kundru",Combined
+208,item,,PC/ Laptop/ Other Peripherals Incl. Software,Combined
+209,item,,Pears/nashpati,Combined
+210,item,,Peas (pulses),Combined
+211,item,,Peas (vegetables),Combined
+212,item,,Petrol for Vehicle,Combined
+213,item,,Photography,Combined
+214,item,,Pickles (gm),Combined
+215,item,,"Pillow, Quilt, Mattress (no.)",Combined
+216,item,,Pineapple (no.),Combined
+217,item,,"Plugs, Switches & Other Electrical Fittings",Combined
+218,item,,Pork,Combined
+219,item,,Porter Charges,Combined
+220,item,,Potato,Combined
+221,item,,"Powder, Snow, Cream, Lotion and Perfume",Combined
+222,item,,"Prepared Sweets, Cake, Pastry",Combined
+223,item,,Pressure Cooker/ Pressure Pan,Combined
+224,item,,Private Tutor/ Coaching Centre,Combined
+225,item,,"Radio, Tape Recorder, 2-in-1",Combined
+226,item,,Radish,Combined
+227,item,,Ragi & its Products,Combined
+228,item,,Railway Fare,Combined
+229,item,,"Raisin, Kishmish, Monacca, etc.",Combined
+230,item,,"Refined Oil [sunflower, Soyabean, Saffola, Etc.]",Combined
+231,item,,Refrigerator,Combined
+232,item,,Residential Building & Land (cost of Repairs Only),Combined
+233,item,,Rice – Other Sources,Combined
+234,item,,Rice – PDS,Combined
+235,item,,Rickshaw (hand Drawn & Cycle) Fare,Combined
+236,item,,Rubber / Pvc Footwear,Combined
+237,item,,"Rug, Blanket (no.)",Combined
+238,item,,Salt,Combined
+239,item,,Sanitary Napkins,Combined
+240,item,,Saree (no.),Combined
+241,item,,"Sauce, Jam, Jelly (gm)",Combined
+242,item,,"School Bus, Van, etc.",Combined
+243,item,,School/college Uniform: Boys,Combined
+244,item,,School/college Uniform: Girls,Combined
+245,item,,"Sewai, Noodles",Combined
+246,item,,Sewing Machine,Combined
+247,item,,"Shaving Blades, Shaving Stick, Razor",Combined
+248,item,,"Shaving Cream, Aftershave Lotion",Combined
+249,item,,"Shawl, Chaddar (no.)",Combined
+250,item,,"Shirts, T-shirts (no.)",Combined
+251,item,,"Shorts, Trousers, Bermudas (no.)",Combined
+252,item,,Silver,Combined
+253,item,,Singara,Combined
+254,item,,Small Millets & their Products,Combined
+255,item,,Snuff (gm),Combined
+256,item,,Spectacles,Combined
+257,item,,"Sports Goods, Toys, etc.",Combined
+258,item,,Stainless Steel Utensils,Combined
+259,item,,"Stationery, Photocopying Charges",Combined
+260,item,,"Steamer, Boat Fare",Combined
+261,item,,"Stove, Gas Burner",Combined
+262,item,,Sugar - Other Sources,Combined
+263,item,,Sugar - PDS,Combined
+264,item,,"Suitcase, Trunk, Box, Handbag and Other Travel Goods",Combined
+265,item,,"Suji, Rawa",Combined
+266,item,,Sweeper,Combined
+267,item,,Tailor,Combined
+268,item,,Tamarind (gm),Combined
+269,item,,"Taxi, Auto-rickshaw Fare",Combined
+270,item,,Tea: Cups (no.),Combined
+271,item,,Tea: Leaf (gm),Combined
+272,item,,Telephone Charges: Landline*,Combined
+273,item,,Telephone Charges: Mobile,Combined
+274,item,,Television,Combined
+275,item,,Toddy (litre),Combined
+276,item,,Toilet Soap,Combined
+277,item,,Tomato,Combined
+278,item,,"Toothpaste, Toothbrush, Comb, etc.",Combined
+279,item,,Torch,Combined
+280,item,,"Tuition and Other Fees (school, College, Etc.)",Combined
+281,item,,Turmeric (gm),Combined
+282,item,,Tyres & Tubes,Combined
+283,item,,"Umbrella, Raincoat",Combined
+284,item,,Urd,Combined
+285,item,,"Vanaspati, Margarine",Combined
+286,item,,VCD/ DVD Hire (incl. Instrument),Combined
+287,item,,VCR/VCD/DVD Player,Combined
+288,item,,Walnut,Combined
+289,item,,"Washerman, Laundry, Ironing",Combined
+290,item,,Washing Machine,Combined
+291,item,,Washing Soap/soda/powder,Combined
+292,item,,Watch Man Charges (other Cons Taxes),Combined
+293,item,,Water Charges,Combined
+294,item,,Watermelon,Combined
+295,item,,Water Purifier,Combined
+296,item,,Wheat/ Atta – Other Sources,Combined
+297,item,,Wheat/ Atta – PDS,Combined
+298,item,,"X-ray, Ecg, Pathological Test, etc. (non-institutional)",Combined
+299,item,,"Zarda, Kimam, Surti (gm)",Combined
+300,group_allindia,Consumer Food Price,Consumer Food Price-Overall,Rural
+301,group_allindia,Miscellaneous,Transport and Communication,Rural
+302,group_allindia,Miscellaneous,Education,Rural
+303,group_allindia,Miscellaneous,Miscellaneous-Overall,Rural
+304,group_allindia,Miscellaneous,Household Goods and Services,Rural
+305,group_allindia,Miscellaneous,Health,Rural
+306,group_allindia,Miscellaneous,Personal Care and Effects,Rural
+307,group_allindia,Miscellaneous,Recreation and Amusement,Rural
+308,group_allindia,Fuel and Light,Fuel and Light-Overall,Rural
+309,group_allindia,Housing,Housing-Overall,Rural
+310,group_allindia,Clothing and Footwear,Footwear,Rural
+311,group_allindia,Clothing and Footwear,Clothing and Footwear-Overall,Rural
+312,group_allindia,Clothing and Footwear,Clothing,Rural
+313,group_allindia,"Pan, Tobacco and Intoxicants","Pan, Tobacco and Intoxicants-Overall",Rural
+314,group_allindia,Food and Beverages,Oils and Fats,Rural
+315,group_allindia,Food and Beverages,Vegetables,Rural
+316,group_allindia,Food and Beverages,Egg,Rural
+317,group_allindia,Food and Beverages,Meat and Fish,Rural
+318,group_allindia,Food and Beverages,Cereals and Products,Rural
+319,group_allindia,Food and Beverages,Milk and Products,Rural
+320,group_allindia,Food and Beverages,Sugar and Confectionery,Rural
+321,group_allindia,Food and Beverages,Spices,Rural
+322,group_allindia,Food and Beverages,Non-alcoholic Beverages,Rural
+323,group_allindia,Food and Beverages,"Prepared Meals, Snacks, Sweets etc.",Rural
+324,group_allindia,Food and Beverages,Food and Beverages-Overall,Rural
+325,group_allindia,General,General-Overall,Rural
+326,group_allindia,Consumer Food Price,Consumer Food Price-Overall,Urban
+327,group_allindia,Miscellaneous,Recreation and Amusement,Urban
+328,group_allindia,Miscellaneous,Education,Urban
+329,group_allindia,Miscellaneous,Personal Care and Effects,Urban
+330,group_allindia,Miscellaneous,Miscellaneous-Overall,Urban
+331,group_allindia,Miscellaneous,Household Goods and Services,Urban
+332,group_allindia,Miscellaneous,Transport and Communication,Urban
+333,group_allindia,Miscellaneous,Health,Urban
+334,group_allindia,Fuel and Light,Fuel and Light-Overall,Urban
+335,group_allindia,Housing,Housing-Overall,Urban
+336,group_allindia,Clothing and Footwear,Footwear,Urban
+337,group_allindia,Clothing and Footwear,Clothing and Footwear-Overall,Urban
+338,group_allindia,"Pan, Tobacco and Intoxicants","Pan, Tobacco and Intoxicants-Overall",Urban
+339,group_allindia,Food and Beverages,"Prepared Meals, Snacks, Sweets etc.",Urban
+340,group_allindia,Food and Beverages,Oils and Fats,Urban
+341,group_allindia,Food and Beverages,Vegetables,Urban
+342,group_allindia,Food and Beverages,Pulses and Products,Urban
+343,group_allindia,Food and Beverages,Sugar and Confectionery,Urban
+344,group_allindia,Food and Beverages,Spices,Urban
+345,group_allindia,Food and Beverages,Non-alcoholic Beverages,Urban
+346,group_allindia,Food and Beverages,Milk and Products,Urban
+347,group_allindia,Food and Beverages,Fruits,Urban
+348,group_allindia,Food and Beverages,Food and Beverages-Overall,Urban
+349,group_allindia,Food and Beverages,Cereals and Products,Urban
+350,group_allindia,Food and Beverages,Meat and Fish,Urban
+351,group_allindia,Food and Beverages,Egg,Urban
+352,group_allindia,General,General-Overall,Urban
+353,group_allindia,Consumer Food Price,Consumer Food Price-Overall,Combined
+354,group_allindia,Miscellaneous,Household Goods and Services,Combined
+355,group_allindia,Miscellaneous,Personal Care and Effects,Combined
+356,group_allindia,Miscellaneous,Miscellaneous-Overall,Combined
+357,group_allindia,Miscellaneous,Recreation and Amusement,Combined
+358,group_allindia,Miscellaneous,Transport and Communication,Combined
+359,group_allindia,Miscellaneous,Health,Combined
+360,group_allindia,Miscellaneous,Education,Combined
+361,group_allindia,Fuel and Light,Fuel and Light-Overall,Combined
+362,group_allindia,Housing,Housing-Overall,Combined
+363,group_allindia,Clothing and Footwear,Footwear,Combined
+364,group_allindia,Clothing and Footwear,Clothing and Footwear-Overall,Combined
+365,group_allindia,Clothing and Footwear,Clothing,Combined
+366,group_allindia,"Pan, Tobacco and Intoxicants","Pan, Tobacco and Intoxicants-Overall",Combined
+367,group_allindia,Food and Beverages,Oils and Fats,Combined
+368,group_allindia,Food and Beverages,"Prepared Meals, Snacks, Sweets etc.",Combined
+369,group_allindia,Food and Beverages,Food and Beverages-Overall,Combined
+370,group_allindia,Food and Beverages,Cereals and Products,Combined
+371,group_allindia,Food and Beverages,Egg,Combined
+372,group_allindia,Food and Beverages,Milk and Products,Combined
+373,group_allindia,Food and Beverages,Fruits,Combined
+374,group_allindia,Food and Beverages,Meat and Fish,Combined
+375,group_allindia,Food and Beverages,Vegetables,Combined
+376,group_allindia,Food and Beverages,Pulses and Products,Combined
+377,group_allindia,Food and Beverages,Sugar and Confectionery,Combined
+378,group_allindia,Food and Beverages,Spices,Combined
+379,group_allindia,Food and Beverages,Non-alcoholic Beverages,Combined
+380,group_allindia,General,General-Overall,Combined
+381,group_allindia,Food and Beverages,Pulses and Products,Rural
+382,group_allindia,Food and Beverages,Fruits,Rural
+383,group_allindia,Clothing and Footwear,Clothing,Urban

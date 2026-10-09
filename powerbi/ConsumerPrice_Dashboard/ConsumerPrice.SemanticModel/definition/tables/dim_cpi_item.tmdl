@@ -1,0 +1,45 @@
+table dim_cpi_item
+	lineageTag: adb1a3ee-2641-55a3-b5e2-b246a2a04a8b
+
+	column cpi_item_key
+		dataType: int64
+		formatString: 0
+		lineageTag: 606f9984-e4f2-5ade-a8f9-8c14f40a48bb
+		summarizeBy: none
+		sourceColumn: cpi_item_key
+
+	column series_kind
+		dataType: string
+		lineageTag: 3b133afd-a846-53e7-89d4-dc7c4a93adef
+		summarizeBy: none
+		sourceColumn: series_kind
+
+	column cpi_group
+		dataType: string
+		lineageTag: 0c0948e2-af18-55c3-9e9b-6e0cfe7b054d
+		summarizeBy: none
+		sourceColumn: cpi_group
+
+	column cpi_item
+		dataType: string
+		lineageTag: 7e2a3209-440e-5c62-b8c2-de5842dac87a
+		summarizeBy: none
+		sourceColumn: cpi_item
+
+	column sector
+		dataType: string
+		lineageTag: a562abf8-0b73-57ec-9049-fd2c6788109f
+		summarizeBy: none
+		sourceColumn: sector
+
+	partition dim_cpi_item = m
+		mode: import
+		source =
+				let
+				    Source = Csv.Document(File.Contents(DataFolder & "\dim_cpi_item.csv"), [Delimiter = ",", Encoding = 65001, QuoteStyle = QuoteStyle.Csv]),
+				    Promoted = Table.PromoteHeaders(Source, [PromoteAllScalars = true]),
+				    Nulls = Table.TransformColumns(Promoted, List.Transform(Table.ColumnNames(Promoted), (c) => {c, each if _ = "" then null else _})),
+				    Typed = Table.TransformColumnTypes(Nulls, {{"cpi_item_key", Int64.Type}, {"series_kind", type text}, {"cpi_group", type text}, {"cpi_item", type text}, {"sector", type text}}, "en-US")
+				in
+				    Typed
+

@@ -1,0 +1,205 @@
+﻿location_key,source_code,location_src_id,location_level,outlet_name,outlet_type,city,state,region,country_code,latitude,longitude,city_source
+1,DOCA_PMD,ALL_INDIA,national,,Average of reporting centres,All India (average),,All India,IN,,,national
+2,OPEN_PRICES,65,outlet,Hyderabad,administrative,Hyderabad,Telangana,South,IN,17.360589,78.4740613,osm_address_city
+3,OPEN_PRICES,609,outlet,Balurghat,city,Balurghat,West Bengal,East,IN,25.2234352,88.7780654,osm_address_city
+4,OPEN_PRICES,613,outlet,Zoho Corporation,company,Potheri,Tamil Nadu,South,IN,12.8299205,80.050421,osm_address_city
+5,OPEN_PRICES,692,outlet,Viviana,residential,Kalyan-Dombivli,Maharashtra,West,IN,19.1465075,73.0770574,osm_address_city
+6,OPEN_PRICES,721,outlet,India,administrative,,,,IN,22.3511148,78.6677428,missing
+7,OPEN_PRICES,789,outlet,Powai,suburb,Mumbai,Maharashtra,West,IN,19.1187195,72.9073476,osm_address_city
+8,OPEN_PRICES,805,outlet,Amazon,commercial,Hyderabad,Telangana,South,IN,17.4202829,78.3394096,osm_address_city
+9,OPEN_PRICES,886,outlet,Chennai,city,Chennai,Tamil Nadu,South,IN,13.0836939,80.270186,osm_address_city
+10,OPEN_PRICES,905,outlet,Amazon Warehouse,yes,Mumbai,Maharashtra,West,IN,19.0403096,72.8653981,osm_address_city
+11,OPEN_PRICES,934,outlet,Mullankolly,local_authority,Mavilamthodu,Kerala,South,IN,11.8436163,76.1720155,osm_address_city
+12,OPEN_PRICES,1106,outlet,Ratnadeep,supermarket,Tadepalle,Andhra Pradesh,South,IN,16.4755202,80.6169378,osm_address_city
+13,OPEN_PRICES,1123,outlet,JioMart digital,electronics,Baleshwar,Odisha,East,IN,21.4977053,86.9224519,osm_address_city
+14,OPEN_PRICES,1129,outlet,DMart,commercial,Hyderabad,Telangana,South,IN,17.4380833,78.3950416,osm_address_city
+15,OPEN_PRICES,1144,outlet,grocery shop,retail,Bulandshahr,Uttar Pradesh,North,IN,28.6214433,77.8072811,parsed_display_name
+16,OPEN_PRICES,1192,outlet,आनंद मेडिकल,pharmacy,Pune (Pimpri-Chinchwad),Maharashtra,West,IN,18.588608,73.7821037,osm_address_city
+17,OPEN_PRICES,1233,outlet,Supreme Bakery,bakery,Delhi,Delhi,North,IN,28.5725095,77.1672727,osm_address_city
+18,OPEN_PRICES,1249,outlet,Reliance Smart Superstore,supermarket,Latur,Maharashtra,West,IN,18.3898159,76.5610398,osm_address_city
+19,OPEN_PRICES,1301,outlet,Jio Mart,mall,Palghar,Maharashtra,West,IN,19.6975842,72.7666377,osm_address_city
+20,OPEN_PRICES,1349,outlet,Rajesh Store,convenience,Delhi,Delhi,North,IN,28.5953655,77.1210112,osm_address_city
+21,OPEN_PRICES,1439,outlet,Ratnadeep,supermarket,Hyderabad,Telangana,South,IN,17.4350291,78.4497759,osm_address_city
+22,OPEN_PRICES,1467,outlet,Zepto,company,Bengaluru,Karnataka,South,IN,12.9360255,77.6298692,parsed_display_name
+23,OPEN_PRICES,1470,outlet,Mullankolly,local_authority,Padichira,Kerala,South,IN,11.8306316,76.1603401,osm_address_city
+24,OPEN_PRICES,1506,outlet,Centreal Bazaar,supermarket,Cherthala,Kerala,South,IN,9.6764441,76.3404612,osm_address_city
+25,OPEN_PRICES,1511,outlet,Mini Mingos,bakery,Mailasandra,Karnataka,South,IN,12.9237929,77.5004981,osm_address_city
+26,OPEN_PRICES,1663,outlet,DMart,retail,Hyderabad,Telangana,South,IN,17.5100235,78.2961984,osm_address_city
+27,OPEN_PRICES,1664,outlet,DMart,supermarket,Warangal,Telangana,South,IN,17.9846805,79.6028065,osm_address_city
+28,OPEN_PRICES,1675,outlet,More,supermarket,Bengaluru,Karnataka,South,IN,12.8810319,77.5988542,parsed_display_name
+29,OPEN_PRICES,1682,outlet,Zepto,unclassified,Oud-Zevenaar,,,NL,51.9233833,6.1063406,osm_address_city
+30,OPEN_PRICES,1694,outlet,Sector 11,neighbourhood,Gandhinagar,Gujarat,West,IN,23.2196246,72.6478573,osm_address_city
+31,OPEN_PRICES,1697,outlet,Swiggy Instamart,wholesale,Kochi (Ernakulam),Kerala,South,IN,9.9658734,76.3057981,osm_address_city
+32,OPEN_PRICES,1729,outlet,"Northern Railway Divisional Hospital, Lucknow",hospital,Lucknow,Uttar Pradesh,North,IN,26.821399,80.9241858,osm_address_city
+33,OPEN_PRICES,1737,outlet,Biraja Temple,place_of_worship,Jajpur,Odisha,East,IN,20.8337267,86.3381699,osm_address_city
+34,OPEN_PRICES,1738,outlet,Reliance Smart,supermarket,Hyderabad,Telangana,South,IN,17.4306001,78.4487295,osm_address_city
+35,OPEN_PRICES,1814,outlet,DMart,supermarket,Mira-Bhayander,Maharashtra,West,IN,19.2691373,72.877487,osm_address_city
+36,OPEN_PRICES,1821,outlet,Nestle Distributor Kottayam -V Matha Distributors,wholesale,Kottayam,Kerala,South,IN,9.7831091,76.4844398,parsed_display_name
+37,OPEN_PRICES,1853,outlet,Amazon Warehouse,post_depot,Mamidipally,Telangana,South,IN,17.2391836,78.4458586,osm_address_city
+38,OPEN_PRICES,2014,outlet,flipkart Office,convenience,Lucknow,Uttar Pradesh,North,IN,26.7985549,80.9138981,osm_address_city
+39,OPEN_PRICES,2052,outlet,Apollo Pharmacy,pharmacy,Hyderabad,Telangana,South,IN,17.4288809,78.4095046,osm_address_city
+40,OPEN_PRICES,2186,outlet,amazon in,yes,Thrissur,Kerala,South,IN,10.6889944,76.0576146,parsed_display_name
+41,OPEN_PRICES,2226,outlet,Reliance Smart,supermarket,Bengaluru,Karnataka,South,IN,12.9553443,77.5282394,osm_address_city
+42,OPEN_PRICES,2370,outlet,DMart,retail,Hyderabad,Telangana,South,IN,17.503877,78.3616397,osm_address_city
+43,OPEN_PRICES,2386,outlet,Delhi,administrative,Delhi,Delhi,North,IN,28.6328027,77.2197713,state_is_city
+44,OPEN_PRICES,2425,outlet,D-Mart,supermarket,Pune,Maharashtra,West,IN,18.4935105,73.9345047,osm_address_city
+45,OPEN_PRICES,2564,outlet,Dorabjee's - Viman Nagar,supermarket,Pune,Maharashtra,West,IN,18.5685148,73.9074459,osm_address_city
+46,OPEN_PRICES,2568,outlet,Kadar mega mart,supermarket,Betalbatim,Goa,West,IN,15.2824323,73.9205269,osm_address_city
+47,OPEN_PRICES,2569,outlet,Oscar's Junction,supermarket,Betalbatim,Goa,West,IN,15.308322,73.92992,osm_address_city
+48,OPEN_PRICES,2575,outlet,"LuLu International Shopping Mall, Kochi",mall,Kochi (Ernakulam),Kerala,South,IN,10.0272185,76.3078873,osm_address_city
+49,OPEN_PRICES,2587,outlet,"Dev Hospital, Rajkot",hospital,Rajkot,Gujarat,West,IN,22.2884983,70.7964027,osm_address_city
+50,OPEN_PRICES,2589,outlet,FFF3,computer,Manila,,,PH,14.6171567,120.9769106,osm_address_city
+51,OPEN_PRICES,2651,outlet,Margin Free,supermarket,Vithura,Kerala,South,IN,8.6745571,77.0935963,osm_address_city
+52,OPEN_PRICES,2674,outlet,DMart,supermarket,Pune,Maharashtra,West,IN,18.5668244,73.8070505,osm_address_city
+53,OPEN_PRICES,2706,outlet,RIMS Hospital,hospital,Ranchi,Jharkhand,East,IN,23.3905938,85.3479904,osm_address_city
+54,OPEN_PRICES,2708,outlet,சன மொபைல்ஸ்,mobile_phone,Madurai,Tamil Nadu,South,IN,9.9148795,78.117803,osm_address_city
+55,OPEN_PRICES,2455,outlet,DMart,department_store,Bengaluru,Karnataka,South,IN,12.8959006,77.6219225,parsed_display_name
+56,OPEN_PRICES,2754,outlet,Sultan Stores,general,Madurai,Tamil Nadu,South,IN,9.922079,78.1239035,osm_address_city
+57,OPEN_PRICES,2762,outlet,Harvard Medical School,university,Boston,,,US,42.3369167,-71.1038922,osm_address_city
+58,OPEN_PRICES,2788,outlet,Smart Bazaar,yes,Tinsukia,Assam,North-East,IN,27.4912089,95.3513211,osm_address_city
+59,OPEN_PRICES,2792,outlet,Dmart,mall,Hyderabad,Telangana,South,IN,17.3497602,78.5474855,osm_address_city
+60,OPEN_PRICES,2860,outlet,,,,,,,,,missing
+61,OPEN_PRICES,2925,outlet,BG Naidu Keela Veli Veethi Madurai,confectionery,Madurai,Tamil Nadu,South,IN,9.9206732,78.1252251,osm_address_city
+62,OPEN_PRICES,2928,outlet,Patanjali Mega Store,convenience,Meerut,Uttar Pradesh,North,IN,28.9903645,77.7310215,osm_address_city
+63,OPEN_PRICES,2930,outlet,Sai Kirana,general,Meerut,Uttar Pradesh,North,IN,28.9874037,77.7387237,osm_address_city
+64,OPEN_PRICES,2949,outlet,Star Bazaar,supermarket,Pune,Maharashtra,West,IN,18.5195081,73.9308577,osm_address_city
+65,OPEN_PRICES,2994,outlet,JamJoom Supermarket,supermarket,Malappuram,Kerala,South,IN,11.0434749,76.0831196,osm_address_city
+66,OPEN_PRICES,3023,outlet,DMart,supermarket,Ahmedabad,Gujarat,West,IN,23.0552881,72.6711806,parsed_display_name
+67,OPEN_PRICES,3038,outlet,Zepto Cafe,cafe,Bengaluru,Karnataka,South,IN,12.9165301,77.6714059,osm_address_city
+68,OPEN_PRICES,3039,outlet,Mahadevpura Police Station,police,Bengaluru,Karnataka,South,IN,12.9968412,77.6928386,parsed_display_name
+69,OPEN_PRICES,3087,outlet,Reliance Retail,supermarket,Nagpur,Maharashtra,West,IN,21.1379323,79.1197579,osm_address_city
+70,OPEN_PRICES,3106,outlet,Mapro Mall,convenience,Lonavala,Maharashtra,West,IN,18.7601008,73.4241847,osm_address_city
+71,OPEN_PRICES,3107,outlet,Katraj,village,Katraj,Maharashtra,West,IN,18.294476,74.844296,osm_address_city
+72,OPEN_PRICES,3111,outlet,Yoga,computer,Pasay,,,PH,14.5364416,120.9827937,osm_address_city
+73,OPEN_PRICES,3112,outlet,SP mart Stationery,general,Pune,Maharashtra,West,IN,18.601859,73.7699508,parsed_display_name
+74,OPEN_PRICES,3113,outlet,Club Sogara,restaurant,Port-Gentil,,,GA,-0.6771705,8.7629569,osm_address_city
+75,OPEN_PRICES,3117,outlet,Balaji Market,supermarket,Pune,Maharashtra,West,IN,18.4606762,73.825768,osm_address_city
+76,OPEN_PRICES,3118,outlet,Capgemini Cafeteria,restaurant,Pune,Maharashtra,West,IN,18.5963547,73.6935465,parsed_display_name
+77,OPEN_PRICES,3122,outlet,Reliance Smart,supermarket,Ahmedabad,Gujarat,West,IN,23.0475825,72.5265833,parsed_display_name
+78,OPEN_PRICES,3137,outlet,Indian Card Clothing,works,Pune,Maharashtra,West,IN,18.617064,73.8125245,parsed_display_name
+79,OPEN_PRICES,3142,outlet,Dmart - Airoli,supermarket,Navi Mumbai,Maharashtra,West,IN,19.143206,72.9912872,osm_address_city
+80,OPEN_PRICES,3143,outlet,Magsons Hymart,supermarket,Panaji,Goa,West,IN,15.4864463,73.8181362,osm_address_city
+81,OPEN_PRICES,3153,outlet,Reliance Smart,supermarket,Vijayawada,Andhra Pradesh,South,IN,16.5106341,80.6411549,osm_address_city
+82,OPEN_PRICES,3160,outlet,Maganlal Chikki,confectionery,Raigad,Maharashtra,West,IN,18.7932688,73.2965659,parsed_display_name
+83,OPEN_PRICES,3168,outlet,Hanuman Super Market,general,Pune,Maharashtra,West,IN,18.5643357,73.8024161,osm_address_city
+84,OPEN_PRICES,3244,outlet,Reliance Mart,supermarket,Pune,Maharashtra,West,IN,18.5631428,73.8071709,osm_address_city
+85,OPEN_PRICES,3251,outlet,Sri Lakshmi Oil Store,general,Madurai,Tamil Nadu,South,IN,9.9221703,78.124597,osm_address_city
+86,OPEN_PRICES,3281,outlet,DMart,supermarket,Dhayari,Maharashtra,West,IN,18.4517441,73.8439598,osm_address_city
+87,OPEN_PRICES,3300,outlet,D mart,toys,Kalyan-Dombivli,Maharashtra,West,IN,19.23716,73.125775,osm_address_city
+88,OPEN_PRICES,3303,outlet,Vishal Mega Mart,supermarket,Delhi,Delhi,North,IN,28.6424946,77.1230362,parsed_display_name
+89,OPEN_PRICES,3383,outlet,kirana ghar,supermarket,Hyderabad,Telangana,South,IN,17.4012459,78.4887819,osm_address_city
+90,OPEN_PRICES,3390,outlet,Khuntuni,town,Khuntuni,Odisha,East,IN,20.5627489,85.7266954,osm_address_city
+91,OPEN_PRICES,3419,outlet,Ushodaya,supermarket,Guntur Municipal Corporation,Andhra Pradesh,South,IN,16.3356621,80.4338896,osm_address_city
+92,OPEN_PRICES,3420,outlet,D Mart,mall,Suryapet,Telangana,South,IN,17.1388651,79.6257567,osm_address_city
+93,OPEN_PRICES,3428,outlet,Reliance Smart Point,yes,Jhusi,Uttar Pradesh,North,IN,25.4275693,81.9100261,osm_address_city
+94,OPEN_PRICES,3430,outlet,Kaza Bus Station,bus_station,Kaza,Himachal Pradesh,North,IN,32.2236431,78.0740354,osm_address_city
+95,OPEN_PRICES,3457,outlet,MORE SUPER MARKET,department_store,Rajamahendravaram,Andhra Pradesh,South,IN,17.0208159,81.7828322,osm_address_city
+96,OPEN_PRICES,3479,outlet,New Mobile Palace,mobile_phone,Madurai,Tamil Nadu,South,IN,9.9246401,78.1152081,osm_address_city
+97,OPEN_PRICES,3501,outlet,Garg Store,convenience,नई दिल्ली,Delhi,North,IN,28.6021797,77.1871301,osm_address_city
+98,OPEN_PRICES,3503,outlet,Andheri East,bus_station,Mumbai,Maharashtra,West,IN,19.1190604,72.8481917,osm_address_city
+99,OPEN_PRICES,3522,outlet,vijetha super market,supermarket,Medchal–Malkajgiri,Telangana,South,IN,17.5319902,78.4875148,parsed_display_name
+100,OPEN_PRICES,3561,outlet,South City Mall,mall,Kolkata,West Bengal,East,IN,22.5015843,88.36171,osm_address_city
+101,OPEN_PRICES,3602,outlet,Flipkart,wholesale,Kurnool,Andhra Pradesh,South,IN,15.8079874,78.0391831,osm_address_city
+102,OPEN_PRICES,3612,outlet,Dmart,supermarket,Khammam,Telangana,South,IN,17.2512271,80.1350591,osm_address_city
+103,OPEN_PRICES,3676,outlet,Reliance Retail,supermarket,Mumbai,Maharashtra,West,IN,19.0887329,72.8376577,osm_address_city
+104,OPEN_PRICES,3682,outlet,DMart,supermarket,Hyderabad,Telangana,South,IN,17.5098506,78.2960235,osm_address_city
+105,OPEN_PRICES,3729,outlet,Mohali ISBT,bus_station,Mohali,Punjab,North,IN,30.7320041,76.7059355,parsed_display_name
+106,OPEN_PRICES,3777,outlet,Indian Institute of Management Lucknow,university,Lucknow,Uttar Pradesh,North,IN,26.9363415,80.8980289,osm_address_city
+107,OPEN_PRICES,3783,outlet,Reliance Fresh Kunnamkulam,yes,Kunnamkulam,Kerala,South,IN,10.6480223,76.067951,osm_address_city
+108,OPEN_PRICES,3791,outlet,cmr shopping mall,mall,Hyderabad,Telangana,South,IN,17.442118,78.4958858,osm_address_city
+109,OPEN_PRICES,3801,outlet,Vijetha Supermarket,supermarket,Hyderabad,Telangana,South,IN,17.4647531,78.3451374,osm_address_city
+110,OPEN_PRICES,3936,outlet,DMart,supermarket,Hyderabad,Telangana,South,IN,17.4823525,78.4486701,osm_address_city
+111,OPEN_PRICES,3739,outlet,GH Gurgaon,hospital,Gurugram,Haryana,North,IN,28.474246,77.027117,osm_address_city
+112,OPEN_PRICES,3967,outlet,DMart,supermarket,Panvel,Maharashtra,West,IN,19.0420768,73.0768214,osm_address_city
+113,OPEN_PRICES,3976,outlet,MCP Ford,car,Thrissur,Kerala,South,IN,10.5053501,76.211358,osm_address_city
+114,OPEN_PRICES,3977,outlet,Venus,restaurant,Irinjalakuda,Kerala,South,IN,10.3470182,76.208067,osm_address_city
+115,OPEN_PRICES,4094,outlet,D Mart,supermarket,Bengaluru,Karnataka,South,IN,13.0055402,77.6595826,osm_address_city
+116,OPEN_PRICES,4097,outlet,Amardham Kopargaon,crematorium,Kopargaon,Maharashtra,West,IN,19.8824192,74.482197,osm_address_city
+117,OPEN_PRICES,4105,outlet,Bajrang Medical store,hospital,Varanasi,Uttar Pradesh,North,IN,25.3418788,82.9965688,osm_address_city
+118,OPEN_PRICES,4135,outlet,Vairaprakash Store,convenience,Madurai,Tamil Nadu,South,IN,9.9185919,78.1312882,osm_address_city
+119,OPEN_PRICES,4180,outlet,Shopbox,supermarket,Bengaluru,Karnataka,South,IN,13.1069608,77.6002193,osm_address_city
+120,OPEN_PRICES,4257,outlet,Reliance Fresh,supermarket,Hyderabad,Telangana,South,IN,17.376738,78.559273,osm_address_city
+121,OPEN_PRICES,4258,outlet,Ganesh departmental store,department_store,Udumalaippettai,Tamil Nadu,South,IN,10.5838125,77.2530936,osm_address_city
+122,OPEN_PRICES,4271,outlet,Reliance Market,marketplace,Ahmedabad,Gujarat,West,IN,23.044668,72.5880369,parsed_display_name
+123,OPEN_PRICES,4288,outlet,DMart,supermarket,Mahesana,Gujarat,West,IN,23.6205554,72.3446476,osm_address_city
+124,OPEN_PRICES,4310,outlet,kiranam,general,Hyderabad,Telangana,South,IN,17.3308005,78.5737639,osm_address_city
+125,OPEN_PRICES,4356,outlet,All Maart,supermarket,Brammapuram,Tamil Nadu,South,IN,12.9700963,79.154349,osm_address_city
+126,OPEN_PRICES,4357,outlet,Blinkit,convenience,Dispur,Assam,North-East,IN,26.1694914,91.82922,osm_address_city
+127,OPEN_PRICES,4363,outlet,DMart,supermarket,Hosur,Tamil Nadu,South,IN,12.7469023,77.809528,osm_address_city
+128,OPEN_PRICES,4412,outlet,DMart,supermarket,Pune,Maharashtra,West,IN,18.4598928,73.7854548,parsed_display_name
+129,OPEN_PRICES,4417,outlet,Dhanya Supermarket,supermarket,Thiruvananthapuram,Kerala,South,IN,8.5885171,76.8516634,parsed_display_name
+130,OPEN_PRICES,4430,outlet,Amul Parlor,ice_cream,Ahmedabad,Gujarat,West,IN,23.0321809,72.5052786,parsed_display_name
+131,OPEN_PRICES,4473,outlet,MK Retail,supermarket,Bengaluru,Karnataka,South,IN,12.9647631,77.7153696,osm_address_city
+132,OPEN_PRICES,4508,outlet,Beer Shopee,alcohol,Pune,Maharashtra,West,IN,18.6409101,73.7740873,parsed_display_name
+133,OPEN_PRICES,4576,outlet,Margao KTC Bus Stand,bus_station,Margao,Goa,West,IN,15.2879367,73.9561106,osm_address_city
+134,OPEN_PRICES,4664,outlet,Hyderabad Central,mall,Hyderabad,Telangana,South,IN,17.4265137,78.4531148,osm_address_city
+135,OPEN_PRICES,4666,outlet,Lulu Mall,mall,Hyderabad,Telangana,South,IN,17.4900984,78.3928581,osm_address_city
+136,OPEN_PRICES,4719,outlet,University of Hyderabad,university,Hyderabad,Telangana,South,IN,17.4530357,78.3270312,osm_address_city
+137,OPEN_PRICES,4720,outlet,Chinchwad railway station,garden,Pune,Maharashtra,West,IN,18.6394806,73.7915023,parsed_display_name
+138,OPEN_PRICES,4721,outlet,Blinkit,company,Delhi,Delhi,North,IN,28.6445333,77.2010177,osm_address_city
+139,OPEN_PRICES,4773,outlet,,,,,,,,,missing
+140,OPEN_PRICES,4878,outlet,Dmart,mall,Rajkot,Gujarat,West,IN,22.3104955,70.8242476,osm_address_city
+141,OPEN_PRICES,4879,outlet,ஜேபி பார்மசி,pharmacy,Madurai,Tamil Nadu,South,IN,9.9214431,78.1252708,osm_address_city
+142,OPEN_PRICES,4971,outlet,Zydus Wellness Clinic,clinic,Bhuj,Gujarat,West,IN,23.2432754,69.6728188,osm_address_city
+143,OPEN_PRICES,4975,outlet,Vismaya,bakery,Kattakada,Kerala,South,IN,8.507762,77.08411,osm_address_city
+144,OPEN_PRICES,5091,outlet,Reliance Digital,electronics,Mumbai,Maharashtra,West,IN,19.0128029,72.8277261,parsed_display_name
+145,OPEN_PRICES,5100,outlet,DMart,supermarket,Mumbai,Maharashtra,West,IN,19.1859626,72.8356655,osm_address_city
+146,OPEN_PRICES,5185,outlet,Sri Pillaiyar Store,convenience,Madurai,Tamil Nadu,South,IN,9.9222784,78.1243177,osm_address_city
+147,OPEN_PRICES,5223,outlet,Amul Parlour,dairy,Anand,Gujarat,West,IN,22.5461472,72.9733457,osm_address_city
+148,OPEN_PRICES,5245,outlet,DMart,supermarket,Mumbai,Maharashtra,West,IN,19.1167001,72.9103497,osm_address_city
+149,OPEN_PRICES,5256,outlet,Vasanth Nagar Shoping Complex,mall,Hyderabad,Telangana,South,IN,17.4926161,78.3843639,osm_address_city
+150,OPEN_PRICES,5345,outlet,Blinkit Commerce Pvt. Ltd.,industrial,Bengaluru,Karnataka,South,IN,12.9914311,77.7203203,osm_address_city
+151,OPEN_PRICES,5378,outlet,Institute Of Neurosciences Kolkata,hospital,Kolkata,West Bengal,East,IN,22.5470227,88.3620613,osm_address_city
+152,OPEN_PRICES,5434,outlet,Bazar Hat,convenience,Arambagh,West Bengal,East,IN,22.8791751,87.790914,osm_address_city
+153,OPEN_PRICES,5435,outlet,Basu Stationary,general,Khanakul,West Bengal,East,IN,22.7108235,87.8508606,osm_address_city
+154,OPEN_PRICES,5438,outlet,Burma Supernarket,supermarket,Bengaluru,Karnataka,South,IN,12.9736082,77.6743886,osm_address_city
+155,OPEN_PRICES,5541,outlet,Supreme,supermarket,Kollam,Kerala,South,IN,8.8877405,76.579101,osm_address_city
+156,OPEN_PRICES,5550,outlet,jio mart ultadanga,department_store,Kolkata,West Bengal,East,IN,22.5877065,88.3922325,osm_address_city
+157,OPEN_PRICES,5551,outlet,Ratnadeep,supermarket,Hyderabad,Telangana,South,IN,17.4583523,78.3710391,osm_address_city
+158,OPEN_PRICES,5613,outlet,blinkit,outpost,Dispur,Assam,North-East,IN,26.1563584,91.782744,osm_address_city
+159,OPEN_PRICES,5615,outlet,Chinchwad,suburb,Pune (Pimpri-Chinchwad),Maharashtra,West,IN,18.6315806,73.7854601,osm_address_city
+160,OPEN_PRICES,5620,outlet,DMart,supermarket,Nashik,Maharashtra,West,IN,19.9358959,73.7359805,osm_address_city
+161,OPEN_PRICES,5625,outlet,Airoli Railway station Ticket counter,ticket,Navi Mumbai,Maharashtra,West,IN,19.1584761,72.9989092,osm_address_city
+162,OPEN_PRICES,5663,outlet,Reliance Smart Bazaar,supermarket,Danapur,Bihar,East,IN,25.6254005,85.0559527,osm_address_city
+163,OPEN_PRICES,5676,outlet,Dholi Bazaar,marketplace,Dholi,Bihar,East,IN,25.997227,85.6046818,osm_address_city
+164,OPEN_PRICES,5774,outlet,PSU Narsinghpur,hospital,Narsinghpur,Madhya Pradesh,Central,IN,22.9532569,79.2068138,osm_address_city
+165,OPEN_PRICES,5803,outlet,நீல்கிரீஸ்,supermarket,Madurai,Tamil Nadu,South,IN,9.9312267,78.1483243,osm_address_city
+166,OPEN_PRICES,5854,outlet,Organic India Noida,supermarket,Dadri,Uttar Pradesh,North,IN,28.5410157,77.3669885,osm_address_city
+167,OPEN_PRICES,5898,outlet,Bandra Eats,fast_food,Mumbai,Maharashtra,West,IN,19.0538175,72.8308279,osm_address_city
+168,OPEN_PRICES,5913,outlet,Palanpur Bus Station,bus_station,Palanpur,Gujarat,West,IN,24.1728834,72.4313236,osm_address_city
+169,OPEN_PRICES,5915,outlet,local shop,convenience,Bhavra,Rajasthan,North,IN,26.7498628,76.651602,osm_address_city
+170,OPEN_PRICES,5945,outlet,Zirakpur Service Station,car_repair,Zirakpur,Punjab,North,IN,30.6424349,76.8266751,osm_address_city
+171,OPEN_PRICES,6060,outlet,Reliance,mobile_phone,Bengaluru,Karnataka,South,IN,12.968467,77.650529,osm_address_city
+172,OPEN_PRICES,6066,outlet,Chacha ki Dukaan,convience_store,Bidholi,Uttarakhand,North,IN,30.4078398,77.9689338,osm_address_city
+173,OPEN_PRICES,6076,outlet,அனந்த & அனந்த - காமராஜர் சாலை பிராஞ்ச்,kitchen,Madurai,Tamil Nadu,South,IN,9.9176821,78.127397,osm_address_city
+174,OPEN_PRICES,6089,outlet,ஹோட்டல் ஸ்ரீ சபரீஸ்,restaurant,Madurai,Tamil Nadu,South,IN,9.9135155,78.1444601,osm_address_city
+175,OPEN_PRICES,6159,outlet,District Male Hospital Kheri,hospital,Lakhimpur,Uttar Pradesh,North,IN,27.9459502,80.7837984,osm_address_city
+176,OPEN_PRICES,6192,outlet,Milma,dairy,Palakkad,Kerala,South,IN,10.7921672,76.6741903,osm_address_city
+177,OPEN_PRICES,6197,outlet,Blinkit,warehouse,Gurugram,Haryana,North,IN,28.4257986,77.0655307,osm_address_city
+178,OPEN_PRICES,6212,outlet,Sri Sakthi Traders,oil,Madurai,Tamil Nadu,South,IN,9.9210723,78.1238807,osm_address_city
+179,OPEN_PRICES,6214,outlet,All Mart,supermarket,Bengaluru,Karnataka,South,IN,13.1216215,77.6258249,osm_address_city
+180,OPEN_PRICES,6237,outlet,Sri Pethanatchi Store,convenience,Madurai,Tamil Nadu,South,IN,9.9221163,78.1244363,osm_address_city
+181,OPEN_PRICES,6330,outlet,Bhavika's Fruity Delights,fast_food,Bengaluru,Karnataka,South,IN,13.0687118,77.5546922,osm_address_city
+182,OPEN_PRICES,6369,outlet,STADIUM CHHAK ATHGARH CUTTACK,motorway_junction,Athagad,Odisha,East,IN,20.5180239,85.6355619,osm_address_city
+183,OPEN_PRICES,6387,outlet,D-Mart,mall,Surat,Gujarat,West,IN,21.195421,72.792736,osm_address_city
+184,OPEN_PRICES,6425,outlet,Ahmedabad ni Gufa,arts_centre,Navrangpura,Gujarat,West,IN,23.0362323,72.5496859,osm_address_city
+185,OPEN_PRICES,6451,outlet,Ratnadeep,supermarket,Hyderabad,Telangana,South,IN,17.389183,78.4230978,osm_address_city
+186,OPEN_PRICES,6453,outlet,Jio Mart,supermarket,Akividu,Andhra Pradesh,South,IN,16.5829433,81.3833909,osm_address_city
+187,OPEN_PRICES,6496,outlet,AIIMS Emergency,hospital,Delhi,Delhi,North,IN,28.567441,77.2096335,osm_address_city
+188,OPEN_PRICES,6538,outlet,Greater Noida Institute of Technology,college,Shafipur,Uttar Pradesh,North,IN,28.4611819,77.4952026,osm_address_city
+189,OPEN_PRICES,6620,outlet,Dmart,mall,Hyderabad,Telangana,South,IN,17.3497713,78.547488,osm_address_city
+190,OPEN_PRICES,6680,outlet,Amul,fast_food,Lucknow,Uttar Pradesh,North,IN,26.8006386,81.024557,parsed_display_name
+191,OPEN_PRICES,6683,outlet,bhimavaram hub,restaurant,Pedda Amiram,Andhra Pradesh,South,IN,16.5428445,81.4983523,osm_address_city
+192,OPEN_PRICES,6731,outlet,Mangalore City Corporation,public_building,Mangaluru,Karnataka,South,IN,12.8847996,74.8386106,osm_address_city
+193,OPEN_PRICES,6745,outlet,Hafeezpet Harizanbasthi,childcare,Hyderabad,Telangana,South,IN,17.4871127,78.3551191,osm_address_city
+194,OPEN_PRICES,6766,outlet,Balasore Main Bus Stand,bus_station,Baleshwar,Odisha,East,IN,21.5039578,86.9193621,osm_address_city
+195,OPEN_PRICES,6815,outlet,Gurugram Bus Stand,bus_station,Gurugram,Haryana,North,IN,28.4651704,77.0322417,osm_address_city
+196,OPEN_PRICES,6968,outlet,brown bear,bakery,Hyderabad,Telangana,South,IN,17.3988067,78.4852629,osm_address_city
+197,OPEN_PRICES,6986,outlet,Amul,ice_cream,Bengaluru,Karnataka,South,IN,12.9809974,77.5634144,osm_address_city
+198,OPEN_PRICES,6987,outlet,IISc Post Office,post_office,Bengaluru,Karnataka,South,IN,13.0139623,77.5665181,osm_address_city
+199,OPEN_PRICES,7003,outlet,Grandway Supermarket,convenience,Chennai Corporation,Tamil Nadu,South,IN,13.101165,80.2916643,osm_address_city
+200,OPEN_PRICES,7041,outlet,Lake View Supermarket,supermarket,Bengaluru,Karnataka,South,IN,12.9875472,77.6189672,osm_address_city
+201,OPEN_PRICES,7246,outlet,"Indian Institute of Science Education and Research, Bhopal",university,Bhopal,Madhya Pradesh,Central,IN,23.2885613,77.275686,osm_address_city
+202,OPEN_PRICES,7273,outlet,Visakhapatnam Post & Telegraph Office,post_office,Visakhapatnam,Andhra Pradesh,South,IN,17.7039826,83.2965243,osm_address_city
+203,OPEN_PRICES,7343,outlet,Kapoor Hospital,hospital,Chomu,Rajasthan,North,IN,27.1633195,75.7227808,osm_address_city
+204,OPEN_PRICES,7408,outlet,Vita Milk,dairy,Kurukshetra,Haryana,North,IN,29.9673407,76.8212124,osm_address_city

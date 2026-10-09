@@ -1,0 +1,36 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/fabric/item/report/definition/visualContainer/2.13.0/schema.json",
+  "name": "p5_discounts_subtitle",
+  "position": {
+    "x": 16,
+    "y": 40,
+    "z": 100,
+    "height": 28,
+    "width": 1248,
+    "tabOrder": 100
+  },
+  "visual": {
+    "visualType": "textbox",
+    "objects": {
+      "general": [
+        {
+          "properties": {
+            "paragraphs": [
+              {
+                "textRuns": [
+                  {
+                    "value": "Discounts from Open Prices (implausible list prices excluded). 'Availability' = DoCA reported a price that day - not shelf stock.",
+                    "textStyle": {
+                      "fontSize": "10pt",
+                      "color": "#3C434C"
+                    }
+                  }
+                ]
+              }
+            ]
+          }
+        }
+      ]
+    }
+  }
+}

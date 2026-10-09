@@ -1,0 +1,34 @@
+table bridge_commodity_cpi
+	lineageTag: 32962902-96c9-53b7-9250-a0786a11dae7
+
+	column product_key
+		dataType: int64
+		formatString: 0
+		lineageTag: e9e2a458-e148-56f1-8f00-e75fa8dafa42
+		summarizeBy: none
+		sourceColumn: product_key
+
+	column cpi_item_key
+		dataType: int64
+		formatString: 0
+		lineageTag: 863e9106-29f8-5b0a-8a16-a648d18faa54
+		summarizeBy: none
+		sourceColumn: cpi_item_key
+
+	column match_quality
+		dataType: string
+		lineageTag: 1db5c0da-b96a-5195-b08d-c69f69668bcf
+		summarizeBy: none
+		sourceColumn: match_quality
+
+	partition bridge_commodity_cpi = m
+		mode: import
+		source =
+				let
+				    Source = Csv.Document(File.Contents(DataFolder & "\bridge_commodity_cpi.csv"), [Delimiter = ",", Encoding = 65001, QuoteStyle = QuoteStyle.Csv]),
+				    Promoted = Table.PromoteHeaders(Source, [PromoteAllScalars = true]),
+				    Nulls = Table.TransformColumns(Promoted, List.Transform(Table.ColumnNames(Promoted), (c) => {c, each if _ = "" then null else _})),
+				    Typed = Table.TransformColumnTypes(Nulls, {{"product_key", Int64.Type}, {"cpi_item_key", Int64.Type}, {"match_quality", type text}}, "en-US")
+				in
+				    Typed
+

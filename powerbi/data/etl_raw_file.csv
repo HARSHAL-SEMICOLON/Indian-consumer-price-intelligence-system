@@ -1,0 +1,5 @@
+﻿raw_file_id,source_code,relative_path,sha256,bytes,collection_date,records_parsed,loaded_at_utc,run_id
+1,DOCA_PMD,data/raw/doca_dashboard/2026-10-01/doca_dashboard_raw_2026-10-01.jsonl,88bd44fefe06e302f7834c46f1169fd4c902dd2b72d5e3fbc88ff82950a9578b,126482,2026-10-01,275,2026-10-02T05:39:42Z,1
+2,MOSPI_CPI,data/raw/mospi_cpi/2026-10-01/mospi_cpi_raw_2026-10-01.jsonl,0d4435dcb18cc7b1f5b92ef1fd59fddbb77e282475060889b98b8d4649d48a96,1900764,2026-10-01,9107,2026-10-02T05:39:42Z,1
+3,MOSPI_CPI,data/raw/mospi_cpi/2026-10-01/mospi_cpi_raw_2026-10-01_backfill.jsonl,ace37019545800d20d7ecd4a0b26f481bfc6b770dfb0720d7e84fad6b0636f6e,202244,2026-10-01,728,2026-10-02T05:39:42Z,1
+4,OPEN_PRICES,data/raw/open_prices/2026-10-01/openprices_INR_raw_2026-10-01.jsonl,1bb2ed0abcf53c566cde7b4a0e7602efcb41ea7b5ed08fde339a90334b97dd82,1197214,2026-10-01,402,2026-10-02T05:39:42Z,1

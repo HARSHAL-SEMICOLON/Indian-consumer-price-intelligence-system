@@ -1,0 +1,188 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/fabric/item/report/definition/visualContainer/2.13.0/schema.json",
+  "name": "p6_quality_summary",
+  "position": {
+    "x": 16,
+    "y": 434,
+    "z": 1000,
+    "height": 234,
+    "width": 410,
+    "tabOrder": 1000
+  },
+  "visual": {
+    "visualType": "tableEx",
+    "query": {
+      "queryState": {
+        "Values": {
+          "projections": [
+            {
+              "field": {
+                "Column": {
+                  "Expression": {
+                    "SourceRef": {
+                      "Entity": "dq_check_summary"
+                    }
+                  },
+                  "Property": "check_name"
+                }
+              },
+              "queryRef": "dq_check_summary.check_name",
+              "nativeQueryRef": "check_name",
+              "displayName": "Check"
+            },
+            {
+              "field": {
+                "Column": {
+                  "Expression": {
+                    "SourceRef": {
+                      "Entity": "dq_check_summary"
+                    }
+                  },
+                  "Property": "source_code"
+                }
+              },
+              "queryRef": "dq_check_summary.source_code",
+              "nativeQueryRef": "source_code",
+              "displayName": "Source"
+            },
+            {
+              "field": {
+                "Column": {
+                  "Expression": {
+                    "SourceRef": {
+                      "Entity": "dq_check_summary"
+                    }
+                  },
+                  "Property": "rows_checked"
+                }
+              },
+              "queryRef": "dq_check_summary.rows_checked",
+              "nativeQueryRef": "rows_checked",
+              "displayName": "Checked"
+            },
+            {
+              "field": {
+                "Column": {
+                  "Expression": {
+                    "SourceRef": {
+                      "Entity": "dq_check_summary"
+                    }
+                  },
+                  "Property": "rows_flagged"
+                }
+              },
+              "queryRef": "dq_check_summary.rows_flagged",
+              "nativeQueryRef": "rows_flagged",
+              "displayName": "Flagged"
+            },
+            {
+              "field": {
+                "Column": {
+                  "Expression": {
+                    "SourceRef": {
+                      "Entity": "dq_check_summary"
+                    }
+                  },
+                  "Property": "action"
+                }
+              },
+              "queryRef": "dq_check_summary.action",
+              "nativeQueryRef": "action",
+              "displayName": "Action"
+            }
+          ]
+        }
+      }
+    },
+    "objects": {
+      "total": [
+        {
+          "properties": {
+            "totals": {
+              "expr": {
+                "Literal": {
+                  "Value": "false"
+                }
+              }
+            }
+          }
+        }
+      ],
+      "values": [
+        {
+          "properties": {
+            "wordWrap": {
+              "expr": {
+                "Literal": {
+                  "Value": "true"
+                }
+              }
+            },
+            "fontSize": {
+              "expr": {
+                "Literal": {
+                  "Value": "9D"
+                }
+              }
+            }
+          }
+        }
+      ],
+      "columnHeaders": [
+        {
+          "properties": {
+            "wordWrap": {
+              "expr": {
+                "Literal": {
+                  "Value": "true"
+                }
+              }
+            },
+            "fontSize": {
+              "expr": {
+                "Literal": {
+                  "Value": "9D"
+                }
+              }
+            }
+          }
+        }
+      ]
+    },
+    "visualContainerObjects": {
+      "title": [
+        {
+          "properties": {
+            "show": {
+              "expr": {
+                "Literal": {
+                  "Value": "true"
+                }
+              }
+            },
+            "text": {
+              "expr": {
+                "Literal": {
+                  "Value": "'Check summary'"
+                }
+              }
+            }
+          }
+        }
+      ],
+      "subTitle": [
+        {
+          "properties": {
+            "show": {
+              "expr": {
+                "Literal": {
+                  "Value": "false"
+                }
+              }
+            }
+          }
+        }
+      ]
+    }
+  }
+}

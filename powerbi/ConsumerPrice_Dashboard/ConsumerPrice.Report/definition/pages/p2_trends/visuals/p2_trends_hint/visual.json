@@ -1,0 +1,36 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/fabric/item/report/definition/visualContainer/2.13.0/schema.json",
+  "name": "p2_trends_hint",
+  "position": {
+    "x": 350,
+    "y": 88,
+    "z": 400,
+    "height": 46,
+    "width": 914,
+    "tabOrder": 400
+  },
+  "visual": {
+    "visualType": "textbox",
+    "objects": {
+      "general": [
+        {
+          "properties": {
+            "paragraphs": [
+              {
+                "textRuns": [
+                  {
+                    "value": "Table colours: orange = price rose, purple = price fell. The CPI chart is a benchmark with a different method (monthly index, 2012 = 100), so compare direction, not level.",
+                    "textStyle": {
+                      "fontSize": "9pt",
+                      "color": "#5B6470"
+                    }
+                  }
+                ]
+              }
+            ]
+          }
+        }
+      ]
+    }
+  }
+}

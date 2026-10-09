@@ -1,0 +1,36 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/fabric/item/report/definition/visualContainer/2.13.0/schema.json",
+  "name": "p4_locations_subtitle",
+  "position": {
+    "x": 16,
+    "y": 40,
+    "z": 100,
+    "height": 28,
+    "width": 1248,
+    "tabOrder": 100
+  },
+  "visual": {
+    "visualType": "textbox",
+    "objects": {
+      "general": [
+        {
+          "properties": {
+            "paragraphs": [
+              {
+                "textRuns": [
+                  {
+                    "value": "Location coverage is thin: only 6 barcodes were seen in 2+ cities. DoCA centre-wise data is CAPTCHA-protected and deliberately not used.",
+                    "textStyle": {
+                      "fontSize": "10pt",
+                      "color": "#3C434C"
+                    }
+                  }
+                ]
+              }
+            ]
+          }
+        }
+      ]
+    }
+  }
+}

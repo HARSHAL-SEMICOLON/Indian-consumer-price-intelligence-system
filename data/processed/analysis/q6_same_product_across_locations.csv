@@ -1,0 +1,7 @@
+﻿product_code,product_name,brand_name,pack_size_label,normalized_unit,n_obs,n_cities,cities,min_pack_price,max_pack_price,max_vs_min_pct,first_date,last_date
+8906043190451,Soan Papdi,Pramod Multifold pvt ltd,400 g,INR/kg,2,2,"Danapur,Dholi",125.0,179.0,43.2,2026-04-09,2026-04-10
+8904043551548,Modern 100% Whole Wheat Bread,Modern,400 g,INR/kg,2,2,"Bengaluru,Hyderabad",55.0,60.0,9.1,2025-01-30,2025-03-09
+8901725118921,Tedha Medha,ITC (Bingo),,,2,2,"Pune,Hyderabad",20.0,20.0,0.0,2025-06-16,2025-06-17
+8901725015275,Dark Fantasy Choco fills,ITC (Sunfeast),69 g,INR/kg,2,2,"Pedda Amiram,Bengaluru",40.0,40.0,0.0,2026-08-03,2026-09-02
+8901058017687,Maggi,Nestlé (Maggi),,,2,2,"Hyderabad,Narsinghpur",15.0,15.0,0.0,2025-08-15,2026-04-22
+0986614900106,OK Hyderabadi Veg Biriyani,Spot On,25 g,INR/kg,2,2,"Thrissur,Irinjalakuda",5.0,5.0,0.0,2025-09-11,2025-09-11

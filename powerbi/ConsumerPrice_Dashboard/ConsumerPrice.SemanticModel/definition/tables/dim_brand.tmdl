@@ -1,0 +1,34 @@
+table dim_brand
+	lineageTag: 43d947f9-e067-55d9-8455-19bf9270dd2c
+
+	column brand_key
+		dataType: int64
+		formatString: 0
+		lineageTag: 2a1aecbe-1fa8-5975-a1c3-cdc7cb2cae2f
+		summarizeBy: none
+		sourceColumn: brand_key
+
+	column brand_name
+		dataType: string
+		lineageTag: b47a3f1d-0092-594b-8a20-0f8d40cfc6ed
+		summarizeBy: none
+		sourceColumn: brand_name
+
+	column is_branded
+		dataType: int64
+		formatString: 0
+		lineageTag: a637d32a-50b0-5598-8277-8f2df1e69698
+		summarizeBy: none
+		sourceColumn: is_branded
+
+	partition dim_brand = m
+		mode: import
+		source =
+				let
+				    Source = Csv.Document(File.Contents(DataFolder & "\dim_brand.csv"), [Delimiter = ",", Encoding = 65001, QuoteStyle = QuoteStyle.Csv]),
+				    Promoted = Table.PromoteHeaders(Source, [PromoteAllScalars = true]),
+				    Nulls = Table.TransformColumns(Promoted, List.Transform(Table.ColumnNames(Promoted), (c) => {c, each if _ = "" then null else _})),
+				    Typed = Table.TransformColumnTypes(Nulls, {{"brand_key", Int64.Type}, {"brand_name", type text}, {"is_branded", Int64.Type}}, "en-US")
+				in
+				    Typed
+

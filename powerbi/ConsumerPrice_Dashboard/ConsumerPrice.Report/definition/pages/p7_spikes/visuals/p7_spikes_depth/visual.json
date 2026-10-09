@@ -1,0 +1,173 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/fabric/item/report/definition/visualContainer/2.13.0/schema.json",
+  "name": "p7_spikes_depth",
+  "position": {
+    "x": 784,
+    "y": 176,
+    "z": 800,
+    "height": 492,
+    "width": 480,
+    "tabOrder": 800
+  },
+  "visual": {
+    "visualType": "tableEx",
+    "query": {
+      "queryState": {
+        "Values": {
+          "projections": [
+            {
+              "field": {
+                "Column": {
+                  "Expression": {
+                    "SourceRef": {
+                      "Entity": "history_depth"
+                    }
+                  },
+                  "Property": "product_name"
+                }
+              },
+              "queryRef": "history_depth.product_name",
+              "nativeQueryRef": "product_name",
+              "displayName": "Commodity"
+            },
+            {
+              "field": {
+                "Column": {
+                  "Expression": {
+                    "SourceRef": {
+                      "Entity": "history_depth"
+                    }
+                  },
+                  "Property": "daily_steps"
+                }
+              },
+              "queryRef": "history_depth.daily_steps",
+              "nativeQueryRef": "daily_steps",
+              "displayName": "Daily steps"
+            },
+            {
+              "field": {
+                "Column": {
+                  "Expression": {
+                    "SourceRef": {
+                      "Entity": "history_depth"
+                    }
+                  },
+                  "Property": "last_date"
+                }
+              },
+              "queryRef": "history_depth.last_date",
+              "nativeQueryRef": "last_date",
+              "displayName": "Last date"
+            },
+            {
+              "field": {
+                "Column": {
+                  "Expression": {
+                    "SourceRef": {
+                      "Entity": "history_depth"
+                    }
+                  },
+                  "Property": "spike_detection_status"
+                }
+              },
+              "queryRef": "history_depth.spike_detection_status",
+              "nativeQueryRef": "spike_detection_status",
+              "displayName": "Status"
+            }
+          ]
+        }
+      }
+    },
+    "objects": {
+      "total": [
+        {
+          "properties": {
+            "totals": {
+              "expr": {
+                "Literal": {
+                  "Value": "false"
+                }
+              }
+            }
+          }
+        }
+      ],
+      "values": [
+        {
+          "properties": {
+            "wordWrap": {
+              "expr": {
+                "Literal": {
+                  "Value": "true"
+                }
+              }
+            },
+            "fontSize": {
+              "expr": {
+                "Literal": {
+                  "Value": "9D"
+                }
+              }
+            }
+          }
+        }
+      ],
+      "columnHeaders": [
+        {
+          "properties": {
+            "wordWrap": {
+              "expr": {
+                "Literal": {
+                  "Value": "true"
+                }
+              }
+            },
+            "fontSize": {
+              "expr": {
+                "Literal": {
+                  "Value": "9D"
+                }
+              }
+            }
+          }
+        }
+      ]
+    },
+    "visualContainerObjects": {
+      "title": [
+        {
+          "properties": {
+            "show": {
+              "expr": {
+                "Literal": {
+                  "Value": "true"
+                }
+              }
+            },
+            "text": {
+              "expr": {
+                "Literal": {
+                  "Value": "'History collected per commodity (ready at 10 daily steps)'"
+                }
+              }
+            }
+          }
+        }
+      ],
+      "subTitle": [
+        {
+          "properties": {
+            "show": {
+              "expr": {
+                "Literal": {
+                  "Value": "false"
+                }
+              }
+            }
+          }
+        }
+      ]
+    }
+  }
+}

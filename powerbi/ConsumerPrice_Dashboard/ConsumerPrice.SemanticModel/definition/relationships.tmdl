@@ -1,0 +1,53 @@
+relationship fb459733-ac00-559e-882b-a003e654817b
+	fromColumn: fact_price.date_key
+	toColumn: dim_date.date_key
+
+relationship aaeb3951-3d8c-5cdb-a70b-ae2fcada0a13
+	fromColumn: fact_price.collection_date_key
+	toColumn: dim_date.date_key
+	isActive: false
+
+relationship a0276f64-4e67-5e23-9f81-24c04a7b93e3
+	fromColumn: fact_price.product_key
+	toColumn: dim_product.product_key
+
+relationship 05946a8d-5019-5f1d-9094-c358bf2b9d16
+	fromColumn: fact_price.brand_key
+	toColumn: dim_brand.brand_key
+
+relationship b19b4cfa-3029-54f4-b884-faa4a6b46439
+	fromColumn: fact_price.category_key
+	toColumn: dim_category.category_key
+
+relationship 9a2d01d3-32a8-5494-beb1-1f4b38adf067
+	fromColumn: fact_price.location_key
+	toColumn: dim_location.location_key
+
+relationship 30f02c2a-0fe1-512d-ba88-1378419eb22d
+	fromColumn: fact_price.source_key
+	toColumn: dim_source.source_key
+
+relationship c4beed0e-fc30-53a8-88bd-89e4c0101122
+	fromColumn: fact_availability.date_key
+	toColumn: dim_date.date_key
+
+relationship 971a1e65-b0c8-5773-a0d4-06874fec0fe0
+	fromColumn: fact_availability.product_key
+	toColumn: dim_product.product_key
+
+relationship 37c166bf-ab43-5008-bd3a-0f4718bcf113
+	fromColumn: fact_availability.location_key
+	toColumn: dim_location.location_key
+
+relationship a6661327-853e-5d10-b785-43dfb4262a62
+	fromColumn: fact_cpi_benchmark.date_key
+	toColumn: dim_date.date_key
+
+relationship 8a6e8818-ef53-5767-a6ca-7f1de8c6d0bf
+	fromColumn: fact_cpi_benchmark.cpi_item_key
+	toColumn: dim_cpi_item.cpi_item_key
+
+relationship 9af90095-0954-5d55-8733-2e01b815e12c
+	fromColumn: bridge_commodity_cpi.cpi_item_key
+	toColumn: dim_cpi_item.cpi_item_key
+

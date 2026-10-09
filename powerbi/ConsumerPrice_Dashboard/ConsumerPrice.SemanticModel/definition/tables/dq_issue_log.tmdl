@@ -1,0 +1,89 @@
+table dq_issue_log
+	lineageTag: 60e81500-15e8-5576-9fb5-849bba11655d
+
+	column issue_id
+		dataType: int64
+		formatString: 0
+		lineageTag: 8c721f96-37c1-5f1b-a152-2bbab759d5e3
+		summarizeBy: none
+		sourceColumn: issue_id
+
+	column run_id
+		dataType: int64
+		formatString: 0
+		lineageTag: 64e986a4-5db3-50e6-95fb-27f0c67bbc50
+		summarizeBy: none
+		sourceColumn: run_id
+
+	column source_code
+		dataType: string
+		lineageTag: 2ec84648-3115-5548-b957-2da095271346
+		summarizeBy: none
+		sourceColumn: source_code
+
+	column record_key
+		dataType: string
+		lineageTag: d7222f18-454e-5892-b148-0b373942588c
+		summarizeBy: none
+		sourceColumn: record_key
+
+	column price_id
+		dataType: int64
+		formatString: 0
+		lineageTag: dcd2bab1-c0af-5318-80f4-cf851c3881de
+		summarizeBy: none
+		sourceColumn: price_id
+
+	column check_name
+		dataType: string
+		lineageTag: 8cf377ee-0e3d-5bc1-b3bc-cd31d749e3a6
+		summarizeBy: none
+		sourceColumn: check_name
+
+	column severity
+		dataType: string
+		lineageTag: 42f0d7ce-9418-55d4-b788-c99b1d2fce0a
+		summarizeBy: none
+		sourceColumn: severity
+
+	column field
+		dataType: string
+		lineageTag: 12a9b3c8-63d6-546b-b726-0c6011a34d4d
+		summarizeBy: none
+		sourceColumn: field
+
+	column observed_value
+		dataType: string
+		lineageTag: 6106bfce-25d6-59aa-954e-1259f7ec066e
+		summarizeBy: none
+		sourceColumn: observed_value
+
+	column action_taken
+		dataType: string
+		lineageTag: 8e9dc6ea-a5a2-5316-9dd6-bb30ed024bb7
+		summarizeBy: none
+		sourceColumn: action_taken
+
+	column capture_file
+		dataType: string
+		lineageTag: b3c56af8-9250-5cfd-bd5a-2f9691a7a82d
+		summarizeBy: none
+		sourceColumn: capture_file
+
+	column logged_at_utc
+		dataType: string
+		lineageTag: 3c41f3c4-520d-584b-9ea0-fc33522daf00
+		summarizeBy: none
+		sourceColumn: logged_at_utc
+
+	partition dq_issue_log = m
+		mode: import
+		source =
+				let
+				    Source = Csv.Document(File.Contents(DataFolder & "\dq_issue_log.csv"), [Delimiter = ",", Encoding = 65001, QuoteStyle = QuoteStyle.Csv]),
+				    Promoted = Table.PromoteHeaders(Source, [PromoteAllScalars = true]),
+				    Nulls = Table.TransformColumns(Promoted, List.Transform(Table.ColumnNames(Promoted), (c) => {c, each if _ = "" then null else _})),
+				    Typed = Table.TransformColumnTypes(Nulls, {{"issue_id", Int64.Type}, {"run_id", Int64.Type}, {"source_code", type text}, {"record_key", type text}, {"price_id", Int64.Type}, {"check_name", type text}, {"severity", type text}, {"field", type text}, {"observed_value", type text}, {"action_taken", type text}, {"capture_file", type text}, {"logged_at_utc", type text}}, "en-US")
+				in
+				    Typed
+

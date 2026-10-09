@@ -1,0 +1,75 @@
+table fact_availability
+	lineageTag: 7d223cbc-2b0c-5db4-8cd9-e9da9338c175
+
+	column availability_id
+		dataType: int64
+		formatString: 0
+		lineageTag: b0899527-0f14-5b6f-ad38-4095ad9bdfc0
+		summarizeBy: none
+		sourceColumn: availability_id
+
+	column source_key
+		dataType: int64
+		formatString: 0
+		lineageTag: 2e2caf23-7fb5-5620-b8aa-0b7e22a9bdb1
+		summarizeBy: none
+		sourceColumn: source_key
+
+	column product_key
+		dataType: int64
+		formatString: 0
+		lineageTag: 5d448790-1df5-5d66-8066-be3897171fcc
+		summarizeBy: none
+		sourceColumn: product_key
+
+	column location_key
+		dataType: int64
+		formatString: 0
+		lineageTag: 5bc45e60-7112-5eb1-91b5-79741aba60b3
+		summarizeBy: none
+		sourceColumn: location_key
+
+	column date_key
+		dataType: int64
+		formatString: 0
+		lineageTag: d9742fc0-2867-53bb-bd3d-3db235bce350
+		summarizeBy: none
+		sourceColumn: date_key
+
+	column collection_date_key
+		dataType: int64
+		formatString: 0
+		lineageTag: f98cadc4-88e3-5807-a556-170ddb4ac61d
+		summarizeBy: none
+		sourceColumn: collection_date_key
+
+	column price_type
+		dataType: string
+		lineageTag: 2b2f76ba-9d7c-5541-ac7b-42b3cc2400ca
+		summarizeBy: none
+		sourceColumn: price_type
+
+	column availability_status
+		dataType: string
+		lineageTag: b81ee2d5-e0b3-568d-8ca7-8fb1aedac1c9
+		summarizeBy: none
+		sourceColumn: availability_status
+
+	column is_available
+		dataType: int64
+		formatString: 0
+		lineageTag: caea0e34-7658-57fc-b0b8-fdff1b953cc0
+		summarizeBy: none
+		sourceColumn: is_available
+
+	partition fact_availability = m
+		mode: import
+		source =
+				let
+				    Source = Csv.Document(File.Contents(DataFolder & "\fact_availability.csv"), [Delimiter = ",", Encoding = 65001, QuoteStyle = QuoteStyle.Csv]),
+				    Promoted = Table.PromoteHeaders(Source, [PromoteAllScalars = true]),
+				    Nulls = Table.TransformColumns(Promoted, List.Transform(Table.ColumnNames(Promoted), (c) => {c, each if _ = "" then null else _})),
+				    Typed = Table.TransformColumnTypes(Nulls, {{"availability_id", Int64.Type}, {"source_key", Int64.Type}, {"product_key", Int64.Type}, {"location_key", Int64.Type}, {"date_key", Int64.Type}, {"collection_date_key", Int64.Type}, {"price_type", type text}, {"availability_status", type text}, {"is_available", Int64.Type}}, "en-US")
+				in
+				    Typed
+

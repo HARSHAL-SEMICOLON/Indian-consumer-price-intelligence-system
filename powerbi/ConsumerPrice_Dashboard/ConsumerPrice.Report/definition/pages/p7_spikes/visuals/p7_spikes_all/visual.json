@@ -1,0 +1,218 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/fabric/item/report/definition/visualContainer/2.13.0/schema.json",
+  "name": "p7_spikes_all",
+  "position": {
+    "x": 16,
+    "y": 434,
+    "z": 900,
+    "height": 234,
+    "width": 760,
+    "tabOrder": 900
+  },
+  "visual": {
+    "visualType": "tableEx",
+    "query": {
+      "queryState": {
+        "Values": {
+          "projections": [
+            {
+              "field": {
+                "Column": {
+                  "Expression": {
+                    "SourceRef": {
+                      "Entity": "price_spikes"
+                    }
+                  },
+                  "Property": "product_name"
+                }
+              },
+              "queryRef": "price_spikes.product_name",
+              "nativeQueryRef": "product_name",
+              "displayName": "Commodity"
+            },
+            {
+              "field": {
+                "Column": {
+                  "Expression": {
+                    "SourceRef": {
+                      "Entity": "price_spikes"
+                    }
+                  },
+                  "Property": "category"
+                }
+              },
+              "queryRef": "price_spikes.category",
+              "nativeQueryRef": "category",
+              "displayName": "Category"
+            },
+            {
+              "field": {
+                "Column": {
+                  "Expression": {
+                    "SourceRef": {
+                      "Entity": "price_spikes"
+                    }
+                  },
+                  "Property": "obs_date"
+                }
+              },
+              "queryRef": "price_spikes.obs_date",
+              "nativeQueryRef": "obs_date",
+              "displayName": "Date"
+            },
+            {
+              "field": {
+                "Column": {
+                  "Expression": {
+                    "SourceRef": {
+                      "Entity": "price_spikes"
+                    }
+                  },
+                  "Property": "pct_change"
+                }
+              },
+              "queryRef": "price_spikes.pct_change",
+              "nativeQueryRef": "pct_change",
+              "displayName": "Change %"
+            },
+            {
+              "field": {
+                "Column": {
+                  "Expression": {
+                    "SourceRef": {
+                      "Entity": "price_spikes"
+                    }
+                  },
+                  "Property": "normal_change"
+                }
+              },
+              "queryRef": "price_spikes.normal_change",
+              "nativeQueryRef": "normal_change",
+              "displayName": "Normal %"
+            },
+            {
+              "field": {
+                "Column": {
+                  "Expression": {
+                    "SourceRef": {
+                      "Entity": "price_spikes"
+                    }
+                  },
+                  "Property": "z_score"
+                }
+              },
+              "queryRef": "price_spikes.z_score",
+              "nativeQueryRef": "z_score",
+              "displayName": "z"
+            },
+            {
+              "field": {
+                "Column": {
+                  "Expression": {
+                    "SourceRef": {
+                      "Entity": "price_spikes"
+                    }
+                  },
+                  "Property": "spike_type"
+                }
+              },
+              "queryRef": "price_spikes.spike_type",
+              "nativeQueryRef": "spike_type",
+              "displayName": "Type"
+            }
+          ]
+        }
+      }
+    },
+    "objects": {
+      "total": [
+        {
+          "properties": {
+            "totals": {
+              "expr": {
+                "Literal": {
+                  "Value": "false"
+                }
+              }
+            }
+          }
+        }
+      ],
+      "values": [
+        {
+          "properties": {
+            "wordWrap": {
+              "expr": {
+                "Literal": {
+                  "Value": "true"
+                }
+              }
+            },
+            "fontSize": {
+              "expr": {
+                "Literal": {
+                  "Value": "9D"
+                }
+              }
+            }
+          }
+        }
+      ],
+      "columnHeaders": [
+        {
+          "properties": {
+            "wordWrap": {
+              "expr": {
+                "Literal": {
+                  "Value": "true"
+                }
+              }
+            },
+            "fontSize": {
+              "expr": {
+                "Literal": {
+                  "Value": "9D"
+                }
+              }
+            }
+          }
+        }
+      ]
+    },
+    "visualContainerObjects": {
+      "title": [
+        {
+          "properties": {
+            "show": {
+              "expr": {
+                "Literal": {
+                  "Value": "true"
+                }
+              }
+            },
+            "text": {
+              "expr": {
+                "Literal": {
+                  "Value": "'All detected spikes (history)'"
+                }
+              }
+            }
+          }
+        }
+      ],
+      "subTitle": [
+        {
+          "properties": {
+            "show": {
+              "expr": {
+                "Literal": {
+                  "Value": "false"
+                }
+              }
+            }
+          }
+        }
+      ]
+    }
+  }
+}

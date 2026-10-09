@@ -1,0 +1,20 @@
+﻿check_name,source_code,rows_checked,rows_flagged,pct_flagged,action,description
+missing_pack_size,OPEN_PRICES,402,78,19.4,flag only,Pack size/unit unknown -> normalised price not computable
+brand_alias_mapped,OPEN_PRICES,402,43,10.7,flag only,Brand spelling standardised via alias table
+missing_brand,OPEN_PRICES,402,32,8.0,flag only,Brand missing in source
+unclassified_category,OPEN_PRICES,402,24,6.0,flag only,No category tags in source
+missing_product_name,OPEN_PRICES,402,18,4.5,flag only,Product name missing in source
+out_of_scope_location,OPEN_PRICES,402,12,3.0,exclude from analysis,Observation located outside India / no country
+changed_product_name,DOCA_PMD,275,7,2.5,flag only,Same barcode/commodity seen with more than one raw name
+exact_duplicate,OPEN_PRICES,402,7,1.7,exclude from analysis,"Same product, outlet, date and price already recorded (crowd double submission)"
+not_reported_by_source,DOCA_PMD,275,7,2.5,exclude from analysis,DoCA shows '--' for this commodity/date (no price reported)
+pack_size_from_name,OPEN_PRICES,402,7,1.7,flag only,"Pack size parsed from product name/quantity text, not a structured field"
+quantity_without_unit,OPEN_PRICES,402,7,1.7,flag only,Quantity text has a number but no unit (e.g. '78.9')
+implausible_list_price,OPEN_PRICES,402,5,1.2,flag only,Pre-discount price > 5x price paid (likely entry error) - excluded from discount analysis only
+missing_city,OPEN_PRICES,402,5,1.2,flag only,Indian outlet with no resolvable city
+normalized_price_outlier,OPEN_PRICES,402,5,1.2,flag only,Normalised price > 3.5 robust z-scores from its category median (review)
+discount_without_list_price,OPEN_PRICES,402,3,0.7,flag only,Marked discounted but pre-discount price missing
+out_of_scope_category,OPEN_PRICES,402,3,0.7,exclude from analysis,"Product is not a consumer grocery/household/personal-care item (electronics, alcohol)"
+source_marked_duplicate,OPEN_PRICES,402,3,0.7,exclude from analysis,Source API marks the row as duplicate_of another price
+pack_size_name_mismatch,OPEN_PRICES,402,1,0.2,flag only,Pack size in product name differs from structured quantity by >10%
+price_far_below_product_median,OPEN_PRICES,402,1,0.2,exclude from analysis,"Price paid is more than 10x below the median price of the same product (likely typo, e.g. Rs 1 instead of 67)"

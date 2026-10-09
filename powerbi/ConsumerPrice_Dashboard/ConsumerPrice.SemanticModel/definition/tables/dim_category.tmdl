@@ -1,0 +1,40 @@
+table dim_category
+	lineageTag: 1b635dd1-3116-5ac8-a0f3-ac6319b2c699
+
+	column category_key
+		dataType: int64
+		formatString: 0
+		lineageTag: 3460f281-f1d3-51d4-a3a1-63751ae5c73b
+		summarizeBy: none
+		sourceColumn: category_key
+
+	column category_group
+		dataType: string
+		lineageTag: 6f264bba-1ea6-5ee0-82ae-de5aa87e9cdd
+		summarizeBy: none
+		sourceColumn: category_group
+
+	column category
+		dataType: string
+		lineageTag: 6e2c6f47-95c4-5b64-a5f6-332b8fef1cba
+		summarizeBy: none
+		sourceColumn: category
+
+	column in_scope
+		dataType: int64
+		formatString: 0
+		lineageTag: 96a03523-631c-5313-b1b7-ab3cd4044205
+		summarizeBy: none
+		sourceColumn: in_scope
+
+	partition dim_category = m
+		mode: import
+		source =
+				let
+				    Source = Csv.Document(File.Contents(DataFolder & "\dim_category.csv"), [Delimiter = ",", Encoding = 65001, QuoteStyle = QuoteStyle.Csv]),
+				    Promoted = Table.PromoteHeaders(Source, [PromoteAllScalars = true]),
+				    Nulls = Table.TransformColumns(Promoted, List.Transform(Table.ColumnNames(Promoted), (c) => {c, each if _ = "" then null else _})),
+				    Typed = Table.TransformColumnTypes(Nulls, {{"category_key", Int64.Type}, {"category_group", type text}, {"category", type text}, {"in_scope", Int64.Type}}, "en-US")
+				in
+				    Typed
+

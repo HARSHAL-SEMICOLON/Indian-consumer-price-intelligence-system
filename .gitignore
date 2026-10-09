@@ -1,0 +1,32 @@
+# --- generated, rebuildable with `python run_pipeline.py --rebuild`
+database/*.db
+database/*.db-journal
+powerbi/data/*.csv
+data/processed/
+
+# --- raw data: keep the first snapshot in git (provenance), not the daily captures
+data/raw/*/*
+!data/raw/*/2026-10-01/
+
+# --- Power BI local cache (the .pbip folder has its own .gitignore too)
+powerbi/**/.pbi/localSettings.json
+powerbi/**/.pbi/cache.abf
+*.pbix.bak
+
+# --- local / housekeeping
+logs/
+_to_delete/
+_Backup/
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+.venv/
+venv/
+.env
+.DS_Store
+Thumbs.db
+
+# never commit installers / big binaries
+*.exe
+*.msi
+*.zip

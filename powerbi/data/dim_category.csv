@@ -1,0 +1,27 @@
+﻿category_key,category_group,category,in_scope
+1,Groceries,Cereals & Flours,1
+2,Groceries,Pulses,1
+3,Groceries,Sugar & Gur,1
+4,Groceries,"Milk, Dairy & Eggs",1
+5,Groceries,Edible Oils & Ghee,1
+6,Groceries,"Tea, Salt & Spices",1
+7,Groceries,Vegetables,1
+8,Groceries,Fruits,1
+9,Unclassified,Unclassified,0
+10,Packaged Food,"Sauces, Spreads & Condiments",1
+11,Packaged Food,"Biscuits, Bread & Bakery",1
+12,Packaged Food,Other Packaged Food,1
+13,Packaged Food,Beverages,1
+14,Packaged Food,Dairy,1
+15,Packaged Food,"Breakfast, Noodles & Ready Meals",1
+16,Packaged Food,"Chocolates, Sweets & Desserts",1
+17,Groceries,"Staples, Spices & Hot Beverages",1
+18,Packaged Food,Salty Snacks & Namkeen,1
+19,Personal Care,Personal Hygiene & Care,1
+20,Packaged Food,"Nuts, Seeds & Dry Fruits",1
+21,Out of scope,Electronics,0
+22,Household,Other Household,1
+23,Household,Cleaning & Laundry,1
+24,Packaged Food,Health & Supplements,1
+25,Household,Pet Food,1
+26,Personal Care,Baby Care,1

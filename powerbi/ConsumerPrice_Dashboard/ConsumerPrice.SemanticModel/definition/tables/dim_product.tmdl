@@ -1,0 +1,97 @@
+table dim_product
+	lineageTag: 22b2ba74-afb3-586d-8cde-89c3cd7d1bcc
+
+	column product_key
+		dataType: int64
+		formatString: 0
+		lineageTag: 3c9f492a-2741-50c4-b347-0876f80aeb6c
+		summarizeBy: none
+		sourceColumn: product_key
+
+	column source_code
+		dataType: string
+		lineageTag: 3675ce22-cca0-532f-976f-00c12e358d0a
+		summarizeBy: none
+		sourceColumn: source_code
+
+	column product_code
+		dataType: string
+		lineageTag: 8b927f6a-69e7-5d75-9039-d863448bc554
+		summarizeBy: none
+		sourceColumn: product_code
+
+	column product_name
+		dataType: string
+		lineageTag: 2b176878-4271-51d1-9aad-aaa04ca438e9
+		summarizeBy: none
+		sourceColumn: product_name
+
+	column brand_key
+		dataType: int64
+		formatString: 0
+		lineageTag: c1716da8-708d-5878-9cbd-55aeda5361c9
+		summarizeBy: none
+		sourceColumn: brand_key
+
+	column category_key
+		dataType: int64
+		formatString: 0
+		lineageTag: 446d22de-c8c9-5b59-847d-a2c9e207e5c1
+		summarizeBy: none
+		sourceColumn: category_key
+
+	column pack_size_qty
+		dataType: double
+		lineageTag: f1d40674-1f13-5ad2-8296-dcbdae7c0159
+		summarizeBy: none
+		sourceColumn: pack_size_qty
+
+	column std_unit
+		dataType: string
+		lineageTag: fe6cbad9-cdbc-54dc-94a8-77c7490adc43
+		summarizeBy: none
+		sourceColumn: std_unit
+
+	column pack_size_label
+		dataType: string
+		lineageTag: e69e9c95-857d-51b8-9306-229990a1cd1e
+		summarizeBy: none
+		sourceColumn: pack_size_label
+
+	column pack_size_source
+		dataType: string
+		lineageTag: d3a13e24-288e-5d71-9c51-5ed6fd4a06f6
+		summarizeBy: none
+		sourceColumn: pack_size_source
+
+	column product_type
+		dataType: string
+		lineageTag: 71abf42b-6996-549b-bdee-d33da6b45397
+		summarizeBy: none
+		sourceColumn: product_type
+
+	column first_seen_date
+		dataType: dateTime
+		formatString: yyyy-mm-dd
+		lineageTag: fa493c20-927a-57e1-877f-85b404d43e25
+		summarizeBy: none
+		sourceColumn: first_seen_date
+
+	column last_seen_date
+		dataType: dateTime
+		formatString: yyyy-mm-dd
+		lineageTag: 6008e0b2-5792-56c7-b55a-d0db8a9ffee2
+		summarizeBy: none
+		sourceColumn: last_seen_date
+
+	partition dim_product = m
+		mode: import
+		source =
+				let
+				    Source = Csv.Document(File.Contents(DataFolder & "\dim_product.csv"), [Delimiter = ",", Encoding = 65001, QuoteStyle = QuoteStyle.Csv]),
+				    Promoted = Table.PromoteHeaders(Source, [PromoteAllScalars = true]),
+				    Nulls = Table.TransformColumns(Promoted, List.Transform(Table.ColumnNames(Promoted), (c) => {c, each if _ = "" then null else _})),
+				    Typed = Table.TransformColumnTypes(Nulls, {{"product_key", Int64.Type}, {"source_code", type text}, {"product_code", type text}, {"product_name", type text}, {"brand_key", Int64.Type}, {"category_key", Int64.Type}, {"pack_size_qty", type number}, {"std_unit", type text}, {"pack_size_label", type text}, {"pack_size_source", type text}, {"product_type", type text}, {"first_seen_date", type date}, {"last_seen_date", type date}}, "en-US")
+				in
+				    Typed
+

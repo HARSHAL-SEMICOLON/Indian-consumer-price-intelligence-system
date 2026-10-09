@@ -1,0 +1,30 @@
+{
+  "name": "Consumer Price Intelligence (purple)",
+  "dataColors": ["#34117E", "#E8833A", "#A981FF", "#1A7F7A", "#5B6470", "#B8860B", "#C0457A", "#6631DB",
+                 "#7FB3D5", "#D0BCFC", "#8A4B12", "#2B0E66"],
+  "background": "#FFFFFF",
+  "foreground": "#1B1F24",
+  "tableAccent": "#34117E",
+  "good": "#34117E",
+  "neutral": "#A981FF",
+  "bad": "#E8833A",
+  "maximum": "#34117E",
+  "center": "#B796FE",
+  "minimum": "#D0BCFC",
+  "textClasses": {
+    "title":   {"fontFace": "Segoe UI Semibold", "fontSize": 12, "color": "#34117E"},
+    "header":  {"fontFace": "Segoe UI Semibold", "fontSize": 10, "color": "#1B1F24"},
+    "label":   {"fontFace": "Segoe UI", "fontSize": 9, "color": "#3D3550"},
+    "callout": {"fontFace": "Segoe UI Semibold", "fontSize": 20, "color": "#34117E"}
+  },
+  "visualStyles": {
+    "*": {"*": {
+      "background": [{"show": true, "color": {"solid": {"color": "#FFFFFF"}}, "transparency": 0}],
+      "border": [{"show": true, "color": {"solid": {"color": "#E2D8FB"}}, "radius": 8}],
+      "title": [{"show": true, "fontColor": {"solid": {"color": "#34117E"}}, "fontSize": 11}]
+    }},
+    "page": {"*": {"background": [{"color": {"solid": {"color": "#F8F5FF"}}, "transparency": 0}]}},
+    "tableEx": {"*": {"columnHeaders": [{"backColor": {"solid": {"color": "#D0BCFC"}}, "fontColor": {"solid": {"color": "#34117E"}}}]}},
+    "pivotTable": {"*": {"columnHeaders": [{"backColor": {"solid": {"color": "#D0BCFC"}}, "fontColor": {"solid": {"color": "#34117E"}}}]}}
+  }
+}

@@ -1,0 +1,43 @@
+﻿product_name,category,normalized_unit,latest_date,price_latest,price_1m_ago,price_6m_ago,price_1y_ago,price_2y_ago,pct_change_1y,pct_change_2y
+Onion,Vegetables,INR/kg,2026-09-30,53.86,48.31,25.46,27.08,53.82,98.89,0.07
+Sugar,Sugar & Gur,INR/kg,2026-09-30,56.02,64.23,46.47,46.54,44.8,20.37,25.04
+Sunflower Oil (Packed),Edible Oils & Ghee,INR/kg,2026-09-30,192.54,192.17,182.64,162.34,132.11,18.6,45.74
+Coriander (Whole),"Tea, Salt & Spices",INR/kg,2026-09-30,175.32,168.88,152.72,150.68,143.8,16.35,21.92
+Palm Oil (Packed),Edible Oils & Ghee,INR/kg,2026-09-30,153.72,151.35,141.61,132.66,114.85,15.88,33.84
+Gur,Sugar & Gur,INR/kg,2026-09-30,66.5,67.36,57.31,57.6,55.36,15.45,20.12
+Soya Oil (Packed),Edible Oils & Ghee,INR/kg,2026-09-30,166.8,164.92,155.01,146.38,129.33,13.95,28.97
+Groundnut Oil (Packed),Edible Oils & Ghee,INR/kg,2026-09-30,209.96,206.92,198.04,186.7,187.52,12.46,11.97
+Tur/Arhar Dal,Pulses,INR/kg,2026-09-30,125.81,122.36,122.16,114.87,163.64,9.52,-23.12
+Red Chillies (Whole),"Tea, Salt & Spices",INR/kg,2026-09-30,304.4,298.7,283.8,279.1,342.3,9.06,-11.07
+Rice,Cereals & Flours,INR/kg,2026-09-30,46.43,45.53,43.11,42.92,43.42,8.18,6.93
+Mustard Oil (Packed),Edible Oils & Ghee,INR/kg,2026-09-30,202.94,199.54,187.11,188.24,154.0,7.81,31.78
+Eggs,"Milk, Dairy & Eggs",INR/unit,2026-09-30,6.98,6.96,6.46,6.47,6.51,7.8,7.15
+Vanaspati (Packed),Edible Oils & Ghee,INR/kg,2026-09-30,168.53,166.08,158.52,156.41,130.06,7.75,29.58
+Urad Dal,Pulses,INR/kg,2026-09-30,123.18,122.24,117.45,114.48,124.62,7.6,-1.16
+Desi Ghee,Edible Oils & Ghee,INR/kg,2026-09-30,701.75,696.37,682.98,662.43,619.5,5.94,13.28
+Jowar,Cereals & Flours,INR/kg,2026-09-30,45.17,44.88,44.11,43.0,44.11,5.05,2.4
+"Salt (Iodised, Packed)","Tea, Salt & Spices",INR/kg,2026-09-30,22.45,22.61,21.74,21.54,21.88,4.22,2.61
+Tomato,Vegetables,INR/kg,2026-09-30,40.4,36.37,27.44,38.9,52.98,3.86,-23.74
+Turmeric (Powder),"Tea, Salt & Spices",INR/kg,2026-09-30,335.2,325.0,327.4,323.4,438.6,3.65,-23.58
+Ragi,Cereals & Flours,INR/kg,2026-09-30,55.85,56.26,54.84,54.03,54.39,3.37,2.68
+Milk,"Milk, Dairy & Eggs",INR/l,2026-09-30,61.33,59.94,59.4,59.42,58.7,3.21,4.48
+Bajra,Cereals & Flours,INR/kg,2026-09-30,38.61,38.55,37.95,37.45,36.89,3.1,4.66
+Butter (Pasteurised),"Milk, Dairy & Eggs",INR/kg,2026-09-30,605.5,601.2,591.0,590.4,573.0,2.56,5.67
+Gram Dal,Pulses,INR/kg,2026-09-30,88.96,86.08,85.56,86.78,93.62,2.51,-4.98
+Tea (Loose),"Tea, Salt & Spices",INR/kg,2026-09-30,276.2,265.52,273.23,269.82,269.81,2.36,2.37
+Gram Dal (Bharat Dal adjusted),Pulses,INR/kg,2026-09-30,84.61,82.17,81.73,82.77,88.58,2.22,-4.48
+Maida (Wheat),Cereals & Flours,INR/kg,2026-09-30,42.63,41.41,41.83,41.9,40.27,1.74,5.86
+Brinjal,Vegetables,INR/kg,2026-09-30,43.2,41.51,38.68,42.61,44.48,1.38,-2.88
+Moong Dal,Pulses,INR/kg,2026-09-30,112.11,110.73,111.17,110.63,115.83,1.34,-3.21
+Masoor Dal,Pulses,INR/kg,2026-09-30,90.38,88.56,89.49,89.35,89.62,1.15,0.85
+Black Pepper,"Tea, Salt & Spices",INR/kg,2026-09-30,884.8,879.5,872.4,875.7,907.2,1.04,-2.47
+Suji,Cereals & Flours,INR/kg,2026-09-30,47.49,44.89,46.78,47.07,45.16,0.89,5.16
+Atta (Wheat),Cereals & Flours,INR/kg,2026-09-30,37.54,37.45,37.0,37.25,36.01,0.78,4.25
+Besan,Pulses,INR/kg,2026-09-30,96.63,95.44,95.72,96.57,99.81,0.06,-3.19
+Wheat,Cereals & Flours,INR/kg,2026-09-30,31.88,31.8,31.26,31.89,31.11,-0.03,2.48
+Banana,Fruits,INR/kg,2026-09-30,49.31,48.45,48.22,49.36,49.61,-0.1,-0.6
+Cumin Seed,"Tea, Salt & Spices",INR/kg,2026-09-30,406.5,400.6,410.0,423.9,527.0,-4.1,-22.87
+Potato,Vegetables,INR/kg,2026-09-30,22.61,21.89,20.76,25.21,36.61,-10.31,-38.24
+Broken Rice,Cereals & Flours,INR/kg,2026-09-30,33.84,32.56,,,,,
+Ginger,Vegetables,INR/kg,2026-09-30,142.96,149.36,98.8,,,,
+Garlic,Vegetables,INR/kg,2026-09-30,181.72,173.68,147.44,,,,

@@ -1,0 +1,102 @@
+table price_spikes
+	lineageTag: 9c3e2394-7abc-59e0-90aa-aeaeb76d7cf6
+
+	column product_name
+		dataType: string
+		lineageTag: 76946d18-eb1f-5137-a86b-8b718ab4a339
+		summarizeBy: none
+		sourceColumn: product_name
+
+	column category
+		dataType: string
+		lineageTag: 772c78c8-4615-542d-b6eb-0edd1e36f399
+		summarizeBy: none
+		sourceColumn: category
+
+	column obs_date
+		dataType: dateTime
+		formatString: yyyy-mm-dd
+		lineageTag: 7129cbbe-9bfb-50ea-9b72-3997d1a52ca6
+		summarizeBy: none
+		sourceColumn: obs_date
+
+	column prev_date
+		dataType: dateTime
+		formatString: yyyy-mm-dd
+		lineageTag: 1174e800-df43-5b56-820e-f4f5e8e4a9ea
+		summarizeBy: none
+		sourceColumn: prev_date
+
+	column prev_price
+		dataType: double
+		lineageTag: 0d180974-3def-593b-b2ef-de1dc923aa67
+		summarizeBy: none
+		sourceColumn: prev_price
+
+	column price
+		dataType: double
+		lineageTag: ac895567-eaea-5963-b7d6-2177a12a5b53
+		summarizeBy: none
+		sourceColumn: price
+
+	column normalized_unit
+		dataType: string
+		lineageTag: 709041d0-6470-5aa8-b8c5-8b960d3cd529
+		summarizeBy: none
+		sourceColumn: normalized_unit
+
+	column pct_change
+		dataType: double
+		lineageTag: 59e77a19-da27-5864-8f54-e010dcdad24b
+		summarizeBy: none
+		sourceColumn: pct_change
+
+	column normal_change
+		dataType: double
+		lineageTag: 51fcf4c4-6947-5dc3-824a-23318d6641fc
+		summarizeBy: none
+		sourceColumn: normal_change
+
+	column sd_change
+		dataType: double
+		lineageTag: cf48aa86-451b-56c5-9101-637447dd7bf9
+		summarizeBy: none
+		sourceColumn: sd_change
+
+	column z_score
+		dataType: double
+		lineageTag: 77f6127b-2890-5782-8500-06adb036d03b
+		summarizeBy: none
+		sourceColumn: z_score
+
+	column spike_type
+		dataType: string
+		lineageTag: 0f302d07-783d-5b74-9ecc-9420b3233f2a
+		summarizeBy: none
+		sourceColumn: spike_type
+
+	column is_this_week
+		dataType: int64
+		formatString: 0
+		lineageTag: f16f0a92-c709-5617-9b83-f8d484aadf94
+		summarizeBy: none
+		sourceColumn: is_this_week
+
+	column n_steps
+		dataType: int64
+		formatString: 0
+		lineageTag: a8ad7eec-2502-57fc-9f0d-64329504855b
+		summarizeBy: none
+		sourceColumn: n_steps
+
+	partition price_spikes = m
+		mode: import
+		source =
+				let
+				    Source = Csv.Document(File.Contents(DataFolder & "\price_spikes.csv"), [Delimiter = ",", Encoding = 65001, QuoteStyle = QuoteStyle.Csv]),
+				    Promoted = Table.PromoteHeaders(Source, [PromoteAllScalars = true]),
+				    Nulls = Table.TransformColumns(Promoted, List.Transform(Table.ColumnNames(Promoted), (c) => {c, each if _ = "" then null else _})),
+				    Typed = Table.TransformColumnTypes(Nulls, {{"product_name", type text}, {"category", type text}, {"obs_date", type date}, {"prev_date", type date}, {"prev_price", type number}, {"price", type number}, {"normalized_unit", type text}, {"pct_change", type number}, {"normal_change", type number}, {"sd_change", type number}, {"z_score", type number}, {"spike_type", type text}, {"is_this_week", Int64.Type}, {"n_steps", Int64.Type}}, "en-US")
+				in
+				    Typed
+

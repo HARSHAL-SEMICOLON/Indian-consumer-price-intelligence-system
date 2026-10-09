@@ -1,0 +1,292 @@
+table _Measures
+	lineageTag: 68325b71-1293-5a8e-ac1a-fec9ce082d27
+
+	measure Observations = COUNTROWS ( fact_price )
+		formatString: #,0
+		displayFolder: 1 Core
+		lineageTag: 12226a4c-fdf9-523f-a310-8852a9662ad5
+
+	measure 'Avg Normalized Price' = AVERAGE ( fact_price[normalized_price] )
+		formatString: ₹ #,0.00
+		displayFolder: 1 Core
+		lineageTag: 21606a7e-7e85-5b18-89db-ff658d08e3ea
+
+	measure 'Median Normalized Price' = MEDIAN ( fact_price[normalized_price] )
+		formatString: ₹ #,0.00
+		displayFolder: 1 Core
+		lineageTag: c444907b-924f-59f3-818f-6bfdf126c321
+
+	measure 'Min Normalized Price' = MIN ( fact_price[normalized_price] )
+		formatString: ₹ #,0.00
+		displayFolder: 1 Core
+		lineageTag: e96051d9-435f-54eb-ae5a-f72cfccca4f7
+
+	measure 'Max Normalized Price' = MAX ( fact_price[normalized_price] )
+		formatString: ₹ #,0.00
+		displayFolder: 1 Core
+		lineageTag: a11341e7-8f25-5a28-a7cc-9890e655d4af
+
+	measure 'Distinct Products' = DISTINCTCOUNT ( fact_price[product_key] )
+		formatString: #,0
+		displayFolder: 1 Core
+		lineageTag: 68c48d40-614b-5a71-90c5-9c436a024583
+
+	measure 'Commodities Tracked' = CALCULATE ( DISTINCTCOUNT ( fact_price[product_key] ), dim_source[source_code] = "DOCA_PMD" )
+		formatString: #,0
+		displayFolder: 1 Core
+		lineageTag: 93a65a12-465e-5869-9c2f-0aebd1b6f516
+
+	measure 'Branded Products Observed' = CALCULATE ( DISTINCTCOUNT ( fact_price[product_key] ), dim_source[source_code] = "OPEN_PRICES" )
+		formatString: #,0
+		displayFolder: 1 Core
+		lineageTag: a830610d-6578-56a5-9e7e-73ad4a984346
+
+	measure 'Cities Covered' = CALCULATE ( COUNTROWS ( FILTER ( SUMMARIZE ( fact_price, dim_location[city] ), NOT ISBLANK ( dim_location[city] ) ) ), dim_location[location_level] = "outlet" )
+		formatString: #,0
+		displayFolder: 1 Core
+		lineageTag: e59a2f99-92af-5c27-96be-7932a20a6932
+
+	measure 'Latest Collection Date' =
+			VAR k = MAX ( fact_price[collection_date_key] )
+			RETURN IF ( NOT ISBLANK ( k ), DATE ( INT ( k / 10000 ), MOD ( INT ( k / 100 ), 100 ), MOD ( k, 100 ) ) )
+		formatString: dd-mmm-yyyy
+		displayFolder: 1 Core
+		lineageTag: 608f2110-0f57-523b-8c6c-d4a700289d31
+
+	measure 'Latest Obs Date' = CALCULATE ( MAX ( fact_price[date_key] ), REMOVEFILTERS ( dim_date ) )
+		formatString: 0
+		displayFolder: 2 Time comparisons
+		lineageTag: a5c5e079-6331-57d8-84b6-facc74f1b06b
+
+	measure 'Price Latest' =
+			VAR d = [Latest Obs Date]
+			RETURN CALCULATE ( [Avg Normalized Price], REMOVEFILTERS ( dim_date ), fact_price[date_key] = d )
+		formatString: ₹ #,0.00
+		displayFolder: 2 Time comparisons
+		lineageTag: d7d1e7e7-44a2-5763-8154-9d272256309e
+
+	measure 'Price 1M Ago' =
+			VAR k = [Latest Obs Date]
+			VAR t = IF ( NOT ISBLANK ( k ), EDATE ( DATE ( INT ( k / 10000 ), MOD ( INT ( k / 100 ), 100 ), MOD ( k, 100 ) ), -1 ) )
+			RETURN IF ( NOT ISBLANK ( t ), CALCULATE ( [Avg Normalized Price], REMOVEFILTERS ( dim_date ),
+			    dim_date[full_date] >= t - 7, dim_date[full_date] <= t ) )
+		formatString: ₹ #,0.00
+		displayFolder: 2 Time comparisons
+		lineageTag: e80e895f-67f4-5c0d-bfaa-39219c97850f
+
+	measure 'Price 1Y Ago' =
+			VAR k = [Latest Obs Date]
+			VAR t = IF ( NOT ISBLANK ( k ), EDATE ( DATE ( INT ( k / 10000 ), MOD ( INT ( k / 100 ), 100 ), MOD ( k, 100 ) ), -12 ) )
+			RETURN IF ( NOT ISBLANK ( t ), CALCULATE ( [Avg Normalized Price], REMOVEFILTERS ( dim_date ),
+			    dim_date[full_date] >= t - 7, dim_date[full_date] <= t ) )
+		formatString: ₹ #,0.00
+		displayFolder: 2 Time comparisons
+		lineageTag: aa1bd820-14b3-52f0-a31a-fc33c01ab667
+
+	measure 'MoM Change %' = DIVIDE ( [Price Latest] - [Price 1M Ago], [Price 1M Ago] )
+		formatString: 0.0%
+		displayFolder: 2 Time comparisons
+		lineageTag: bc2b46e3-e9ba-5bc9-9196-8256cacfaa79
+
+	measure 'YoY Change %' = DIVIDE ( [Price Latest] - [Price 1Y Ago], [Price 1Y Ago] )
+		formatString: 0.0%
+		displayFolder: 2 Time comparisons
+		lineageTag: aa9b8f87-086b-5786-8b09-44e147622899
+
+	measure 'Avg YoY Change % (DoCA)' =
+			AVERAGEX ( VALUES ( dim_product[product_key] ),
+			    CALCULATE ( [YoY Change %], dim_source[source_code] = "DOCA_PMD", fact_price[price_type] = "retail" ) )
+		formatString: 0.0%
+		displayFolder: 2 Time comparisons
+		lineageTag: d4f6c7ad-956e-5302-bcc6-1c47a6bf703a
+
+	measure 'Avg MoM Change % (DoCA)' =
+			AVERAGEX ( VALUES ( dim_product[product_key] ),
+			    CALCULATE ( [MoM Change %], dim_source[source_code] = "DOCA_PMD", fact_price[price_type] = "retail" ) )
+		formatString: 0.0%
+		displayFolder: 2 Time comparisons
+		lineageTag: b4d8e9a8-31d5-5d93-88d3-7caf4e5ed7f3
+
+	measure 'Price CV %' = DIVIDE ( STDEVX.P ( fact_price, fact_price[normalized_price] ), [Avg Normalized Price] )
+		formatString: 0.0%
+		displayFolder: 2 Time comparisons
+		lineageTag: 00ad6731-1f01-5ae0-b7ce-9451b4d446d8
+
+	measure 'CPI Index (mapped item)' =
+			VAR items =
+			    CALCULATETABLE ( VALUES ( bridge_commodity_cpi[cpi_item_key] ),
+			        TREATAS ( VALUES ( dim_product[product_key] ), bridge_commodity_cpi[product_key] ) )
+			RETURN CALCULATE ( AVERAGE ( fact_cpi_benchmark[index_value] ), TREATAS ( items, fact_cpi_benchmark[cpi_item_key] ) )
+		formatString: 0.0
+		displayFolder: 2 Time comparisons
+		lineageTag: 8e50672d-438d-5942-b1a1-ba9a12ee180d
+
+	measure 'Brands in Selection' = DISTINCTCOUNT ( fact_price[brand_key] )
+		formatString: #,0
+		displayFolder: 3 Brands
+		lineageTag: d14cf8c8-a70a-5c75-b036-f79a04a93e19
+
+	measure 'Sample Flag' = IF ( [Observations] >= 3, "ok", "low sample (<3 obs)" )
+		displayFolder: 3 Brands
+		lineageTag: 0fc9560f-fac2-5e29-895e-e018d5b8c80e
+
+	measure 'Cities for Product' = COUNTROWS ( FILTER ( SUMMARIZE ( fact_price, dim_location[city] ), NOT ISBLANK ( dim_location[city] ) ) )
+		formatString: #,0
+		displayFolder: 4 Locations
+		lineageTag: 3cedbb70-09cc-5acd-8df1-e0417114f734
+
+	measure 'Min Pack Price' = MIN ( fact_price[price_paid] )
+		formatString: ₹ #,0.00
+		displayFolder: 4 Locations
+		lineageTag: bdff7fb1-97f4-53cb-8b7e-452ecc26b50d
+
+	measure 'Max Pack Price' = MAX ( fact_price[price_paid] )
+		formatString: ₹ #,0.00
+		displayFolder: 4 Locations
+		lineageTag: 747bec76-d1d8-5cd6-b02c-4f5749d1f96d
+
+	measure 'Location Spread %' = DIVIDE ( [Max Pack Price] - [Min Pack Price], [Min Pack Price] )
+		formatString: 0.0%
+		displayFolder: 4 Locations
+		lineageTag: 706f9310-3455-56c8-add3-3f1fabe0b6e5
+
+	measure 'City Price Index' =
+			VAR t =
+			    ADDCOLUMNS (
+			        fact_price,
+			        "@ref", CALCULATE ( AVERAGE ( fact_price[normalized_price] ), ALLEXCEPT ( fact_price, fact_price[product_key] ) ),
+			        "@cities", CALCULATE ( COUNTROWS ( FILTER ( SUMMARIZE ( fact_price, dim_location[city] ), NOT ISBLANK ( dim_location[city] ) ) ), ALLEXCEPT ( fact_price, fact_price[product_key] ) )
+			    )
+			RETURN IF ( NOT ISBLANK ( SELECTEDVALUE ( dim_location[city] ) ), 100 * AVERAGEX ( FILTER ( t, [@cities] >= 2 && NOT ISBLANK ( fact_price[normalized_price] ) ),
+			    DIVIDE ( fact_price[normalized_price], [@ref] ) ) )
+		formatString: 0.0
+		displayFolder: 4 Locations
+		lineageTag: 9a98cd15-1f9b-52d6-8efd-f655f10a4592
+
+	measure 'Retail Markup over Wholesale %' =
+			VAR d = [Latest Obs Date]
+			VAR r = CALCULATE ( [Avg Normalized Price], fact_price[price_type] = "retail", fact_price[date_key] = d )
+			VAR w = CALCULATE ( [Avg Normalized Price], fact_price[price_type] = "wholesale" )
+			RETURN DIVIDE ( r - w, w )
+		formatString: 0.0%
+		displayFolder: 4 Locations
+		lineageTag: 6f5a9dc1-1c37-5841-a051-080de0a9bac2
+
+	measure '% Observations Discounted' =
+			DIVIDE (
+			    CALCULATE ( COUNTROWS ( fact_price ), fact_price[is_discounted] = 1, NOT CONTAINSSTRING ( fact_price[dq_flags] & "", "implausible_list_price" ) ),
+			    CALCULATE ( COUNTROWS ( fact_price ), NOT CONTAINSSTRING ( fact_price[dq_flags] & "", "implausible_list_price" ) ) )
+		formatString: 0.0%
+		displayFolder: 5 Discounts & availability
+		lineageTag: 681bac7d-7ad9-589d-be46-bf11d8e9600b
+
+	measure 'Avg Discount % (when discounted)' =
+			CALCULATE ( AVERAGE ( fact_price[discount_pct] ) / 100, fact_price[is_discounted] = 1,
+			    FILTER ( fact_price, fact_price[price_list] > fact_price[price_paid] ), NOT CONTAINSSTRING ( fact_price[dq_flags] & "", "implausible_list_price" ) )
+		formatString: 0.0%
+		displayFolder: 5 Discounts & availability
+		lineageTag: d84f14bb-2eb9-53cc-b279-50607287d63e
+
+	measure 'Total Savings INR' =
+			CALCULATE ( SUMX ( fact_price, fact_price[price_list] - fact_price[price_paid] ),
+			    fact_price[is_discounted] = 1, NOT CONTAINSSTRING ( fact_price[dq_flags] & "", "implausible_list_price" ) )
+		formatString: ₹ #,0
+		displayFolder: 5 Discounts & availability
+		lineageTag: 8c122515-e6f4-5124-bdc0-0ae0bbd4831f
+
+	measure 'Avg Normalized List Price' =
+			CALCULATE ( AVERAGE ( fact_price[normalized_list_price] ), fact_price[is_discounted] = 1,
+			    NOT CONTAINSSTRING ( fact_price[dq_flags] & "", "implausible_list_price" ) )
+		formatString: ₹ #,0.00
+		displayFolder: 5 Discounts & availability
+		lineageTag: 6e64e52f-729e-5b42-b189-f1795087bff1
+
+	measure 'Avg Normalized Effective Price' =
+			CALCULATE ( AVERAGE ( fact_price[normalized_price] ), fact_price[is_discounted] = 1,
+			    NOT CONTAINSSTRING ( fact_price[dq_flags] & "", "implausible_list_price" ) )
+		formatString: ₹ #,0.00
+		displayFolder: 5 Discounts & availability
+		lineageTag: 03fc6549-4edd-5270-adb3-0c2e1aa36920
+
+	measure 'Availability Status' = SELECTEDVALUE ( fact_availability[availability_status] )
+		displayFolder: 5 Discounts & availability
+		lineageTag: 8e7a4379-62d7-572a-a5cd-79e5c61bd8c9
+
+	measure 'Not Reported Gap Rate %' =
+			DIVIDE (
+			    CALCULATE ( COUNTROWS ( fact_availability ), fact_availability[availability_status] = "not_reported" ),
+			    CALCULATE ( COUNTROWS ( fact_availability ), fact_availability[availability_status] <> "not_yet_tracked" ) ) + 0
+		formatString: 0.0%
+		displayFolder: 5 Discounts & availability
+		lineageTag: be403d5f-12c1-5ae9-8173-8d0177e8fc2b
+
+	measure 'Total Raw Records' = COUNTROWS ( fact_price )
+		formatString: #,0
+		displayFolder: 6 Data quality
+		lineageTag: e6bf1b4e-9e8f-56fe-b3d7-1a1d21affdf0
+
+	measure 'Records Included' = CALCULATE ( COUNTROWS ( fact_price ), fact_price[include_in_analysis] = 1 )
+		formatString: #,0
+		displayFolder: 6 Data quality
+		lineageTag: 1573a9d4-bb35-57f7-89f3-0854fc454761
+
+	measure 'Records Excluded' = CALCULATE ( COUNTROWS ( fact_price ), fact_price[include_in_analysis] = 0 ) + 0
+		formatString: #,0
+		displayFolder: 6 Data quality
+		lineageTag: c17555c0-3ebf-5cde-8435-396026494062
+
+	measure 'Records Flagged' = CALCULATE ( COUNTROWS ( fact_price ), NOT ISBLANK ( fact_price[dq_flags] ) ) + 0
+		formatString: #,0
+		displayFolder: 6 Data quality
+		lineageTag: fbe40367-af78-5aa2-b8b9-f59677cda11d
+
+	measure '% Usable' = DIVIDE ( [Records Included], [Total Raw Records] )
+		formatString: 0.0%
+		displayFolder: 6 Data quality
+		lineageTag: 8dd62fd1-8a7b-52ac-8eb7-928303a34497
+
+	measure 'Rows Flagged (checks)' = SUM ( dq_check_summary[rows_flagged] )
+		formatString: #,0
+		displayFolder: 6 Data quality
+		lineageTag: 0330d3a6-65df-55e1-ba9b-fcdcdceadfbb
+
+	measure 'Issues Logged' = COUNTROWS ( dq_issue_log )
+		formatString: #,0
+		displayFolder: 6 Data quality
+		lineageTag: 65fc8277-3efe-5774-a26d-6420f6ab5cec
+
+	measure 'Spikes This Week' = CALCULATE ( COUNTROWS ( price_spikes ), price_spikes[is_this_week] = 1, price_spikes[spike_type] = "spike up" ) + 0
+		formatString: #,0
+		displayFolder: 7 Spike monitor
+		lineageTag: 5eea68f1-8b93-5f95-8d90-7b16f26e6618
+
+	measure 'Sharp Drops This Week' = CALCULATE ( COUNTROWS ( price_spikes ), price_spikes[is_this_week] = 1, price_spikes[spike_type] = "sharp drop" ) + 0
+		formatString: #,0
+		displayFolder: 7 Spike monitor
+		lineageTag: 793ac126-a769-5f57-a07e-229159e300b0
+
+	measure 'Commodities Ready' = CALCULATE ( COUNTROWS ( history_depth ), history_depth[spike_detection_status] = "ready" ) + 0
+		formatString: #,0
+		displayFolder: 7 Spike monitor
+		lineageTag: 5d2fa768-8f1f-50e3-a865-0faf8a81a6ae
+
+	measure 'Daily History (days)' = MAX ( history_depth[daily_steps] ) + 0
+		formatString: #,0
+		displayFolder: 7 Spike monitor
+		lineageTag: 20ed95d6-efd9-552e-9ef7-a0fb736e83da
+
+	column _
+		dataType: string
+		isHidden
+		lineageTag: f070cc15-1940-56d8-8200-995f78e5ad5f
+		summarizeBy: none
+		sourceColumn: _
+
+	partition _Measures = m
+		mode: import
+		source =
+				let
+				    Source = #table(type table [_ = text], {})
+				in
+				    Source
+

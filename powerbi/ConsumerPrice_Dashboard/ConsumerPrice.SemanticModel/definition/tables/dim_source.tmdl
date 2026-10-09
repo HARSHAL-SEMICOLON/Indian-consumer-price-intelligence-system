@@ -1,0 +1,69 @@
+table dim_source
+	lineageTag: 9211b929-dcae-5869-a36d-14ae921fdbf3
+
+	column source_key
+		dataType: int64
+		formatString: 0
+		lineageTag: dce00a88-51a7-569e-9181-60fe1938be0b
+		summarizeBy: none
+		sourceColumn: source_key
+
+	column source_code
+		dataType: string
+		lineageTag: c418511e-9fea-5471-a871-27ad42f0fc86
+		summarizeBy: none
+		sourceColumn: source_code
+
+	column source_name
+		dataType: string
+		lineageTag: 985ec189-7c44-548e-b7aa-5caa89fe6dff
+		summarizeBy: none
+		sourceColumn: source_name
+
+	column publisher
+		dataType: string
+		lineageTag: 5b7abbd5-d989-52d4-a014-db3dc82c564b
+		summarizeBy: none
+		sourceColumn: publisher
+
+	column base_url
+		dataType: string
+		lineageTag: a19162cb-6a2a-5e73-b960-498821b1a5d9
+		summarizeBy: none
+		sourceColumn: base_url
+
+	column extraction_method
+		dataType: string
+		lineageTag: d9f575ff-1a84-55ed-a548-cf1254ecba12
+		summarizeBy: none
+		sourceColumn: extraction_method
+
+	column licence
+		dataType: string
+		lineageTag: d3f9c017-2f99-5783-a6dd-c5cef2bd837e
+		summarizeBy: none
+		sourceColumn: licence
+
+	column data_role
+		dataType: string
+		lineageTag: 91900607-e167-58b9-876e-f16d27fe94f2
+		summarizeBy: none
+		sourceColumn: data_role
+
+	column limitations
+		dataType: string
+		lineageTag: f7aafe26-b9ff-5f5c-978e-ea9415cbd298
+		summarizeBy: none
+		sourceColumn: limitations
+
+	partition dim_source = m
+		mode: import
+		source =
+				let
+				    Source = Csv.Document(File.Contents(DataFolder & "\dim_source.csv"), [Delimiter = ",", Encoding = 65001, QuoteStyle = QuoteStyle.Csv]),
+				    Promoted = Table.PromoteHeaders(Source, [PromoteAllScalars = true]),
+				    Nulls = Table.TransformColumns(Promoted, List.Transform(Table.ColumnNames(Promoted), (c) => {c, each if _ = "" then null else _})),
+				    Typed = Table.TransformColumnTypes(Nulls, {{"source_key", Int64.Type}, {"source_code", type text}, {"source_name", type text}, {"publisher", type text}, {"base_url", type text}, {"extraction_method", type text}, {"licence", type text}, {"data_role", type text}, {"limitations", type text}}, "en-US")
+				in
+				    Typed
+

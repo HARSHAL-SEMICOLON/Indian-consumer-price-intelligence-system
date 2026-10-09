@@ -1,0 +1,221 @@
+table fact_price
+	lineageTag: 29b71bc1-c178-5a69-98b0-fbfe0b8fe347
+
+	column price_id
+		dataType: int64
+		formatString: 0
+		lineageTag: 095deda1-56b2-5ab0-9d54-25a68563dc51
+		summarizeBy: none
+		sourceColumn: price_id
+
+	column source_key
+		dataType: int64
+		formatString: 0
+		lineageTag: 60e3f833-3b11-5a61-9d97-17e9ab31d9a0
+		summarizeBy: none
+		sourceColumn: source_key
+
+	column source_record_id
+		dataType: string
+		lineageTag: ff22eef5-895b-52c6-a59e-02950a681e19
+		summarizeBy: none
+		sourceColumn: source_record_id
+
+	column date_key
+		dataType: int64
+		formatString: 0
+		lineageTag: 4b48d595-caab-57a7-bc16-6f4db3169a66
+		summarizeBy: none
+		sourceColumn: date_key
+
+	column collection_date_key
+		dataType: int64
+		formatString: 0
+		lineageTag: 3e7d3c03-5f25-5616-a7a3-09bc7389b8bd
+		summarizeBy: none
+		sourceColumn: collection_date_key
+
+	column product_key
+		dataType: int64
+		formatString: 0
+		lineageTag: 6081ef76-c9b2-5258-9b8b-ad9c70296674
+		summarizeBy: none
+		sourceColumn: product_key
+
+	column brand_key
+		dataType: int64
+		formatString: 0
+		lineageTag: 258746ef-6484-57b8-94f8-ade9f6df98b5
+		summarizeBy: none
+		sourceColumn: brand_key
+
+	column category_key
+		dataType: int64
+		formatString: 0
+		lineageTag: 1735eeff-d9d8-5802-bbe7-2ec1d4f5e49e
+		summarizeBy: none
+		sourceColumn: category_key
+
+	column location_key
+		dataType: int64
+		formatString: 0
+		lineageTag: dd53b23e-e182-5585-a7a9-a7ad999581b4
+		summarizeBy: none
+		sourceColumn: location_key
+
+	column price_type
+		dataType: string
+		lineageTag: b647341e-e2bb-5cff-86ac-c58b31d0ad87
+		summarizeBy: none
+		sourceColumn: price_type
+
+	column currency
+		dataType: string
+		lineageTag: f2a9c138-7dca-54e6-b233-853e75a3c790
+		summarizeBy: none
+		sourceColumn: currency
+
+	column price_paid
+		dataType: double
+		lineageTag: 23b1848b-130e-56d2-9d87-a2d1f56343c6
+		summarizeBy: none
+		sourceColumn: price_paid
+
+	column price_list
+		dataType: double
+		lineageTag: 736ad750-f972-5009-a70b-8af88b2be428
+		summarizeBy: none
+		sourceColumn: price_list
+
+	column discount_amount
+		dataType: double
+		lineageTag: 81890cbe-a651-5d94-aa8e-6489991b76aa
+		summarizeBy: none
+		sourceColumn: discount_amount
+
+	column discount_pct
+		dataType: double
+		lineageTag: cbfda5a4-095a-531f-8cd5-bbee3f182302
+		summarizeBy: none
+		sourceColumn: discount_pct
+
+	column is_discounted
+		dataType: int64
+		formatString: 0
+		lineageTag: 9834e154-893c-597a-a8ab-bb2b6b49b10b
+		summarizeBy: none
+		sourceColumn: is_discounted
+
+	column discount_type
+		dataType: string
+		lineageTag: 7ad07f02-4282-50c4-96fc-4dabfaece63d
+		summarizeBy: none
+		sourceColumn: discount_type
+
+	column pack_size_qty
+		dataType: double
+		lineageTag: bc01e38f-45a0-50bd-ae13-e4622a802ee5
+		summarizeBy: none
+		sourceColumn: pack_size_qty
+
+	column std_unit
+		dataType: string
+		lineageTag: 7daa287a-587a-5576-addc-2983ea5b065a
+		summarizeBy: none
+		sourceColumn: std_unit
+
+	column normalized_price
+		dataType: double
+		lineageTag: 4257d8eb-2168-5db7-a8f0-af688eb70d27
+		summarizeBy: none
+		sourceColumn: normalized_price
+
+	column normalized_list_price
+		dataType: double
+		lineageTag: bb5b1c90-086f-5e82-b395-2c08bfb25f22
+		summarizeBy: none
+		sourceColumn: normalized_list_price
+
+	column normalized_unit
+		dataType: string
+		lineageTag: a6fe19a8-b581-5ed3-88e7-ab2721100d3f
+		summarizeBy: none
+		sourceColumn: normalized_unit
+
+	column lookback_label
+		dataType: string
+		lineageTag: 7fe90d97-3184-596a-bb04-1ca93f12d3bd
+		summarizeBy: none
+		sourceColumn: lookback_label
+
+	column is_provisional
+		dataType: int64
+		formatString: 0
+		lineageTag: ef9558f9-3601-5bc9-9945-c24651a233b6
+		summarizeBy: none
+		sourceColumn: is_provisional
+
+	column is_duplicate
+		dataType: int64
+		formatString: 0
+		lineageTag: 9880cfe5-3f72-57da-88fd-053a04291c9a
+		summarizeBy: none
+		sourceColumn: is_duplicate
+
+	column duplicate_of_price_id
+		dataType: int64
+		formatString: 0
+		lineageTag: 04a03f9e-076d-56b4-a819-50e0f4b06efa
+		summarizeBy: none
+		sourceColumn: duplicate_of_price_id
+
+	column is_valid_price
+		dataType: int64
+		formatString: 0
+		lineageTag: b5fe2dbf-8df0-5257-aa34-3ee6b42273cf
+		summarizeBy: none
+		sourceColumn: is_valid_price
+
+	column include_in_analysis
+		dataType: int64
+		formatString: 0
+		lineageTag: 383bebda-2608-5dea-b5a6-c79bed510f43
+		summarizeBy: none
+		sourceColumn: include_in_analysis
+
+	column dq_flags
+		dataType: string
+		lineageTag: 566bbfc5-899d-5a65-a524-4136822fc3a7
+		summarizeBy: none
+		sourceColumn: dq_flags
+
+	column revision_count
+		dataType: int64
+		formatString: 0
+		lineageTag: cf298603-158d-5522-bb98-2e31b550c2e0
+		summarizeBy: none
+		sourceColumn: revision_count
+
+	column first_loaded_utc
+		dataType: string
+		lineageTag: 24b33762-938f-5fbf-8c53-4ff46f0d4498
+		summarizeBy: none
+		sourceColumn: first_loaded_utc
+
+	column last_updated_utc
+		dataType: string
+		lineageTag: b0b2db38-7b1a-500a-b098-7cb7d54abc28
+		summarizeBy: none
+		sourceColumn: last_updated_utc
+
+	partition fact_price = m
+		mode: import
+		source =
+				let
+				    Source = Csv.Document(File.Contents(DataFolder & "\fact_price.csv"), [Delimiter = ",", Encoding = 65001, QuoteStyle = QuoteStyle.Csv]),
+				    Promoted = Table.PromoteHeaders(Source, [PromoteAllScalars = true]),
+				    Nulls = Table.TransformColumns(Promoted, List.Transform(Table.ColumnNames(Promoted), (c) => {c, each if _ = "" then null else _})),
+				    Typed = Table.TransformColumnTypes(Nulls, {{"price_id", Int64.Type}, {"source_key", Int64.Type}, {"source_record_id", type text}, {"date_key", Int64.Type}, {"collection_date_key", Int64.Type}, {"product_key", Int64.Type}, {"brand_key", Int64.Type}, {"category_key", Int64.Type}, {"location_key", Int64.Type}, {"price_type", type text}, {"currency", type text}, {"price_paid", type number}, {"price_list", type number}, {"discount_amount", type number}, {"discount_pct", type number}, {"is_discounted", Int64.Type}, {"discount_type", type text}, {"pack_size_qty", type number}, {"std_unit", type text}, {"normalized_price", type number}, {"normalized_list_price", type number}, {"normalized_unit", type text}, {"lookback_label", type text}, {"is_provisional", Int64.Type}, {"is_duplicate", Int64.Type}, {"duplicate_of_price_id", Int64.Type}, {"is_valid_price", Int64.Type}, {"include_in_analysis", Int64.Type}, {"dq_flags", type text}, {"revision_count", Int64.Type}, {"first_loaded_utc", type text}, {"last_updated_utc", type text}}, "en-US")
+				in
+				    Typed
+

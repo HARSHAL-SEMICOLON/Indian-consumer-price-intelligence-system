@@ -1,0 +1,275 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/fabric/item/report/definition/visualContainer/2.13.0/schema.json",
+  "name": "p7_spikes_week",
+  "position": {
+    "x": 16,
+    "y": 176,
+    "z": 700,
+    "height": 250,
+    "width": 760,
+    "tabOrder": 700
+  },
+  "visual": {
+    "visualType": "tableEx",
+    "query": {
+      "queryState": {
+        "Values": {
+          "projections": [
+            {
+              "field": {
+                "Column": {
+                  "Expression": {
+                    "SourceRef": {
+                      "Entity": "price_spikes"
+                    }
+                  },
+                  "Property": "product_name"
+                }
+              },
+              "queryRef": "price_spikes.product_name",
+              "nativeQueryRef": "product_name",
+              "displayName": "Commodity"
+            },
+            {
+              "field": {
+                "Column": {
+                  "Expression": {
+                    "SourceRef": {
+                      "Entity": "price_spikes"
+                    }
+                  },
+                  "Property": "obs_date"
+                }
+              },
+              "queryRef": "price_spikes.obs_date",
+              "nativeQueryRef": "obs_date",
+              "displayName": "Date"
+            },
+            {
+              "field": {
+                "Column": {
+                  "Expression": {
+                    "SourceRef": {
+                      "Entity": "price_spikes"
+                    }
+                  },
+                  "Property": "prev_price"
+                }
+              },
+              "queryRef": "price_spikes.prev_price",
+              "nativeQueryRef": "prev_price",
+              "displayName": "Previous ₹"
+            },
+            {
+              "field": {
+                "Column": {
+                  "Expression": {
+                    "SourceRef": {
+                      "Entity": "price_spikes"
+                    }
+                  },
+                  "Property": "price"
+                }
+              },
+              "queryRef": "price_spikes.price",
+              "nativeQueryRef": "price",
+              "displayName": "Price ₹"
+            },
+            {
+              "field": {
+                "Column": {
+                  "Expression": {
+                    "SourceRef": {
+                      "Entity": "price_spikes"
+                    }
+                  },
+                  "Property": "pct_change"
+                }
+              },
+              "queryRef": "price_spikes.pct_change",
+              "nativeQueryRef": "pct_change",
+              "displayName": "Change %"
+            },
+            {
+              "field": {
+                "Column": {
+                  "Expression": {
+                    "SourceRef": {
+                      "Entity": "price_spikes"
+                    }
+                  },
+                  "Property": "z_score"
+                }
+              },
+              "queryRef": "price_spikes.z_score",
+              "nativeQueryRef": "z_score",
+              "displayName": "z"
+            },
+            {
+              "field": {
+                "Column": {
+                  "Expression": {
+                    "SourceRef": {
+                      "Entity": "price_spikes"
+                    }
+                  },
+                  "Property": "spike_type"
+                }
+              },
+              "queryRef": "price_spikes.spike_type",
+              "nativeQueryRef": "spike_type",
+              "displayName": "Type"
+            }
+          ]
+        }
+      }
+    },
+    "objects": {
+      "total": [
+        {
+          "properties": {
+            "totals": {
+              "expr": {
+                "Literal": {
+                  "Value": "false"
+                }
+              }
+            }
+          }
+        }
+      ],
+      "values": [
+        {
+          "properties": {
+            "wordWrap": {
+              "expr": {
+                "Literal": {
+                  "Value": "true"
+                }
+              }
+            },
+            "fontSize": {
+              "expr": {
+                "Literal": {
+                  "Value": "9D"
+                }
+              }
+            }
+          }
+        }
+      ],
+      "columnHeaders": [
+        {
+          "properties": {
+            "wordWrap": {
+              "expr": {
+                "Literal": {
+                  "Value": "true"
+                }
+              }
+            },
+            "fontSize": {
+              "expr": {
+                "Literal": {
+                  "Value": "9D"
+                }
+              }
+            }
+          }
+        }
+      ]
+    },
+    "visualContainerObjects": {
+      "title": [
+        {
+          "properties": {
+            "show": {
+              "expr": {
+                "Literal": {
+                  "Value": "true"
+                }
+              }
+            },
+            "text": {
+              "expr": {
+                "Literal": {
+                  "Value": "'This week''s spikes and sharp drops (empty until daily history builds up)'"
+                }
+              }
+            }
+          }
+        }
+      ],
+      "subTitle": [
+        {
+          "properties": {
+            "show": {
+              "expr": {
+                "Literal": {
+                  "Value": "false"
+                }
+              }
+            }
+          }
+        }
+      ]
+    }
+  },
+  "filterConfig": {
+    "filters": [
+      {
+        "name": "fWeek",
+        "field": {
+          "Column": {
+            "Expression": {
+              "SourceRef": {
+                "Entity": "price_spikes"
+              }
+            },
+            "Property": "is_this_week"
+          }
+        },
+        "type": "Categorical",
+        "filter": {
+          "Version": 2,
+          "From": [
+            {
+              "Name": "f",
+              "Entity": "price_spikes",
+              "Type": 0
+            }
+          ],
+          "Where": [
+            {
+              "Condition": {
+                "In": {
+                  "Expressions": [
+                    {
+                      "Column": {
+                        "Expression": {
+                          "SourceRef": {
+                            "Source": "f"
+                          }
+                        },
+                        "Property": "is_this_week"
+                      }
+                    }
+                  ],
+                  "Values": [
+                    [
+                      {
+                        "Literal": {
+                          "Value": "1L"
+                        }
+                      }
+                    ]
+                  ]
+                }
+              }
+            }
+          ]
+        }
+      }
+    ]
+  }
+}

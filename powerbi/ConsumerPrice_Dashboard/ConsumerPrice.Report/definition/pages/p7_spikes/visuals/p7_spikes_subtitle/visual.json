@@ -1,0 +1,36 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/fabric/item/report/definition/visualContainer/2.13.0/schema.json",
+  "name": "p7_spikes_subtitle",
+  "position": {
+    "x": 16,
+    "y": 40,
+    "z": 100,
+    "height": 28,
+    "width": 1248,
+    "tabOrder": 100
+  },
+  "visual": {
+    "visualType": "textbox",
+    "objects": {
+      "general": [
+        {
+          "properties": {
+            "paragraphs": [
+              {
+                "textRuns": [
+                  {
+                    "value": "A spike = a commodity's daily price change more than 2 standard deviations above its own normal daily change (z > 2). Each commodity needs 10+ daily steps before it is judged.",
+                    "textStyle": {
+                      "fontSize": "10pt",
+                      "color": "#3C434C"
+                    }
+                  }
+                ]
+              }
+            ]
+          }
+        }
+      ]
+    }
+  }
+}

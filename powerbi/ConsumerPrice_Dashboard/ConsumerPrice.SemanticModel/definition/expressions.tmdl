@@ -1,0 +1,5 @@
+expression DataFolder = "E:\DA PROJECTS\Indian Consumer Price Intelligence\powerbi\data" meta [IsParameterQuery = true, Type = "Text", IsParameterQueryRequired = true]
+	lineageTag: daaf0af4-f336-5090-a8eb-0ec48a0fbbeb
+
+	annotation PBI_ResultType = Text
+
